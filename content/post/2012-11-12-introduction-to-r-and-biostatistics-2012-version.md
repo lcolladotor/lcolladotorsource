@@ -5,10 +5,8 @@ categories:
 date: 2012-11-12T00:00:00Z
 tags:
 - LCG
-- rstats
 - knitr
 - Biostatistics
-- Talk
 title: 'Introduction to R and Biostatistics (2012 version): presentation'
 url: /2012/11/12/introduction-to-r-and-biostatistics-2012-version
 ---

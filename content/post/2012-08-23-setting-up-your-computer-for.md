@@ -2,14 +2,11 @@
 categories:
 - Computing
 - JHU Biostat
+- rstats
 date: 2012-08-23T00:00:00Z
 tags:
 - Bioconductor
 - LaTeX
-- rstats
-- Resources
-- Software
-- Computing
 title: Setting up your computer for bioinformatics/biostatistics and a compedium of
   resources
 url: /2012/08/23/setting-up-your-computer-for

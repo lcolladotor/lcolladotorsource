@@ -4,7 +4,6 @@ categories:
 date: 2012-10-03T00:00:00Z
 tags:
 - PhD Comics
-- Sleep
 title: '02/27/12 PHD comic: ''Inspired by true events'''
 url: /2012/10/03/02-27-12-phd-comic-inspired-by-true-events
 ---

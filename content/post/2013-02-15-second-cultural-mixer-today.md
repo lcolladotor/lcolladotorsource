@@ -3,9 +3,7 @@ categories:
 - JHU Biostat
 date: 2013-02-15T00:00:00Z
 tags:
-- Biostatistics
-- Social
-- Cultural
+- Fun
 title: Second cultural mixer today!
 url: /2013/02/15/second-cultural-mixer-today
 ---

@@ -4,10 +4,6 @@ categories:
 - Paper comments
 date: 2013-03-28T00:00:00Z
 tags:
-- Sequester
-- Sequestration
-- WakeUp
-- MustRead
 - Paper comments
 - Research
 title: Great commentary on sequestration's impact on research! National media should talk about this and YOU should read it!!!

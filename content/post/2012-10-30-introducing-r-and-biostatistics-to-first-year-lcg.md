@@ -6,8 +6,6 @@ date: 2012-10-30T00:00:00Z
 tags:
 - Biostatistics
 - LCG
-- rstats
-- Talk
 title: Introducing R and Biostatistics to first year LCG students (2012 version)
 url: /2012/10/30/introducing-r-and-biostatistics-to-first-year-lcg
 ---

@@ -1,6 +1,7 @@
 ---
 categories:
 - JHU Biostat
+- Fun
 date: 2013-04-24T00:00:00Z
 tags:
 - Fun

@@ -3,7 +3,7 @@ categories:
 - Misc
 date: 2013-03-21T00:00:00Z
 tags:
-- courseraengcomp
+- Coursera
 title: '"I am a writer" exercise'
 url: /2013/03/21/i-am-a-writer-exercise
 ---

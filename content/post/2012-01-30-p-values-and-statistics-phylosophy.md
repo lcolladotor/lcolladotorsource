@@ -5,9 +5,7 @@ categories:
 date: 2012-01-30T00:00:00Z
 tags:
 - Paper comments
-- Phylosophy
 - Statistics
-- P-value
 title: P-values and Statistics phylosophy
 url: /2012/01/30/p-values-and-statistics-phylosophy
 ---

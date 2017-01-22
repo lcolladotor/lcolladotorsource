@@ -3,9 +3,7 @@ categories:
 - Science
 date: 2012-10-31T00:00:00Z
 tags:
-- Paper
-- Acknowledgements
-- Sandy
+- Research
 title: Got acknowledged in a paper ^^
 url: /2012/10/31/got-acknowledged-in-a-paper-s4
 ---

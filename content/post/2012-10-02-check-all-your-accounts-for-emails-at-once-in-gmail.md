@@ -4,7 +4,6 @@ categories:
 date: 2012-10-02T00:00:00Z
 tags:
 - Gmail
-- Accounts
 title: Check all your accounts for emails at once in Gmail
 url: /2012/10/02/check-all-your-accounts-for-emails-at-once-in-gmail
 ---

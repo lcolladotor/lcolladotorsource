@@ -3,7 +3,7 @@ categories:
 - JHU Biostat
 date: 2013-11-08T00:00:00Z
 tags:
-- TA
+- Teaching
 title: My strategy for quickly grading homeworks
 url: /2013/11/08/fast-grading
 ---

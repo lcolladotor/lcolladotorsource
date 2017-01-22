@@ -6,7 +6,6 @@ date: 2012-09-24T00:00:00Z
 tags:
 - Git
 - Website
-- Talk
 - Bitbucket
 title: Introducing Git while making your academic webpage
 url: /2012/09/24/introducing-git-while-making-your-academic-webpage

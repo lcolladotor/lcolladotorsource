@@ -5,10 +5,8 @@ categories:
 date: 2012-09-28T00:00:00Z
 tags:
 - Academia
-- Future
 - Industry
 - Network
-- Talk
 title: Learning about social networks through an interactive presentation
 url: /2012/09/28/learning-about-social-networks-through-an-interactive
 ---

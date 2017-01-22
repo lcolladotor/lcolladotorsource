@@ -3,7 +3,7 @@ categories:
 - Ideas
 date: 2012-01-24T00:00:00Z
 tags:
-- Startup
+- Industry
 title: 'Simply Statistics: Why statisticians should join and launch startups'
 url: /2012/01/24/simply-statistics-why-statisticians-should-join-and
 ---

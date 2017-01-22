@@ -3,10 +3,7 @@ categories:
 - JHU Biostat
 date: 2012-09-28T00:00:00Z
 tags:
-- 3D
 - Network
-- Quid
-- Talk
 title: Quid @Biostat-JHSPH
 url: /2012/09/28/quid-biostat-jhsph
 ---

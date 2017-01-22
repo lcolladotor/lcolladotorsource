@@ -4,7 +4,6 @@ categories:
 date: 2012-08-30T00:00:00Z
 tags:
 - Science
-- Photos
 title: 'Homepage photos: which cheek you show says something?'
 url: /2012/08/30/homepage-photos-which-cheek-you-show-says-something
 ---

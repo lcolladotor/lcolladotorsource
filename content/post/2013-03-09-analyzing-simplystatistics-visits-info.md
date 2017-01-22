@@ -4,10 +4,7 @@ categories:
 - rstats
 date: 2013-03-09T00:00:00Z
 tags:
-- DataAnalysis
 - Blog
-- '@simplystats'
-- jhsph753
 title: Analyzing SimplyStatistics visits info
 url: /2013/03/09/analyzing-simplystatistics-visits-info
 ---

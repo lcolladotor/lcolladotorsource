@@ -7,9 +7,6 @@ date: 2013-06-12T00:00:00Z
 tags:
 - Genomics
 - LCG
-- Touch
-- ENAR2014
-- México
 title: Keeping in touch (ENAR2014?) and philosophical questions regarding México's
   future in genomics
 url: /2013/06/12/keeping-in-touch-enar2014-and-philosophical

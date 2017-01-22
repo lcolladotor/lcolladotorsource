@@ -4,10 +4,8 @@ categories:
 - rstats
 date: 2013-02-13T00:00:00Z
 tags:
-- rstats
 - Git
 - Biostatistics
-- jhsph753
 title: Sharing my work for "Advanced Methods III"
 url: /2013/02/13/sharing-my-work-for-advanced-methods-iii
 ---

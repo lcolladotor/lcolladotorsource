@@ -5,9 +5,6 @@ categories:
 date: 2012-10-08T00:00:00Z
 tags:
 - Graphics
-- Interactive
-- rstats
-- Talk
 title: Why aren't all of our graphs interactive?
 url: /2012/10/08/why-arent-all-of-our-graphs-interactive
 ---

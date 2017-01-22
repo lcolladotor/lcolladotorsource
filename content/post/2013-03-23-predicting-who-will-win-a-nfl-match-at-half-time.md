@@ -5,9 +5,6 @@ categories:
 date: 2013-03-23T00:00:00Z
 tags:
 - NFL
-- jhsph753
-- Adv_NFL_Stats
-- rstats
 - Prediction
 title: Predicting who will win a NFL match at half time
 url: /2013/03/23/predicting-who-will-win-a-nfl-match-at-half-time

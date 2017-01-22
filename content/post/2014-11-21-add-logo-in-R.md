@@ -3,7 +3,7 @@ categories:
 - rstats
 date: 2014-11-21T00:00:00Z
 tags:
-- plot
+- Graphics
 title: An xpd-tion into R plot margins
 url: /2014/11/21/add-logo-in-R
 ---

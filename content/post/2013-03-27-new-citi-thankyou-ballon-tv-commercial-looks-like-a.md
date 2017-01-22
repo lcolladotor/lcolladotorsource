@@ -3,14 +3,7 @@ categories:
 - Fun
 date: 2013-03-27T00:00:00Z
 tags:
-- Citi
-- Hello
-- Kitty
-- Ballon
-- ripoff
 - TV
-- Commercial
-- Space
 title: New Citi ThankYou ballon TV commercial looks like a ripoff of Hello Kitty in Space
 url: /2013/03/27/new-citi-thankyou-ballon-tv-commercial-looks-like-a
 ---

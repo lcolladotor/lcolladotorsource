@@ -3,7 +3,6 @@ categories:
 - rstats
 date: 2013-04-26T00:00:00Z
 tags:
-- rstats
 - plyr
 - parallel
 - knitr

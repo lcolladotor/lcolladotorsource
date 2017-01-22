@@ -1,11 +1,9 @@
 ---
 categories:
 - Fun
-- Misc
 date: 2013-03-31T00:00:00Z
 tags:
 - NFL
-- analytics
 title: '"Do analytics really tell the whole story?"'
 url: /2013/03/31/do-analytics-really-tell-the-whole-story
 ---

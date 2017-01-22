@@ -4,7 +4,6 @@ categories:
 date: 2012-08-16T00:00:00Z
 tags:
 - Statistics
-- México
 title: 'International Year of Statistics: coming up soon!'
 url: /2012/08/16/international-year-of-statistics-coming-up-soon
 ---

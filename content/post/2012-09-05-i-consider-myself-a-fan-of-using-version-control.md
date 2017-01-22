@@ -3,7 +3,6 @@ categories:
 - Computing
 date: 2012-09-05T00:00:00Z
 tags:
-- Version control
 - Mercurial
 - Git
 title: 'Version control: need to learn Git'

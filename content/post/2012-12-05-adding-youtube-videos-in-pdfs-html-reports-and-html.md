@@ -3,7 +3,6 @@ categories:
 - Web
 date: 2012-12-05T00:00:00Z
 tags:
-- Youtube
 - knitr
 - pdf
 - html

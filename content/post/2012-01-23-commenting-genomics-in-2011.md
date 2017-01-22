@@ -3,9 +3,6 @@ categories:
 - Paper comments
 date: 2012-01-23T00:00:00Z
 tags:
-- Advice
-- Challenge
-- Future
 - Genomics
 - Paper comments
 title: 'Commenting: Genomics in 2011'

@@ -3,8 +3,7 @@ categories:
 - rstats
 date: 2013-06-12T00:00:00Z
 tags:
-- contest
-- rstats
+- Graphics
 title: 'userR2013 data analysis contest: data exploration'
 url: /2013/06/12/userr2013-data-analysis-contest-data-exploration
 ---

@@ -3,8 +3,7 @@ categories:
 - rstats
 date: 2012-10-19T00:00:00Z
 tags:
-- rstats
-- Color
+- Graphics
 title: Visualizing colors()
 url: /2012/10/19/visualizing-colors
 ---

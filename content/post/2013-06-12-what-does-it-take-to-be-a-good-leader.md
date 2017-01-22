@@ -4,7 +4,6 @@ categories:
 date: 2013-06-12T00:00:00Z
 tags:
 - Leader
-- Feedback
 title: What does it take to be a good leader?
 url: /2013/06/12/what-does-it-take-to-be-a-good-leader
 ---

@@ -3,9 +3,8 @@ categories:
 - rstats
 date: 2011-12-06T00:00:00Z
 tags:
-- rstats
 - Bioconductor
-- Visualization
+- Graphics
 title: 'The new visualization package for genome data in Bioconductor: ggbio'
 url: /2011/12/06/the-new-visualization-package-for-genome-data-in
 ---

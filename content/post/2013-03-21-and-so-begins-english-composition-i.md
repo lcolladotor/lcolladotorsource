@@ -5,7 +5,6 @@ categories:
 date: 2013-03-21T00:00:00Z
 tags:
 - Coursera
-- courseraengcomp
 title: And so begins English Composition I
 url: /2013/03/21/and-so-begins-english-composition-i
 ---

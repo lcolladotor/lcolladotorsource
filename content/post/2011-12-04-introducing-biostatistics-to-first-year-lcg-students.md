@@ -6,8 +6,6 @@ date: 2011-12-04T00:00:00Z
 tags:
 - Bioconductor
 - LCG
-- rstats
-- Talk
 title: Introducing Biostatistics to first year LCG students
 url: /2011/12/04/introducing-biostatistics-to-first-year-lcg-students
 ---
