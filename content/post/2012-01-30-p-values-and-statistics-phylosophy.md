@@ -9,7 +9,7 @@ tags:
 - Statistics
 - P-value
 title: P-values and Statistics phylosophy
-
+url: /2012/01/30/p-values-and-statistics-phylosophy
 ---
 
 <p>I&#8217;m in the process of catching up with all the posts from <a href="http://simplystatistics.tumblr.com">SimplyStatistics</a> that I didn&#8217;t read during the break. Doing so I found a very interesting post on p-values (more below)</p>

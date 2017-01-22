@@ -5,7 +5,7 @@ date: 2013-02-14T00:00:00Z
 tags:
 - Gmail
 title: Liking "Inbox Zero for Life"
-
+url: /2013/02/14/liking-inbox-zero-for-life
 ---
 
 <p>I&#8217;ve been using the &#8220;<a href="http://bit.ly/12vYvIh">Inbox Zero for Life</a>" strategy for a few weeks, and I think that it&#8217;s been payed off for me in this short span.</p>

@@ -3,10 +3,10 @@ categories:
 - rstats
 date: 2016-03-07T00:00:00Z
 tags:
-- rstats
+- parallel
 - Bioconductor
 title: Are you doing parallel computations in R? Then use BiocParallel
-
+url: /2016/03/07/BiocParallel
 ---
 
 

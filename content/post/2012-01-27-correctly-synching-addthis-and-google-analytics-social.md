@@ -5,7 +5,7 @@ date: 2012-01-27T00:00:00Z
 tags:
 - Blog
 title: Correctly synching AddThis and Google Analytics social stats
-
+url: /2012/01/27/correctly-synching-addthis-and-google-analytics-social
 ---
 
 <p>As a minor addition to my previous posts about setting up a blog, I want to detail a bit more how to synchronize your <a href="http://www.addthis.com/analytics">AddThis social sharing statistics</a> (AddThis Analytics) with <a href="http://www.google.com/analytics/">Google Analytics</a>.</p>

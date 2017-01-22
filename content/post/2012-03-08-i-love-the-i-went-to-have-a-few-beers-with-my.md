@@ -5,7 +5,7 @@ date: 2012-03-08T00:00:00Z
 tags:
 - PhD Comics
 title: PhD Comics about beers!
-
+url: /2012/03/08/i-love-the-i-went-to-have-a-few-beers-with-my
 ---
 
 <p><img height="989" src="http://www.phdcomics.com/comics/archive/phd030712s.gif" width="700"/></p>

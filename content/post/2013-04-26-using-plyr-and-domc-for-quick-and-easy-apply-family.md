@@ -9,7 +9,7 @@ tags:
 - knitr
 - cluster
 title: Using plyr and doMC for quick and easy apply-family functions
-
+url: /2013/04/26/using-plyr-and-domc-for-quick-and-easy-apply-family
 ---
 
 <p>A few weeks back I dedicated a short amount of time to actually read what <code>plyr</code> (<span class="showtooltip" title="Wickham H (2011). The Split-Apply-Combine Strategy for Data

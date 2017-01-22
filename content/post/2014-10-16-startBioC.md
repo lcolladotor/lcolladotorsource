@@ -5,7 +5,7 @@ date: 2014-10-16T00:00:00Z
 tags:
 - Bioconductor
 title: Where do I start using Bioconductor?
-
+url: /2014/10/16/startBioC
 ---
 
 

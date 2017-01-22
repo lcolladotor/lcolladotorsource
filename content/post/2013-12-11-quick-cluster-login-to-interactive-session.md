@@ -6,7 +6,7 @@ tags:
 - cluster
 title: Login to the cluster, request a node and change to your project directory in
   a single command
-
+url: /2013/12/11/quick-cluster-login-to-interactive-session
 ---
 
 

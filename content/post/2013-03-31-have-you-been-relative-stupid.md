@@ -4,12 +4,9 @@ categories:
 - Ideas
 date: 2013-03-31T00:00:00Z
 tags:
-- GSL
-- relative
-- stupid
 - academia
 title: Have you been 'relative stupid'?
-
+url: /2013/03/31/have-you-been-relative-stupid
 ---
 
 <p>I enjoyed reading &#8220;<a href="http://jcs.biologists.org/content/121/11/1771.full">The importance of stupidity in scientific research</a>" by Martin A. Schwartz which I learned existed through <a href="https://twitter.com/hmason">@hmason</a> and <a href="https://twitter.com/simplystats">@simplystats</a>. </p>

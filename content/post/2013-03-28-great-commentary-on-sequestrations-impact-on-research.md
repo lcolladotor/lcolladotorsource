@@ -10,9 +10,8 @@ tags:
 - MustRead
 - Paper comments
 - Research
-title: Great commentary on sequestration's impact on research! National media should
-  talk about this and YOU should read it!!!
-
+title: Great commentary on sequestration's impact on research! National media should talk about this and YOU should read it!!!
+url: /2013/03/28/great-commentary-on-sequestrations-impact-on-research
 ---
 
 <p>Today <a href="http://www.biostat.jhsph.edu/%7Ejleek/">Jeffrey T. Leek</a> and <a href="http://en.wikipedia.org/wiki/Steven_Salzberg">Steven L. Salzberg</a> published a paper commentary in Genome Biology today titled “<a href="http://genomebiology.com/2013/14/3/109">Sequestration: inadvertently killing biomedical research to score political points</a>” (<span class="showtooltip" title="Leek J and Salzberg S (2013). Sequestration: Inadvertently  Killing Biomedical Research to Score Political Points. _Genome  Biology_, *14*. ISSN 1465-6906,   http://dx.doi.org/10.1186/gb-2013-14-3-109."><a href="http://dx.doi.org/10.1186/gb-2013-14-3-109">Leek &amp; Salzberg, 2013</a></span>) which I think is a <strong>must read for anyone</strong>. Seriously!</p>

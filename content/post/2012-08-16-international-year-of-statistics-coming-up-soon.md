@@ -6,7 +6,7 @@ tags:
 - Statistics
 - México
 title: 'International Year of Statistics: coming up soon!'
-
+url: /2012/08/16/international-year-of-statistics-coming-up-soon
 ---
 
 <p>Did you know that next year will be the International Year of Statistics? Well, you probably didn&#8217;t! There is a <a href="http://statistics2013.org/index.cfm">site</a> organizing the activities and listing the institutions that morally support the celebration. I&#8217;m happy to see my current work place listed there but at the same time concerned that the National Autonomous University of Mexico is not in it.</p>

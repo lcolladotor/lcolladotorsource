@@ -4,8 +4,9 @@ categories:
 date: 2014-04-22T00:00:00Z
 tags:
 - mortgage
+- shiny
 title: Simple mortgage calculator
-
+url: /2014/04/22/mortgage-calculator-flexible-payments
 ---
 
 

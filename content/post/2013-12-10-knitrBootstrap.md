@@ -3,11 +3,10 @@ categories:
 - rstats
 date: 2013-12-10T00:00:00Z
 tags:
-- rstats
 - knitr
 - html
 title: Creating awesome reports for multiple audiences using knitrBootstrap
-
+url: /2013/12/10/knitrBootstrap
 ---
 
 

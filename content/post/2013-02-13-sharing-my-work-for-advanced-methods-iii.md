@@ -9,7 +9,7 @@ tags:
 - Biostatistics
 - jhsph753
 title: Sharing my work for "Advanced Methods III"
-
+url: /2013/02/13/sharing-my-work-for-advanced-methods-iii
 ---
 
 <p>This semester I&#8217;m taking the live version of the Data Analysis class by Jeff Leek. His more <a href="https://class.coursera.org/dataanalysis-001/class/index">popular version of the course is available through Coursera</a>. </p>

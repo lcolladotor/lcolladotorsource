@@ -5,7 +5,7 @@ date: 2013-02-15T00:00:00Z
 tags:
 - Mac
 title: 'Alfred: a must for any Mac user'
-
+url: /2013/02/15/alfred-a-must-for-any-mac-user
 ---
 
 <p>At the beginning of the semester, I decided to go hunting for Mac apps that would help me be more organizing and/or enjoy my Mac even more. After all, I was using the basics –with multiple spaces– and had only customized my favorite editors. </p>

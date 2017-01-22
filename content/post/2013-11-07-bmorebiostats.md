@@ -6,7 +6,7 @@ date: 2013-11-07T00:00:00Z
 tags:
 - Blog
 title: Bmore Biostats is born!
-
+url: /2013/11/07/bmorebiostats
 ---
 
 

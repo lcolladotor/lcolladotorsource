@@ -7,7 +7,7 @@ tags:
 - Computing
 title: 'me: Bad rm, don''t delete stuff I didn''t want to delete! (rm: well, I do
   what you tell me to do!)'
-
+url: /2012/11/07/me-bad-rm-dont-delete-stuff-i-didnt-want-to-delete
 ---
 
 <p>When Sandy was in town at some point I started doing some of my research work, but I shouldn&#8217;t have. I basically did a silly mistake and erased files that take a long time to compute.</p>

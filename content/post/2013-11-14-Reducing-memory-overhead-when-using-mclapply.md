@@ -4,9 +4,9 @@ categories:
 date: 2013-11-14T00:00:00Z
 tags:
 - Help
-- rstats
+- parallel
 title: Trying to reduce the memory overhead when using mclapply
-
+url: /2013/11/14/Reducing-memory-overhead-when-using-mclapply
 ---
 
 

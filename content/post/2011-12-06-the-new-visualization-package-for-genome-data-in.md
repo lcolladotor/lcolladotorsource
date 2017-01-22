@@ -7,7 +7,7 @@ tags:
 - Bioconductor
 - Visualization
 title: 'The new visualization package for genome data in Bioconductor: ggbio'
-
+url: /2011/12/06/the-new-visualization-package-for-genome-data-in
 ---
 
 <p>It&#8217;s been a while since I&#8217;ve been waiting for the release of a visualization package in Bioconductor. Back in 2008 I was really impressed by the power of<a href="http://www.bioconductor.org/packages/release/bioc/html/GenomeGraphs.html"> GenomeGraphs</a> and I have used it in multiple occasions. Yet from both the <a href="http://www-huber.embl.de/biocdeveleurope2010/">Bioconductor Developer Meeting in Heidelberg 2010</a> and <a href="https://secure.bioconductor.org/BioC2011/">BioC2011</a> I&#8217;ve been waiting for the release of the visualization tools developed by Michael Lawrence and Tengfei Yin at Genentech. </p>

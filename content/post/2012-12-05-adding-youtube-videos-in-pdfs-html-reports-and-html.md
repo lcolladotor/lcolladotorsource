@@ -8,7 +8,7 @@ tags:
 - pdf
 - html
 title: Adding youtube videos in pdfs, html reports and html presentations
-
+url: /2012/12/05/adding-youtube-videos-in-pdfs-html-reports
 ---
 
 <p>I got a question today on how to add a video to a beamer pdf presentation. Well, I had never done it, but I got curious enough to google around for a bit and here is the end product.</p>

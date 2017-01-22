@@ -3,11 +3,10 @@ categories:
 - rstats
 date: 2014-02-05T00:00:00Z
 tags:
-- rstats
 - Google
 - Dropbox
 title: How to upload files to Dropbox and Google Docs from R
-
+url: /2014/02/05/DropboxAndGoogleDocsFromR
 ---
 
 

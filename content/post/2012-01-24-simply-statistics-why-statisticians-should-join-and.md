@@ -5,7 +5,7 @@ date: 2012-01-24T00:00:00Z
 tags:
 - Startup
 title: 'Simply Statistics: Why statisticians should join and launch startups'
-
+url: /2012/01/24/simply-statistics-why-statisticians-should-join-and
 ---
 
 <a href="http://simplystatistics.tumblr.com/post/16347982080/why-statisticians-should-join-and-launch-startups">Simply Statistics: Why statisticians should join and launch startups</a><br/><p>I really like this post in <a href="http://simplystatistics.tumblr.com">SimplyStatistics</a> by <a href="http://leekgroup.tumblr.com/">leekgroup</a>. The topic is worth considering, but what got me hooked was the list of links to startups, which were all new to me. 100plus looks promising, though I don&#8217;t have a clue as to what they are going to offer. Sure, I know the general topic, but not much beyond that. As I just flew back to town, Flightcaster and Hipmunk caught my attention. While Flightcaster works faster and has a great FAQ, I don&#8217;t find it super useful since it&#8217;s limited to US domestic flights, which are not the kind I usually jump into. Plus, without automatic updates it seems kind of a pain to use. After all, I don&#8217;t want to become a panic-driven person who has to refresh the status of his flight every hour or maybe even every few minutes. Hipmunk on the other hand is slow, but I like their &#8220;agony&#8221; ranking :) It also looks easy to find cheap days to fly though I&#8217;ll mostly cross-check with Expedia when I need it.</p>

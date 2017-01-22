@@ -3,10 +3,9 @@ categories:
 - rstats
 date: 2013-05-09T00:00:00Z
 tags:
-- rstats
 - github
 title: Reading an R file from GitHub
-
+url: /2013/05/09/reading-an-r-file-from-github
 ---
 
 <p>Lets say that I want to read in <a href="https://github.com/lcolladotor/ballgownR-devel/blob/master/ballgownR/R/infoGene.R">this R file</a> from GitHub into R.</p>

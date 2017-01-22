@@ -6,7 +6,7 @@ tags:
 - Leader
 - Feedback
 title: What does it take to be a good leader?
-
+url: /2013/06/12/what-does-it-take-to-be-a-good-leader
 ---
 
 <h2>Leader: scientific or project</h2>

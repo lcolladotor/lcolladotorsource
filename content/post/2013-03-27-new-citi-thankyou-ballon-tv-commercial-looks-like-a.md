@@ -11,9 +11,8 @@ tags:
 - TV
 - Commercial
 - Space
-title: New Citi ThankYou ballon TV commercial looks like a ripoff of Hello Kitty in
-  Space
-
+title: New Citi ThankYou ballon TV commercial looks like a ripoff of Hello Kitty in Space
+url: /2013/03/27/new-citi-thankyou-ballon-tv-commercial-looks-like-a
 ---
 
 <p>I don&#8217;t know about you, but I think that this new &#8220;Citi ThankYou Cards&#8221; TV commercial is trying to ride the popularity train from the &#8220;HELLO KITTY IN SPACE&#8221; video.</p>
