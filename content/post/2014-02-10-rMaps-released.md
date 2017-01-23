@@ -5,7 +5,7 @@ date: 2014-02-10T00:00:00Z
 tags:
 - fun
 title: rMaps released
-url: /2014/02/10/rmaps-released
+url: /2014/02/10/rMaps-released
 ---
 
 

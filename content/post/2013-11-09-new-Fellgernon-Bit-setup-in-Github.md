@@ -6,7 +6,7 @@ date: 2013-11-09T00:00:00Z
 tags:
 - Blog
 title: Creating your Jekyll-Bootstrap powered blog for R blogging
-url: /2013/11/09/new-fellgernon-bit-setup-in-github
+url: /2013/11/09/new-Fellgernon-Bit-setup-in-Github
 ---
 
 

@@ -6,7 +6,7 @@ tags:
 - parallel
 - Bioconductor
 title: Are you doing parallel computations in R? Then use BiocParallel
-url: /2016/03/07/biocparallel
+url: /2016/03/07/BiocParallel
 ---
 
 
