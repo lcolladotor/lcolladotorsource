@@ -6,7 +6,7 @@ date: 2013-11-20T00:00:00Z
 tags:
 - Fun
 title: Third Student Cultural Mixer
-url: /2013/11/20/StudentMixer3
+url: /2013/11/20/studentmixer3
 ---
 
 

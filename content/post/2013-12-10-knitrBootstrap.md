@@ -6,7 +6,7 @@ tags:
 - knitr
 - html
 title: Creating awesome reports for multiple audiences using knitrBootstrap
-url: /2013/12/10/knitrBootstrap
+url: /2013/12/10/knitrbootstrap
 ---
 
 
