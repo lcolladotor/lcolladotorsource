@@ -6,7 +6,7 @@ date: 2013-04-24T00:00:00Z
 tags:
 - Fun
 title: Epi vs Biostat Kickball match Spring 2013
-url: /2013/04/24/epi-vs-biostat-kickball-match-spring-2013
+url: /2013/04/24/Epi-vs-Biostat-Kickball-match-Spring-2013
 ---
 
 <p>This past Saturday the Epi and Biostat troops met for another fun kickball match. Obviously Biostat beat Epi, yup I know: again! This time the score was 15-8 (according to our bookkeeper and captain John) or 12-8 (according to some in Epi).</p>

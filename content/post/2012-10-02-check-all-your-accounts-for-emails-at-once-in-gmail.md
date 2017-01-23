@@ -5,7 +5,7 @@ date: 2012-10-02T00:00:00Z
 tags:
 - Gmail
 title: Check all your accounts for emails at once in Gmail
-url: /2012/10/02/check-all-your-accounts-for-emails-at-once-in-gmail
+url: /2012/10/02/Check-all-your-accounts-for-emails-at-once-in-Gmail
 ---
 
 <p>Do you use Gmail as your primary email account? Primary, what? Well, I&#8217;m sure that you have your personal account somewhere and your work or university account too. You can either log into each email interface or you can integrate them to a single one.</p>

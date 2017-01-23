@@ -5,7 +5,7 @@ date: 2012-10-19T00:00:00Z
 tags:
 - Graphics
 title: Visualizing colors()
-url: /2012/10/19/visualizing-colors
+url: /2012/10/19/Visualizing-colors
 ---
 
 <p>The other day I learnt about the existance of the colors() vector in R which specifies all the character-based colors like &#8220;light blue&#8221;, &#8220;black&#8221;, etc. So I made a simple plot to visualize them all. Here&#8217;s the code:</p>

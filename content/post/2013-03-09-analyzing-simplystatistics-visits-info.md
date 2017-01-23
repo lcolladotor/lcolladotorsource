@@ -6,7 +6,7 @@ date: 2013-03-09T00:00:00Z
 tags:
 - Blog
 title: Analyzing SimplyStatistics visits info
-url: /2013/03/09/analyzing-simplystatistics-visits-info
+url: /2013/03/09/Analyzing-SimplyStatistics-visits-info
 ---
 
 <p>Recently we had to analyze the data of the number of visits per day to <a href="http://simplystatistics.org/">SimplyStatistics.org</a>. There were two goals:</p>

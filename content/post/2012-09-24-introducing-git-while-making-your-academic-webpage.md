@@ -8,7 +8,7 @@ tags:
 - Website
 - Bitbucket
 title: Introducing Git while making your academic webpage
-url: /2012/09/24/introducing-git-while-making-your-academic-webpage
+url: /2012/09/24/Introducing-Git-while-making-your-academic-webpage
 ---
 
 <p>Last week I gave a presentation during our computing club on how to use git (a version control system). I used as a motivating example the first steps of creating your own academic webpage. The goal was to make it interesting to both new students (who might have been more interested on the webpage part) and older students (for whom version control should be a must). The slides and all the material is publicly available through the following Bitbucket repository: <a href="https://bitbucket.org/lcolladotor/html_git_intro/overview"><a href="https://bitbucket.org/lcolladotor/html_git_intro/overview">https://bitbucket.org/lcolladotor/html_git_intro/overview</a></a>. You can access the slides by clicking on &#8220;Source&#8221;, &#8220;slides&#8221; and then &#8220;html_git.pdf&#8221;.</p>

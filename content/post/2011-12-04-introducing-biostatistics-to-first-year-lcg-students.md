@@ -7,7 +7,7 @@ tags:
 - Bioconductor
 - LCG
 title: Introducing Biostatistics to first year LCG students
-url: /2011/12/04/introducing-biostatistics-to-first-year-lcg-students
+url: /2011/12/04/Introducing-Biostatistics-to-first-year-LCG-students
 ---
 
 <p>Around two weeks ago I gave a talk via skype to the first year students from the <a href="http://www.lcg.unam.mx/about">Undergraduate Program on Genomic Sciences</a> (LCG in Spanish) from the National Autonomous University of Mexico (UNAM in Spanish). The talk was under the context of the <em>Introduction to Bioinformatics Seminar Series</em> whose goal is to familiarize the new students with the bioinformatics world. It used to be a course heavy on exploring database websites, some basic theory, and lots of new concepts and algorithm names. Like, what is BLAST? This year, the course involved several talks from former students (like myself) on their experience and current job (most of us are in graduate school).</p>

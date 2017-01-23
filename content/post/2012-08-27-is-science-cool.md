@@ -5,7 +5,7 @@ date: 2012-08-27T00:00:00Z
 tags:
 - Science
 title: Is science cool?
-url: /2012/08/27/is-science-cool
+url: /2012/08/27/Is-science-cool
 ---
 
 <p>Adam Ruben shares his answer to whether science is cool or not. Since &#8220;cool&#8221; depends on the current trends, this question is set on the recent landing of Curiosity. It&#8217;s the landrover that recently landed on Mars and has been sending some pictures back. </p>

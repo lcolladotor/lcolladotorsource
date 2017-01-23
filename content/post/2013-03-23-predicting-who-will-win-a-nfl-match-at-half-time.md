@@ -7,7 +7,7 @@ tags:
 - NFL
 - Prediction
 title: Predicting who will win a NFL match at half time
-url: /2013/03/23/predicting-who-will-win-a-nfl-match-at-half-time
+url: /2013/03/23/Predicting-who-will-win-a-NFL-match-at-half-time
 ---
 
 <p>It was great to have a little break, <em>Spring break</em>, although the weather didn&#8217;t feel like spring at all! During the early part of the break I worked on my final project for Jeff Leek&#8217;s data analysis class, which we call 140.753 here. Continuing <a href="http://fellgernon.tumblr.com/tagged/jhsph753#.UU44Y1vF2c4">my previous posts on the topic</a>, this time I&#8217;ll share the results of my final project.</p>

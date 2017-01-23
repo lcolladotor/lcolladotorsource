@@ -7,7 +7,7 @@ tags:
 - Git
 - Mercurial
 title: Bitbucket revamped
-url: /2012/10/09/bitbucket-revamped
+url: /2012/10/09/Bitbucket-revamped
 ---
 
 <p>Bitbucket announced their new &#8220;look&#8221; today. The goal is to make it more team friendly but I guess that they also wanted to make it look fresh.</p>

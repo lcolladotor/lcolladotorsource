@@ -5,7 +5,7 @@ date: 2013-03-31T00:00:00Z
 tags:
 - NFL
 title: '"Do analytics really tell the whole story?"'
-url: /2013/03/31/do-analytics-really-tell-the-whole-story
+url: /2013/03/31/Do-analytics-really-tell-the-whole-story
 ---
 
 <p>&#8220;<a href="http://www.packers.com/news-and-events/article-1/Do-analytics-really-tell-the-whole-story/86248baa-e8ec-4772-a0df-7693676812be?campaign=FB130330">Do analytics really tell the whole story?</a>" by Vic Ketchman explores how analytics is used nowadays in the NFL draft. The entry point is the "Moneyball" movie and Ketchman&#8217;s piece is mainly a digested interview to Tony Villiotti from draftmetrics.com</p>
