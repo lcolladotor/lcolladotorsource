@@ -50,7 +50,7 @@ I realize that writing code that reproduces the error is not easy. But it helps 
 Here are some other tips that are useful.
 
 * If you run `traceback()` immediately after getting the error and include the output in your question, that would be great. It makes it easier to check at what point the code failed and produced the error. 
-* Recently when I ask questions myself, I include the "non-evaluated code" and "evaluated code". The non-evaluated code makes it easier for others to copy-paste the code into their R session without having to deal with any formatting issues ([example](https://github.com/leekgroup/recount/issues/8#issue-210124094)).
+* Recently when I ask questions myself, I include the "non-evaluated code" (clean code in your script) and "evaluated code" (think of the R console: a mix of code and output). The non-evaluated code makes it easier for others to copy-paste the code into their R session without having to deal with any formatting issues ([example](https://github.com/leekgroup/recount/issues/8#issue-210124094)).
 * If you encounter a new error, post a new question instead of "replying" to the first one.
 * Introduce yourself.
 * Be polite.
