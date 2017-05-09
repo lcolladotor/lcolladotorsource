@@ -17,7 +17,7 @@ url_video = ""
 date = "2016-12-30T17:44:49-05:00"
 publication_short = ""
 math = false
-abstract_short = ""
+abstract_short = "We found 56,861 junctions (18.6%) in at least 1000 samples that were not annotated out of 21,504 samples, and their expression associated with tissue type. We compiled junction data into a resource called intropolis available at http://intropolis.rail.bio."
 
 [[url_custom]]
     name = "Pre-print"
