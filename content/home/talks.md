@@ -12,7 +12,7 @@ widget = "talks"
 weight = 30
 
 # Number of talks to list.
-count = 3
+count = 4
 
 # Show talk details (such as abstract)? (true/false)
 detailed_list = false
