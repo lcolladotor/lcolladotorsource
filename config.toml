@@ -154,6 +154,10 @@ defaultContentLanguageInSubdir = false
     icon_pack = "ai"
     link = "https://impactstory.org/u/0000-0003-2140-308X"
 
+  [[params.social]]
+    icon = "publons"
+    icon_pack = "ai"
+    link = "https://publons.com/a/1262671"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
