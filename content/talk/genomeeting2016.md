@@ -10,7 +10,7 @@ selected = false
 location = "INMEGEN, Mexico City, Mexico"
 abstract_short = ""
 url_video = ""
-url_slides = ""
+url_slides = "https://speakerdeck.com/lcolladotor/genomeeting-2016-mexico"
 url_pdf = ""
 
 +++
