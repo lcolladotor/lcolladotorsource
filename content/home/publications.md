@@ -20,3 +20,4 @@ detailed_list = true
 
 +++
 
+&dagger; indicates corresponding author, __*__ indicates equal contribution
