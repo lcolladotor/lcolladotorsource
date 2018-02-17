@@ -2,11 +2,12 @@
 title: R markdown blog template
 author: L. Collado-Torres
 date: '2018-02-17'
-slug: r-markdown-blog-template
 categories:
   - rstats
 tags:
   - rstats
+  - Blog
+slug: r-markdown-blog-template
 output:
   blogdown::html_page:
     toc: no
