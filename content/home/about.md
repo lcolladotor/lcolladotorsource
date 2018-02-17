@@ -31,7 +31,7 @@ weight = 1
 
 # L. Collado-Torres
 
-At the Lieber Institute for Brain Development, I am part of the Data Science team whose goals include better understanding and characterizing genomics signatures in the human brain, using technologies such as DNA methylation and gene expression. I help mentor other team members, provide support for LIBD projects and I am advancing my academic career as part of [Andrew Jaffe](http://aejaffe.com/)'s lab.
+At the Lieber Institute for Brain Development, I am part of the Data Science team whose goals include better understanding and characterizing genomics signatures in the human brain. We use high-throughput technologies such as DNA methylation and RNA sequencing. I help mentor other team members, provide support for LIBD projects and I am advancing my academic career as part of [Andrew Jaffe](http://aejaffe.com/)'s lab.
 
 As a quick background, I graduated from the [Undergraduate Program on Genomic Sciences](http://www.lcg.unam.mx/about) from the National Autonomous University of Mexico [(UNAM)](http://unam.mx/) in 2009 and worked for two years at Winter Genomics analyzing high-throughput sequencing data. I then got a PhD in the [Department of Biostatistics](http://www.jhsph.edu/departments/biostatistics/) at [Johns Hopkins Bloomberg School of Public Health](http://www.jhsph.edu/) thanks to a [CONACyT scholarship](http://www.conacyt.gob.mx/) awarded in 2011. I worked with [Jeff Leek](http://jtleek.com/) and [Andrew Jaffe](http://aejaffe.com/) in developing [derfinder](http://bioconductor.org/packages/derfinder), [regionReport](http://bioconductor.org/packages/regionReport), [recount](http://bioconductor.org/packages/recount) as well as other applied projects.
 
