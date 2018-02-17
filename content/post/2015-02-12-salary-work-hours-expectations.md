@@ -1,6 +1,6 @@
 ---
 categories:
-- ideas
+- Ideas
 date: 2015-02-12T00:00:00Z
 tags:
 - work-life

@@ -3,7 +3,7 @@ categories:
 - rstats
 date: 2014-02-10T00:00:00Z
 tags:
-- fun
+- Fun
 title: rMaps released
 url: /2014/02/10/rMaps-released
 ---

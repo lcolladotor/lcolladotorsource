@@ -3,7 +3,7 @@ categories:
 - rstats
 date: 2014-02-26T00:00:00Z
 tags:
-- network
+- Network
 title: rMaps Mexico map
 url: /2014/02/26/excited-by-willingness-to-help-get-things-done
 ---

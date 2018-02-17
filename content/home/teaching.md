@@ -17,12 +17,12 @@ weight = 60
 # LIBD
 
 
-<img class="image alignleft" src="http://aejaffe.com/media/LIBD_logo.jpg" width="268" alt="" />
+<img class="image alignleft" src="images/LIBD.jpg" width="268" alt="" />
 
 ## 2016
 
 1. Biostatistics and Stata instructor at a [workshop for Kandahar University Faculty](http://lcolladotor.github.io/kandahar), organized by Johns Hopkins University. 
-1. Invited instructor for the [Genomeeting 2016](http://www.genomeeting.com/) course at INMEGEN, Mexico City, Mexico.
+1. Invited instructor for the [Genomeeting 2016](http://www.genomeeting.com/) course biostat INMEGEN, Mexico City, Mexico.
 
 # JHBSPH
 

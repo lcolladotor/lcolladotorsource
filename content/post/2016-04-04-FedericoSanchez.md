@@ -1,6 +1,6 @@
 ---
 categories:
-- unam
+- UNAM
 date: 2016-04-04T00:00:00Z
 tags:
 - LCG

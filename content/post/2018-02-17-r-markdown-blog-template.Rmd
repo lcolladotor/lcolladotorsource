@@ -1,0 +1,124 @@
+---
+title: R markdown blog template
+author: L. Collado-Torres
+date: '2018-02-17'
+slug: r-markdown-blog-template
+categories:
+  - rstats
+tags:
+  - rstats
+output:
+  blogdown::html_page:
+    toc: no
+    fig_width: 5
+    fig_height: 5
+---
+
+This blog post is mostly for myself but maybe it's useful to others. It contains my current R markdown blog template. I initially posted this as a question at [StackOverflow](https://stackoverflow.com/questions/48844340/is-it-possible-to-create-a-rmd-file-template-for-the-blogdown-new-post-addin). Then I read how much a burden we put in [Yihui Xie](https://yihui.name/en/2018/02/career-crisis/) and decided that my current setup (copy-pasting) works just fine. In any case using `blogdown` with the RStudio IDE is much simpler than what I used to do in the past with [jekyll](http://lcolladotor.github.io/2013/11/09/new-Fellgernon-Bit-setup-in-Github/) or with even my prior [setup with blogdown](https://github.com/rstudio/blogdown/issues/42).
+
+### Bibliography setup
+
+First I define the citation information I'll need. By the way, I used [FAQ 7](https://yihui.name/knitr/faq/) for showing the R code chunk.
+
+```
+    ```{r bibsetup, echo=FALSE, message=FALSE, warning=FALSE}`r ''`
+    ## Load knitcitations with a clean bibliography
+    library('knitcitations')
+    cleanbib()
+    cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')
+    
+    bib <- c('knitcitations' = citation('knitcitations'),
+             'blogdown' = citation('blogdown')[2])
+    ```
+```
+
+
+```{r bibsetup, echo=FALSE, message=FALSE, warning=FALSE}
+## Load knitcitations with a clean bibliography
+library('knitcitations')
+cleanbib()
+cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')
+
+bib <- c('knitcitations' = citation('knitcitations'),
+         'blogdown' = citation('blogdown')[2])
+```
+
+
+### Post content
+
+This is where I typically start to edit since the bibliography chunk is hidden.
+
+
+### R image
+
+```
+    ```{r 'plot'}`r ''`
+    ## This will create the /post/*_files/ directory
+    ## where you can later copy the non-R images you want to use
+    ## in the blog post
+    plot(1:10, 10:1)
+    ```
+```
+
+```{r 'plot', echo = FALSE}
+## This will create the /post/*_files/ directory
+## where you can later copy the non-R images you want to use
+## in the blog post
+plot(1:10, 10:1)
+```
+
+Note that I modified the YAML portion of the post to set the figure width and height. You can also include a table of contents if you want, though it affects the summary of the post. Check the [output format](https://bookdown.org/yihui/blogdown/output-format.html) section of the `blogdown` book for more details `r citep(bib[['blogdown']])`, including differences between `.Rmd` and `.Rmarkdown` files. Note that you can also use a `_output.yml` file as described there.
+
+```
+output:
+  blogdown::html_page:
+    toc: no
+    fig_width: 5
+    fig_height: 5
+```
+
+### Custom image syntax
+
+Here I remind myself of different ways I can include external images. Check [blogdown issue 239](https://github.com/rstudio/blogdown/issues/239) for some background information.
+
+Markdown syntax for custom image:
+
+```
+![](/post/2018-02-17-r-markdown-blog-template_files/LIBD.jpg)
+```
+
+![](/post/2018-02-17-r-markdown-blog-template_files/LIBD.jpg)
+
+HTML syntax for centering image, including a link, and re-sizing the image to a fix width of 200 px.
+
+```
+<center>
+<a href="http://lcolladotor.github.io/"><img alt = 'some website' width='200' src='/post/2018-02-17-r-markdown-blog-template_files/LIBD.jpg' /></a>
+</center>
+```
+
+
+<center>
+<a href="http://lcolladotor.github.io/"><img alt = 'some website' width='200' src='/post/2018-02-17-r-markdown-blog-template_files/LIBD.jpg' /></a>
+</center>
+
+
+### Reproducibility
+
+```{r reproducibility}
+## Reproducibility info
+library('devtools')
+options(width = 120)
+session_info()
+```
+
+### References
+
+Citations made with `knitcitations` `r citep(bib[['knitcitations']])` and blog built using `blogdown` `r citep(bib[['blogdown']])`.
+
+
+```{r bibliography, results='asis', echo=FALSE, cache=FALSE}
+## Print bibliography
+bibliography()
+```
+

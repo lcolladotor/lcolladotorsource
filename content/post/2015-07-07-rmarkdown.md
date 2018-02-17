@@ -3,7 +3,7 @@ categories:
 - rstats
 date: 2015-07-07T00:00:00Z
 tags:
-- teaching
+- Teaching
 title: Teaching a short topic to beginner R users
 url: /2015/07/07/rmarkdown
 ---

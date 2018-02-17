@@ -4,7 +4,7 @@ categories:
 - Ideas
 date: 2013-03-31T00:00:00Z
 tags:
-- academia
+- Academia
 title: Have you been 'relative stupid'?
 url: /2013/03/31/Have-you-been-relative-stupid
 ---

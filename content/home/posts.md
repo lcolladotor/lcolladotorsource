@@ -16,7 +16,7 @@ weight = 40
 tags_include = []
 
 # Number of posts to list.
-count = 5
+count = 3
 
 +++
 

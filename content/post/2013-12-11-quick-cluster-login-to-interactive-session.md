@@ -1,6 +1,6 @@
 ---
 categories:
-- computing
+- Computing
 date: 2013-12-11T00:00:00Z
 tags:
 - cluster

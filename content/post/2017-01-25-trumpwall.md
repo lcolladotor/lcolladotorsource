@@ -3,7 +3,7 @@ title: An alternative to the Mexico-US wall where the US would gain millions of 
 tags:
 - politics
 categories:
-- ideas
+- Ideas
 date: 2017-01-25T02:00:00Z
 ---
 
