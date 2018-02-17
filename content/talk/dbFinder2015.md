@@ -1,7 +1,7 @@
 +++
 url_slides = ""
 url_pdf = ""
-date = "2015-11-01T00:00:00"
+time_start = 2015-11-01T00:00:00
 event = "Joint Genomics Meeting"
 abstract_short = ""
 title = "dbFinder"

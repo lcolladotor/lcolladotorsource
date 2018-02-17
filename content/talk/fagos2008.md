@@ -11,7 +11,7 @@ abstract_short = ""
 url_slides = "http://lcolladotor.github.io/Presentations/Bacteriofagos.ppt"
 math = false
 selected = false
-date = "2008-12-04T00:00:00"
+time_start = 2008-12-04T00:00:00
 
 +++
 

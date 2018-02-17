@@ -10,7 +10,7 @@ title = "Easy parallel computing with BiocParallel and HTML reports with knitrBo
 url_slides = "http://lcolladotor.github.io/BiocParallel-knitrBootstrap/"
 event_url = "http://www.biostat.jhsph.edu/~ydu/comp_club.html"
 url_pdf = ""
-date = "2015-04-19T16:15:21-05:00"
+time_start = 2015-04-19T16:15:21
 abstract = ""
 
 [[url_custom]]

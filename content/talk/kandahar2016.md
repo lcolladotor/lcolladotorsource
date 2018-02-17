@@ -1,5 +1,5 @@
 +++
-date = "2016-12-26T08:30:00"
+time_start = 2016-12-26T08:30:00
 selected = false
 location = "Dubai, UAE"
 abstract = "Introduction of my work to kick off the epidemiology and biostatistics training for Kandahar University MPH faculty."

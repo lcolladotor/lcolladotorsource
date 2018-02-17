@@ -10,7 +10,7 @@ abstract = ""
 title = "Introduction to High-Throughput Sequencing and RNA-seq"
 event_url = ""
 event = "Genomics for students"
-date = "2013-03-06T16:24:05-05:00"
+time_start = 2013-03-06T16:24:05
 url_slides = "http://lcolladotor.github.io/misc/genomics/HTSintro.pdf"
 
 +++

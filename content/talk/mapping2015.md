@@ -1,8 +1,8 @@
 +++
+time_start = 2015-02-19T10:00:00
 abstract_short = ""
 url_pdf = ""
 location = "JHU Biostats, Baltimore, US"
-date = "2015-02-19T16:18:02-05:00"
 url_slides = ""
 selected = false
 event = ""

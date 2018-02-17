@@ -9,7 +9,7 @@ abstract_short = ""
 url_slides = ""
 selected = false
 event = "Bioconductor Developer Meeting"
-date = "2010-11-18T00:00:00"
+time_start = 2010-11-18T00:00:00
 math = false
 location = "EMBL, Heidelberg, Germany"
 

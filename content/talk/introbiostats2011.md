@@ -1,5 +1,5 @@
 +++
-date = "2011-11-18T16:29:18-05:00"
+time_start = 2011-11-18T16:29:18
 url_slides = "https://drive.google.com/file/d/0B-mxZfuflcuONmY1MGI3ZjEtN2JjNy00MDNiLTk0NmMtYjdiNDAwNTZmNGNj/view"
 location = ""
 url_video = ""

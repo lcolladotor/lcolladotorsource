@@ -1,5 +1,5 @@
 +++
-date = "2017-06-24T08:30:00"
+time_start = 2017-06-24T08:30:00
 selected = false
 location = "Baltimore, MD, US"
 abstract = "Reproducible Research and Bioinformatics talk for a one day course during the Johns Hopkins Summer Institute at the Bloomberg School of Public Health."

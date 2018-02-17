@@ -1,5 +1,5 @@
 +++
-date = "2012-11-12T16:29:18-05:00"
+time_start = 2012-11-12T16:29:18
 url_slides = ""
 location = ""
 url_video = ""

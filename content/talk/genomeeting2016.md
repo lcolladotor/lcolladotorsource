@@ -1,5 +1,5 @@
 +++
-date = "2016-10-26T00:00:00"
+time_start = 2016-10-26T00:00:00
 title = "recount: facilitando el análisis de miles de muestras de RNA-seq"
 math = false
 event = "Genomeeting 2016"
