@@ -35,4 +35,4 @@ At the Lieber Institute for Brain Development, I am part of the Data Science tea
 
 As a quick background, I graduated from the [Undergraduate Program on Genomic Sciences](http://www.lcg.unam.mx/about) from the National Autonomous University of Mexico ([UNAM](http://unam.mx/)) in 2009 and worked for two years at Winter Genomics analyzing high-throughput sequencing data. I then got a PhD in the [Department of Biostatistics](http://www.jhsph.edu/departments/biostatistics/) at [Johns Hopkins Bloomberg School of Public Health](http://www.jhsph.edu/) thanks to a [CONACyT scholarship](http://www.conacyt.gob.mx/) awarded in 2011. I worked with [Jeff Leek](http://jtleek.com/) and Andrew Jaffe in developing [derfinder](http://bioconductor.org/packages/derfinder), [regionReport](http://bioconductor.org/packages/regionReport), [recount](http://bioconductor.org/packages/recount) as well as other applied projects.
 
-Every day I use [R](http://cran.r-project.org/) and [Bioconductor](http://www.bioconductor.org/).
+Every day I use [R](http://cran.r-project.org/) and [Bioconductor](http://www.bioconductor.org/). Occasionally I blog about them and other tools.

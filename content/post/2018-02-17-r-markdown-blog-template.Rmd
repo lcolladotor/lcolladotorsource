@@ -118,8 +118,9 @@ session_info()
 Citations made with `knitcitations` `r citep(bib[['knitcitations']])` and blog built using `blogdown` `r citep(bib[['blogdown']])`.
 
 
-```{r bibliography, results='asis', echo=FALSE, cache=FALSE}
+```{r bibliography, results = 'asis', cache = FALSE}
+## Chunk normaly with options:  results = 'asis', echo = FALSE, cache = FALSE
 ## Print bibliography
-bibliography()
+bibliography(style = 'html')
 ```
 

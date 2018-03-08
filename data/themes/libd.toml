@@ -1,0 +1,21 @@
+# Theme metadata
+name = "libd"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#e51744"
+primary_light = "#FF6771"
+primary_dark = "#DA2536"
+
+# Menu
+menu_primary = "#bfcad1"
+menu_text = "#2f2f2f"
+menu_text_active = "#e51744"
+menu_title = "#eb1f4b"
+
+# Backgrounds
+background = "#fff"
+home_section_odd = "#fff"
+home_section_even = "#bfcad1"
