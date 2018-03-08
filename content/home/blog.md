@@ -20,3 +20,5 @@ count = 3
 
 +++
 
+
+Posts with the [rstats](/categories/rstats/) category can also be found at [RBloggers](https://www.r-bloggers.com). Also check the [LIBD rstats club](http://LieberInstitute.github.io/rstatsclub/) where I am a contributor.
