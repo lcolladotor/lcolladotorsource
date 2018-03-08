@@ -46,7 +46,7 @@ Typical location to start editing since the bibliography chunk is hidden. Make s
 ### R image
 
 
-```{r 'plot', echo = TRUE, fig.width = 6, fig.height = 6}
+```{r 'plot', echo = TRUE, fig.width = 6, fig.height = 6, eval = FALSE}
 ## This imaged will be saved in the /post/*_files/ directory
 ## Use echo = FALSE if you want to hide the code for making the plot
 plot(1:10, 10:1)
