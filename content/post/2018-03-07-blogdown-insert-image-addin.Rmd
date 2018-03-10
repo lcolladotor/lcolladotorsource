@@ -58,7 +58,7 @@ Except that __will not__ work. We need to use almost all the path (just remove `
 If you want to edit the height or width, then you need to use the HTML syntax. Something like:
 
 ```
-<img alt = 'my new screenshot' width='200' src='(/post/2018-03-07-my-new-post_files/screenshot.jpg' />
+<img alt = 'my new screenshot' width='200' src='/post/2018-03-07-my-new-post_files/screenshot.jpg' />
 ```
 
 
@@ -114,25 +114,25 @@ You also need an up to date version of [RStudio](https://www.rstudio.com/product
 
 Second, go to the _Addins_ menu in the top section of the RStudio window and select the _Insert Image_ `r Githubpkg('rstudio/blogdown')` addin.
 
-<img src="/post/2018-03-07-blogdown-insert-image-addin_files/Screen Shot 2018-03-07 at 11.47.37 PM.png" alt="insert image addin screenshot" width="400"/>
+<img src="http://lcolladotor.github.io/post/2018-03-07-blogdown-insert-image-addin_files/Screen Shot 2018-03-07 at 11.47.37 PM.png" alt="insert image addin screenshot" width="400"/>
 
 #### Step 3: choose figure and inputs
 
 So far the _Insert Image_ addin looks like this:
 
-<img src="/post/2018-03-07-blogdown-insert-image-addin_files/Screen Shot 2018-03-07 at 11.58.44 PM.png" alt="addin without input" width="400"/>
+<img src="http://lcolladotor.github.io/post/2018-03-07-blogdown-insert-image-addin_files/Screen Shot 2018-03-07 at 11.58.44 PM.png" alt="addin without input" width="400"/>
 
 So lets go head and select an image we want to upload. In my case, I chose an image that already exists.
 
-<img src="/post/2018-03-07-blogdown-insert-image-addin_files/Screen Shot 2018-03-08 at 12.00.01 AM.png" alt="" width="400"/>
+<img src="http://lcolladotor.github.io/post/2018-03-07-blogdown-insert-image-addin_files/Screen Shot 2018-03-08 at 12.00.01 AM.png" alt="" width="400"/>
 
 You can rename the figure if you want, and if it doesn't exist, the _overwrite_ option goes away.
 
-<img src="/post/2018-03-07-blogdown-insert-image-addin_files/Screen Shot 2018-03-08 at 12.01.06 AM.png" alt="modified image file" width="400"/>
+<img src="http://lcolladotor.github.io/post/2018-03-07-blogdown-insert-image-addin_files/Screen Shot 2018-03-08 at 12.01.06 AM.png" alt="modified image file" width="400"/>
 
 #### Step 4: hit done!
 
-<img src="/post/2018-03-07-blogdown-insert-image-addin_files/Screen Shot 2018-03-08 at 12.02.28 AM.png" alt="hit go" width="400"/>
+<img src="http://lcolladotor.github.io/post/2018-03-07-blogdown-insert-image-addin_files/Screen Shot 2018-03-08 at 12.02.28 AM.png" alt="hit go" width="400"/>
 
 Lets go ahead and click `done`! Our text window in RStudio will insert the appropriate code for linking the image. In this case, it's the following code:
 
@@ -142,7 +142,7 @@ Lets go ahead and click `done`! Our text window in RStudio will insert the appro
 
 and this is the image:
 
-<img src="/post/2018-03-07-blogdown-insert-image-addin_files/screenshot.png" alt="final image" width="400"/>
+<img src="http://lcolladotor.github.io/post/2018-03-07-blogdown-insert-image-addin_files/screenshot.png" alt="final image" width="400"/>
 
 #### Optional step 5
 

@@ -88,7 +88,7 @@ Markdown syntax for custom image:
 ![](/post/2018-02-17-r-markdown-blog-template_files/LIBD.jpg)
 ```
 
-![](/post/2018-02-17-r-markdown-blog-template_files/LIBD.jpg)
+![](http://lcolladotor.github.io/post/2018-02-17-r-markdown-blog-template_files/LIBD.jpg)
 
 HTML syntax for centering image, including a link, and re-sizing the image to a fix width of 200 px.
 
@@ -100,7 +100,7 @@ HTML syntax for centering image, including a link, and re-sizing the image to a 
 
 
 <center>
-<a href="http://lcolladotor.github.io/"><img alt = 'some website' width='200' src='/post/2018-02-17-r-markdown-blog-template_files/LIBD.jpg' /></a>
+<a href="http://lcolladotor.github.io/"><img alt = 'some website' width='200' src='http://lcolladotor.github.io/post/2018-02-17-r-markdown-blog-template_files/LIBD.jpg' /></a>
 </center>
 
 
