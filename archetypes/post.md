@@ -21,6 +21,9 @@ preview = true
 
 
 ```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
+## For R images to display well in the RSS feed (disable for local preview)
+knitr::opts_knit$set(base.url = 'http://lcolladotor.github.io/post/')
+
 ## Load frequently used packages for blog posts
 library('knitcitations') # for citations
 library('BiocStyle') # for CRANpkg() Biocpkg() Githubpkg()
