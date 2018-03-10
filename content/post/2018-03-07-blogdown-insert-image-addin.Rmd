@@ -166,7 +166,7 @@ This blog post was made possible thanks to:
 
 as well as Yihui Xie's help and encouragement in the [form of a signed sticker](https://yihui.name/en/2018/02/bite-sized-pull-requests/) and the _Great Hacker_ title ^^. He also wrote [a blog post](https://yihui.name/en/2018/03/second-pull-request/) about the _Insert Image_ addin.
 
-<img src="/post/2018-03-07-blogdown-insert-image-addin_files/Screen Shot 2018-03-08 at 12.12.07 AM.png" alt="great hacker signed sticker" width="400"/>
+<img src="http://lcolladotor.github.io/post/2018-03-07-blogdown-insert-image-addin_files/Screen Shot 2018-03-08 at 12.12.07 AM.png" alt="great hacker signed sticker" width="400"/>
 
 
 
