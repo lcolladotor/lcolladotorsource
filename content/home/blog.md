@@ -21,4 +21,4 @@ count = 3
 +++
 
 
-Posts with the [rstats](/categories/rstats/) category can also be found at [RBloggers](https://www.r-bloggers.com). Also check the [LIBD rstats club](http://LieberInstitute.github.io/rstatsclub/) where I am a contributor.
+Posts with the [rstats](/categories/rstats/) category can also be found at [RBloggers](https://www.r-bloggers.com), [R Weekly](https://rweekly.org/) and [DataCamp Community](https://www.datacamp.com/community). Also check the [LIBD rstats club](http://LieberInstitute.github.io/rstatsclub/) where I am a contributor.
