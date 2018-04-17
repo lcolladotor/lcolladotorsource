@@ -20,5 +20,5 @@ Here you can find the students that I've mentored as their advisor and/or are cu
 
 ## 2017-2018
 
-* [Amy Peterson](https://www.linkedin.com/in/amy-peterson-6143ba137/), MPH practicum and MPH capstone.
+* [Amy Peterson](http://amy-peterson.github.io), MPH practicum and MPH capstone.
 * [Ashkaun Razmara](https://www.linkedin.com/in/ashkaun-razmara-bba6768a/), MPH practicum.
