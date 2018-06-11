@@ -1,0 +1,107 @@
+---
+title: Mindfulness
+author: L. Collado-Torres
+date: '2018-06-11'
+slug: mindfulness
+categories:
+  - Misc
+tags:
+  - Academia
+  - Leader
+  - Science
+  - work-life
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
+## For R images to display well in the RSS feed (disable for local preview)
+knitr::opts_knit$set(base.url = 'http://lcolladotor.github.io/post/')
+
+## Load frequently used packages for blog posts
+library('knitcitations') # for citations
+library('BiocStyle') # for CRANpkg() Biocpkg() Githubpkg()
+library('devtools') # for session_info()
+
+## Load knitcitations with a clean bibliography
+cleanbib()
+cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')
+
+bib <- c(
+    'BiocStyle' = citation('BiocStyle'),
+    'blogdown' = citation('blogdown')[2],
+    'devtools' = citation('devtools'),
+    'knitcitations' = citation('knitcitations')
+)
+```
+
+
+I recently participated for the first time in a silent retreat (6 hrs) as part of a _Mindfulness-Based Stress Reduction_ course. I've really been enjoying this course and the experience of learning new ways (for me) to live better and enjoy life more. If you haven't heard of _mindfulness_ before (like me a few months ago), [Wikipedia](https://en.wikipedia.org/wiki/Mindfulness) defines it as:
+
+```
+Mindfulness is the psychological process of bringing one's attention to
+experiences occurring in the present moment, which can be developed
+through the practice of meditation and other training.
+```
+
+In academia and science, but really anywhere, we can encounter many sources of stress (some examples below). We all deal with it in different ways and this MBSR course is just one that I'm liking right now and recommend. If there's no course near you, check out the [Full Catastrophe Living](https://www.amazon.com/gp/product/B00C4BA3UK) book that my course is based on^[Baltimore friends, I have a paper copy if you want to borrow it for a while.].
+
+All these tweets are threads, so you'll have to open them to see them: click on the blue bird on the right side of each tweet.
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '1005618536100683777')
+```
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '1004798860835938305')
+```
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '1004478330257707008')
+```
+
+One of the exercises on our silent retreat was _mindful eating_. That is, eating slowly and focusing on our senses while eating food. This involved smelling the food, seeing all the colors it has, feeling all the different textures, and focusing on its taste. Plus, not talking to anyone. I had bought a lunch before the retreat (so I wouldn't have to break the silence during it) that I normally don't find interesting: some fruit and a chicken curry wrap from CVS. But wow, it was amazing that day! I greatly enjoyed how it tasted and all the different sensations I felt. I couldn't believe it was the same food I had eaten other times before without much excitement.
+
+Lately I've been processing some strong feelings related to feeling unwelcome, homesickness and loneliness. I'm doing many things that I know help me, starting with talking about them with my family. I've also been keeping myself busy doing some sports outside, going to events, bars, having friends over, etc. But what motivated me to write this post today is that after lunch I left really bad today. I had to go outside and try to calm myself. 
+
+![](http://lcolladotor.github.io/post/2018-06-11-mindfulness_files/2018-06-11_13.25.34.jpg){width=600px}
+
+I thought I did, returned to work, and nah, I couldn't do it today. So I went home, rested in my room in the dark, and I find myself finishing this post about 2 hours later. I'm not sure it's related to the MSBR course, but I'm wondering if the mindfulness practice is also opening my mind's ears and eyes to my inner feelings way more than normal^[It could be a coincidence with other events in my life.]. I don't think it's bad. It's just that it's way harder to enjoy this process than it was eating a lunch. I'm trying to feel happy because I have feelings and I'm recognizing them. My family is also happy because they view it as a part of maturing and that I'm getting ready for taking another step in my life.
+
+Just some things are taking me way more time than normal. For example, it took me 2 days to process what I wanted to reply to a tweet and how to word it: it turned out well because I think we all heard each other ^^. 
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '1006207918813958145')
+```
+
+I also discovered that the silent retreat reminded me of vacations where I turn off my phone/email and spend a few days thinking about what's next. I used to go to Mexico every 6 months or so during my PhD to recharge. I want to do it again, but I can't. That lead me to my strong feelings of homesickness I had today.
+
+Just to close, I'm OK. I appreciate all the support I have and I recommend others to learn about mindfulness. You might be missing out some super tasty lunches and/or an exploration trip towards your inner self.
+
+I also want to add that I know some of you might see this post as over-sharing (yes, it might be). One reply is that I think that leaders also have to show their vulnerable sides. This has been debated a lot in academic twitter accounts in the context of showing your failures too, not just your successes. 
+
+
+### Acknowledgements
+
+
+This blog post was made possible thanks to:
+
+* `r CRANpkg('blogdown')` `r citep(bib[['blogdown']])`
+* `r CRANpkg('devtools')` `r citep(bib[['devtools']])`
+
+### References
+
+```{r bibliography, results = 'asis', echo = FALSE, cache = FALSE}
+## Print bibliography
+bibliography(style = 'html')
+```
+
+### Reproducibility
+
+```{r reproducibility, echo = FALSE}
+## Reproducibility info
+options(width = 120)
+session_info()
+```
