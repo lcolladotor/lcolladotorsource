@@ -1,0 +1,104 @@
+---
+title: Using Slack for Academic Departmental Communication
+author: S. Hicks and L. Collado-Torres
+date: '2018-06-19'
+slug: using-slack-for-academic-departmental-communication
+categories:
+  - Misc
+tags:
+  - Academia
+  - Help
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
+## For R images to display well in the RSS feed (disable for local preview)
+knitr::opts_knit$set(base.url = 'http://lcolladotor.github.io/post/')
+
+## Load frequently used packages for blog posts
+library('knitcitations') # for citations
+library('BiocStyle') # for CRANpkg() Biocpkg() Githubpkg()
+library('devtools') # for session_info()
+
+## Load knitcitations with a clean bibliography
+cleanbib()
+cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')
+
+bib <- c(
+    'BiocStyle' = citation('BiocStyle'),
+    'blogdown' = citation('blogdown')[2],
+    'devtools' = citation('devtools'),
+    'knitcitations' = citation('knitcitations')
+)
+```
+
+
+This is a joint blog post between [Stephanie Hicks](http://stephaniehicks.com) and [Leonardo Collado-Torres](http://lcolladotor.github.io/). We want to share with you our experience using Slack and why you should join us. This post is in an interview style.
+
+![](http://lcolladotor.github.io/post/2018-06-19-using-slack-for-academic-departmental-communication_files/slack-logo.png){width=400px}
+
+## What is Slack?
+
+`[SH]` Slack is a communication tool for _teams_. The main idea is you have individual chat rooms (referred to as _channels_ that always begin with the # symbol), which are organized by topics. Traditionally, if an email is sent to everyone on your team, each person must decide how tag or organize emails in their account. In contrast, Slack provides the structure and organization for all users on the team. Each user clicks on a specific topic, or channel, and all the messages related to that topic are already there, thereby reducing the organizational burden. In a slack team used by academic department, topics can be anything from announcements of #conferences, #workshops, #jobs, #seminars, #working_groups, #good_reads, #food_alerts, #payroll, and #IT_help. You can write public messages in the individual channels or send private direct messages to anyone on your team. Everything in Slack is searchable (e.g. files, conversations, people). Finally, Slack includes a lot of functionality and integration with other useful tools such as Google Drive. 
+
+![](http://lcolladotor.github.io/post/2018-06-19-using-slack-for-academic-departmental-communication_files/Screen Shot 2018-06-19 at 4.00.33 PM.png){width=600px}
+
+`[LCT]` Slack is a website that provides access to a group of message channels bundled together in what they call a workspace. These channels can have specific purposes and different sets of members. Slack also provides many integrations with other software that we commonly use, like integration with GitHub, todo lists, Google Calendar, Google Docs, etc. The idea of using Slack is to keep your communications with close colleagues organized and make them more fluid than email. You might use the _general_ channel for making broad announcements, such as an interesting talk from a guest. Then switch to a private channel with your 4 colleagues for that new secret project you are working on and discuss some ideas that would be useful to explore in more detail. And finally, switch to a one-on-one channel with your advisor and ask if you can meet for a few minutes that later today. Like many websites, Slack is also available as its own desktop and phone applications.
+
+
+## How do you use Slack?
+
+`[SH]` While I communicate with colleagues everyday on Slack, I think it’s important to distinguish between Slack and email. Both are important, I just use them for different purposes. I view communication on Slack to be for instant, real-time messaging and discussion to increase collaboration. These are usually short messages compassing a single idea. In contrast, I view email to be a slower, more deliberate medium. There is less expectation for immediate response. In both cases, you can always turn them off completely and enjoy some peace too!  
+
+![](http://lcolladotor.github.io/post/2018-06-19-using-slack-for-academic-departmental-communication_files/Screen Shot 2018-06-19 at 4.04.08 PM.png){width=600px}
+
+versus
+
+![](http://lcolladotor.github.io/post/2018-06-19-using-slack-for-academic-departmental-communication_files/Screen Shot 2018-06-19 at 4.04.18 PM.png){width=600px}
+
+`[LCT]` I’m part of multiple Slack _workplaces_ (collections of channels and users) but I mostly use one with my genomics collaborators. There, we have a channel per project, some of which can be silent for weeks/months. But that’s ok, because I can always jump back to them and revise what we were talking about. We have a channel for R questions, one for the team that I’m a part of (Andrew Jaffe’s lab), one for organizing when and where to eat lunch, another one with the recount2 team, a diversity channel, one for our computing cluster JHPCE, among others. I also frequently ask and get asked questions on one-on-one channels with Andrew’s lab members and people elsewhere from our genomics workplace. I love using Twitter for networking in academia and keeping myself updated. So I also tend to share relevant news to specific channels I’m a part of. For the project specific channels I also use the integration with GitHub to keep everything in one place and reduce the chance of git merge issues :P
+
+
+## What do you like about Slack?
+
+`[SH]` I recently transitioned from being a postdoctoral research fellow to an assistant professor. Many people warned me about the increase in the number of emails that I would receive. While that is certainly true, I would attribute Slack to being the biggest mitigator in reducing the number of emails that I have received. It reduces my email burden and increases communication between collaborators and colleagues. When an email sometimes seems too formal, Slack is *perfect* for sending out quick messages. 
+
+`[LCT]` It greatly reduces the amount of emails and email chains. Also, I like having the option of more communication with all my colleagues than would be typically allowed via email. Like no one would like an email about some interesting R package tweet or emails about lunch. Also, it was very useful this past year when I advised two students. I could get them involved in different projects, get them observe how we do some things, but also provide them a space to ask me questions during the week outside of our weekly meeting slot. Ultimately, I like to be organized and Slack helps me stay organized.
+
+
+## Any more tips?
+
+`[SH]` I have found that the more I engage and write messages in channels on a Slack team, the more I get in return. As conversations flow in a given channel on a particular topic, I may or may not have anything useful to contribute. If it’s the former, I try to pass along links, advice, knowledge or whatever is appropriate. If it’s the latter, I still gain knowledge by being able to read other people’s responses and learning how others would have approached or solved a problem. Either way it’s a win-win! 
+
+`[LCT]` Regardless of what channel you use, it’s important to keep your messages polite. Basically, following a code of conduct similar to [this one](http://research.libd.org/rstatsclub/#coc). This is not the anonymous internet, here you are interacting with your colleagues and you have to be aware of biases you might have, otherwise you might perpetrate some problems [like sexism](https://work.qz.com/1128150/your-companys-slack-is-probably-sexist/). Remember, you share the responsibility of making sure that your Slack workspace is a welcoming environment where anyone is allowed to ask questions. I also think that it’s very important to keep your boundaries clear between work and home. I highly recommend going to your _preferences_ and automatically disabling notifications outside work hours as shown below. That’s something you can’t do with Google Chat: yes, I might be available after work hours, but I want to choose whether to respond or not and I don’t want others to expect an immediate answer if they see me online.
+
+![](http://lcolladotor.github.io/post/2018-06-19-using-slack-for-academic-departmental-communication_files/Screen Shot 2018-06-18 at 9.52.35 AM.png){width=600px}
+
+
+If you want more, check [this great presentation](https://docs.google.com/presentation/d/1ji-3hLYPs3yIEu7wqyRdkGanxdON84ypuq8lyL5Yf-I/edit#slide=id.p) about Slack by Stephanie Hicks.
+
+### Acknowledgements
+
+
+This blog post was made possible thanks to:
+
+* `r CRANpkg('blogdown')` `r citep(bib[['blogdown']])`
+* `r CRANpkg('devtools')` `r citep(bib[['devtools']])`
+
+### References
+
+```{r bibliography, results = 'asis', echo = FALSE, cache = FALSE}
+## Print bibliography
+bibliography(style = 'html')
+```
+
+### Reproducibility
+
+```{r reproducibility, echo = FALSE}
+## Reproducibility info
+options(width = 120)
+session_info()
+```
