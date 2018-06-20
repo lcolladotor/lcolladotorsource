@@ -1,0 +1,133 @@
+---
+title: 'SciLifeLab Prize: you still have time to participate! '
+author: L. Collado-Torres
+date: '2018-06-20'
+slug: scilifelab-prize-you-still-have-time-to-participate
+categories:
+  - Science
+tags:
+  - Academia
+  - Genomics
+  - Science
+  - Research
+header:
+  caption: ''
+  image: ''
+  preview: yes
+bibliography: scilifelab_essay.bib
+biblio-style: scilifelab_Science.bst
+---
+
+```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
+## For R images to display well in the RSS feed (disable for local preview)
+#knitr::opts_knit$set(base.url = 'http://lcolladotor.github.io/post/')
+
+## Load frequently used packages for blog posts
+library('knitcitations') # for citations
+library('BiocStyle') # for CRANpkg() Biocpkg() Githubpkg()
+library('devtools') # for session_info()
+
+## Load knitcitations with a clean bibliography
+cleanbib()
+cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')
+
+bib <- c(
+    'BiocStyle' = citation('BiocStyle'),
+    'blogdown' = citation('blogdown')[2],
+    'devtools' = citation('devtools'),
+    'knitcitations' = citation('knitcitations'),
+    'workflow' = citation('recount')[2]
+)
+```
+
+![](http://lcolladotor.github.io/post/2018-06-20-scilifelab-prize-you-still-have-time-to-participate_files/unnamed.jpg){width=600px}
+
+I have recently been getting reminder emails from the _Science_ & SciLifeLab Prize for Young Scientists. The application deadline is July 15th, 2018!
+
+Last year I submitted an entry to this competition and I enjoyed the experience, even if it was a bit rushed. The process of joining the competition is relatively straight forward:
+
+* Write an essay about your Ph.D. thesis work.
+* Get a recommendation letter from your Ph.D. advisor.
+* Write a short Ph.D. thesis abstract section, list your affiliation, education, academic and professional awards and professional experience.
+* Include references.
+
+You don't need to pay for competing! You already did the very hard part of completing your Ph.D.!!! I also like competitions like this one that invite you to think about your thesis and how to explain it. You should note that you are only eligible to participate once in this competition.
+
+You can read about the 4 winners from 2017 at [www.sciencemag.org/prizes/SciLifeLab/2017](http://www.sciencemag.org/prizes/SciLifeLab/2017) and other years too to draw some inspiration from. I didn't win, but I'm still going to share my entry in case it's useful to others. I'm also sharing it to keep with the theme of also sharing your failures that I talked in my [mindfulness post](http://lcolladotor.github.io/2018/06/11/mindfulness/#.WyrJbBJKjUI). 
+
+I don't know exactly why my entry was not selected (you might have some ideas on how to improve it!). But I can tell you that:
+
+* I knew the deadline was coming but I wrote it the week it was due.
+* I didn't have time to ask for some more specific feedback from others.
+* I forgot that a recommendation letter was needed, so I asked at the very last minute for one by [Jeff Leek](http://jtleek.com/). I don't know what magic he did (likely skipping a few hours of sleep, sorry!!!) but he managed to send it in time. Oops!
+
+I'm not sure if I should have emphasized more the impact of my Ph.D. thesis work or what else to do. However, I do know that this exercise was useful. First, just re-reading my essay makes me smile. Also, Figure 1 shown here became a figure in the `recount-workflow` paper `r citep(bib[['workflow']])`. Furthermore, when I was notified about the [Thinkable Bioinformatics Peer Prize III](https://bioinformatics-peer-prize-iii.thinkable.org/) I didn't have to think twice about joining that competition. Finally, since I wrote it in an Rmd file, it was easy to modify for this blog post. 
+
+Like I've said, you have nothing to lose by joining this competition. Yes, you have to invest a bit of time. But it can be helpful and morale boosting! Plus, you have a chance to win it!!! Just remember that the deadline is July 15th, 2018 (and to give your advisor enough time to write their recommendation letter for you)!
+
+
+
+In case you are curious, here are my full [entry files](https://gist.github.com/lcolladotor/657aaae9d16aff3ce468f44f8780a317) (the figure is here though).
+
+
+```{r bibliography, results = 'asis', echo = FALSE, cache = FALSE}
+## Print bibliography
+bibliography(style = 'html')
+```
+
+
+Without further ado, here's my full entry:
+
+
+## Usable human gene expression data and annotation-agnostic methods
+
+In the last decade RNA sequencing (RNA-seq) has become the predominant assay for measuring gene expression. RNA-seq allows us to measure all expressed genes, improve gene and transcript annotation, and measure expressed sequences that otherwise are excluded in microarray studies. Typical RNA-seq analysis starts with a matrix containing the number of RNA-seq reads overlapping each gene for each sample [@Love2016; @Law2016a]. To compute such a matrix, you first map the raw data to the genome with aligners such as _TopHat2_ and _HISAT_ [@kim2013; @kim2015] and then use tools such as _Rsubread_ and _HTSeq_ [@rsubread; @anders2014htseq] to construct the read count matrix. After measuring enough samples, you can determine which genes are differentially expressed between two or more groups. 
+
+When I started my graduate studies with Jeff Leek, the most commonly used methods for differential expression analysis were _DESeq_ [@anders2010] and _edgeR_ [@robinson2010]. Leek and colleagues put together a set of gene count matrices in a project called _ReCount_ [@frazee2011]. _ReCount_ allowed researchers to access several datasets without having to run the whole processing pipeline. _ReCount_ then helped the development of new methods such as _DESeq2_ [@love2014]. It was also Leek and colleagues that decided to look at RNA-seq data in a manner less dependent on potentially incomplete gene annotation. With the increase in size of RNA-seq projects, they thought it would be feasible to assess the differential expression signal at base pair resolution in an approach called differentially expressed regions (DER) finder [@frazee2014]. 
+
+It was around then that I started to work with Andrew Jaffe, who had RNA-seq data from the human brain. Jaffe and colleagues hypothesized that the gene annotation for the human brain might be incomplete and were interested in applying the DER finder approach to their data. With them, I modified the DER finder approach to make it computationally feasible to analyze these human brain samples at base resolution [@jaffe2015]. We indeed found that the human brain transcriptome was not fully annotated and identified intronic DERs that were present in other brain datasets, including from mouse, and showed these regions were enriched for genetic risk for brain disorders. Further computational improvements to the DER finder approach yielded the _derfinder_ [@collado-torres-derfinder] Bioconductor [@huber2015] package, reducing computing time from days to hours.
+
+While I was working on _derfinder_, Abhinav Nellore was developing _Rail-RNA_ [@rail-rna] with the goal of aligning large RNA-seq datasets. We determined that we only needed coverage data instead of alignments to use _derfinder_ and to perform gene level analyses. Coverage data files are much smaller than alignment files, which meant that we could greatly reduce our storage costs when using _Rail-RNA_ and allowed us to think as big as possible. Initially we looked at 21,504 human RNA-seq samples and explored the landscape of exon-exon junctions [@nellore2016human]. The reads spanning exon-exon junctions provided by _Rail-RNA_ can be used for a second type of annotation-agnostic analysis as these reads provide information about exon skipping, alternative donor/acceptor sites and novel events. With a fairly conservative filter we determined that 18.6\% of exon-exon junctions were missing in the annotation [@nellore2016human]. This observation along with the fact that exon-exon junctions can be used to determine differential transcript usage gave strength to this second annotation-agnostic RNA-seq analysis method.
+
+Researchers around the world have shared their raw data via the Sequence Read Archive or via large consortiums such as the Genotype-Tissue Expression study (GTEx) and the Cancer Genome Atlas (TCGA). However, it still is complicated to align and compute count matrices for these datasets. We thought that if the public data was uniformly processed that we could make this large body of human expression data more reusable. We were well positioned to carry out this project and just needed resources. Luckily, Jeff Leek, Ben Langmead and others got together and funded the implementation of _Rail-RNA_ to analyze all the human public RNA-seq data available at the time, over 70,000 samples.
+
+<div class="figure" style="text-align: center"><span id="fig:figure1"></span>
+<img src="http://lcolladotor.github.io/post/2018-06-20-scilifelab-prize-you-still-have-time-to-participate_files/figure1.png" alt="Overview of the data available in recount2. Reads aligned to the reference genome can be used to compute a base pair coverage curve, identify exon-exon junctions and compute gene and exon count matrices. The reads spanning exon-exon junctions (jx) are used to compute a third count matrix that includes un-annotated junctions (jx 3 and 4). Annotation-agnostic expressed regions can be determined from the coverage data." width="100%" />
+<p class="caption">
+Figure 1: Overview of the data available in recount2. Reads aligned to the reference genome can be used to compute a base pair coverage curve, identify exon-exon junctions and compute gene and exon count matrices. The reads spanning exon-exon junctions (jx) are used to compute a third count matrix that includes un-annotated junctions (jx 3 and 4). Annotation-agnostic expressed regions can be determined from the coverage data.
+</p>
+</div>
+
+We computed gene count matrices for these 70,000 samples and made them available as the _recount2_ resource that can be accessed at [jhubiostatistics.shinyapps.io/recount/](https://jhubiostatistics.shinyapps.io/recount/) as well as through the _recount_ [@collado-torres-recount2] Bioconductor package, thus representing a major improvement over _ReCount_. To take advantage of the data as much as possible, we also released exon and exon-exon junction count matrices as well as the coverage data files required for the DER finder approach, thus enabling both annotation-agnostic methods we developed that complement traditional methods. Figure \ref{fig:figure1}1 illustrates the type of information that is available via _recount2_. 
+
+My colleagues and I believe that _recount2_ will fuel the development of new analytical methods and greatly increase the usability of the public human gene expression data researchers have collected over the years. In the meantime, we are working hard on improving the data in _recount2_ [@ellis2017; @wilks2017] and exploring how to leverage results from different RNA-seq analytical approaches [@jaffe2017].
+
+## Ph.D. thesis abstract
+
+Leonardo Collado-Torres' thesis work is centered around the development of R software packages for analyzing RNA sequencing (RNA-seq) and ChIP sequencing (ChIP-seq) high throughput genomic data. The first chapter describes the _derfinder_ Bioconductor package which implements the DER Finder approach for identifying differentially expressed regions with RNA-seq data in an annotation-agnostic manner. The second chapter shows how _derfinder_ can be applied to ChIP-seq data to identify differentially bounded regions. The third chapter describes the _regionReport_ Bioconductor package for producing HTML or PDF reports from region-based genomic analyses, such as the _derfinder_ analyses described in the previous chapters. The last thesis project Leonardo Collado-Torres carried out was the development of the _recount2_ resource and accompanying _recount_ Bioconductor package using the _Rail-RNA_ results from processing all the public human RNA-seq data at the time, which spans over 70,000 samples.
+
+## Affiliation
+
+Lieber Institute for Brain Development, Johns Hopkins Medical Campus, Baltimore, Maryland, 21205, USA.
+
+## Education
+
+* 2011-2016. Ph.D. in Biostatistics at Johns Hopkins Bloomberg School of Public Health, Baltimore, US. Advised by Jeff Leek and Andrew Jaffe.
+* 2005-2009. Bachelor in Genomic Sciences (LCG) at the National Autonomous University of Mexico (UNAM), Cuernavaca, MX. 
+* 2002-2005. High school at ITESM Campus Cuernavaca, Cuernavaca, MX.
+
+## Academic and professional awards
+
+* 2011: Awarded CONACyT Mexico scholarship for PhD studies outside Mexico.
+* 2009: _Summa Cum Laude_ for bachelor in Genomic Sciences studies at LCG-UNAM.
+* 2005: Best high school average ($\sim$ 200 students): awarded ITESM system 90\% scholarship for college studies, declined to join LCG-UNAM.
+
+## Professional experience
+
+* 2016-current. Data Scientist with Andrew Jaffe lab at LIBD, Baltimore. At LIBD, Dr. Collado-Torres is part of the Data Science team which goals include better understanding and characterizing genomics signatures in the human brain, including DNA methylation and gene expression. Leonardo helps mentor other team members, provides support for LIBD projects and is advancing his academic career as part of Andrew Jaffe's lab.
+* 2009-2011. Bioinformatician with Enrique Morett lab at IBT-UNAM, Cuernavaca, MX. Identified transcriptions start sites and transcription units in _Escherichia coli_ and _Geobacter sulfurreducens_ with RNA-seq data. Developed the _BacterialTranscription_ R package.
+* 2009-2011. Scientific executive at Winter Genomics in Cuernavaca, MX. Responsible for recruiting and hiring new personnel, overseeing and supervising bioinformaticians, training new employees, writing research reports and presenting them to colleagues, and organizing all scientific projects.
+* 2007-2009. Undergraduate research assistant at Guillermo Davila's lab at CCG-UNAM, Cuernavaca, MX. Determined bacteriophage ecological groups by developing a method based on codon distribution of all phage sequenced genomes. Joint work with Sur Herrera Paredes.
+* 2006-2007. Undergraduate research assistant at Roberto Kolter's lab at Harvard, Boston, US. Supervisor: Elizabeth Shank. Carried out screenings to identify bacteria that activate the production of exopolysaccharide through the activation of the gene tasA in _Bacillus subtilis_.
+
+## References
