@@ -42,7 +42,7 @@ bib <- c(
 
 ![](http://lcolladotor.github.io/post/2018-06-20-scilifelab-prize-you-still-have-time-to-participate_files/unnamed.jpg){width=600px}
 
-I have recently been getting reminder emails from the _Science_ & SciLifeLab Prize for Young Scientists. The application deadline is July 15th, 2018!
+I have recently been getting reminder emails from the [_Science_ & SciLifeLab Prize for Young Scientists](http://www.sciencemag.org/science-scilifelab-prize-young-scientists). The application deadline is July 15th, 2018!
 
 Last year I submitted an entry to this competition and I enjoyed the experience, even if it was a bit rushed. The process of joining the competition is relatively straight forward:
 
