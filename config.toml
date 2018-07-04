@@ -60,14 +60,14 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Leonardo Collado Torres"
-  role = "Data Scientist"
+  role = "Staff Scientist"
 
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
   organizations = [ { name="Lieber Institute for Brain Development", url="https://www.libd.org/"} ]
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg" # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "portrait2.png" # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "leo.collado@libd.org"
   address = "855 N. Wolfe Street, Suite 300, Baltimore MD 21205, United States"
   office_hours = ""
