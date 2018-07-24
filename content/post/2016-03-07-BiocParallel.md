@@ -266,9 +266,8 @@ If you are convinced about using `BiocParallel`, which I hope you are by now, ch
 
 
 ```r
-## try http:// if https:// URLs are not supported
-source("https://bioconductor.org/biocLite.R")
-biocLite("BiocParallel")
+install.packages("BiocManager")
+BiocManager::install("BiocParallel")
 ```
 
 
