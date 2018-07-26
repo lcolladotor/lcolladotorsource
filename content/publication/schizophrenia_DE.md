@@ -1,23 +1,23 @@
 +++
-abstract = "GWAS have identified over 108 loci that confer risk for schizophrenia, but risk mechanisms for individual loci are largely unknown. Using developmental, genetic, and illness-based RNA sequencing expression analysis, we characterized the human brain transcriptome around these loci and found enrichment for developmentally regulated genes with novel examples of shifting isoform usage across pre- and post-natal life. Within patients and controls, we implemented a novel algorithm for RNA quality adjustment, and identified 237 genes significantly associated with diagnosis that replicated in an independent case-control dataset. These genes implicated synaptic processes and were strongly regulated in early development (p < 10-20). Lastly, we found 42.5% of risk variants associate with nearby genes and diverse transcript features that converge on developmental regulation and subsequent dysregulation in illness and 34 loci show convergent directionality with illness association implicating specific causative transcripts. These data offer new targets for modeling schizophrenia risk in cellular systems."
-publication_short = "bioRxiv"
+abstract = "Genome-wide association studies have identified 108 schizophrenia risk loci, but biological mechanisms for individual loci are largely unknown. Using developmental, genetic and illness-based RNA sequencing expression analysis in human brain, we characterized the human brain transcriptome around these loci and found enrichment for developmentally regulated genes with novel examples of shifting isoform usage across pre- and postnatal life. We found widespread expression quantitative trait loci (eQTLs), including many with transcript specificity and previously unannotated sequence that were independently replicated. We leveraged this general eQTL database to show that 48.1% of risk variants for schizophrenia associate with nearby expression. We lastly found 237 genes significantly differentially expressed between patients and controls, which replicated in an independent dataset, implicated synaptic processes, and were strongly regulated in early development. These findings together offer genetics- and diagnosis-related targets for better modeling of schizophrenia risk. This resource is publicly available at http://eqtl.brainseq.org/phase1."
+publication_short = "Nat. Neurosci."
 abstract_short = "Using developmental, genetic, and illness-based RNA sequencing expression analysis, we characterized the human brain transcriptome around 108 loci that confer risk for schizophrenia and found enrichment for developmentally regulated genes with novel examples of shifting isoform usage across pre- and post-natal life."
-url_project = ""
+url_project = "http://eqtl.brainseq.org/phase1/"
 image = ""
-url_pdf = "http://biorxiv.org/content/biorxiv/early/2017/04/05/124321.full.pdf"
+url_pdf = "https://www.nature.com/articles/s41593-018-0197-y.pdf"
 url_dataset = ""
 highlight = true
 url_video = ""
-date = "2017-04-06T16:45:43-05:00"
-title = "Developmental and genetic regulation of the human cortex transcriptome in schizophrenia"
-publication_types = ["1"]
+date = "2018-07-26"
+title = "Developmental and genetic regulation of the human cortex transcriptome illuminate schizophrenia pathogenesis"
+publication_types = ["0"]
 image_preview = ""
 math = true
-selected = false
-authors = ["Jaffe AE", "Straub R", "Shin JH", "Tao R", "Gao Y", "__Collado-Torres L__", "Kam-Thong T", "Xi HS", "Quan J", "Chen Q", "Colantuoni C", "Ulrich B", "Maher BJ", "Deep-Soboslay A", "The BrainSeq Consortium", "Cross A", "Brandon NJ", "Leek JT", "Hyde TM", "Kleinman JE", "Weinberger DR"]
+selected = true
+authors = ["Jaffe AE", "Straub R", "Shin JH", "Tao R", "Gao Y", "__Collado-Torres L__", "Kam-Thong T", "Xi HS", "Quan J", "Chen Q", "Colantuoni C", "Ulrich WS", "Maher BJ", "Deep-Soboslay A", "The BrainSeq Consortium", "Cross AJ", "Brandon NJ", "Leek JT", "Hyde TM", "Kleinman JE", "Weinberger DR"]
 url_code = ""
 url_slides = ""
-publication = "bioRxiv 124321"
+publication = "Nature Neuroscience"
 
 [[url_custom]]
     name = "Pre-print"
