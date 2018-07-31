@@ -1,8 +1,8 @@
 ---
-title: Harrassment, diversity in science and inspiraton from my grandmother
+title: Harassment, diversity in science and inspiration from my grandmother
 author: L. Collado-Torres
 date: '2018-07-30'
-slug: harrassment-diversity-in-science-and-inspiraton-from-my-grandmother
+slug: harassment-diversity-in-science-and-inspiration-from-my-grandmother
 categories:
   - Science
 tags:
@@ -36,20 +36,13 @@ bib <- c(
 )
 ```
 
-Today was a big day for [WomenInSTEM](https://twitter.com/search?q=womeninstem) and in particular in the field of Statistics. Why? Today the Joint Statistical Meetings ([JSM2018](https://twitter.com/search?q=jsm2018)) held a session on "Addressing Sexual Misconduct in Statistics" that was organized by [Stephanie Hicks](https://twitter.com/stephaniehicks) and chaired by [Keegan Korthauer](https://twitter.com/keegankorthauer).
 
-`r blogdown::shortcode("tweet", "1004467110918213637")`
-
-The session is not a direct response (I think) but it's definitely related to [Kristen Lum](https://twitter.com/KLdivergence)'s blog post titled [Statistics, we have a problem](https://medium.com/@kristianlum/statistics-we-have-a-problem-304638dc5de5) and to the more general [MeToo](https://twitter.com/search?q=metoo) movement. 
-
-I couldn't be there, but I wasn't the only one excited following what has happening online thanks to tweets from many including [Mandy Mejia](https://twitter.com/mandyfmejia) and [Michael Hoffman](https://twitter.com/michaelhoffman).
-
-`r blogdown::shortcode("tweet", "1024042337033285632")`
+Today was a big day. I care about many things including diversity in science (STEM) and building a community of R users and developers in Mexico. Both moved forward in two completely separate conferences: one in Mexico: [CDSBMexico](https://twitter.com/search?q=jsm2018); and one in Canada: [JSM2018](https://twitter.com/search?q=jsm2018).
 
 
 ### CDSBMexico
 
-While this was happening, this was a very important day for me. It was the beginning of the [Latin American R/BioConductor Developers Workshop 2018](http://www.comunidadbioinfo.org/r-bioconductor-developers-workshop-2018/) in Cuernavaca, Mexico. I already wrote a blog post about [why I was super excited about CDSBMexico](http://lcolladotor.github.io/2018/04/19/latin-american-r-bioconductor-developers-workshop-2018/#.W1-lhNhKi50), but briefly it's because this is something we've been wanting to see become a reality for years and have been working towards it. 
+This was a very important day for me. It was the beginning of the [Latin American R/BioConductor Developers Workshop 2018](http://www.comunidadbioinfo.org/r-bioconductor-developers-workshop-2018/) in Cuernavaca, Mexico. I already wrote a blog post about [why I was super excited about CDSBMexico](http://lcolladotor.github.io/2018/04/19/latin-american-r-bioconductor-developers-workshop-2018/#.W1-lhNhKi50), but briefly it's because this is something we've been wanting to see become a reality for years and have been working towards it. 
 
 `r blogdown::shortcode("tweet", "1023665229882961922")`
 
@@ -78,6 +71,25 @@ In my dream there was a moment where I was sitting next to her (me in my current
 `r blogdown::shortcode("tweet", "1023953817187090435")`
 
 
+### WomenInStem
+
+Today was a big day for [WomenInSTEM](https://twitter.com/search?q=womeninstem) and in particular in the field of Statistics. Why? Today the Joint Statistical Meetings ([JSM2018](https://twitter.com/search?q=jsm2018)) held a session on "Addressing Sexual Misconduct in Statistics" that was organized by [Stephanie Hicks](https://twitter.com/stephaniehicks) and chaired by [Keegan Korthauer](https://twitter.com/keegankorthauer).
+
+`r blogdown::shortcode("tweet", "1004467110918213637")`
+
+The session is not a direct response (I think) but it's definitely related to [Kristen Lum](https://twitter.com/KLdivergence)'s blog post titled [Statistics, we have a problem](https://medium.com/@kristianlum/statistics-we-have-a-problem-304638dc5de5) and to the more general [MeToo](https://twitter.com/search?q=metoo) movement. 
+
+Sexual harassment and misconduct not a US problem only. We have a code of conduct at [CDSBMexico](https://twitter.com/CDSBMexico) both in [English](https://github.com/ComunidadBioInfo/R-BioConductor-Developers-Workshop-2018/blob/master/R-Bioconductor-2018_Program.rmd#code-of-conduct) and [Spanish](http://www.comunidadbioinfo.org/codigo-de-conducta/) to help prevent any issues.
+
+
+`r blogdown::shortcode("tweet", "1024060403138142209")`
+
+
+I couldn't be there, but I wasn't the only one excited following what has happening online thanks to tweets from many including [Mandy Mejia](https://twitter.com/mandyfmejia) and [Michael Hoffman](https://twitter.com/michaelhoffman).
+
+`r blogdown::shortcode("tweet", "1024042337033285632")`
+
+
 ### Times are changing
 
 I do think that slowly, maybe sometimes quickly, the times are changing. I've been telling friends and family for a few years now that I've come to realize that we need to keep trying to improve, to stay updated, to do what's best and maybe sometimes come up with new ideas to improve things. I do care quite a bit for [WomenInSTEM](https://twitter.com/search?q=womeninstem) but for me, it's larger than that. It's about diversity. I don't know in how many different ways we can label each other and it's not the point. So yes, gender diversity is a good thing and initiatives like this seem like a good thing to do:
@@ -96,12 +108,6 @@ I do acknowledge that I struggle in my head with what is ok and not ok to do. I'
 I also know that sometimes I've been a bystander and failed to take action. So this next idea sounds good to me. I do try to intervene more now, specially with micro aggressions: because they are less high pressure situations and easier to do something about, at least that's how I feel.
 
 `r blogdown::shortcode("tweet", "1024063008987787264")`
-
-
-In any case, it's not a US problem only. We have a code of conduct at [CDSBMexico](https://twitter.com/CDSBMexico) both in [English](https://github.com/ComunidadBioInfo/R-BioConductor-Developers-Workshop-2018/blob/master/R-Bioconductor-2018_Program.rmd#code-of-conduct) and [Spanish](http://www.comunidadbioinfo.org/codigo-de-conducta/) to help prevent any issues.
-
-
-`r blogdown::shortcode("tweet", "1024060403138142209")`
 
 
 To close my post, I encourage you to check their request for feedback!
