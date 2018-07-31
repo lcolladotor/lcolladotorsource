@@ -77,7 +77,7 @@ Today was a big day for [WomenInSTEM](https://twitter.com/search?q=womeninstem) 
 
 `r blogdown::shortcode("tweet", "1004467110918213637")`
 
-The session is not a direct response (I think) but it's definitely related to [Kristen Lum](https://twitter.com/KLdivergence)'s blog post titled [Statistics, we have a problem](https://medium.com/@kristianlum/statistics-we-have-a-problem-304638dc5de5) and to the more general [MeToo](https://twitter.com/search?q=metoo) movement. 
+The session is not a direct response (I think) but it's definitely related to [Kristian Lum](https://twitter.com/KLdivergence)'s blog post titled [Statistics, we have a problem](https://medium.com/@kristianlum/statistics-we-have-a-problem-304638dc5de5) and to the more general [MeToo](https://twitter.com/search?q=metoo) movement. 
 
 Sexual harassment and misconduct not a US problem only. We have a code of conduct at [CDSBMexico](https://twitter.com/CDSBMexico) both in [English](https://github.com/ComunidadBioInfo/R-BioConductor-Developers-Workshop-2018/blob/master/R-Bioconductor-2018_Program.rmd#code-of-conduct) and [Spanish](http://www.comunidadbioinfo.org/codigo-de-conducta/) to help prevent any issues.
 
