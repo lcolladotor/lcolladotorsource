@@ -14,7 +14,9 @@ weight = 1
   interests = [
     "Genomics",
     "R programming",
-    "Biostatistics"
+    "Biostatistics",
+    "Teaching",
+    "Diversity"
   ]
 
 # List your qualifications (such as academic degrees).
