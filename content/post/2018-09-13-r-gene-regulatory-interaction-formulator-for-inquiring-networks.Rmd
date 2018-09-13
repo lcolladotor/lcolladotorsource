@@ -1,0 +1,146 @@
+---
+title: R Gene Regulatory Interaction Formulator For Inquiring Networks
+author: rGriffin team
+date: '2018-09-13'
+slug: r-gene-regulatory-interaction-formulator-for-inquiring-networks
+categories:
+  - rstats
+  - UNAM
+tags:
+  - rstats
+  - Bioconductor
+  - CDSB
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
+## For R images to display well in the RSS feed (disable for local preview)
+knitr::opts_knit$set(base.url = 'http://lcolladotor.github.io/post/')
+
+## Load frequently used packages for blog posts
+library('knitcitations') # for citations
+library('BiocStyle') # for CRANpkg() Biocpkg() Githubpkg()
+library('devtools') # for session_info()
+
+## Load knitcitations with a clean bibliography
+cleanbib()
+cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')
+
+bib <- c(
+    'BiocStyle' = citation('BiocStyle'),
+    'blogdown' = citation('blogdown')[2],
+    'devtools' = citation('devtools'),
+    'knitcitations' = citation('knitcitations'),
+    'rGriffin' = citation('rGriffin')
+)
+```
+
+
+_This blog post was written by [ME Martinez-Sanchez](https://github.com/mar-esther23/), [S Muñoz](https://www.researchgate.net/profile/Stalin_Munoz), [M Carrillo](http://www.fciencias.unam.mx/directorio/33021), [E Azpeitia](https://www.researchgate.net/profile/Eugenio_Azpeitia), [D Rosenblueth](turing.iimas.unam.mx/~drosenbl/) and originally posted at the [CDSB blog](http://www.comunidadbioinfo.org/r-gene-regulatory-interaction-formulator-for-inquiring-networks/).^[I'm re-posting their blog post here with their permission so that their post will be shared more widely via [R-Bloggers](https://www.r-bloggers.com/) and [R Weekly](https://rweekly.org/) among other sites since the CDSB blog is currently not linked to those aggregators. The original blog post has been edited so that it evaluates the R code and includes all the information needed for reproducibility.]_ 
+
+
+
+In this blog post we will describe the package `r Githubpkg('mar-esther23/rGriffin')` `r citep(bib[['rGriffin']])` that was one of the projects developed during the [TIB2018-BCDW](http://congresos.nnb.unam.mx/TIB2018/r-bioconductor-developers-workshop-2018/). We hope to continue developing [`Griffin`](http://turing.iimas.unam.mx/griffin/) and `r Githubpkg('mar-esther23/rGriffin')` `r citep(bib[['rGriffin']])`. If you have ideas, suggestions or bugs, please contact us via [rGriffin GitHub repo](https://github.com/mar-esther23/rGriffin).
+
+![](http://lcolladotor.github.io/post/2018-09-13-r-gene-regulatory-interaction-formulator-for-inquiring-networks_files/header.jpg){width=800px}
+
+### The problem
+
+Boolean networks allow us to give a mechanistic explanation to how cell types emerge from regulatory networks. However, inferring the regulatory network and its functions is complex problem, as the available information is often incomplete. `r Githubpkg('mar-esther23/rGriffin')` `r citep(bib[['rGriffin']])` uses available biological information (regulatory interactions, cell types, mutants) codified as a set of restrictions and returns the [Boolean Networks](https://en.wikipedia.org/wiki/Boolean_network) that satisfy that restrictions. This Boolean networks can then be used to study the biological system.
+
+The `r Githubpkg('mar-esther23/rGriffin')` `r citep(bib[['rGriffin']])` package is an R connector to [`Griffin`](http://turing.iimas.unam.mx/griffin/) (Gene Regulatory Interaction Formulator For Inquiring Networks), a java library for inference and analysis of Boolean Network models. [`Griffin`](http://turing.iimas.unam.mx/griffin/) takes as inputs biologically meaningful constraints and turns them into a symbolic representation. Using a SAT engine, [`Griffin`](http://turing.iimas.unam.mx/griffin/) explores the Boolean Network search space, finding all satisfying assignments that are compatible with the specified constraints. The `r Githubpkg('mar-esther23/rGriffin')` `r citep(bib[['rGriffin']])` package includes a number of functions to interact with the BoolNet package.
+
+
+### A small example
+
+Let us suppose a cell, we know that this cell has three proteins called __a__, __b__ and __c__. We know that **a** activates **b** and that **b** and **c** inhibit each other.  We also suspect that **b** and **c** __may__ have positive self-regulatory loops. We can add this interactions to the table as “OPU” (optional, positive, unambiguous). This dataframe is the topology of the network.
+
+Source | Target | Interaction
+---|---|---
+a | b | +
+b | c | -
+c | b | -
+b | b | OPU
+c | c | OPU
+
+Suppose we also have some information of what cell types have been observed. For example, there is a cell type that expresses __b__, but not __a__ or __c__ and an other cell type that expresses __c__, but not __a__ or __b__. There might exist a third cell type that has not been fully characterized where we know that the cell expresses no __a__ or __c__ but we have NO information on __b__. This dataframe is the attractors of the network.
+
+a | b | c
+---|---|---
+0 | 1 | 0
+0 | 0 | 1
+0 | * | 0
+
+We can then use this information to create a query. `r Githubpkg('mar-esther23/rGriffin')` `r citep(bib[['rGriffin']])` can include other types of information like transition between cell type, cycles, transitions between cell types or mutant cell types.
+
+```{r}
+## Install using:
+# devtools::install_github('mar-esther23/rgriffin')
+## Note that the package depends on rJava
+
+library('rGriffin')
+genes = c('a','b','c')
+inter = data.frame(source=c('a','b','c', 'b','c'), 
+                  target=c('b', 'c', 'b', 'b', 'c'), 
+                  type=c('+','-','-','OPU','OPU'),
+                    stringsAsFactors = F )
+q = create.gquery.graph(inter, genes)
+attr = data.frame(a=c(0,'*',0), 
+                 b=c(0,1,0), 
+                 c=c(0,0,1),
+                 stringsAsFactors = F )
+q = add.gquery.attractors(q, attr)
+```
+
+Then we can use `Griffin` to find the networks that behave according with our biological information. 
+
+```{r}
+nets = run.gquery(q)
+nets
+```
+
+There are multiple options to integrate `BoolNet` and `r Githubpkg('mar-esther23/rGriffin')` `r citep(bib[['rGriffin']])`. The function `get.net.topology()` can obtain the topology with interaction signs of a BoolNet network. The function `attractor2dataframe()` can be used to export a BoolNet attractor as a dataframe that `r Githubpkg('mar-esther23/rGriffin')` `r citep(bib[['rGriffin']])` can use. The function `run.gquery()` includes the option `return=’BoolNet’`, that return the inferred networks as `BoolNet` networks.
+
+
+
+### History
+
+The development of [`Griffin`](http://turing.iimas.unam.mx/griffin/) began in 2013 as a PAPIIT (Programa de Apoyo a Proyectos de Investigación e Innovación Tecnológica) project to solve the inference of Boolean Network models for the __Arabidopsis thaliana__ root stem cell niche.  It continued in 2015 with support of Conacyt grant 221341.
+
+In January, 2017 we organized a course in [C3-UNAM](https://www.c3.unam.mx) to teach biologist how to use [`Griffin`](http://turing.iimas.unam.mx/griffin/). We received two main comments: the input format was too complicated and it was uncomfortable to use the output with other packages. After some consideration we decided to create an `R` wrapper that could export and import `BoolNet` networks. We selected `BoolNet` as it has an good documentation and the package `BoolFilter` had been designed to work with it.
+
+The development of `r Githubpkg('mar-esther23/rGriffin')` `r citep(bib[['rGriffin']])` began during the [EOBM 2017](http://fejer.ucol.mx/biomate/) in [CUIB](https://portal.ucol.mx/cuib/). For the following year we continued developing `r Githubpkg('mar-esther23/rGriffin')` `r citep(bib[['rGriffin']])` as our schedules allowed. There were multiple challenges during the development: defining user-friendly inputs, using `Rjava`, and structuring the package. In August 2018, we attended the [TIB2018-BCDW](http://congresos.nnb.unam.mx/TIB2018/r-bioconductor-developers-workshop-2018/) where we received valuable guidance from Martin Morgan and Benilton S Carvalho. It was during this workshop that the first version of `r Githubpkg('mar-esther23/rGriffin')` `r citep(bib[['rGriffin']])` was finished.
+
+
+
+
+### Acknowledgements
+
+Here you can find the tweet about the original blog post:
+
+`r blogdown::shortcode("tweet", "1031904001833414659")`
+
+This blog post was made possible thanks to:
+
+* `r CRANpkg('blogdown')` `r citep(bib[['blogdown']])`
+* `r CRANpkg('devtools')` `r citep(bib[['devtools']])`
+* `r CRANpkg('knitcitations')` `r citep(bib[['knitcitations']])`
+* `r Githubpkg('mar-esther23/rGriffin')` `r citep(bib[['rGriffin']])`
+
+### References
+
+```{r bibliography, results = 'asis', echo = FALSE, cache = FALSE}
+## Print bibliography
+bibliography(style = 'html')
+```
+
+### Reproducibility
+
+```{r reproducibility, echo = FALSE}
+## Reproducibility info
+options(width = 120)
+session_info()
+```
