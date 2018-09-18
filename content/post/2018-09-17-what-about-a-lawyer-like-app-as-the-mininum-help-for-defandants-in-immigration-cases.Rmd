@@ -1,5 +1,5 @@
 ---
-title: What about a lawyer-like app as the mininum help for defandants in immigration
+title: What about a lawyer-like app as the mininum help for defendants in immigration
   cases?
 author: L. Collado-Torres
 date: '2018-09-17'
@@ -41,15 +41,16 @@ bib <- c(
 Today I attended the special panel discussion event at JHSPH called ["Separated: Children Separation at the Border A Health and Human Rights Perspective"](http://hopkinshumanitarianhealth.org/news-events/events/separated-child-separation-at-the-border-a-health-and-human-rights-perspect). It got my mind racing and here's an idea. It's likely (definitely) incomplete, but maybe it'll get others to think on related ideas.
 
 ![](http://lcolladotor.github.io/post/2018-09-17-what-about-a-lawyer-like-app-as-the-mininum-help-for-defandants-in-immigration-cases_files/ChildSepBorder.jpg){width=500px}
+[Image source](http://hopkinshumanitarianhealth.org/news-events/events/separated-child-separation-at-the-border-a-health-and-human-rights-perspect)
 
 ### Panel summary
 
 The panel was composed by:
 
-* Colleen Kraft, President, American Academy of Pediatrics
-* Eric Schwartz, President, Refugee International 
-* George Escobar, Chief of Program and Services, CASA da Maryland
-* Paul Spiegel, Director, Center for Humanitarian Health
+* [Colleen Kraft](https://twitter.com/ColleenKraft), President, American Academy of Pediatrics
+* [Eric Schwartz](https://twitter.com/EricSchwartzRI), President, Refugee International 
+* George Escobar, Chief of Program and Services, [CASA de Maryland](https://wearecasa.org/who-we-are/)
+* [Paul Spiegel](https://twitter.com/pbspiegel), Director, Center for Humanitarian Health
 
 I missed the first 30 minutes or so but I still got to listen to most of it. The panel members presented many facts and here are some that will be relevant to the idea I have:
 
@@ -134,9 +135,14 @@ I think that you could try to get support for this automatic immigration lawyer 
 
 This idea has potentially many flaws because like any system, people on both sides will try to game it. This is where having a large set of transcripts would be useful as well as continuous updates to the algorithm such that gaming the system actually becomes hard.
 
+As you can see, this is just an idea, or a collection of them around one theme. It would need serious work to implement. 
 
 
 ### Acknowledgements
+
+Do you want to listen to the whole panel discussion? From this tweet it looks like the recording will be available online:
+
+`r blogdown::shortcode("tweet", "1041732455865171972")`
 
 
 This blog post was made possible thanks to:
