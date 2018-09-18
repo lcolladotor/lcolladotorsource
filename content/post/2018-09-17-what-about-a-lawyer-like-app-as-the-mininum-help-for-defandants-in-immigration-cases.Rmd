@@ -1,5 +1,5 @@
 ---
-title: What about a lawyer-like app as the mininum help for defendants in immigration
+title: What about a lawyer-like app as the minimum help for defendants in immigration
   cases?
 author: L. Collado-Torres
 date: '2018-09-17'
