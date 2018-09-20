@@ -56,7 +56,7 @@ The article starts by framing Dr. Mahoney-Steel’s story around the fact that s
 
 > the reaction of several friends and colleagues was uncannily the same: “I thought this only happened to Mexicans.”
 
-There was no need at all to grab attention to Dr. Mahoney-Steel’s story by mentioning Mexicans or any other Spanish-speaking immigrants. Dan Rodricks is trying to get the reader to think that _Mexicans are illegal immigrants_ (which many politicians have said), and thus that _they aren't welcome_, and then _ohh, others aren't welcome either_. 
+There was no need at all to grab attention to Dr. Mahoney-Steel’s story by mentioning Mexicans or any other Spanish-speaking immigrants. Dan Rodricks is trying to get the reader to think that _Mexicans are illegal immigrants_ (which many politicians have said), and thus that _they aren't welcome_, and then _ohh, others aren't welcome either_. Another interpretation of this quote is that _Mexicans are uneducated_, which would be equally offending.
 
 While I'm glad that the title has been changed at the Baltimore Sun's website, the first paragraph and last paragraph of the story still mention this quote that is attributed to friends and colleagues of Dr. Mahoney-Steel. They might have said this, but Dan Rodricks could have simply ignored their quote and framed his story along the lines of the updated title: a library specialist that is suffering because of the current immigration policies.
 
@@ -86,7 +86,9 @@ Many of the Mexicans I shared the article with are not US citizens^[You can be a
 * Requirements for the visa you want to get: timeline, documents that you have, documents that you need to get, etc.
 * Communicating with all parties involved.
 
-With this information at hand you can make plans. [OIS](http://ois.jhu.edu/) is also pretty helpful, in my experience, as they provide seminars where they explain a lot of this information and you can also request to meet with one of their specialists. OIS also sends reminders that prompt you to get moving: get your documents ready and send them on time. Additionally, I have learned myself that if something says that it can take between 60 and 90 days, that I should think that it'll take 90 days and be happy if it takes less than that. This doesn't mean that our plans are the best or that they always work out. It just means that we try to be prepared.
+With this information at hand you can make plans. [OIS](http://ois.jhu.edu/) is also pretty helpful, in my experience, as they provide seminars where they explain a lot of this information and you can also request to meet with one of their specialists. OIS also sends reminders that prompt you to get moving: get your documents ready and send them on time. Having defended OIS based on my experience I also have to say that I've heard them make costly mistakes that affected friends of mine. Ultimately, the immigrant is responsible for their own application and has to double check everything others make.
+
+Additionally, I have learned myself that if something says that it can take between 60 and 90 days, that I should think that it'll take 90 days and be happy if it takes less than that. This doesn't mean that our plans are the best or that they always work out. It just means that we try to be prepared.
 
 Having said all that, as portrayed, I'm surprised by Dr. Mahoney-Steel because:
 
@@ -95,17 +97,27 @@ Having said all that, as portrayed, I'm surprised by Dr. Mahoney-Steel because:
 
 It does seem like Hopkins realized that they made a mistake (as portrayed in the article) because they covered her flight back to England.
 
-I'm sorry to say this, but it ultimately looks to me that Dr. Mahoney-Steel felt entitled and never expected to face immigration problems. Though again, that's the current lens I have, that is, Dan Rodricks' article and the infamous quote from her friends and colleagues.
+I'm sorry to say this, but it ultimately looks to me that Dr. Mahoney-Steel felt entitled and never expected to face immigration problems. Though again, that's the current lens I have, that is, Dan Rodricks' article and the infamous quote from her friends and colleagues. That's why it would be useful to hear more from Dr. Mahoney-Steel.
 
 ### Closing remarks
 
 I hope that Dan Rodricks and/or the Baltimore Sun edits his article to remove any mentions about Mexicans, which as they stand currently are all negative and ultimately offensive.
 
-I also hope that we get some clarification from Johns Hopkins University Office of International Services. Depending on what happened, they might need to apologize to Dr. Mahoney-Steel. 
+I also hope that we get some clarification from Johns Hopkins University Office of International Services. Depending on what happened, they might have to apologize to Dr. Mahoney-Steel. 
 
-If you are an immigrant in the US, I encourage you to plan ahead as much as you can anything related to visa paperwork. The current administration will make it as hard as they can to legally immigrate to the US, read for example this article: ["Authorities Can Now Deny Visa and Green Card Applications Without Giving Applicants a Chance to Fix Errors"](https://www.propublica.org/article/authorities-can-now-deny-visa-and-green-card-applications-without-giving-applicants-a-chance-to-fix-errors). But you don't need to make it harder on yourself by lack of planning. Take advantage of all the resources you have at your employer (OIS in this case) and ask your fellow immigrants to share their knowledge with you. If you are thinking about getting a green card, you can start by checking websites [like this one that lists all the possible ways to get one](http://www.visapro.com/green-cards/) and by checking the [USCIS website](https://www.uscis.gov/greencard/eligibility-categories).
+If you are an immigrant in the US, I encourage you to plan ahead as much as you can anything related to visa paperwork. The current administration will make it as hard as they can to legally immigrate to the US, read for example this article: ["Authorities Can Now Deny Visa and Green Card Applications Without Giving Applicants a Chance to Fix Errors"](https://www.propublica.org/article/authorities-can-now-deny-visa-and-green-card-applications-without-giving-applicants-a-chance-to-fix-errors). But you don't need to make it harder on yourself by lack of planning. Take advantage of all the resources you have at your employer (OIS in this case) and ask your fellow immigrants to share their knowledge with you. Double check every document because others (like your employer) might have made mistakes in a form or letter (basically don't trust experts will do their job perfectly) because the US government will make you pay (in time, lost opportunities, etc) if you make a mistake. If you are thinking about getting a green card, you can start by checking websites [like this one that lists all the possible ways to get one](http://www.visapro.com/green-cards/) and by checking the [USCIS website](https://www.uscis.gov/greencard/eligibility-categories).
 
 Finally, I'll write a letter to the Baltimore Sun including a link to this post. But that's for tomorrow September 20th 2018.
+
+At least two friends thought of this quote by [Martin Niemöller](https://encyclopedia.ushmm.org/content/en/article/martin-niemoeller-first-they-came-for-the-socialists) (which I didn't know myself):
+
+> First they came for the socialists, and I did not speak out—because I was not a socialist.
+
+> Then they came for the trade unionists, and I did not speak out— because I was not a trade unionist.
+
+> Then they came for the Jews, and I did not speak out—because I was not a Jew.
+
+> Then they came for me—and there was no one left to speak for me.
 
 
 ### Acknowledgements
