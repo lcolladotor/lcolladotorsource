@@ -1,0 +1,125 @@
+---
+title: 'Why I applied to join SNI: the Mexican National Researchers registry'
+author: L. Collado-Torres
+date: '2018-09-29'
+slug: why-i-applied-to-join-sni-the-mexican-national-researchers-registry
+categories:
+  - Science
+tags:
+  - Academia
+  - Science
+  - Leader
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
+## For R images to display well in the RSS feed (disable for local preview)
+knitr::opts_knit$set(base.url = 'http://lcolladotor.github.io/post/')
+
+## Load frequently used packages for blog posts
+library('knitcitations') # for citations
+library('BiocStyle') # for CRANpkg() Biocpkg() Githubpkg()
+library('sessioninfo') # for session_info()
+
+## Load knitcitations with a clean bibliography
+cleanbib()
+cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')
+
+bib <- c(
+    'BiocStyle' = citation('BiocStyle'),
+    'blogdown' = citation('blogdown')[2],
+    'sessioninfo' = citation('sessioninfo'),
+    'knitcitations' = citation('knitcitations')
+)
+```
+
+A few days ago a friend of mine told me that I was on the list of newly admitted SNI members. A few have asked me since why did I request to join it. So here's my public reply.
+
+`r blogdown::shortcode("tweet", "1045051193146396674")`
+
+### SNI
+
+First let me tell you what SNI is. It stands for _Sistema Nacional de Investigadores_ which translates to National Researchers Registry. It's a way that the Mexican government created in 1984 to recognize _high_ quality researchers and encourage them to continue to do great research, teach the next generation of researchers and promote innovation ([Wikipedia](https://es.wikipedia.org/wiki/Sistema_Nacional_de_Investigadores_(M%C3%A9xico))). There are three types of members:
+
+* _Candidato a Investigador Nacional_: Candidate to National Researcher
+* _Investigador Nacional_: National Researchers with 3 levels (1, 2 and 3)
+* _Investigador Nacional Emérito_: National Emeritus Researcher
+
+To become a member you have to submit documentation to [CONACyT](https://twitter.com/Conacyt_MX) showing that you have made contributions to science, technology, culture and society through scientific or technological developments, training new students, popularizing or translating science and technology, among other criteria. Once you are a member, you have to keep submitting new documents every couple of years to stay a member or advance in the ranks.
+
+### The _real_ reason behind joining SNI
+
+I've read a little bit that there are many critics of the SNI system. Most of the criticisms are based on how they decide what is a _good_ contribution and how they judge applications. The reality is also that the process of sending the necessary documentation is cumbersome to say the least. The CONACyT website breaks often enough that it can be painful to use. 
+
+So why do people want to join the SNI and go through all this complicated process? The main reason (I think) why people want to join the SNI is because being a member comes with a financial supplement. It's enough that I've heard that it can constitute about a third of your salary. You can find headlines such as [how CONACyT's support to researchers went from a priviledge to a salary](http://www.elfinanciero.com.mx/empresas/apoyo-del-conacyt-a-investigadores-paso-de-privilegio-a-sueldo). This financial supplement is given to those members that work 20 hours a week on Mexican institutions.
+
+Given how important this boost in salary is, I can understand very well the frustrations that come with interacting with the CONACyT website: specially when the website goes down and you have to submit your application before a given deadline.
+
+### So why did I apply to join SNI?
+
+You can find on CONACyT's website an [interview on why it's important to join SNI](http://www.conacytprensa.mx/index.php/sociedad/politica-cientifica/7698-por-que-es-importante-pertenecer-al-sni) or go elsewhere to read a study on the [motivations people have for joining SNI](https://sinectica.iteso.mx/index.php/SINECTICA/article/view/155/786). But why did I apply to join SNI given that I'm outside Mexico and won't be getting the financial supplement?
+
+My main motivation was protection. 
+
+Lets say that I return to Mexico as a researcher at UNAM or another Mexican institution. Currently there is only 1 call for new SNI members per year. If I were to return today (September 2018), I would need to wait several months for the 2019 application cycle. Then I would need to wait several months for all applications to be evaluated and would probably start receiving the financial salary boost on January 2020. That is a lot of time to wait!
+
+Furthermore, right now I don't need the salary boost. But if I were to return then it could be a significant portion of my salary. Having all this riding on a cumbersome application (I'd be afraid of making a silly mistake in the application) and on an external evaluation would be stressful.
+
+So the stakes for me were low right now. Now that I'm a SNI member if I were to return to Mexico I could start receiving that financial boost much sooner. Thus I'm also protecting myself by keeping my options open to stay abroad (in the US for me) or return to Mexico. For example, I have a verbal agreement with my boss on the length of my current job, but technically I'm an employee at will and can be fired pretty easily. 
+
+I also applied because I have several friends that were applying or recently applied and helped me a lot navigate the application process^[Actually, we are still trying to find out how we can sign the agreement from abroad.]. Also, you never know if the application process will change and become more complicated later on: though I hope that it will get easier!
+
+But back to protection and security. My father has taught me that it's our responsibility to cover our backs. Lets imagine that I have dependents. It would be irresponsible of me to miss out on the financial supplement because I didn't send my documentation on time or because I forgot to send in the renewal documents: maybe it wouldn't affect me, but it would affect them. Completing my application in time is under my control. What CONACyT cares about, their evaluation process, the clarity and reliability of their website are not.
+
+### Beyond SNI
+
+This attitude goes beyond SNI. That is why I compete when I can for awards and scholarships that I think fit me, even if its a long shot. No one will come to you and say, "hey, your work is great, now you are a SNI member" (or any award). I believe that you have to keep working and make it hard for others to say no to your applications. You have to keep trying though because you won't get them all. That was one of my messages in my recent CDSBMexico keynote.
+
+`r blogdown::shortcode("tweet", "1023665229882961922")`
+
+
+Here are some of my recent applications: 
+
+`r blogdown::shortcode("tweet", "1009559232931401730")`
+
+`r blogdown::shortcode("tweet", "960590896310968320")`
+
+`r blogdown::shortcode("tweet", "1032287739176267776")`
+
+`r blogdown::shortcode("tweet", "1045763904964612096")`
+
+
+So what happens now? I updated my CV as a friend suggested to list that I'm a SNI National Researcher Level 1. 
+
+
+
+### Acknowledgements
+
+I want to thank my friends that helped me during the SNI application process!
+
+`r blogdown::shortcode("tweet", "1045053659967639555")`
+
+This blog post was made possible thanks to:
+
+* `r Biocpkg('BiocStyle')` `r citep(bib[['BiocStyle']])`
+* `r CRANpkg('blogdown')` `r citep(bib[['blogdown']])`
+* `r CRANpkg('sessioninfo')` `r citep(bib[['sessioninfo']])`
+* `r CRANpkg('knitcitations')` `r citep(bib[['knitcitations']])`
+
+### References
+
+```{r bibliography, results = 'asis', echo = FALSE, cache = FALSE}
+## Print bibliography
+bibliography(style = 'html')
+```
+
+### Reproducibility
+
+```{r reproducibility, echo = FALSE}
+## Reproducibility info
+options(width = 120)
+session_info()
+```
