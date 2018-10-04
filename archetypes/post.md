@@ -27,7 +27,7 @@ knitr::opts_knit$set(base.url = 'http://lcolladotor.github.io/post/')
 ## Load frequently used packages for blog posts
 library('knitcitations') # for citations
 library('BiocStyle') # for CRANpkg() Biocpkg() Githubpkg()
-library('devtools') # for session_info()
+library('sessioninfo') # for session_info()
 
 ## Load knitcitations with a clean bibliography
 cleanbib()
@@ -36,8 +36,8 @@ cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')
 bib <- c(
     'BiocStyle' = citation('BiocStyle'),
     'blogdown' = citation('blogdown')[2],
-    'devtools' = citation('devtools'),
-    'knitcitations' = citation('knitcitations')
+    'knitcitations' = citation('knitcitations'),
+    'sessioninfo' = citation('sessioninfo')
 )
 ```
 
@@ -81,8 +81,8 @@ This blog post was made possible thanks to:
 
 * `r Biocpkg('BiocStyle')` `r citep(bib[['BiocStyle']])`
 * `r CRANpkg('blogdown')` `r citep(bib[['blogdown']])`
-* `r CRANpkg('devtools')` `r citep(bib[['devtools']])`
 * `r CRANpkg('knitcitations')` `r citep(bib[['knitcitations']])`
+* `r CRANpkg('sessioninfo')` `r citep(bib[['sessioninfo']])`
 
 ### References
 
