@@ -1,0 +1,184 @@
+---
+title: ASHG18 tweet summary day 1
+author: L. Collado-Torres
+date: '2018-10-16'
+slug: ashg18-tweet-summary-day-1
+categories:
+  - Conference
+tags:
+  - ASHG
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
+## For R images to display well in the RSS feed (disable for local preview)
+knitr::opts_knit$set(base.url = 'http://lcolladotor.github.io/post/')
+
+## Load frequently used packages for blog posts
+library('knitcitations') # for citations
+library('BiocStyle') # for CRANpkg() Biocpkg() Githubpkg()
+library('sessioninfo') # for session_info()
+
+## Load knitcitations with a clean bibliography
+cleanbib()
+cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')
+
+bib <- c(
+    'BiocStyle' = citation('BiocStyle'),
+    'blogdown' = citation('blogdown')[2],
+    'knitcitations' = citation('knitcitations'),
+    'sessioninfo' = citation('sessioninfo')
+)
+```
+
+Today was the first day of the [American Society of Human Genetics (ASHG) 2018 conference](http://www.ashg.org/2018meeting/). The official hashtag for the conference is [ASHG18](https://twitter.com/search?q=%23ASHG18) on Twitter. At first I was tweeting myself and checking both the _top_ and the _latest_ tweets. As the day progressed I started a Google Doc to take notes during talks. I was missing some details so I was relying on the _latest_ tweets and copy-pasting the tweet links to my notes. At some point I told myself I should simply turn this collection of tweet links into a simple blog post. So here it is for day 1. You can consider it a curated list of the [ASHG18](https://twitter.com/search?q=%23ASHG18) tweets. Although it's incomplete because it only covers the talks I went to starting from the Presidential address. 
+
+The linked tweets are frequently from [Eli Robertson](https://twitter.com/thatdnaguy)^[Eli Robertson creates great Twitter threads, so I frequently only link to the first tweet of the thread.] and [Michael Hoffmann](https://twitter.com/michaelhoffman)^[Michael Hoffmann also writes multiple tweets per talk, though you'll have to scroll through this timeline to find all the ones related to a talk. Unless I'm missing a way to make them into a thread.], but also from other Twitter users^[Some with a few followers, some with many. It didn't matter. I was just checking the _latest_ and saving the ones I liked the most.].
+
+So, without further ado, here we go:
+
+`r blogdown::shortcode("tweet", "1052045759019773954")`
+
+### Award presentations
+
+`r blogdown::shortcode("tweet", "1052353598934245376")`
+
+`r blogdown::shortcode("tweet", "1052354458955341826")`
+
+Sek also thanked all his mentees ^^.
+
+`r blogdown::shortcode("tweet", "1052357277318111232")`
+
+`r blogdown::shortcode("tweet", "1052360103381221376")`
+
+### Diversity
+
+`r blogdown::shortcode("tweet", "1051517538067197957")`
+
+`r blogdown::shortcode("tweet", "1052210653950345217")`
+
+`r blogdown::shortcode("tweet", "1052340441377435648")`
+
+`r blogdown::shortcode("tweet", "1052345071062798336")`
+
+`r blogdown::shortcode("tweet", "1052356640651898881")`
+
+### Mitchel Cole
+
+SNP crispr-cas9 perturbation study in blood cells.
+
+`r blogdown::shortcode("tweet", "1052359394439106560")`
+
+`r blogdown::shortcode("tweet", "1052360756610519040")`
+
+MC mentioned metaFDR for combining pvalues from 4 tests.
+
+
+### Priyanka Nakka
+
+Uniparental disomy using 23andMe data. Seeking prevalence information in general population.
+
+`r blogdown::shortcode("tweet", "1052364953984876544")`
+
+`r blogdown::shortcode("tweet", "1052365691565760512")`
+
+3 types that can be identified by 2 in silico methods.
+
+`r blogdown::shortcode("tweet", "1052366223487381504")`
+
+`r blogdown::shortcode("tweet", "1052366741118976001")`
+
+`r blogdown::shortcode("tweet", "1052367633738166273")`
+
+`r blogdown::shortcode("tweet", "1052368774257618945")`
+
+Mentioned PheWAS. 
+
+PN: Don't know if you can get single cell data from 23andMe customers.
+
+
+`r blogdown::shortcode("tweet", "1052369350802300934")`
+
+`r blogdown::shortcode("tweet", "1052370107651915777")`
+
+`r blogdown::shortcode("tweet", "1052371085675528193")`
+
+
+### Jack A Kosmicki
+
+`r blogdown::shortcode("tweet", "1052370135304949763")`
+
+`r blogdown::shortcode("tweet", "1052370234030649344")`
+
+
+
+mentioned pLl method 
+
+`r blogdown::shortcode("tweet", "1052371239644196865")`
+
+`r blogdown::shortcode("tweet", "1052371262071169024")`
+
+`r blogdown::shortcode("tweet", "1052371493647147009")`
+
+
+99 ASD genes 
+
+`r blogdown::shortcode("tweet", "1052371900926554112")`
+
+`r blogdown::shortcode("tweet", "1052372607029264384")`
+
+summary
+
+`r blogdown::shortcode("tweet", "1052373073402294272")`
+
+`r blogdown::shortcode("tweet", "1052373218932199424")`
+
+### Caitlin Bowen
+
+`r blogdown::shortcode("tweet", "1052375530656464896")`
+
+Sorry, I left this talk early to see the poster talks (that I didn't know had been delayed).
+
+
+### Wrap up
+
+`r blogdown::shortcode("tweet", "1052380042481807360")`
+
+### Poster talks
+
+`r blogdown::shortcode("tweet", "1052382540550557696")`
+
+Single cell composition and organs poster 2012 seemed interesting to me. I added to my calendar!
+
+
+
+### Acknowledgements
+
+This blog post was made possible thanks to:
+
+* `r Biocpkg('BiocStyle')` `r citep(bib[['BiocStyle']])`
+* `r CRANpkg('blogdown')` `r citep(bib[['blogdown']])`
+* `r CRANpkg('knitcitations')` `r citep(bib[['knitcitations']])`
+* `r CRANpkg('sessioninfo')` `r citep(bib[['sessioninfo']])`
+
+as well as everyone who was tweeting! See you on Thursday!
+
+`r blogdown::shortcode("tweet", "1051524651950718977")`
+
+### References
+
+```{r bibliography, results = 'asis', echo = FALSE, cache = FALSE}
+## Print bibliography
+bibliography(style = 'html')
+```
+
+### Reproducibility
+
+```{r reproducibility, echo = FALSE}
+## Reproducibility info
+options(width = 120)
+session_info()
+```
