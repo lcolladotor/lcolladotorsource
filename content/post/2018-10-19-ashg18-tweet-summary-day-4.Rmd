@@ -1,0 +1,148 @@
+---
+title: ASHG18 tweet summary day 4
+author: L. Collado-Torres
+date: '2018-10-19'
+slug: ashg18-tweet-summary-day-4
+categories:
+  - Conference
+tags:
+  - ASHG
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
+## For R images to display well in the RSS feed (disable for local preview)
+knitr::opts_knit$set(base.url = 'http://lcolladotor.github.io/post/')
+
+## Load frequently used packages for blog posts
+library('knitcitations') # for citations
+library('BiocStyle') # for CRANpkg() Biocpkg() Githubpkg()
+library('sessioninfo') # for session_info()
+
+## Load knitcitations with a clean bibliography
+cleanbib()
+cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')
+
+bib <- c(
+    'BiocStyle' = citation('BiocStyle'),
+    'blogdown' = citation('blogdown')[2],
+    'knitcitations' = citation('knitcitations'),
+    'sessioninfo' = citation('sessioninfo')
+)
+```
+
+Continuing from my [ASHG18 day 1 post](http://lcolladotor.github.io/2018/10/16/ashg18-tweet-summary-day-1/#.W8gWEBNKg0o), [day 2](http://lcolladotor.github.io/2018/10/17/ashg18-tweet-summary-day-2/#.W8ggNxNKg0o), [day 3](http://lcolladotor.github.io/2018/10/18/ashg18-tweet-summary-day-3/#.W8mYLxNKg0o) here's my list of tweets from day 4.
+
+### 6F 11:00 am
+
+#### Cecilia Lingdren
+
+Got there at the end :P
+
+Had #diversitymatters and many flags including the rainbow one in her last slide. 
+
+#### Benjamin Neale
+
+`r blogdown::shortcode("tweet", "1053356294369759233")`
+
+`r blogdown::shortcode("tweet", "1053356661694324736")`
+
+`r blogdown::shortcode("tweet", "1053356800609705984")`
+
+`r blogdown::shortcode("tweet", "1053360343408246784")`
+
+
+All results are available to download for free from his lab website!
+
+#### Barbara Stranger
+
+`r blogdown::shortcode("tweet", "1053369322981085184")`
+
+
+### Other (morning)
+
+
+`r blogdown::shortcode("tweet", "1053319220048486400")`
+
+`r blogdown::shortcode("tweet", "1053320618194522113")`
+
+`r blogdown::shortcode("tweet", "1053324083771789313")`
+
+`r blogdown::shortcode("tweet", "1053358670925316096")`
+
+`r blogdown::shortcode("tweet", "1053363725376282624")`
+
+### Afternoon
+
+
+`r blogdown::shortcode("tweet", "1053427841029693440")`
+
+`r blogdown::shortcode("tweet", "1053428153857728512")`
+
+`r blogdown::shortcode("tweet", "1053429511604195328")`
+
+`r blogdown::shortcode("tweet", "1053429846821429249")`
+
+`r blogdown::shortcode("tweet", "1053433460721836032")`
+
+`r blogdown::shortcode("tweet", "1053432233610989568")`
+
+`r blogdown::shortcode("tweet", "1053429016739241984")`
+
+
+### Diversity
+
+
+`r blogdown::shortcode("tweet", "1053322523973013504")`
+
+`r blogdown::shortcode("tweet", "1053363947154243584")`
+
+`r blogdown::shortcode("tweet", "1053365583566188544")`
+
+`r blogdown::shortcode("tweet", "1053367064168022016")`
+
+### Misc
+
+
+`r blogdown::shortcode("tweet", "1053320504122036224")`
+
+`r blogdown::shortcode("tweet", "1053320437814325248")`
+
+`r blogdown::shortcode("tweet", "1053353588146155520")`
+
+`r blogdown::shortcode("tweet", "1053356648247418881")`
+
+`r blogdown::shortcode("tweet", "1053358887737442305")`
+
+`r blogdown::shortcode("tweet", "1053365107235807233")`
+
+`r blogdown::shortcode("tweet", "1053434810150993921")`
+
+
+### Acknowledgements
+
+
+This blog post was made possible thanks to:
+
+* `r Biocpkg('BiocStyle')` `r citep(bib[['BiocStyle']])`
+* `r CRANpkg('blogdown')` `r citep(bib[['blogdown']])`
+* `r CRANpkg('knitcitations')` `r citep(bib[['knitcitations']])`
+* `r CRANpkg('sessioninfo')` `r citep(bib[['sessioninfo']])`
+
+### References
+
+```{r bibliography, results = 'asis', echo = FALSE, cache = FALSE}
+## Print bibliography
+bibliography(style = 'html')
+```
+
+### Reproducibility
+
+```{r reproducibility, echo = FALSE}
+## Reproducibility info
+options(width = 120)
+session_info()
+```
