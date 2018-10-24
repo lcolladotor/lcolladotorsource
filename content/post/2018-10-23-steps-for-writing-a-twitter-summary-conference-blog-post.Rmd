@@ -139,6 +139,7 @@ and here is how it looks:
 
 There might be other ways of doing this that are specific to your blog platform.
 
+I also imagine that it should be possible to _bookmark_ the tweets on Twitter and then use an R package to extract your bookmarked tweets from the past 24 hours in order to simplify the process. Maybe this can be done with `r CRANpkg('rtweet')` although I haven't dived into it.
 
 ### New to `blogdown`?
 
