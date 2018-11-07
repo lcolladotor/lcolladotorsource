@@ -8,6 +8,7 @@ categories:
   - Conference
   - Misc
   - UNAM
+  - rstats
 tags:
   - Academia
   - Diversity
@@ -159,6 +160,9 @@ bibliography(style = 'html')
 Code for the dates:
 
 ```{r dates, eval = FALSE}
+## R code for making the dates.pdf file
+## which I then imported into Adobe Illustrator for making
+## the timeline.png
 x <- paste0(1987:2018, '-', c(paste0('0', 1:9), 10:12), '-01')
 
 plot(y = seq_len(length(x)), x = as.Date(x), las = 2, ylab = '', xlab = '', xaxt= 'n')
@@ -179,9 +183,24 @@ ggplot(df, aes(y, date)) +
 dev.off()
 ```
 
+```{r datespkgs, echo = FALSE}
+library('ggplot2')
+library('scales')
+```
+
+
 
 ```{r reproducibility, echo = FALSE}
 ## Reproducibility info
 options(width = 120)
 session_info()
 ```
+
+
+### Reactions to the blog post
+
+`r blogdown::shortcode("tweet", "1060038817774657536")`
+
+`r blogdown::shortcode("tweet", "1060116424415436800")`
+
+
