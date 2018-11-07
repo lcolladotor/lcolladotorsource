@@ -1,0 +1,187 @@
+---
+title: 'A knot of threads: from CSHL to LCG-UNAM to Aldo Barrientos to diversity scholarship
+  opportunities'
+author: L. Collado-Torres
+date: '2018-11-06'
+slug: a-knot-of-threads-from-cshl-to-lcg-unam-to-aldo-barrientos-to-diversity-scholarship-opportunities
+categories:
+  - Conference
+  - Misc
+  - UNAM
+tags:
+  - Academia
+  - Diversity
+  - LCG
+  - Science
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
+## For R images to display well in the RSS feed (disable for local preview)
+knitr::opts_knit$set(base.url = 'http://lcolladotor.github.io/post/')
+
+## Load frequently used packages for blog posts
+library('knitcitations') # for citations
+library('BiocStyle') # for CRANpkg() Biocpkg() Githubpkg()
+library('sessioninfo') # for session_info()
+
+## Load knitcitations with a clean bibliography
+cleanbib()
+cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')
+
+bib <- c(
+    'BiocStyle' = citation('BiocStyle'),
+    'blogdown' = citation('blogdown')[2],
+    'knitcitations' = citation('knitcitations'),
+    'sessioninfo' = citation('sessioninfo')
+)
+```
+
+I can’t tell you how many times I’ve started to write this post in my mind since May 2018. Today I’m finally typing it on the computer. This will be a rather long post that ties in several threads. I’ll talk about Cold Spring Harbor’s Biology of Genomes conference and its relationship to my undergrad in Mexico. I’ll also introduce you to Aldo Barrientos (198x-2011) who was was my undergrad classmate. Then I’ll tell you about myself and how regardless of your situation, privileged or not, you should ask for help and get to know the people around you. Finally, I want to highlight that many other Mexican researchers are doing great work and would love to be invited to talk about their work. Or simply, the opportunity to compete for scholarships and grants.
+
+### CSHL and LCG-UNAM
+
+This past May I was selected to give a talk at [Biology of Genomes 2018](http://meetings.cshl.edu/Genome18) (BOG) at [Cold Spring Harbor Laboratory](https://www.cshl.edu/) (CSHL). This was my first time being there and I had plenty of time to reflect before my talk^[Mine was the very last one of the conference.]. For me, attending BOG was like a dream come true so I was blown away when I was selected to present at BOG. 
+
+I first heard about the BOG conference when I was studying my undergrad in Mexico at [LCG-UNAM](http://www.lcg.unam.mx/es/about). My class has a history with the conference too. Basically, part of the class was meeting to discuss what optional courses to create for our fourth year, and well, some miscommunication happened among us. This created a rift in the group and was one of my motivations for focusing on communication as well as giving back. The former lead to me being elected as class president and the latter lead to me volunteering to teach R courses later on my undergrad^[Which then lead to my current career. See more at my [keynote](https://twitter.com/fellgernon/status/1023665229882961922) for the “Latin American R/BioConductor Developers Workshop 2018”.].  
+
+As BOG18 went underway, some of my fellow junior presenters started their talks by mentioning why CSHL was special to them. Following their cue, I wrote some notes just before my presentation. 
+
+![](http://lcolladotor.github.io/post/2018-11-06-a-knot-of-threads-from-cshl-to-lcg-unam-to-aldo-barrientos-to-diversity-scholarship-opportunities_files/2018-11-06 21.21.51.jpg){width=400px}
+
+I really wanted to give a shoutout to all my LCG-UNAM classmates. I also thought of Aldo Barrientos and how it could have been him at BOG. This got me nervous, but I really wanted to do it. I also wanted this to be short and professional. You can see how it turned out for yourself^[My scientific talk was about the BrainSeq Phase II project by the [Lieber Institute for Brain Development](https://www.libd.org/). It’s now available as a bioRxiv pre-print: [426213](https://www.biorxiv.org/content/early/2018/09/26/426213). It took a while to finish this project, which contributed to my delay in making this blog post.].
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SRGkibDQgIc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Aldo Barrientos
+
+It’s time for me to tell you more about Aldo Barrientos, my LCG-UNAM classmate. I won’t attempt to tell you his whole story since I think that others could write a much more detailed one that myself. I hope they do and if they are made public, I’ll share them from this blog post.
+
+Aldo came from a low income family in Mexico: I believe that his father was a farmer. He was smart and advanced through school successfully. He took the entry exam for LCG-UNAM like many people did in 2005. Eventually only around 10-15 percent of the applicants were admitted to this undergrad program. The school was free (25 Mexican cents per year), but it involved relocating to a new city. UNAM has some scholarship programs, but they are not enough. Aldo found a way like he always did. For example, he sold candy and juice to his classmates during lunch break. For reasons that I don’t remember, Aldo didn’t complete his undergrad in 2009 but was about to in 2011.
+
+I remember Aldo as a very joyful person who was always smiling and joking with the rest of us. He had the _best_ dancing skills of anyone at my undergrad. He proved them time and time again, for example winning a dance contest at a party in my house and wearing the Pumas UNAM puma costume in our graduation party and dancing with everyone.
+
+![](http://lcolladotor.github.io/post/2018-11-06-a-knot-of-threads-from-cshl-to-lcg-unam-to-aldo-barrientos-to-diversity-scholarship-opportunities_files/goyo.jpg){width=400px}
+
+[Image source](https://sk.pinterest.com/pin/170714642102216698/)
+
+His path was cut abruptly in 2011. He was stabbed multiple times while waiting for someone. We all knew about this. It’s still unclear to me how everything happened in the following weeks. But I remember being told that he tried seeing a doctor before going back to his home. One day in 2011, we all started to learn about how grave his situation had turned. I didn’t know what to do^[I believe that others asked me since I was or had been the class representative.] and I talked to David Romero, director (dean?) of CCG-UNAM back then. He guided me and others and we were trying to coordinate ways to help Aldo, but by the time we got to his home it was too late. I regret that we weren’t able to help Aldo earlier.
+
+I still have some emails from 2011 when we were talking about doing something to honour him. We never did as a class, though LCG-UNAM did acknowledge him. Maybe one day we will do an event to remember him.
+
+Aldo faced more challenges that myself and other classmates. Yet I believe that he would have kept solving them one by one; and had he chosen to stay in academia, then present his research findings at conferences like BOG.
+
+### Privileged yes, entitled no
+
+Thinking about Aldo made reflect also on who has been around in my own path, who has helped me and how grateful I am to them. Undoubtedly I’ve had an easier path than others including Aldo. That is, I’ve been privileged.
+
+Still, even with my privileged position it has been a hard fought battle to get to where I am now. I think that a mistake others do is that they assume that they are entitled to something given their privilege instead of working for that thing. This can apply to visas and the like where you still [have to apply for them in time](http://lcolladotor.github.io/2018/09/19/problems-with-an-article-from-the-baltimore-sun-covering-dr-mahoney-steel-s-immigration-issues/).
+
+Along my way I have hesitated many times what to do and have sought guidance from others. Also along my way, I’ve tried to get to know others in my surroundings. Now that I look back I realize that many people were at my position or in junior positions have kept working towards their career goals and advanced in them. So, if you can, get to know others and learn from them. They could be the future Full Professors with Tenure, future Senior Software Engineers or other titles you look up to.
+
+Here’s an incomplete version of my timeline ([PDF version](/misc/timeline.pdf)). I think that it’s pretty hard to list everyone who has helped you along the way. For example, I’m not mentioning my Ph.D. classmates from whom I learned many things. But it will give you a more detailed picture of the amount of people that have helped me.
+
+![](http://lcolladotor.github.io/post/2018-11-06-a-knot-of-threads-from-cshl-to-lcg-unam-to-aldo-barrientos-to-diversity-scholarship-opportunities_files/timeline.png)
+
+### Invite LCG-UNAM alumni
+
+Like I said at the beginning of my BOG18 talk, I’m not sure if I’m the first LCG-UNAM alumni to present at BOG but I know for sure that I won’t be the last one. That’s because I’m really proud of my classmates and all the great work they are doing. It’s also easy to go beyond my class to other LCG-UNAM alumni and then even go beyond and extend this to Mexican researchers.
+
+Taken from my timeline, here are a few that I mentioned there (links are to their Twitter profiles):
+
+* [Maria Gutierrez-Arcelus](https://twitter.com/mariaGTAC): LCG-UNAM; Ph.D. at University of Geneva Medical School;  Postdoc Harvard University
+* [Mariana Gómez-Schiavon](https://twitter.com/mgschiavon): Ph.D. Duke University; postdoc UCSF
+* [Sur Herrera-Paredes](https://twitter.com/sur_hp): Ph.D. University of North Carolina; postdoc Standford
+* [Fernando Rabanal Mor](https://twitter.com/malacopa_genome): Ph.D. Gregor Mendel Institute; postdoc MPI for Developmental Biology
+* [Carlos Vargas](https://twitter.com/caralvar88): Winter Genomics, MS and Ph.D. Universitat de Valencia
+* [Mariana Reyes](https://twitter.com/RanitaRed): MS and Ph.D. Universitat de Valencia
+* [Atahualpa Castillo](https://twitter.com/kazenojigoku): Ph.D. and postdoc University of Bath
+* Jimena Mónzon (Ph.D. Univeristy of Bath; Oxford’s Parkinson Disease Centre Career Development Fellow)
+* [Alejandra Zayas](https://twitter.com/licloona1487): Ph.D. IBT-UNAM
+* Adriana Verenisse Gonzalez Sandoval: Ph.D. University of Bath; postdoc Stanford
+* [Daniela Robles](https://twitter.com/daniela_oaks): Ph.D. Wellcome Trust Sanger Institute; Faculty LIIGH-UNAM
+* [Luis Bolaños](https://twitter.com/lbolanos68): Ph.D. CCG-UNAM; postdoc Oregon State University
+* Rodrigo García: MS and Ph.D. Universitat de Valencia
+* Renan Escalante-Chong: Ph.D. Harvard postdoc MIT; Immuneering Corporation
+* Gianella Garcia Hughes: Ph.D. UT Southwestern
+
+* [Adrian Cantú](https://twitter.com/garbanyo): LCG-UNAM; MS IBT-UNAM; INMEGEN; Ph.D. San Diego State University
+* [Ana Georgina (Yina) Cobian](https://twitter.com/yinayiyi): MS IBT-UNAM, Ph.D. San Diego State University
+* [Fernando Riveros-McKay Aguilera](https://twitter.com/fa7gen): Winter Genomics, Ph.D. Wellcome Trust Sanger Institute
+* [Martín Del Castillo Velasco Herrera](https://twitter.com/tatinhawk): Winter Genomics, Ph.D. Wellcome Trust Sanger Institute
+
+* [Alejandra Medina-Rivera](https://twitter.com/AleMedinaRivera): LCG-UNAM; Ph.D. CCG-UNAM; postdoc SickKids Toronto; Faculty LIIGH-UNAM
+
+* [Alejandro Reyes](https://twitter.com/areyesq): LCG-UNAM; Ph.D. EMBL; postdoc Harvard
+* Víctor Moreno Mayar: LCG-UNAM; Ph.D.  and postdoc Natural History Museum of Denmark
+* José Reyes:LCG-UNAM, Ph.D. Harvard
+
+For the full list of LCG-UNAM alumni, check http://www.lcg.unam.mx/es/titulados. There are 257 listed as of October 25, 2018. 
+
+Everyone has their own story of breaking barriers and overcoming challenges. All of them would love the opportunity to present their work and to compete for funds to travel to conferences and do so. 
+
+`r blogdown::shortcode("tweet", "1052349309818232832")`
+
+To close off, here are some inspiring or thought provoking tweets:
+
+`r blogdown::shortcode("tweet", "1056571008662949888")`
+
+`r blogdown::shortcode("tweet", "1055124381876260865")`
+
+`r blogdown::shortcode("tweet", "1019597807395770368")`
+
+`r blogdown::shortcode("tweet", "1001985730904764417")`
+
+In Mexico, Day of the Dead was just last week (November 2nd) and Aldo's birthday would have been a few weeks ago on October 27th. It was time to finally write this blog post. I hope that you take something positive from it.
+
+### Acknowledgements
+
+
+This blog post was made possible thanks to:
+
+* `r Biocpkg('BiocStyle')` `r citep(bib[['BiocStyle']])`
+* `r CRANpkg('blogdown')` `r citep(bib[['blogdown']])`
+* `r CRANpkg('knitcitations')` `r citep(bib[['knitcitations']])`
+* `r CRANpkg('sessioninfo')` `r citep(bib[['sessioninfo']])`
+
+### References
+
+```{r bibliography, results = 'asis', echo = FALSE, cache = FALSE}
+## Print bibliography
+bibliography(style = 'html')
+```
+
+### Reproducibility
+
+Code for the dates:
+
+```{r dates, eval = FALSE}
+x <- paste0(1987:2018, '-', c(paste0('0', 1:9), 10:12), '-01')
+
+plot(y = seq_len(length(x)), x = as.Date(x), las = 2, ylab = '', xlab = '', xaxt= 'n')
+axis(1, at = as.Date(x), labels = months(as.Date(x)))
+
+
+library('ggplot2')
+library('scales')
+df <- data.frame(y = 0, date = as.Date(x))
+
+
+pdf('dates.pdf', height = 40,  useDingbats = FALSE)
+ggplot(df, aes(y, date)) + 
+  geom_line() + 
+  scale_y_date(limits = c(as.Date("1987-07-01"), as.Date("2018-05-12")), 
+               breaks = date_breaks('months'),
+               date_labels = "%Y-%m", expand=c(0,30)) +   theme(axis.text.y=element_text(angle=-180))
+dev.off()
+```
+
+
+```{r reproducibility, echo = FALSE}
+## Reproducibility info
+options(width = 120)
+session_info()
+```
