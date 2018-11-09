@@ -41,7 +41,7 @@ bib <- c(
 )
 ```
 
-I can’t tell you how many times I’ve started to write this post in my mind since May 2018. Today I’m finally typing it on the computer. This will be a rather long post that ties in several threads. I’ll talk about Cold Spring Harbor’s Biology of Genomes conference and its relationship to my undergrad in Mexico. I’ll also introduce you to Aldo Barrientos (198x-2011) who was was my undergrad classmate. Then I’ll tell you about myself and how regardless of your situation, privileged or not, you should ask for help and get to know the people around you. Finally, I want to highlight that many other Mexican researchers are doing great work and would love to be invited to talk about their work. Or simply, the opportunity to compete for scholarships and grants.
+I can’t tell you how many times I’ve started to write this post in my mind since May 2018. Today I’m finally typing it on the computer. This will be a rather long post that ties in several threads. I’ll talk about Cold Spring Harbor’s Biology of Genomes conference and its relationship to my undergrad in Mexico. I’ll also introduce you to Aldo Barrientos (1987-2011) who was was my undergrad classmate. Then I’ll tell you about myself and how regardless of your situation, privileged or not, you should ask for help and get to know the people around you. Finally, I want to highlight that many other Mexican researchers are doing great work and would love to be invited to talk about their work. Or simply, the opportunity to compete for scholarships and grants.
 
 ### CSHL and LCG-UNAM
 
@@ -61,7 +61,7 @@ I really wanted to give a shoutout to all my LCG-UNAM classmates. I also thought
 
 It’s time for me to tell you more about Aldo Barrientos, my LCG-UNAM classmate. I won’t attempt to tell you his whole story since I think that others could write a much more detailed one that myself. I hope they do and if they are made public, I’ll share them from this blog post.
 
-Aldo came from a low income family in Mexico: I believe that his father was a farmer. He was smart and advanced through school successfully. He took the entry exam for LCG-UNAM like many people did in 2005. Eventually only around 10-15 percent of the applicants were admitted to this undergrad program. The school was free (25 Mexican cents per year), but it involved relocating to a new city. UNAM has some scholarship programs, but they are not enough. Aldo found a way like he always did. For example, he sold candy and juice to his classmates during lunch break. For reasons that I don’t remember, Aldo didn’t complete his undergrad in 2009 but was about to in 2011.
+Aldo came from a low income family in Mexico: I believe that his father was a construction worker^[Previous versions of my post incorrectly said that he was a farmer.]. He was smart and advanced through school successfully. He took the entry exam for LCG-UNAM like many people did in 2005. Eventually only around 10-15 percent of the applicants were admitted to this undergrad program. The school was free (25 Mexican cents per year), but it involved relocating to a new city. UNAM has some scholarship programs, but they are not enough. Aldo found a way like he always did. For example, he sold candy and juice to his classmates during lunch break. For reasons that I don’t remember, Aldo didn’t complete his undergrad in 2009 but was about to in 2011.
 
 I remember Aldo as a very joyful person who was always smiling and joking with the rest of us. He had the _best_ dancing skills of anyone at my undergrad. He proved them time and time again, for example winning a dance contest at a party in my house and wearing the Pumas UNAM puma costume in our graduation party and dancing with everyone.
 
@@ -69,11 +69,11 @@ I remember Aldo as a very joyful person who was always smiling and joking with t
 
 [Image source](https://sk.pinterest.com/pin/170714642102216698/)
 
-His path was cut abruptly in 2011. He was stabbed multiple times while waiting for someone. We all knew about this. It’s still unclear to me how everything happened in the following weeks. But I remember being told that he tried seeing a doctor before going back to his home. One day in 2011, we all started to learn about how grave his situation had turned. I didn’t know what to do^[I believe that others asked me since I was or had been the class representative.] and I talked to David Romero, director (dean?) of CCG-UNAM back then. He guided me and others and we were trying to coordinate ways to help Aldo, but by the time we got to his home it was too late. I regret that we weren’t able to help Aldo earlier.
+His path was cut abruptly in 2011. He was stabbed multiple times while waiting for someone. We all knew about this. It’s still unclear to me how everything happened in the following months. But I remember being told that he tried seeing a doctor before going back to his home. One day in 2011, we all started to learn about how grave his situation had turned. I didn’t know what to do^[I believe that others asked me since I was or had been the class representative.] and I talked to David Romero, director (dean?) of CCG-UNAM back then. He guided me and others and we were trying to coordinate ways to help Aldo, but by the time we got to his home it was too late. I regret that we weren’t able to help Aldo earlier.
 
 I still have some emails from 2011 when we were talking about doing something to honour him. We never did as a class, though LCG-UNAM did acknowledge him. Maybe one day we will do an event to remember him.
 
-Aldo faced more challenges that myself and other classmates. Yet I believe that he would have kept solving them one by one; and had he chosen to stay in academia, then present his research findings at conferences like BOG.
+Aldo faced more challenges that myself and other classmates. Yet I believe that he would have kept solving them one by one; he would have gotten his undergrad degree and had he chosen to stay in academia, then present his research findings at conferences like BOG.
 
 ### Privileged yes, entitled no
 
@@ -102,7 +102,7 @@ Taken from my timeline, here are a few that I mentioned there (links are to thei
 * [Atahualpa Castillo](https://twitter.com/kazenojigoku): Ph.D. and postdoc University of Bath
 * Jimena Mónzon (Ph.D. Univeristy of Bath; Oxford’s Parkinson Disease Centre Career Development Fellow)
 * [Alejandra Zayas](https://twitter.com/licloona1487): Ph.D. IBT-UNAM
-* Adriana Verenisse Gonzalez Sandoval: Ph.D. University of Bath; postdoc Stanford
+* [Adriana Verenisse Gonzalez Sandoval](https://twitter.com/AV_GonzalezS): Ph.D. University of Bath; postdoc Stanford
 * [Daniela Robles](https://twitter.com/daniela_oaks): Ph.D. Wellcome Trust Sanger Institute; Faculty LIIGH-UNAM
 * [Luis Bolaños](https://twitter.com/lbolanos68): Ph.D. CCG-UNAM; postdoc Oregon State University
 * Rodrigo García: MS and Ph.D. Universitat de Valencia
@@ -118,7 +118,7 @@ Taken from my timeline, here are a few that I mentioned there (links are to thei
 
 * [Alejandro Reyes](https://twitter.com/areyesq): LCG-UNAM; Ph.D. EMBL; postdoc Harvard
 * Víctor Moreno Mayar: LCG-UNAM; Ph.D.  and postdoc Natural History Museum of Denmark
-* José Reyes:LCG-UNAM, Ph.D. Harvard
+* José Reyes: LCG-UNAM, Ph.D. Harvard
 
 For the full list of LCG-UNAM alumni, check http://www.lcg.unam.mx/es/titulados. There are 257 listed as of October 25, 2018. 
 
@@ -202,5 +202,9 @@ session_info()
 `r blogdown::shortcode("tweet", "1060038817774657536")`
 
 `r blogdown::shortcode("tweet", "1060116424415436800")`
+
+`r blogdown::shortcode("tweet", "1060355174546505729")`
+
+
 
 
