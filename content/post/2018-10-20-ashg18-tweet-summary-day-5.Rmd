@@ -108,8 +108,6 @@ Hierarchical model with normal + (missed it) + log + poisson
 
 `r blogdown::shortcode("tweet", "1053693658518642688")`
 
-`r blogdown::shortcode("tweet", "1053690586908086272")`
-
 `r blogdown::shortcode("tweet", "1053697490124386304")`
 
 `r blogdown::shortcode("tweet", "1053709216878194688")`
