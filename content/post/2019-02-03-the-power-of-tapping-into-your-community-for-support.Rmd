@@ -1,0 +1,114 @@
+---
+title: The power of tapping into your community for support
+author: L. Collado-Torres
+date: '2019-02-03'
+slug: the-power-of-tapping-into-your-community-for-support
+categories:
+  - rstats
+  - Misc
+tags:
+  - politics
+  - Diversity
+  - Baltimore
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
+## For R images to display well in the RSS feed (disable for local preview)
+knitr::opts_knit$set(base.url = 'http://lcolladotor.github.io/post/')
+
+## Load frequently used packages for blog posts
+library('knitcitations') # for citations
+library('BiocStyle') # for CRANpkg() Biocpkg() Githubpkg()
+library('sessioninfo') # for session_info()
+
+## Load knitcitations with a clean bibliography
+cleanbib()
+cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')
+
+bib <- c(
+    'BiocStyle' = citation('BiocStyle'),
+    'blogdown' = citation('blogdown')[2],
+    'knitcitations' = citation('knitcitations'),
+    'sessioninfo' = citation('sessioninfo')
+)
+```
+
+
+This week the owner of my favorite Mexican restaurant in Baltimore, Rosalyn Vera, got death and arson^[Threats to burn down here business.] threats. I could have been a bystander, but I tapped into my network and asked for help and she has received it. It’s been great to see the power of the community in action.
+
+### The backstory
+
+So, I use [R](https://cran.r-project.org/) and [Bioconductor](https://support.bioconductor.org/) for work and I get to witness the warmth and mostly friendly [#rstats](https://twitter.com/search?q=%23rstats) community where daily people ask for help and get it. Born from the R community is the [RLadies](https://rladies.org/) organization that provides a platform for non-cis gendered males to share their knowledge and increase their visibility. In one of the [RLadies Baltimore](https://rladies-baltimore.github.io/) events, I met a Data Journalist from the Baltimore Sun, [Christine Zhang](https://twitter.com/christinezhang) who gave an [excellent talk](https://github.com/rladies/meetup-presentations_baltimore/blob/master/20181114_industry.md) on how she uses R for her job: for example, election maps.
+
+As you know, I’m Mexican. To get over [my homesickness](http://lcolladotor.github.io/2018/06/11/mindfulness/#.XFdVC1xKiUk) these past months I’ve been a frequent customer at a small Mexican restaurant in Baltimore called [Cocina Luchadoras](https://www.instagram.com/cocinaluchadoras/). I also frequent live shows from a band called [Bad Hombres](https://www.facebook.com/somebadhombres/) that plays covers of Spanish rock songs from the 80s and 90s, go to Latin karaoke nights organized by [Root Raíces](https://www.instagram.com/rootsraicesfest/), among other things that bring me joy^[Yes, thanks to Marie Kondo my clothes are neatly organized.].
+
+### Initial threats and reactions
+
+To warm up this week, I went to get some [_atole de arroz_](https://www.google.com/search?q=atole+de+arroz) at Cocina Luchadoras twice. The second time was just about an hour after Rosalyn received death and arson threats on Thursday. I could tell that she was scared but she was also incredibly brave. The threats were because she has placed a sign on her restaurant to support the _Donald_ fundraising campaign from [Ilegal Mezcal](https://www.ilegalmezcal.com/donald/) that says “Donald, eres un pendejo” (Donald, you are stupid) . The person making the threats mentioned that immigrants are taking away jobs from US citizens. As a Hispanic customer, I got scared as well and became suspicious of whoever entered the restaurant.
+
+So, what does one do? How would you react to a hate crime threat? Or well, any threat? Call the police. Do you comply with the request to take down the poster? Hire security? Close and move to a different location? I feel like situations like this put can you at odds between following your ideals and being pragmatic. In this case, Rosalyn had to decide whether to stand by her free speech rights or not.
+
+In the United States of America you expect that the police and the institutions that protect the law will help you. Unlike Guatemala in the 1960s when the police/military tried to silence/kill my grandfather due to the health clinic he and [my grandmother](http://lcolladotor.github.io/2018/07/30/harassment-diversity-in-science-and-inspiration-from-my-grandmother/#.XFdafFxKiUk) had where they would treat people from many backgrounds: he closed down, moved to Mexico, and had to be pragmatic and abandon some of his ideals. Or unlike Mexico in recent times, where there’s widespread insecurity due to the war on drugs, corruption, etc. For example, my father’s house was broken into, he got tied down and was punched until a few ribs broke: he called a Mexican military veteran for help.
+
+So, here in the US, you call the police and wait for them to do their job. But you can also decide to ask for help from your community. So I offered Rosalyn my time and network, and she accepted. This was tricky as I told her, because I didn’t want to either give a platform for the person making the threats or to attract other people like him.
+
+I asked Christine for help on whom to talk to at the Baltimore Sun, and she responded immediately. After some emails and knocking on a couple more doors, the [Baltimore Sun published an article](https://www.baltimoresun.com/news/maryland/baltimore-city/bs-md-cocina-luchadoras-20190201-story.html) by [Lillian E Reed](https://twitter.com/LillianEReed) with contributions by [Thalia Juarez](https://twitter.com/_ThaliaJuarez) and [Catherine Rentz](https://twitter.com/cdrentz). Catherine has published some great work on [hate crimes in Maryland](https://www.baltimoresun.com/news/maryland/investigations/bs-md-two-years-of-hate-incidents-20180813-story.html) and they’ve made an [interactive map](https://news.baltimoresun.com/maryland-hate-crimes/) to browse the data. From there, the word kept spreading and many started to show their support: [Baltimore Reddit](https://www.reddit.com/r/baltimore/comments/ame4se/man_allegedly_threatened_to_kill_baltimore/), local [politicians](https://twitter.com/zeke_cohen/status/1091798436628832256), and many regular Cocina Luchadores customers. 
+
+### The threats continue
+
+I went again on Saturday and the place was packed and things seemed to be trending on the right direction. The police had called and were supposed to meet with Rosalyn later. Instead, they didn’t show up and the person making the threats called again… 
+
+From an allocation of limited resources, I understand that the Baltimore Police has many things to do and many people to keep safe. Catherine Rentz’ [story](https://www.baltimoresun.com/news/maryland/investigations/bs-md-two-years-of-hate-incidents-20180813-story.html) on hate crimes in Maryland from 2016 and 2017 highlights that this type of crime is likely underreported and that there are very few convictions. Maybe this went through the mind of the policeman who did the report on Thursday: “threat phone call? No witnesses? Ok, not enough evidence… move on”.
+
+I had a very hard time processing the no-show by the police though. Talking to others, we discussed how the law enforcement system is overworked (they are [reducing the police officer shift length](https://www.wmar2news.com/homepage-showcase/baltimore-police-to-switch-to-new-patrol-schedule) soon) and swamped. But hey, there’s a supportive community. So I asked for help again. “Who knows someone at the Baltimore Police?” That was the question and soon enough one friend replied, and then emailed a lieutenant. By the next morning (Sunday/today), the Baltimore Police chief was looking to call Rosalyn.
+
+In the meantime, we let the Baltimore Sun know that the person had made the threat again. They quickly posted a [new story](https://www.baltimoresun.com/news/maryland/baltimore-city/bs-md-ci-threat-over-anti-trump-poster-spurs-business-20190202-story.html) where they report how Rosalyn first made sure to secure more witnesses this time and secondly told the person making the threats that she has only love for him and thanked him for the phone call. I think that she was really smart with both and she does mean it. In a chat with friends, one of them suggested bringing tacos as a peace offering to the person making the threats.
+
+This second story by the Baltimore Sun got shared by Newsweek in their [own story](https://www.newsweek.com/restaurant-owner-allegedly-receives-death-threats-over-anti-trump-banner-1315971). A friend who is in Mexico right now told me he saw it on the top Apple News stories. Today, there was a security guard at Cocina Luchadoras, who smiled and opened the door for anyone coming in. So spreading the word, asking for help, knocking on doors, and the power of the community is very strong. Strong enough to get the police to pay more attention to Rosalyn’s report.
+
+This is incredible! Typically, a [#rstats](https://twitter.com/search?q=%23rstats)/[#RLadies](https://twitter.com/search?q=%23RLadies) request for help ends up with a friendly reply pointing to an existing R package or a suggestion on what to do. This time, we gamed the system. So yes, [asking for help is challenging but can be worth it](http://lcolladotor.github.io/2018/11/12/asking-for-help-is-challenging-but-is-typically-worth-it/#.XFdT41xKiUk).
+
+And surely everyone who’s involved in helping in this story can use it to request the help they need. For example, the Baltimore Sun’s hate crime reporting team can ask for more space and resources for their stories. Or the Baltimore and Maryland Police can ask for help from whoever controls their budget^[The city council? The state congress? Mayor? Governor? I don’t know.], so they can get more resources to fight the increase in hate crimes, improve the reporting of hate crime threats, and reach out ot the Hispanic community in Baltimore. If they need a letter of support, they can get one from me if they want it.
+
+For the rest of us, it’s a chance to try to live without fear. Fear is a powerful feeling and I’ve seen it in action. I experienced it first hand when everyone I knew stopped going out in Cuernavaca during an intense period of the war on drugs when military were deployed to the streets. It’s also a chance for us Hispanics in Baltimore to feel like we belong here, which is the same challenge many women and non-cis males have and hence the reason why [RLadies](https://rladies.org/) is awesome.
+
+### And drop by to enjoy the awesome food and women art!
+
+If you drop by in Baltimore, you should go visit Cocina Luchadoras! Their food is deliciously awesome. It starts with handmade tortillas. You use tortillas for many things including tacos. A good tortilla can boost the flavor in a taco, and the ones at Cocina Luchadoras are outstanding! Then there’s the filling which can range from pork (_al pastor_) to different types of vegetables. And while you wait, you get to experience a women’s empowerment museum with all the arts and crafts they have there about how women are really strong! You also get to meet many interesting patrons and make new friends if you wish to do so. Even if you are not in Baltimore, you should follow them on [Instagram](https://www.instagram.com/cocinaluchadoras/) or [Facebook](https://www.facebook.com/cocinaluchadoras/) for great art and food pictures (or [Twitter](https://mobile.twitter.com/cocinaluchadora), but they don’t post images there, just links to Instagram).
+
+![](http://lcolladotor.github.io/post/2019-02-03-the-power-of-tapping-into-your-community-for-support_files/2019-02-02 16.00.13.jpg){width=600px}
+
+
+### Acknowledgements
+
+Thanks [EpiRen](https://twitter.com/EpiRen/status/1091844480112775168)!
+
+Thanks Baltimore Sun staff and the Baltimore Police!
+
+`r blogdown::shortcode('tweet', '1091466386868748288')`
+
+This blog post was made possible thanks to:
+
+* `r Biocpkg('BiocStyle')` `r citep(bib[['BiocStyle']])`
+* `r CRANpkg('blogdown')` `r citep(bib[['blogdown']])`
+* `r CRANpkg('knitcitations')` `r citep(bib[['knitcitations']])`
+* `r CRANpkg('sessioninfo')` `r citep(bib[['sessioninfo']])`
+
+### References
+
+```{r bibliography, results = 'asis', echo = FALSE, cache = FALSE, warning = FALSE}
+## Print bibliography
+bibliography(style = 'html')
+```
+
+### Reproducibility
+
+```{r reproducibility, echo = FALSE}
+## Reproducibility info
+options(width = 120)
+session_info()
+```
