@@ -60,8 +60,6 @@ Continuing from my [ASHG18 day 1 post](http://lcolladotor.github.io/2018/10/16/a
 
 “Nobody wakes up thinking how can I harm indigenous populations!”
 
-`r blogdown::shortcode("tweet", "1052616323807629313")`
-
 `r blogdown::shortcode("tweet", "1052616743183499264")`
 
 `r blogdown::shortcode("tweet", "1052616982535667712")`
@@ -81,8 +79,6 @@ Continuing from my [ASHG18 day 1 post](http://lcolladotor.github.io/2018/10/16/a
 `r blogdown::shortcode("tweet", "1052618270384185345")`
 
 `r blogdown::shortcode("tweet", "1052618572575453185")`
-
-`r blogdown::shortcode("tweet", "1052619718291480576")`
 
 `r blogdown::shortcode("tweet", "1052621619712090112")`
 

@@ -237,8 +237,6 @@ Trolls :/
 
 `r blogdown::shortcode("tweet", "1052964844381429761")`
 
-`r blogdown::shortcode("tweet", "1052970265670377472")`
-
 This is hard. Some don’t mention the methods to avoid this issue, but then it becomes a “black box”. I guess that it can also be a “black box” if they don’t explain a bit what the model is/does. /shrug
 
 `r blogdown::shortcode("tweet", "1052970283533889536")`
