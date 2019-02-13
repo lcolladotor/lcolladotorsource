@@ -1,0 +1,101 @@
+---
+title: Why do you like living where you live?
+author: L. Collado-Torres
+date: '2019-02-12'
+slug: why-do-you-like-living-where-you-live
+categories:
+  - Misc
+tags:
+  - Baltimore
+  - work-life
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+
+```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
+## For R images to display well in the RSS feed (disable for local preview)
+knitr::opts_knit$set(base.url = 'http://lcolladotor.github.io/post/')
+
+## Load frequently used packages for blog posts
+library('knitcitations') # for citations
+library('BiocStyle') # for CRANpkg() Biocpkg() Githubpkg()
+library('sessioninfo') # for session_info()
+
+## Load knitcitations with a clean bibliography
+cleanbib()
+cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')
+
+bib <- c(
+    'BiocStyle' = citation('BiocStyle'),
+    'blogdown' = citation('blogdown')[2],
+    'knitcitations' = citation('knitcitations'),
+    'sessioninfo' = citation('sessioninfo')
+)
+```
+
+
+In the past months I’ve had a recurrent conversation with many people. This conversation is typically started with the question: why do you like living where you live? Some of them might be considering moving to the city I live in for work, some of them are thinking about leaving, some are happy here. 
+
+Ultimately, everyone is different and what makes some happy might not be for the rest. Some friends want to live in larger cities, others want different climates, others want to move in with their long distance relationship partners, etc. Back in 2015 I was finishing my Ph.D. and thinking about moving somewhere else in 2016. So I started to disengage from friends and the city itself. In the past couple of years, I’ve tried to change my attitude. Or well, adopt my parents’ attitude and follow their lead.
+
+I frequently compared my current city versus my home city. This comparison used to be skewed in favor of my home city: my current city didn’t have the tacos I loved, or the quesadillas at the market, or my family, childhood friends, etc. At some point I started to point out in my head what my current city has that my home city doesn’t have or isn’t as accessible. One of them is a large open, free and largely secure park where you can ride a bike or play tennis like Patterson Park. So I pushed myself to go biking and play tennis in 2018. I also found a [Mexican restaurant that feels like home](http://lcolladotor.github.io/2019/02/03/the-power-of-tapping-into-your-community-for-support/#.XGOPnlxKiUk). I made new friends that understood aspects of me that I didn’t show as much to others here, mostly due to cultural differences. And I started going more frequently to listen to the [Baltimore Symphony Orchestra](https://www.bsomusic.org/) (BSO). So my advice for those who find their current city lacking versus their ideal city or hometown is to start looking for the activities that might be inaccessible elsewhere and that you enjoy. I really like the BSO, so I’ll get into more details about it.
+
+### First symphony
+
+I really enjoy the BSO events and the story starts back in six grade in Madison, Wisconsin. That was my only year there and the school assigned me^[I don’t know if my parents chose for me.] to the chorus. That was new to me and I liked it quite a bit. At some point the chorus teacher offered some free tickets for a couple of students and their families to attend an event at a Madison symphony with a soprano solo. I don’t remember the name of the symphony nor the solo, but I was like, “sure, why not? Can I get the tickets?”. I knew that my family liked classical music and the teacher was happy that a student showed interest in the tickets. I had taken classical guitar lessons when I was younger because my dad loved it and we had several classical music CDs at home. I was blown away by the soprano solo despite my mom forcing me to dress up hehe. The second and last time the chorus teacher offered tickets, I was eager to get them, and we greatly enjoyed the event. 
+
+### Classical music here and there
+
+Across the years in Mexico, we would sometimes go to [UNAM’s Sala Nezahualcóyotl](http://musica.unam.mx/taquillas/sala-nezahualcoyotl/). But it was always a bit of a trek: about 1.5 hr drive, early on the weekend, etc. It was maybe a bit too much and we would frequently get sleepy. I mostly listened to [The Planets](https://en.wikipedia.org/wiki/The_Planets) or [Overture 1812](https://en.wikipedia.org/wiki/1812_Overture) at home and particularly in family road trips. I remember one time crossing Aguascalientes where we had the volume super high during a portion where the symphony plays very low, and then boom, the symphony gets loud and my mom and brother were on the back of the car and complained quite a bit, but my dad and myself were really into it. So listening to the symphony reminds me about good times with my family.
+
+### BSO during grad school
+
+The BSO offers _student rush tickets_ for 10 USD the day of the event as well as a _BSO student passport_^[It’s now called _BSO student select_.] which is worth it if you go to 4 or more events in a season. Check the [discount programs](https://www.bsomusic.org/calendar/special-offers/) for more information. Through a combination of both I went several times to the BSO in my 5 years of graduate studies. But most importantly, I went to the season finales which tend to be on the first week of June. The season finale in 2012 was just after my masters comprehensive exam, and the one in 2013 was also just after my Ph.D. comprehensive exam. Both exams were brutal to study for and the BSO season finales were an incredible release of tension and energy for me. I felt many emotions during both finales and loved them dearly (they also featured choruses!). Over the years I went to many events and there was even a season when several of my grad school friends and I got the BSO student passports.
+
+### BSO since
+
+After graduating, I got a [BSO passport](https://www.bsomusic.org/calendar/special-offers/) which is a great opportunity for those under 40 years old (nowadays it’s 99 USD) to attend as many events as you want in the season. I started to use the symphony as a way to work through my anxiety issues and mostly didn’t bother to invite friends. While that worked for me, in the 2018-2019 season I’ve been more proactive at inviting friends. I love it when a friend who hasn’t experienced the symphony much enjoys the show^[It’s not all classical music. Sometimes there are Broadway-like events, other times there are acrobats, movies with live soundtracks, or indie bands playing with the symphony.] or simply a reason to get out of their house and enjoy Baltimore a little bit more. 
+
+### BSO opportunities and challenges
+
+In recent years, I’ve also been donating to the BSO. I’m never a high donor or anything like that, but I like to contribute a little bit. I’m thankful for the wealthy donors that keep the BSO discount programs running and that I’ve personally benefited so much from. If you think about it, not long ago listening to a symphony was something only those in court did. Today it’s true that you can notice many wealthy patrons. But there are also opportunities for those with limited resources to attend and enjoy this world-class symphony.
+
+However, there are also challenges. I’ve seen patrons complain about noises kids make: it’s hard to ask kids to stay quiet all the time. There are circumstances that magnify this: you can tell some kids have grown up surrounded by classical music while others haven’t. I think that a bit of tolerance can go a long way here to make sure newcomers feel welcomed.
+
+One challenge that I think is very tricky is social media and phones. Many of my friends, myself included, like posting on social media. Taking videos and photos during most BSO events is strictly prohibited. I understand this from two reasons: first, the bright light of phones is disruptive^[Unless you reduce the brightness to a minimum.] and secondly, the symphony wants to try to motivate people to attend the shows in person. I either take photos before the show or at the very end^[It might help to emphasize this when annoucing that pictures and video during the event are prohibited.]. But it’s definitely a culture clash between what happens outside the symphony and what happens inside. We’ll see what time tells, but I do like that the BSO is trying to use Instagram more now. After all, social media in theory can help attract interest from others to attend.
+
+Ultimately, the BSO faces strong financial challenges which you can read about in their [updates](https://www.bsomusic.org/misc/bso-updates/) section. They are doing many things, including a [donation drive that ended yesterday](http://www.bsomusic.org/giving/bso-day-of-giving-2019/) for their anniversary. But as long as they continue their discount programs, this is a great opportunity that I encourage my friends to grab a hold on. It might even change your answer to the question: “do you like living in Baltimore?”, or well, play a role in it. It does play a role for me.
+
+
+![](http://lcolladotor.github.io/post/2019-02-12-why-do-you-like-living-where-you-live_files/IMG_0981.jpg){width=600px}
+
+That's me with some friends at a BSO event in December 2018. We didn't know then, but the BSO president took our picture for us 😅
+ Thanks again!
+
+### Acknowledgements
+
+
+This blog post was made possible thanks to:
+
+* `r Biocpkg('BiocStyle')` `r citep(bib[['BiocStyle']])`
+* `r CRANpkg('blogdown')` `r citep(bib[['blogdown']])`
+* `r CRANpkg('knitcitations')` `r citep(bib[['knitcitations']])`
+* `r CRANpkg('sessioninfo')` `r citep(bib[['sessioninfo']])`
+
+### References
+
+```{r bibliography, results = 'asis', warning = FALSE, echo = FALSE, cache = FALSE}
+## Print bibliography
+bibliography(style = 'html')
+```
+
+### Reproducibility
+
+```{r reproducibility, echo = FALSE}
+## Reproducibility info
+options(width = 120)
+session_info()
+```
