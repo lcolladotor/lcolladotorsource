@@ -111,7 +111,8 @@ This blog post was made possible thanks to:
 
 ### References
 
-```{r bibliography, results = 'asis', echo = FALSE, warnincache g = FALSE, = FALSE, warnrint bibliography
+```{r bibliography, results = 'asis', echo = FALSE, warning = FALSE, cache = FALSE}
+## Print bibliography
 bibliography(style = 'html')
 ```
 
