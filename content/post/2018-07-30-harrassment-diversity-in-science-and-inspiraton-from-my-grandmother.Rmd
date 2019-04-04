@@ -42,7 +42,7 @@ Today was a big day. I care about many things including diversity in science (ST
 
 ### CDSBMexico
 
-This was a very important day for me. It was the beginning of the [Latin American R/BioConductor Developers Workshop 2018](http://www.comunidadbioinfo.org/r-bioconductor-developers-workshop-2018/) in Cuernavaca, Mexico. I already wrote a blog post about [why I was super excited about CDSBMexico](http://lcolladotor.github.io/2018/04/19/latin-american-r-bioconductor-developers-workshop-2018/#.W1-lhNhKi50), but briefly it's because this is something we've been wanting to see become a reality for years and have been working towards it. 
+This was a very important day for me. It was the beginning of the [Latin American R/BioConductor Developers Workshop 2018](https://comunidadbioinfo.github.io/post/r-bioconductor-developers-workshop-2018/) in Cuernavaca, Mexico. I already wrote a blog post about [why I was super excited about CDSBMexico](http://lcolladotor.github.io/2018/04/19/latin-american-r-bioconductor-developers-workshop-2018/#.W1-lhNhKi50), but briefly it's because this is something we've been wanting to see become a reality for years and have been working towards it. 
 
 `r blogdown::shortcode("tweet", "1023665229882961922")`
 
@@ -79,7 +79,7 @@ Today was a big day for [WomenInSTEM](https://twitter.com/search?q=womeninstem) 
 
 The session is not a direct response (I think) but it's definitely related to [Kristian Lum](https://twitter.com/KLdivergence)'s blog post titled [Statistics, we have a problem](https://medium.com/@kristianlum/statistics-we-have-a-problem-304638dc5de5) and to the more general [MeToo](https://twitter.com/search?q=metoo) movement. 
 
-Sexual harassment and misconduct not a US problem only. We have a code of conduct at [CDSBMexico](https://twitter.com/CDSBMexico) both in [English](https://github.com/ComunidadBioInfo/R-BioConductor-Developers-Workshop-2018/blob/master/R-Bioconductor-2018_Program.rmd#code-of-conduct) and [Spanish](http://www.comunidadbioinfo.org/codigo-de-conducta/) to help prevent any issues.
+Sexual harassment and misconduct not a US problem only. We have a code of conduct at [CDSBMexico](https://twitter.com/CDSBMexico) both in [English](https://github.com/ComunidadBioInfo/R-BioConductor-Developers-Workshop-2018/blob/master/R-Bioconductor-2018_Program.rmd#code-of-conduct) and [Spanish](https://comunidadbioinfo.github.io/codigo-de-conducta/) to help prevent any issues.
 
 
 `r blogdown::shortcode("tweet", "1024060403138142209")`

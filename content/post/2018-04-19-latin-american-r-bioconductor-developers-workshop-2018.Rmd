@@ -37,7 +37,7 @@ bib <- c(
 )
 ```
 
-Today I'm excited to invite you to attend the [Latin American R/BioConductor Developers Workshop 2018](http://www.comunidadbioinfo.org/r-bioconductor-developers-workshop-2018/)! It'll be held in Cuernavaca, Mexico from July 30th to August 3rd, 2018. You can find the [official announcement in the Bioconductor support website](https://support.bioconductor.org/p/108108). Let me share with you why I'm excited about this workshop.
+Today I'm excited to invite you to attend the [Latin American R/BioConductor Developers Workshop 2018](https://comunidadbioinfo.github.io/post/r-bioconductor-developers-workshop-2018/)! It'll be held in Cuernavaca, Mexico from July 30th to August 3rd, 2018. You can find the [official announcement in the Bioconductor support website](https://support.bioconductor.org/p/108108). Let me share with you why I'm excited about this workshop.
 
 <img src="http://bioconductor.org/images/logo_bioconductor.gif">
 
@@ -58,13 +58,13 @@ Briefly, these are some of the reasons why they are amazing:
 * Teresa: [RLadiesCDMX](https://www.meetup.com/rladiescdmx/) plus just look at her awesome [GitHub](https://github.com/tereom?tab=repositories) profile!
 * Alicia: she has taught an intro to bioinformatics and reproducible genetic analyses course, plus check her [GitHub](https://github.com/AliciaMstt?tab=repositories) profile!
 
-If you check the [workshop schedule](http://www.comunidadbioinfo.org/r-bioconductor-developers-workshop-2018/) we have, you'll notice that we will have several sessions devoted to actually writing R packages. So the course will cover both the theory and the practice side of things. If you attend the workshop, you'll have plenty of opportunities to network with your peers and to learn from other R developers. You should be super excited now!! ^^ Plus we have a [code of conduct](https://github.com/ComunidadBioInfo/R-BioConductor-Developers-Workshop-2018/blob/master/R-Bioconductor-2018_Program.rmd#code-of-conduct) (en [Español](http://www.comunidadbioinfo.org/codigo-de-conducta/)) to ensure that the conference will be welcoming to everyone.
+If you check the [workshop schedule](https://comunidadbioinfo.github.io/post/r-bioconductor-developers-workshop-2018/) we have, you'll notice that we will have several sessions devoted to actually writing R packages. So the course will cover both the theory and the practice side of things. If you attend the workshop, you'll have plenty of opportunities to network with your peers and to learn from other R developers. You should be super excited now!! ^^ Plus we have a [code of conduct](https://github.com/ComunidadBioInfo/R-BioConductor-Developers-Workshop-2018/blob/master/R-Bioconductor-2018_Program.rmd#code-of-conduct) (en [Español](https://comunidadbioinfo.github.io/codigo-de-conducta/)) to ensure that the conference will be welcoming to everyone.
 
 This is also a reminder that you have to keep trying. Back in 2009 or 2010 I had gotten an offer of support from Bioc for sending someone to Cuernavaca, but due to funding circumstances it fell through. Like I said, all the pieces fell in the right places this time. Plus Heladia Salgado has made it all possible!
 
 2018 is looking like a good year for R courses in Latin America. For example, there's [LatinR](http://latin-r.com/en) and [Buenos Aires RLadies](https://www.meetup.com/rladies-buenos-aires/) plus our workshop! Fingers crossed, I'll be able to attend the workshop in 2019!
 
-Again, I'm excited to invite you to attend the [Latin American R/BioConductor Developers Workshop 2018](http://www.comunidadbioinfo.org/r-bioconductor-developers-workshop-2018/)! Regardless of whether you can attend it, help us spread the word:
+Again, I'm excited to invite you to attend the [Latin American R/BioConductor Developers Workshop 2018](https://comunidadbioinfo.github.io/post/r-bioconductor-developers-workshop-2018/)! Regardless of whether you can attend it, help us spread the word:
 
 
 * Bioc Support website: https://support.bioconductor.org/p/108108/
@@ -85,5 +85,5 @@ Again, I'm excited to invite you to attend the [Latin American R/BioConductor De
 `r blogdown::shortcode("tweet", "986672270964871169")`
 
 * CDSBMexico facebook: https://www.facebook.com/events/215830399185346/
-* Website: http://www.comunidadbioinfo.org/r-bioconductor-developers-workshop-2018/
+* Website: https://comunidadbioinfo.github.io/post/r-bioconductor-developers-workshop-2018/
 * Registration form: http://congresos.nnb.unam.mx/TIB2018/registro/ (select "Latin American R/BioConductor Developers Workshop 2018")
