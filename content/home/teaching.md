@@ -19,6 +19,14 @@ weight = 65
 
 <img class="image alignleft" src="images/LIBD.jpg" width="268" alt="" />
 
+## 2019
+
+1. Instructor and member of the Organizing Committee for the CDSB Workshop 2019: [How to Build and Create Tidy Tools](https://comunidadbioinfo.github.io/post/building-tidy-tools-cdsb-runconf-2019/#.XKj6-etKjOQ) ![](https://comunidadbioinfo.github.io/img/icon.png)
+
+## 2018
+
+1. Keynote speaker and member of the Organizing Committee for the [Latin American R/BioConductor Developers Workshop 2018](https://comunidadbioinfo.github.io/post/r-bioconductor-developers-workshop-2018/#.XKj7y-tKjOQ) ![](https://comunidadbioinfo.github.io/img/icon.png)
+
 ## 2016
 
 1. Biostatistics and Stata instructor at a [workshop for Kandahar University Faculty](http://lcolladotor.github.io/kandahar), organized by Johns Hopkins University. 
