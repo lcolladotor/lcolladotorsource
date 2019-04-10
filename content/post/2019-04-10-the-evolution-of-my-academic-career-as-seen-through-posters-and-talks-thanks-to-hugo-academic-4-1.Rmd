@@ -1,0 +1,231 @@
+---
+title: The evolution of my academic career as seen through posters and talks thanks
+  to hugo academic 4.1
+author: L. Collado-Torres
+date: '2019-04-10'
+slug: the-evolution-of-my-academic-career-as-seen-through-posters-and-talks-thanks-to-hugo-academic-4-1
+categories:
+  - Web
+  - rstats
+tags:
+  - Academia
+  - Website
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+
+```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
+## For R images to display well in the RSS feed (disable for local preview)
+knitr::opts_knit$set(base.url = 'http://lcolladotor.github.io/post/')
+
+## Load frequently used packages for blog posts
+library('knitcitations') # for citations
+library('BiocStyle') # for CRANpkg() Biocpkg() Githubpkg()
+library('sessioninfo') # for session_info()
+
+## Load knitcitations with a clean bibliography
+cleanbib()
+cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')
+
+bib <- c(
+    'BiocStyle' = citation('BiocStyle'),
+    'blogdown' = citation('blogdown')[2],
+    'knitcitations' = citation('knitcitations'),
+    'sessioninfo' = citation('sessioninfo')
+)
+```
+
+
+The [`hugo-academic`](https://github.com/gcushen/hugo-academic) theme which powers my website is active and frequently updated. I don't update my website that frequently anymore, but I recently found about many of their changes when I made the [CDSB website](https://comunidadbioinfo.github.io/).
+
+`r blogdown::shortcode('tweet', '1114003433755959296')`
+
+
+One of the new features that I liked quite a bit was the ability to have landing pages for each person in your team. I wanted to improve my website's section [describing the people I've mentored](http://lcolladotor.github.io/#mentoring) so I decided to update my personal website too. Once I started this process, I realized that talks and publications had drastically changed. You could now have an image per talk or publication, add tags to them and link them to projects. Furthermore, I noticed that I hadn't uploaded all my posters nor the slides for all my talks. So this whole process of updating my website took quite a bit of time! All this new information is also reflected on my [CV](http://lcolladotor.github.io/#cv) now.
+
+### The end result: alumni
+
+First of all, I really like how the section [describing the people I've mentored](http://lcolladotor.github.io/#mentoring) looks now. You can see the faces of the alumni and navigate to a page describing them in more detail.
+
+![](http://lcolladotor.github.io/post/2019-04-10-the-evolution-of-my-academic-career-as-seen-through-posters-and-talks-thanks-to-hugo-academic-4-1_files/Screen Shot 2019-04-10 at 11.33.54 AM.png){width=700px}
+
+For example, check [Amy Peterson](http://lcolladotor.github.io/authors/apeterson/#.XK4NIetKi50)'s landing page which includes links to all her profiles I know about. I was also able to add some pictures of a key event with her: her MPH capstone final presentation. 
+
+![](http://lcolladotor.github.io/post/2019-04-10-the-evolution-of-my-academic-career-as-seen-through-posters-and-talks-thanks-to-hugo-academic-4-1_files/Screen Shot 2019-04-10 at 11.35.08 AM.png){width=700px}
+
+
+### My academic career
+
+In this new version of my website you can also quickly take a look at my academic career by browsing through my [talks](http://lcolladotor.github.io/talk/#.XK4Nr-tKi50) and [publications (papers, posters and a book chapter)](http://lcolladotor.github.io/publication/#.XK4N2OtKi50). The papers are fancier, but the [posters](http://lcolladotor.github.io/publication/#0) and the talks tell you a more detailed story of how I've advanced through my career so far with in progress talks and posters showing some ideas, many of which we discareded in the end. For example, you can look at the [poster I presented at BioC2010](http://lcolladotor.github.io/publication/poster2010bioc/#.XK4OUOtKi50) which is when I met Rafa and Ingo from JHU Biostat. Through the posters and talks you can see how the [`derfinder` project](http://lcolladotor.github.io/project/derfinder/#.XK4PJOtKi50) came to be and culminated in the [publication describing the software](http://lcolladotor.github.io/publication/derfinder/#.XK4PLetKi50), which was my main Ph.D. project. I like how all the talks and posters related to `derfinder` can easily be found through the [project](http://lcolladotor.github.io/project/derfinder/#.XK4PJOtKi50) page. The talks now include my [Ph.D. defense talk](http://lcolladotor.github.io/talk/defense2016/#.XK4PiOtKi50) 🙌🏽✌🏽. 
+
+
+You can also see how the templates I used for making [talks](http://lcolladotor.github.io/talk/#.XK4RFetKi50) evolved through time starting with my [joint undergrad project](http://lcolladotor.github.io/talk/fagos2008/#.XK4OnOtKi50) with [Sur Herrera-Paredes](https://twitter.com/sur_hp). You can find some presentaitons made with Beamer, others with `knitr` (before `rmarkdown` existed), some with RStudio presentations, as well as different PowerPoint templates. 
+
+Overall, I'm very happy with my new website and I hope that you enjoy browsing through my academic career. I'll use it to movitate others by showing them that we all start somewhere and it takes time and effort to grow.
+
+
+### Some code for udpating to hugo academic 4.1.0
+
+ If you are updating your `hugo-academic` website you should be prepared to spend a significant amount of time if you want to include all the details I included. It took me most of my Saturday, Monday afternoon, and several hours on Tuesday to update mine. Here's some code I used in this process that might be helpful to you.
+
+```{r, eval = FALSE}
+## I copied my lcolladotorsource/content/talk files to ~/Downloads/ugh-talks
+## then I made a new directory named after the initial .md files
+## I made this process easier when updating my publications
+## (see further below)
+p_ori <- '~/Downloads/ugh-talks/'
+p_new <- '/users/lcollado/Dropbox/code/lcolladotorsource/content/talk'
+f <- dir(p_ori)
+ff <- gsub('.md', '', f)
+
+
+## For testing
+# i <- 1
+
+for(i in seq_len(length(f))) {
+
+    f_initial <- file.path(p_ori, f[i])
+  f_new <- file.path(p_new, ff[i], 'index.md')
+  
+  initial <- readLines(f_initial)
+  new <- readLines(f_new)
+  
+  ## For a set of tags present in the previous version of hugo-academic
+  ## I was using and the latest one, I found the initial strings
+  ## such that I could find and replace the text.
+  ## I also made sure to delete that info on the previous version
+  ## so I could inspect rapidly if there was any information
+  ## on the old version that I hadn't transfered to the new version.
+  ## This typically involved some custom urls whose syntax is now
+  ## different.
+  for(j in c('location', 'abstract ', 'event_url', 'url_video', 'url_slides', 'title', 'url_pdf', 'event ', 'math')) {
+    ## for debugging:
+    # print(j)
+    patt <- paste0('^', j)
+    cont <- initial[grep(patt, initial)]
+    initial[grep(patt, initial)] <- ''
+    stopifnot(length(grep(patt, new)) > 0)
+    # print(length(cont))
+    new[grep(patt, new)] <- cont
+  }
+  
+  ## For times I had to do this manually
+  ## since the names for these tags changed
+  j <- 'time_start'
+  patt <- paste0('^', j)
+  cont <- initial[grep(patt, initial)]
+  initial[grep(patt, initial)] <- ''
+  new[grep('^date ', new)] <- gsub('time_start', 'date', cont)
+  
+  ## and the end time wasn't always there
+  cont2 <- initial[grep('^time_end', initial)]
+  cont2 <- gsub('time_end', 'date_end', cont2)
+  if(length(cont2) == 0) cont2 <- gsub('time_start', 'date_end', cont) else initial[grep('^time_end', initial)] <- ""
+  new[grep('^date_end ', new)] <- cont2
+  
+  ## Similarly, the short version of the abstract now has
+  ## a different name
+  j <- 'abstract_short'
+  patt <- paste0('^', j)
+  cont <- initial[grep(patt, initial)]
+  initial[grep(patt, initial)] <- ''
+  new[grep('^summary', new)] <- gsub('abstract_short', 'summary', cont)
+  
+  ## Replace the old and new files with the updated versions ^^
+  writeLines(initial, f_initial)
+  writeLines(new, f_new)
+}
+
+
+
+
+### Publications
+
+## Again, I moved the original files elsewhere
+## and I copied the exampleSite/content/publication/clothing-search
+## directory
+
+## I then edited the clothing-search/index.md file
+## a little bit before copying it to all the new folders below
+
+p_ori <- '~/Downloads/ugh/'
+p_new <- '/users/lcollado/Dropbox/code/lcolladotorsource/content/publication'
+f <- dir(p_ori)
+ff <- gsub('.md', '', f)
+
+
+for(i in seq_len(length(f))) {
+  
+  
+  ## Create the new directories from R
+  ## coping my modified template publication using the
+  ## clothing-search example
+  system(paste('cp -R', file.path(p_new, 'clothing-search'), file.path(p_new, ff[i])))
+  
+  
+  
+  f_initial <- file.path(p_ori, f[i])
+  f_new <- file.path(p_new, ff[i], 'index.md')
+  
+  initial <- readLines(f_initial)
+  new <- readLines(f_new)
+  
+  ## Update tags just like I did for the talks
+  for(j in c('title ', 'date ', 'math ', 'publication ', 'abstract ', 'url_pdf', 'url_project', 'url_dataset', 'url_video', 'url_slides', 'url_code', 'authors ')) {
+    #print(j)
+    patt <- paste0('^', j)
+    cont <- initial[grep(patt, initial)]
+    initial[grep(patt, initial)] <- ''
+    stopifnot(length(grep(patt, new)) > 0)
+    #print(length(cont))
+    new[grep(patt, new)] <- cont
+  }
+  
+  writeLines(initial, f_initial)
+  writeLines(new, f_new)
+
+}
+```
+
+
+```{bash, eval = FALSE}
+## I used imagemagick a few times to create the featured.jpg files
+convert eurobioc2010-Bacterial-Collado.pdf[0] featured.jpg
+
+## Other times I created those images by taking screenshots
+## and then reducing the size to a max width/height of 1000 pixels
+## to reduce the file sizes a bit
+```
+
+
+
+
+
+
+### Acknowledgements
+
+
+This blog post was made possible thanks to:
+
+* `r Biocpkg('BiocStyle')` `r citep(bib[['BiocStyle']])`
+* `r CRANpkg('blogdown')` `r citep(bib[['blogdown']])`
+* `r CRANpkg('knitcitations')` `r citep(bib[['knitcitations']])`
+* `r CRANpkg('sessioninfo')` `r citep(bib[['sessioninfo']])`
+
+### References
+
+```{r bibliography, results = 'asis', echo = FALSE, cache = FALSE, warning = FALSE}
+## Print bibliography
+bibliography(style = 'html')
+```
+
+### Reproducibility
+
+```{r reproducibility, echo = FALSE}
+## Reproducibility info
+options(width = 120)
+session_info()
+```

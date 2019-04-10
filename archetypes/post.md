@@ -86,7 +86,7 @@ This blog post was made possible thanks to:
 
 ### References
 
-```{r bibliography, results = 'asis', echo = FALSE, cache = FALSE}
+```{r bibliography, results = 'asis', echo = FALSE, cache = FALSE, warning = FALSE}
 ## Print bibliography
 bibliography(style = 'html')
 ```
