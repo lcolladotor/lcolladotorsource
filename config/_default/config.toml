@@ -76,7 +76,7 @@ preserveTaxonomyNames = true
 # custom_css = []
 # custom_js  = []
 
-# disablePathToLower = true
+disablePathToLower = true
 #
 # [permalinks]
 #   post = "/:year/:month/:day/:slug"
