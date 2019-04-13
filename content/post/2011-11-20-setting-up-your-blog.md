@@ -5,7 +5,6 @@ date: 2011-11-20T00:00:00Z
 tags:
 - Blog
 title: Setting up your blog
-url: /2011/11/20/Setting-up-your-blog
 ---
 
 <p>Now that I&#8217;ve spent time re-doing Fellgernon Bit, I thought it&#8217;d be a good time my experience on setting up a socially-connected blog.</p>

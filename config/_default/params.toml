@@ -171,3 +171,7 @@ sharing = true
     api_key = ""
     index_name = ""
     show_logo = false
+
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"

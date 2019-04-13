@@ -6,6 +6,7 @@ categories:
   - rstats
 tags:
   - Help
+slug: 'How-to-ask-for-help-for-Bioconductor-packages'
 ---
 
 
