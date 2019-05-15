@@ -19,7 +19,7 @@ organizations = [ { name = "Lieber Institute for Brain Development", url = "http
 bio = "Brain genomics #rstats coder working w/ @andrewejaffe @LieberInstitute. @lcgunam @jhubiostat @jtleek alumni. @LIBDrstats @CDSBMexico co-founder."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "leo.collado@libd.org"
+email = "lcolladotor@gmail.com"
 
 # List (academic) interests or hobbies
 interests = [
