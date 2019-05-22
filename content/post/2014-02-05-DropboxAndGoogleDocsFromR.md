@@ -182,7 +182,7 @@ load("gpasswd.Rdata")
 text <- "Hello world!\n"
 
 ## Authentificate
-auth <- getGoogleAuth("fellgernon@gmail.com", gpasswd)
+auth <- getGoogleAuth("lcolladotor@gmail.com", gpasswd)
 
 ## Connect to Google
 con <- getGoogleDocsConnection(auth)
