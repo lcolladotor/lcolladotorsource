@@ -88,7 +88,7 @@ user_groups = ["Admin"]
 [[social]]
     icon = "linkedin"
     icon_pack = "fab"
-    link = "www.linkedin.com/in/lcollado"
+    link = "https://www.linkedin.com/in/lcollado/"
 
 [[social]]
   icon = "publons"
