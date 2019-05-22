@@ -3,7 +3,7 @@ title = "Fast Annotation-Agnostic Differential Expression Analysis"
 date = "2013-10-19T16:52:21-05:00"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["__Leonardo Collado Torres__"]
+authors = ["admin"]
 
 # Publication type.
 # Legend:

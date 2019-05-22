@@ -3,7 +3,7 @@ title = "BrainSeq Phase II: schizophrenia-associated expression differences betw
 date = "2018-06-01T16:52:21-05:00"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["__Leonardo Collado Torres__"]
+authors = ["admin"]
 
 # Publication type.
 # Legend:

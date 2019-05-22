@@ -1,6 +1,6 @@
 +++
-title = "Regional heterogeneity in gene expression, regulation and coherence in hippocampus and dorsolateral prefrontal cortex across development and in schizophrenia"
-date = "2018-10-16T16:52:21-05:00"
+title = "recount-brain: a curated repository of human brain RNA-seq datasets metadata"
+date = "2019-05-08T14:00:00"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["admin"]
@@ -19,7 +19,7 @@ authors = ["admin"]
 publication_types = ["0"]
 
 # Publication name and optional abbreviated version.
-publication = "Poster presented at ASHG2018, biodata18 and PSB2019"
+publication = "Poster presented at BoG2019"
 publication_short = ""
 
 # Abstract.
@@ -36,7 +36,7 @@ featured = false
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["BrainSeq", "Poster"]
+tags = ["recount2", "recount brain", "Poster"]
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -44,12 +44,12 @@ tags = ["BrainSeq", "Poster"]
 #   E.g. `projects = ["deep-learning"]` references 
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = ["BrainSeq"]
+projects = ["recount2"]
 
 # Links (optional).
-url_pdf = "http://lcolladotor.github.io/Posters/ASHG2018.pdf"
+url_pdf = "https://lcolladotor.github.io/recount-brain-bog19/"
 url_preprint = ""
-url_code = ""
+url_code = "https://github.com/lcolladotor/recount-brain-bog19/"
 url_dataset = ""
 url_project = ""
 url_slides = ""
@@ -68,7 +68,7 @@ math = false
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 [image]
   # Caption (optional)
-  caption = "Image credit: [**PDF**](http://lcolladotor.github.io/Posters/ASHG2018.pdf)"
+  caption = "Image credit: [**PDF**](https://lcolladotor.github.io/recount-brain-bog19/)"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight

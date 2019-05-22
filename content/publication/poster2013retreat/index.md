@@ -3,7 +3,7 @@ title = "Differential expression RNA-seq analysis with a large data set from bra
 date = "2013-04-19T16:52:21-05:00"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["__Leonardo Collado Torres__"]
+authors = ["admin"]
 
 # Publication type.
 # Legend:

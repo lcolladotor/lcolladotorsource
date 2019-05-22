@@ -3,7 +3,7 @@ title = "Annotation-agnostic RNA-seq differential expression analysis software"
 date = "2015-10-19T16:52:21-05:00"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["__Leonardo Collado Torres__"]
+authors = ["admin"]
 
 # Publication type.
 # Legend:

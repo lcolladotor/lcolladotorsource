@@ -3,7 +3,7 @@ title = "Getting started with recount2 and accessing it via R"
 date = "2017-10-20T16:52:21-05:00"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["__Leonardo Collado Torres__", "Abhinav Nellore", "Andrew Jaffe"]
+authors = ["admin"]
 
 # Publication type.
 # Legend:
