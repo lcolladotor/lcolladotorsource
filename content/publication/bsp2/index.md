@@ -1,9 +1,9 @@
 +++
-title = "Regional heterogeneity in gene expression, regulation and coherence in hippocampus and dorsolateral prefrontal cortex across development and in schizophrenia"
-date = "2018-09-28"
+title = "Regional heterogeneity in gene expression, regulation, and coherence in the frontal cortex and hippocampus across development and schizophrenia"
+date = "2019-06-04"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["[__Leonardo Collado-Torres__](/authors/admin)", "Emily E Burke", "Amy Peterson", "Joo Heon Shin", "Richard E Straub", "Anandita Rajpurohit", "Stephen A Semick", "William S Ulrich", "BrainSeq Consortium", "Cristian Valencia", "Ran Tao", "Amy Deep-Soboslay", "Thomas M Hyde", "Joel E Kleinman", "Daniel R Weinberger &dagger;", "Andrew E Jaffe &dagger;"]
+authors = ["[__Leonardo Collado-Torres__](/authors/admin)", "Emily E Burke", "Amy Peterson", "JooHeon Shin", "Richard E Straub", "Anandita Rajpurohit", "Stephen A Semick", "William S Ulrich", "BrainSeq Consortium", "Amanda J Price", "Cristian Valencia", "Ran Tao", "Amy Deep-Soboslay", "Thomas M Hyde", "Joel E Kleinman", "Daniel R Weinberger &dagger;", "Andrew E Jaffe &dagger;"]
 
 # Publication type.
 # Legend:
@@ -16,20 +16,20 @@ authors = ["[__Leonardo Collado-Torres__](/authors/admin)", "Emily E Burke", "Am
 # 6 = Book section
 # 7 = Thesis
 # 8 = Patent
-publication_types = ["3"]
+publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "bioRxiv 426213"
+publication = "Neuron"
 publication_short = ""
 
 # Abstract.
-abstract = "Recent large-scale genomics efforts have better characterized the molecular correlates of schizophrenia in postmortem human neocortex, but not hippocampus which is a brain region prominently implicated in its pathogenesis. Here in the second phase of the BrainSeq Consortium (Phase II), we have generated RiboZero RNA-seq data for 900 samples across both the dorsolateral prefrontal cortex (DLPFC) and the hippocampus (HIPPO) for 551 individuals (286 affected by schizophrenia disorder: SCZD). We identify substantial regional differences in gene expression, in both pre- and post-natal life, and find widespread differences in how genes are regulated across development. By extending quality surrogate variable analysis (qSVA) to multiple brain regions, we identified 48 and 245 differentially expressed genes (DEG) by SCZD diagnosis (FDR<5%) in HIPPO and DLPFC, respectively, with surprisingly minimal overlap in DEG between the two brain regions. While there were widespread eQTLs in both brain regions, we identified 205,618 brain region-dependent eQTLs (FDR<1%). We further found that 124/163 (76.6%) schizophrenia GWAS risk loci contained eQTLs in at least one of the regions. We lastly identified potential molecular correlates of in vivo evidence of altered prefrontal-hippocampal functional coherence in schizophrenia. These results underscore the complexity and regional heterogeneity of the transcriptional correlates of schizophrenia, and suggest future schizophrenia therapeutics may need to target molecular pathologies localized to specific brain regions."
+abstract = "The hippocampus formation, although prominently implicated in schizophrenia pathogenesis, has been overlooked in large-scale genomics efforts in the schizophrenic brain. We performed RNA-seq in hippocampi and dorsolateral prefrontal cortices (DLPFCs) from 551 individuals (286 with schizophrenia). We identified substantial regional differences in gene expression and found widespread developmental differences that were independent of cellular composition. We identified 48 and 245 differentially expressed genes (DEGs) associated with schizophrenia within the hippocampus and DLPFC, with little overlap between the brain regions. 124 of 163 (76.6%) of schizophrenia GWAS risk loci contained eQTLs in any region. Transcriptome-wide association studies in each region identified many novel schizophrenia risk features that were brain region-specific. Last, we identified potential molecular correlates of in vivo evidence of altered prefrontal-hippocampal functional coherence in schizophrenia. These results underscore the complexity and regional heterogeneity of the transcriptional correlates of schizophrenia and offer new insights into potentially causative biology."
 
 # Summary. An optional shortened abstract.
 summary = ""
 
 # Digital Object Identifier (DOI)
-doi = "10.1101/426213"
+doi = "10.1016/j.neuron.2019.05.013"
 
 # Is this a featured publication? (true/false)
 featured = true
@@ -47,11 +47,11 @@ tags = ["BrainSeq"]
 projects = ["BrainSeq"]
 
 # Links (optional).
-url_pdf = "https://www.biorxiv.org/content/early/2018/09/26/426213.full.pdf"
+url_pdf = "https://doi.org/10.1016/j.neuron.2019.05.013"
 url_preprint = "https://www.biorxiv.org/content/early/2018/09/26/426213"
 url_code = "https://github.com/LieberInstitute/brainseq_phase2"
-url_dataset = ""
-url_project = ""
+url_dataset = "https://data.mendeley.com/datasets/3j93ybf4md/"
+url_project = "http://eqtl.brainseq.org/phase2/"
 url_slides = ""
 url_video = ""
 url_poster = ""
@@ -68,7 +68,7 @@ math = true
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 [image]
   # Caption (optional)
-  caption = "Image credit: [**bioRxiv**](https://www.biorxiv.org/content/early/2018/09/26/426213)"
+  caption = "Image credit: [**Mendeley Data DOI 10.17632/3j93ybf4md.1**](http://dx.doi.org/10.17632/3j93ybf4md.1#folder-e1cc7506-38e8-4eff-9b27-33526575f060)"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
