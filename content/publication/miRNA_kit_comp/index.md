@@ -1,6 +1,6 @@
 +++
 title = "Comprehensive assessment of multiple biases in small RNA sequencing reveals significant differences in the performance of widely used methods"
-date = "2018-10-30"
+date = "2019-06-21"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Carrie Wright __*__", "Anandita Rajpurohit __*__", "Emily E. Burke"," Courtney Williams", "[__Leonardo Collado-Torres__](/authors/admin)", "Martha Kimos", "Nicholas J. Brandon", "Alan J. Cross", "Andrew E. Jaffe", "Daniel R. Weinberger  &dagger;", "Joo Heon Shin  &dagger;"]
@@ -16,20 +16,20 @@ authors = ["Carrie Wright __*__", "Anandita Rajpurohit __*__", "Emily E. Burke",
 # 6 = Book section
 # 7 = Thesis
 # 8 = Patent
-publication_types = ["3"]
+publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "bioRxiv 445437"
+publication = "BMC Genomics"
 publication_short = ""
 
 # Abstract.
-abstract = "High-throughput sequencing offers advantages over other quantification methods for microRNA (miRNA), yet numerous biases make reliable quantification challenging. Previous evaluations of reverse transcription or amplification bias in small RNA sequencing has been limited. Furthermore, little work has evaluated isomiR (miRNA isoforms) quantifications or the influence of starting amount on performance. We therefore evaluated quantifications of canonical miRNA and isomiRs using four library preparation kits, with various starting amounts (100ng to 2000ng), as well as quantifications following the removal of duplicate reads using unique molecular identifiers (UMIs) to mitigate reverse transcription and amplification biases. Randomized adapter and adapter-free methods mitigated bias; however, the adapter-free method was especially prone to false isomiR detection. We demonstrate that using UMIs improves accuracy and we provide a guide for input amounts to improve consistency. Our data show differences and limitations of current methods, thus raising concerns about the validity of quantification of miRNA and isomiRs."
+abstract = "Background: RNA sequencing offers advantages over other quantification methods for microRNA (miRNA), yet numerous biases make reliable quantification challenging. Previous evaluations of these biases have focused on adapter ligation bias with limited evaluation of reverse transcription bias or amplification bias. Furthermore, evaluations of the quantification of isomiRs (miRNA isoforms) or the influence of starting amount on performance have been very limited. No study had yet evaluated the quantification of isomiRs of altered length or compared the consistency of results derived from multiple moderate starting inputs. We therefore evaluated quantifications of miRNA and isomiRs using four library preparation kits, with various starting amounts, as well as quantifications following removal of duplicate reads using unique molecular identifiers (UMIs) to mitigate reverse transcription and amplification biases. Results: All methods resulted in false isomiR detection; however, the adapter-free method tested was especially prone to false isomiR detection. We demonstrate that using UMIs improves accuracy and we provide a guide for input amounts to improve consistency. Conclusions: Our data show differences and limitations of current methods, thus raising concerns about the validity of quantification of miRNA and isomiRs across studies. We advocate for the use of UMIs to improve accuracy and reliability of miRNA quantifications."
 
 # Summary. An optional shortened abstract.
 summary = ""
 
 # Digital Object Identifier (DOI)
-doi = "10.1101/445437"
+doi = "10.1186/s12864-019-5870-3"
 
 # Is this a featured publication? (true/false)
 featured = false
@@ -47,7 +47,7 @@ tags = ["miRNA"]
 projects = [""]
 
 # Links (optional).
-url_pdf = "https://www.biorxiv.org/content/early/2018/10/30/445437.full.pdf"
+url_pdf = "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-5870-3f"
 url_preprint = "https://www.biorxiv.org/content/10.1101/445437v3"
 url_code = "https://github.com/LieberInstitute/miRNA_Kit_Comparison"
 url_dataset = ""
@@ -68,7 +68,7 @@ math = true
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 [image]
   # Caption (optional)
-  caption = "Image credit: [**bioRxiv**](https://doi.org/10.1101/445437)"
+  caption = "Image credit: [**bioRxiv**](https://doi.org/10.1186/s12864-019-5870-3)"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
