@@ -18,4 +18,4 @@ autolink = true
 email_form = 0
 +++
 
-If you have questions about the Bioconductor packages I maintain, please read [this post](http://lcolladotor.github.io/2017/03/06/How-to-ask-for-help-for-Bioconductor-packages/#.WL3NQBIrJoM). If you send me an email, I'll simply refer you to the same post.
+If you have questions about the Bioconductor packages I maintain, please read [this post](http://lcolladotor.github.io/2017/03/06/how-to-ask-for-help-for-bioconductor-packages/#.WL3NQBIrJoM). If you send me an email, I'll simply refer you to the same post.
