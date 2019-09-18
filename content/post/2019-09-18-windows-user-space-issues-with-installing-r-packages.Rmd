@@ -42,10 +42,10 @@ Are you a Microsoft Windows `R` user? Does your Windows username include a space
 
 ### Solutions
 
-You could either re-install Windows with a username that has no spaces such as `Lastname`, but that's probably not an easy option. Or you can:
+You could either re-install Windows with a username that has no spaces such as `Lastname` ^[This is the case in the Bioconductor Windows build machine where the username is `biocbuild` as you can see [here](http://bioconductor.org/checkResults/release/bioc-LATEST/recount/tokay2-install.html).], but that's probably not an easy option. Or you can:
 
 * Edit your `TMP` and `TEMP` environment variables to a location with no spaces, like `C:\TEMP` following instructions like [these ones](https://www.howtogeek.com/285710/how-to-move-windows-temporary-folders-to-another-drive/).
-* Preferably install `R` at a location with no spaces, like `C:\R`, instead of the default `C:\Program Files`.
+* Preferably install `R` at a location with no spaces, like `C:\R`, instead of the default `C:\Program Files` ^[In the Bioconductor Windows build machines there are again no spaces in the path to the R installation and the library where packages are installed.].
 
 
 ### Backstory
