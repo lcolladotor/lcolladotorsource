@@ -48,7 +48,7 @@ projects = ["recount2"]
 
 # Links (optional).
 url_pdf = "https://www.biorxiv.org/content/biorxiv/early/2019/06/13/659490.full.pdf"
-url_preprint = "https://www.biorxiv.org/content/10.1101/659490v3"
+url_preprint = "https://www.biorxiv.org/content/10.1101/659490v4"
 url_code = "https://github.com/eddieimada/fcr2"
 url_dataset = "https://jhubiostatistics.shinyapps.io/recount/"
 url_project = ""
