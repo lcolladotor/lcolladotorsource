@@ -125,10 +125,10 @@ I also think that it's dangerous to ignore this question even when you are highl
 ## Alternative way to count
 
 <center>
-<a href="http://sleepfoundation.org/sites/default/files/STREPchanges_1.png"><img src="http://sleepfoundation.org/sites/default/files/STREPchanges_1.png" alt="Sleep" style="width: 771px;"/></a>
+<a href="https://mk0sleepreportn6oj0i.kinstacdn.com/wp-content/uploads/2019/10/sleep-duration-and-health-impact.jpg"><img src="https://mk0sleepreportn6oj0i.kinstacdn.com/wp-content/uploads/2019/10/sleep-duration-and-health-impact.jpg" alt="Sleep" style="width: 771px;"/></a>
 </center>
 
-Picture from the Sleep Foundation <a id='cite-greycite27251'></a>(<a href='http://sleepfoundation.org/how-sleep-works/how-much-sleep-do-we-really-need'>, 2015</a>).
+Picture from the Sleep Report <a id='cite-greycite27251'></a>(<a href='https://sleep.report/sleep-duration-infographic/'>, 2019 update</a>).
 
 Another way to take a look at this question is to see how would you like to spend your time outside work. Seems like a good recommendation is to sleep 8 hours per day. Spending about 4 hours per day with your family seems like a good goal <a id='cite-greycite27254'></a>(<a href='http://www.circleofmoms.com/question/how-much-time-do-you-spend-your-child-day-1701015'>, 2015</a>) although many people can't <a id='cite-greycite27255'></a>(<a href='http://www.babycenter.com/viewPollResults.htm?pollId=1527797'>, 2015</a>) despite "spending quality family time together is very important" <a id='cite-greycite27256'></a>(<a href='http://msue.anr.msu.edu/news/spending_quality_family_time_together_is_very_important'>, 2015</a>). If you exercise about 1 hour a day, take about 1 hour to get ready in the morning, spend 1 hour commuting, and 1 hour cooking/having dinner that leaves you with 8 hours per day for work. With school taking about 6 hours, this seems doable if your work allows you to work from home for 2 hours or so. Such a schedule would look something like this:
 
@@ -291,10 +291,10 @@ URL: <a href="https://www.insidehighered.com:80/advice/2013/04/22/essay-hours-fa
 URL: <a href="http://www.bankrate.com/calculators/tax-planning/quick-tax-rate-calculator.aspx">http://www.bankrate.com/calculators/tax-planning/quick-tax-rate-calculator.aspx</a>.</cite></p>
 
 <p><a id='bib-greycite27251'></a><a href="#cite-greycite27251">[5]</a><cite>
-<em>How Much Sleep Do We Really Need?</em>
-<a href="http://sleepfoundation.org/how-sleep-works/how-much-sleep-do-we-really-need">http://sleepfoundation.org/how-sleep-works/how-much-sleep-do-we-really-need</a>.
+<em>Sleep Duration and Its Health Impacts: The Infographic</em>
+<a href="https://sleep.report/sleep-duration-infographic/">https://sleep.report/sleep-duration-infographic/</a>.
 2015.
-URL: <a href="http://sleepfoundation.org/how-sleep-works/how-much-sleep-do-we-really-need">http://sleepfoundation.org/how-sleep-works/how-much-sleep-do-we-really-need</a>.</cite></p>
+URL: <a href="https://sleep.report/sleep-duration-infographic/">https://sleep.report/sleep-duration-infographic/</a>.</cite></p>
 
 <p><a id='bib-greycite27243'></a><a href="#cite-greycite27243">[6]</a><cite>
 <em>News from The Associated Press</em>.
