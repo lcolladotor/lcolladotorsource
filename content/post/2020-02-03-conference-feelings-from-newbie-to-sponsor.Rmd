@@ -1,0 +1,112 @@
+---
+title: 'Conference feelings: from newbie to sponsor'
+author: L. Collado-Torres
+date: '2020-02-03'
+slug: conference-feelings-from-newbie-to-sponsor
+categories:
+  - Conference
+  - rstats
+tags:
+  - Academia
+  - Sponsorship
+image:
+  caption: ''
+  focal_point: ''
+---
+
+
+```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
+## For R images to display well in the RSS feed (disable for local preview)
+knitr::opts_knit$set(base.url = 'http://lcolladotor.github.io/post/')
+
+## Load frequently used packages for blog posts
+library('knitcitations') # for citations
+library('BiocStyle') # for CRANpkg() Biocpkg() Githubpkg()
+library('sessioninfo') # for session_info()
+
+## Load knitcitations with a clean bibliography
+cleanbib()
+cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')
+
+bib <- c(
+    'BiocStyle' = citation('BiocStyle'),
+    'blogdown' = citation('blogdown')[2],
+    'knitcitations' = citation('knitcitations'),
+    'sessioninfo' = citation('sessioninfo')
+)
+```
+
+
+In the summer of 2008, nearly 12 years ago, I attended my first R/Bioconductor conference: [BioC2008](https://bioconductor.org/help/course-materials/2008/BioC2008/). Just last week I went to my second [rstudio::conf(2020)](https://rstudio.com/conference/) which I greatly enjoyed. After some [tweets exchanges today](https://twitter.com/fellgernon/status/1224512627017244673?s=20), I started reflecting on my journey and wanted to share my thoughts.
+
+### Why I like going to conferences
+
+I typically enjoy going to conferences, though I also end up exhausted. 
+
+<iframe src="https://giphy.com/embed/l3V0p1WFoSIrzPLW0" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/l3V0p1WFoSIrzPLW0">via GIPHY</a></p>
+
+Part of it could be the traveling and all that goes with it, but I think that conferences are mostly mentally taxing. There's an information deluge which I typically find overwhelming. Sure, I love finding about new work but at some point it's like collecting bookmarks of stuff to read or try out later ^[Which is why I have recently taken to Twitter to take "notes". Notes that I make public and not necessarily go back and revisit, but if I want to, I know where they are.]. Yet the most exhausting component of going to a conference could be the networking aspect. Meeting others and catching up with friends is __extremely__ rewarding which is why I ultimately sign up for the next conference. How rewarding can it be? My most extreme example is when two professors invited me to apply to the Ph.D. program that I ended up studying. Though simply making friends and having friendly faces around you can go a long way. I'll expand a bit on this later.
+
+
+### As a newbie
+
+Across my career I have felt as a _newbie_ when attending many different conferences. I might be alone or maybe have a friend at the conference, or it could be my first time at a conference that I haven't been to. Your mind, like mine, can be filled up with questions that later might seem simple like:
+
+* How should I dress?
+* Is it ok to drink alcohol? ^[Or not drink alcohol. Whichever you want.]
+* How do I not feel alone?
+* Am I the odd one here?
+* How can I talk to X or Y person I've heard about before but never met?
+
+My answers have likely changed over time and currently are:
+
+* Comfortable, but remember that this is a work event. So look professional by getting a haircut and dressing up a bit ^[I don't wear suits or anything like that though.].
+* Yes, but not too much and if I don't want any, that's ok too.
+* Talk to whoever seems friendly: could be someone new or an old friend or acquaintance. 
+* Maybe, but _meh_ 🤷🏽‍♂️. I do try talking to other latinos or foreigners specially when there's not many of us around.
+* This one is still hard, but maybe someone I know knows them and can introduce me. If so, I ask for the favor. Otherwise I try to approach them with a question about their work.
+
+### As a... _sponsor_?
+
+The desire to avoid feeling alone is something that can still shape my behavior at a conference. If possible, I like having some close friends I can hang out with and be relaxed, almost as if we were not at the conference. They provide a zone that I can enter, recharge, and then head out of it again to continue networking. 
+
+Yet recently, I've grown more conscious of the fact that I've been around longer than others. Meaning that I might be the person that knows X or Y that they want to meet or talk to. That is, I find myself more frequently in the position of introducing people and helping them make connections. Somehow asking X or Y: "hey, do you have a minute? Can I introduce you to someone?" is way less scary even if I'm not the closest acquaintance of X or Y. That is, becoming a _sponsor_: mostly the _access_ portion as defined by [this blog post by Emily Robinson](https://hookedondata.org/the-importance-of-sponsorship/).
+
+So, while I still network like I used to, a portion of my time is spent checking on others I know so they are not alone and helping them when possible make the connections they want. Doing so also helps me strengthen my own connections as I detailed near the end of my [tweet series post-rstudio::conf(2020)](https://twitter.com/fellgernon/status/1224034242537119744?s=20).
+
+`r blogdown::shortcode('tweet', '1224034315429994502')`
+
+### Feeling empowered
+
+Reaching out and trying to meet someone is hard and scary. Something that helped me since BioC2008 was the fact that I had others in mind: I knew that I was going to teach R later that fall at LCG-UNAM, so any questions I could get through or people I could meet were huge wins for me. Thus, thinking about others empowered me to network. And that's still true for me through our CDSB project at [comunidadbioinfo.github.io](https://comunidadbioinfo.github.io/). 
+
+If I'm still feeling shy or alone, I remember a story from my dad: he claims that without approaching others who were having dinner at a table, introducing himself and creating a social connection, his ideas would have not made the [_Escherichia coli_ genome paper](https://www.ncbi.nlm.nih.gov/pubmed/9278503) that helped launch his career. Personally, once I break that barrier and start to feel comfortable, I feel like I can ask anything: specially feedback and support from others on how to advance some ideas of mine. Lately, that's mostly been related to our [CDSB](https://comunidadbioinfo.github.io/) project. 
+
+I wish others could feel empowered too, yet it's hard to get there. For now, I simply try to help others emulating what others have done for me. Ultimately, I know that getting someone to answer the doorbell is the first step towards opening a door 🤗🙌🏾 which motivates me and helps me overcome my shyness. Whatever they do after someone answers the doorbell is up to the person I'm helping. Yet in that moment, the satisfaction of helping others make connections fulfills me. Later on, it brings a smile to my face even if I'm exhausted after the conference.
+
+<iframe src="https://giphy.com/embed/jOyNf6zPoQ2UE" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/soccer-angry-mash-up-jOyNf6zPoQ2UE">via GIPHY</a></p>
+
+### Acknowledgments
+
+
+This blog post was made possible thanks to:
+
+* `r Biocpkg('BiocStyle')` `r citep(bib[['BiocStyle']])`
+* `r CRANpkg('blogdown')` `r citep(bib[['blogdown']])`
+* `r CRANpkg('knitcitations')` `r citep(bib[['knitcitations']])`
+* `r CRANpkg('sessioninfo')` `r citep(bib[['sessioninfo']])`
+
+### References
+
+```{r bibliography, results = 'asis', echo = FALSE, cache = FALSE, warning = FALSE}
+## Print bibliography
+bibliography(style = 'html')
+```
+
+### Reproducibility
+
+```{r reproducibility, echo = FALSE}
+## Reproducibility info
+options(width = 120)
+session_info()
+```
