@@ -247,7 +247,7 @@ This is hard. Some don’t mention the methods to avoid this issue, but then it 
 
 
 
-### Acknowledgements
+### Acknowledgments
 
 
 This blog post was made possible thanks to:

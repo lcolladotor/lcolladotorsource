@@ -155,7 +155,7 @@ Also, ask around. You might belong to a group or know someone that is willing to
 * [R-Ladies Baltimore](https://rladies-baltimore.github.io/)
 * [R-Ladies NYC](http://www.rladiesnyc.org/)
 
-### Acknowledgements
+### Acknowledgments
 
 
 This blog post was made possible thanks to:

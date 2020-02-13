@@ -154,7 +154,7 @@ You can also delete your original images, if for example, they are cluttering yo
 
 I hope that you will find this new addin as useful as I'm finding it, or even more. Plus hopefully this blog post gives you an idea of the difficulties before this addin existed. Also, I want to thank Yihui Xie for guiding me, I've learnt quite a bit recently. Though I will still use `<-` assignment operator for my own code hehe.
 
-### Acknowledgements
+### Acknowledgments
 
 
 This blog post was made possible thanks to:

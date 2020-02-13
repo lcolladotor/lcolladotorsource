@@ -97,7 +97,7 @@ Sys.time()
 ```
 
 
-### Acknowledgements
+### Acknowledgments
 
 
 This blog post was made possible thanks to:

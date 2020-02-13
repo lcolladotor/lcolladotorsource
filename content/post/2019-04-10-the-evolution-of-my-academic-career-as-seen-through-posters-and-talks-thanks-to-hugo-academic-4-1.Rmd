@@ -205,7 +205,7 @@ convert eurobioc2010-Bacterial-Collado.pdf[0] featured.jpg
 
 
 
-### Acknowledgements
+### Acknowledgments
 
 
 This blog post was made possible thanks to:

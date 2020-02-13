@@ -82,7 +82,7 @@ The easiest option is to use the `r CRANpkg('blogdown')` _Insert Image_ RStudio 
 If you want to add images manually, check this [blog post](http://lcolladotor.github.io/2018/02/17/r-markdown-blog-template/#.WqChJZPwa50) for more details on the image syntax.
 
 
-### Acknowledgements
+### Acknowledgments
 
 
 This blog post was made possible thanks to:

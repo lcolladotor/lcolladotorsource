@@ -157,7 +157,7 @@ And that's a wrap!
 
 `r blogdown::shortcode("tweet", "1053716471962992641")`
 
-### Acknowledgements
+### Acknowledgments
 
 
 This blog post was made possible thanks to:

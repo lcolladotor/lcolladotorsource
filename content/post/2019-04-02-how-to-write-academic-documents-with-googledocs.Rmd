@@ -178,7 +178,7 @@ It's as simple as it sounds. What this add-on does is that it takes your `LaTeX`
 I hope that you'll find this blog post / tutorial useful when writing your own academic documents. These tools have saved me so much time when writing academic documents in collaboration with others. I don't want to imagine having to re-number all the references manually whenever we added each of the 48 supplementary figures, 17 supplementary tables, and 11 equations to the project we are about to complete 😱. 
 
 
-### Acknowledgements
+### Acknowledgments
 
 The authors of F1000Workspace, Cross Reference and Auto-LaTeX equations add-ons have made my life much easier. THANK YOU!!!
 

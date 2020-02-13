@@ -58,7 +58,7 @@ I couldn't get the archetype to respect some of the YAML that `r CRANpkg('blogdo
 I encourage you to make your own `r CRANpkg('blogdown')` archetype (template). At least it should remind you to include reproducibility information which matters whenever any R code is involved.
 
 
-### Acknowledgements
+### Acknowledgments
 
 
 This blog post was made possible thanks to:

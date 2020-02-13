@@ -120,7 +120,7 @@ And if you are an R non-cis male person, you should totally join the R-Ladies co
 
 
 
-### Acknowledgements
+### Acknowledgments
 
 
 This blog post was made possible thanks to:

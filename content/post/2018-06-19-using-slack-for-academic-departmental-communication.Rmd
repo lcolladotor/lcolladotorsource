@@ -80,7 +80,7 @@ versus
 
 If you want more, check [this great presentation](https://docs.google.com/presentation/d/1ji-3hLYPs3yIEu7wqyRdkGanxdON84ypuq8lyL5Yf-I/edit#slide=id.p) about Slack by Stephanie Hicks.
 
-### Acknowledgements
+### Acknowledgments
 
 
 This blog post was made possible thanks to:

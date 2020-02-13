@@ -138,7 +138,7 @@ This idea has potentially many flaws because like any system, people on both sid
 As you can see, this is just an idea, or a collection of them around one theme. It would need serious work to implement. 
 
 
-### Acknowledgements
+### Acknowledgments
 
 Do you want to listen to the whole panel discussion? From this tweet it looks like the recording will be available online:
 

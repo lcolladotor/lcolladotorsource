@@ -270,7 +270,7 @@ Controlling for a nearby pLI gene? I’ve seen pLI mentioned a few times. Gotta 
 
 `r blogdown::shortcode("tweet", "1052629878569234432")`
 
-### Acknowledgements
+### Acknowledgments
 
 
 This blog post was made possible thanks to:

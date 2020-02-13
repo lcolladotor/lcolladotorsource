@@ -354,7 +354,7 @@ As a whole, remember to look for spaces in the error messages! This is specially
 If you have other solutions for Microsoft Windows `R` users with usernames that have at least one space, please let us know in the comments! Thank you! 🙌🏽
 
 
-### Acknowledgements
+### Acknowledgments
 
 
 This blog post was made possible thanks to:
