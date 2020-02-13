@@ -55,7 +55,7 @@ user_groups = ["Alumni"]
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "ashkaun.razmara@gmail.com"  # For a direct email link, use "mailto:test@example.org".
+  link = "mailto:ashkaun.razmara@gmail.com"  # For a direct email link, use "mailto:test@example.org".
   
 [[social]]
 icon = "home"

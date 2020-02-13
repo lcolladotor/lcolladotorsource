@@ -41,11 +41,7 @@ Continuing from my [ASHG18 day 1 post](http://lcolladotor.github.io/2018/10/16/a
 
 #### Jenna Carlson
 
-`r blogdown::shortcode("tweet", "1052956715623170060")`
-
 `r blogdown::shortcode("tweet", "1052956456578834432")`
-
-`r blogdown::shortcode("tweet", "1052959060452990976")`
 
 `r blogdown::shortcode("tweet", "1052959881756430337")`
 
@@ -55,8 +51,6 @@ Continuing from my [ASHG18 day 1 post](http://lcolladotor.github.io/2018/10/16/a
 
 `r blogdown::shortcode("tweet", "1052960113005215744")`
 
-`r blogdown::shortcode("tweet", "1052959913461178368")`
-
 `r blogdown::shortcode("tweet", "1052961594487988224")`
 
 `r blogdown::shortcode("tweet", "1052962128749969408")`
@@ -64,8 +58,6 @@ Continuing from my [ASHG18 day 1 post](http://lcolladotor.github.io/2018/10/16/a
 [www.pagestudy.org](www.pagestudy.org)
 
 `r blogdown::shortcode("tweet", "1052962347810086913")`
-
-`r blogdown::shortcode("tweet", "1052963145625419776")`
 
 #### Angela Andaleon
 

@@ -45,14 +45,10 @@ Continuing from my [ASHG18 day 1 post](http://lcolladotor.github.io/2018/10/16/a
 
 ### 6E 10:30 am
 
-`r blogdown::shortcode("tweet", "1052596501417873408")`
-
 `r blogdown::shortcode("tweet", "1052077112931172352")`
  
 
 #### Nanibaa’ Garrison 
-
-`r blogdown::shortcode("tweet", "1052613940373413888")`
 
 `r blogdown::shortcode("tweet", "1052615800480129025")`
 
@@ -60,11 +56,7 @@ Continuing from my [ASHG18 day 1 post](http://lcolladotor.github.io/2018/10/16/a
 
 “Nobody wakes up thinking how can I harm indigenous populations!”
 
-`r blogdown::shortcode("tweet", "1052616743183499264")`
-
 `r blogdown::shortcode("tweet", "1052616982535667712")`
-
-`r blogdown::shortcode("tweet", "1052617608766181376")`
 
 `r blogdown::shortcode("tweet", "1052617666555338754")`
 
@@ -89,8 +81,6 @@ Continuing from my [ASHG18 day 1 post](http://lcolladotor.github.io/2018/10/16/a
 
 #### Ngiare Brown
 
-`r blogdown::shortcode("tweet", "1052622382332923904")`
-
 `r blogdown::shortcode("tweet", "1052622923918274565")`
 
 `r blogdown::shortcode("tweet", "1052623035084099587")`
@@ -102,8 +92,6 @@ Third time she mentioned “sexy research”. I thought that this term was frown
 #### Maui Hudson
 
 He made us laugh with his conflict of interest slide. No commercial interests. Just interest in indigenous genomics and helping others. 
-
-`r blogdown::shortcode("tweet", "1052625009561153537")`
 
 `r blogdown::shortcode("tweet", "1052625563813339136")`
 

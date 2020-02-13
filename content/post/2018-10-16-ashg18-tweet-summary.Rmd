@@ -46,8 +46,6 @@ So, without further ado, here we go:
 
 `r blogdown::shortcode("tweet", "1052353598934245376")`
 
-`r blogdown::shortcode("tweet", "1052354458955341826")`
-
 Sek also thanked all his mentees ^^.
 
 `r blogdown::shortcode("tweet", "1052357277318111232")`
