@@ -1,0 +1,235 @@
+---
+title: Diving together into the unknown world of spatial transcriptomics
+author: L. Collado-Torres
+date: '2020-02-29'
+slug: diving-together-into-the-unknown-world-of-spatial-transcriptomics
+categories:
+  - rstats
+  - Science
+tags:
+  - Networking
+  - Academia
+  - Genomics
+  - rstats
+  - shiny
+  - Statistics
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-02-28T23:05:23-05:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
+## For R images to display well in the RSS feed (disable for local preview)
+knitr::opts_knit$set(base.url = 'http://lcolladotor.github.io/post/')
+
+## Load frequently used packages for blog posts
+library('knitcitations') # for citations
+library('BiocStyle') # for CRANpkg() Biocpkg() Githubpkg()
+library('sessioninfo') # for session_info()
+
+## Load knitcitations with a clean bibliography
+cleanbib()
+cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')
+
+bib <- c(
+    'BiocStyle' = citation('BiocStyle'),
+    'blogdown' = citation('blogdown')[2],
+    'knitcitations' = citation('knitcitations'),
+    'sessioninfo' = citation('sessioninfo')
+)
+```
+
+Yesterday was an extremely exciting day for me and my colleagues. We finished a project we had been working on and shared it with the world. Meaning, it's done and we can relax for a little bit while we wait for feedback from our peers.
+
+But this was not any project, at least not for me. Why do you ask? In general terms, it involved an analysis that you could not search on Google and find the answer for. That is, it involved diving into the unknown!
+
+<iframe src="https://giphy.com/embed/5dY4XX5ZCvjZ3AENUu" width="480" height="201" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/disneystudios-disney-frozen-2-5dY4XX5ZCvjZ3AENUu">via GIPHY</a></p>
+
+The unknown is scary and as the lyrics say:
+
+> I've had my adventure, I don't need something new
+> I'm afraid of what I'm risking if I follow you
+> Into the unknown
+
+All of us have been building our careers with other types of data and/or experiments, and taking on a new type of data knowing we had an [early access advantage](https://www.biospace.com/article/10x-genomics-begins-shipments-of-visium-spatial-gene-expression-solution/) over others was quite the challenge. I don't know about my co-authors, but maybe some of them shared thoughts like mine that were along the lines: can I do this? can I make it work? do my analysis choices make sense? what will experts think of doing once they have access to this data? All while racing against time, even if it was just an illusion in our minds.
+
+But it's not my first adventure and I've picked up skills and confidence along the way. In particular, I've written [Bioconductor](https://bioconductor.org) R packages, dealt with `pkgdown`/`travis` issues like [#1206](https://github.com/r-lib/pkgdown/issues/1206), made `r BiocStyle::CRANpkg('shiny')` web applications, analyzed large RNA-seq data, [written papers using GoogleDocs](http://lcolladotor.github.io/2019/04/02/how-to-write-academic-documents-with-googledocs/#.XlnnqJNKg0o), gotten better at asking for help, among other skills. 
+
+`r blogdown::shortcode('tweet', '1233186931590123522')`
+
+I've also gotten more comfortable with the idea that I can't do it all. Others will shortly develop new methods for this type of data, or proper infrastructure to handle this data, or faster visualizations, and so goes on the list. But I'm proud and really happy to say that we built quite the robust prototype. Plus maybe we'll be involved in shaping this future.
+
+And you noticed that I mentioned _we_. That's because I have been learning over the years how to foster collaborations. This particular project involved working with two other members of my workplace who are awesome and that I didn't know that well. It also involved a new collaboration with someone I've known for a while now (we initially met through Twitter in 2014) but hadn't had the chance to work with. Thus we dove into the unknown together 👩‍🚀🧑‍🚀.
+
+<iframe src="https://giphy.com/embed/Ph0nUfRpbMcQvA7ue8" width="480" height="199" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/disneystudios-disney-frozen-2-Ph0nUfRpbMcQvA7ue8">via GIPHY</a></p>
+
+I feel like we complemented each other quite well and all I can confidently say that our new adventure so far has been very stimulating, even it cost me some sleep.
+
+`r blogdown::shortcode('tweet', '1230107491372912641')`
+
+
+### Spatial transcriptomics
+
+So, where does _spatial transcriptomics_ come into play and what does it mean? I work with gene _activity_ data which we formally refer to as _gene expression_ 🧬. That is, we measure 🔍🧮 the activity levels of genes for a particular biological condition or tissue sample. For several years now (about since 2007-2009) we have been able to measure many genes from a tissue sample, called bulk RNA-sequencing and abbreviated as RNA-seq.
+
+That's great! But biology is complicated and a single tissue sample is composed of multiple cells of various types. For example, in the brain there are cells that send signals around (neurons) and others that give structure to the brain. That is why technologies for measuring the gene expression at the single cell level were developed, abbreviated as scRNA-seq. scRNA-seq has been used widely to study mouse brains to live tissue samples.
+
+In recent years I've been working with data from the human brain 🧠. The [Lieber Institute for Brain Development](http://libd.org) has about two thousand brain samples. To preserve them for years to come, the brains are frozen 🥶. Cells are a bit fragile and freezing them breaks them. This fact has made it challenging to study data from frozen human brains. Several of my colleagues work on adapting research protocols to handle frozen human brain tissue. The research field overall has been able to generate single nucleus RNA sequencing (snRNA-seq) data and we are all generating some more.
+
+snRNA-seq and scRNA-seq are great because you can measure what genes (pieces of the cell) are active, classify them into groups, and use prior knowledge to label these groups. However, you lose information about what part of the tissue they come from. That's where technologies for _spatial transcriptomics_, that is, measuring gene expression 🧬 as close a possible to the single cell level yet retaining spatial coordinates are being actively developed. Thus, you end up with two main sources of data: the gene expression measurements but also images from the tissue (_histology_ information). [My coworkers anticipated](https://doi.org/10.1038/s41386-019-0484-7) what could these technologies be used for and what type of research questions they help us answer.
+
+`r blogdown::shortcode('tweet', '1232009768006344704')`
+
+### Our project's history
+
+My coworkers got early access to a specific new type of spatial transcriptomics technology called [Visium from the 10x Genomics company](https://wp.10xgenomics.com/spatial-transcriptomics/) and started piloting it on human brain tissue. They recruited me to their project in early November 2019 (11th) and I recruited more colleagues in early December (4th). Today on February 28th 2020 we made public our research advances, code, and software we built for this project. 
+
+`r blogdown::shortcode('tweet', '1232468210886144000')`
+
+Given that we have many potential websites others can find us through, we decided to unify as much as possible the documentation even if that meant repeating it. The basic start of our documentation is included further below.
+
+### `spatialLIBD` 
+
+<img src="http://research.libd.org/spatialLIBD/reference/figures/logo.png" align="right" />
+
+Welcome to the `spatialLIBD` project! It is composed of:
+
+* a [shiny](https://shiny.rstudio.com/) web application that we are hosting at [spatial.libd.org/spatialLIBD/](http://spatial.libd.org/spatialLIBD/) that can handle a [limited](https://github.com/LieberInstitute/spatialLIBD/issues/2) set of concurrent users,
+* a Bioconductor package at [bioconductor.org/packages/spatialLIBD](http://bioconductor.org/packages/spatialLIBD) (or from [here](http://research.libd.org/spatialLIBD/)) that lets you analyze the data and run a local version of our web application (with our data or yours),
+* and a [research article](https://www.biorxiv.org/content/10.1101/2020.02.28.969931v1) with the scientific knowledge we drew from this dataset. The analysis code for our project is available [here](https://github.com/LieberInstitute/HumanPilot/).
+
+The web application allows you to browse the LIBD human dorsolateral pre-frontal cortex (DLPFC) spatial transcriptomics data generated with the 10x Genomics Visium platform. Through the [R/Bioconductor package](https://bioconductor.org/packages/spatialLIBD) you can also download the data as well as visualize your own datasets using this web application. Please check the [bioRxiv pre-print](https://www.biorxiv.org/search/maynard%252Bcollado%252Bweber%252Bhicks%252Bmartinowich%252Bjaffe) for more details about this project.
+
+If you tweet about this website, the data or the R package please use the <code>#spatialLIBD</code> hashtag. You can find previous tweets that way as shown <a href="https://twitter.com/search?q=%23spatialLIBD&src=typed_query">here</a>. Thank you! <a href="https://twitter.com/intent/tweet?button_hashtag=spatialLIBD&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #spatialLIBD</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### Study design
+
+As a quick overview, the data presented here is from portion of the DLPFC that spans six neuronal layers plus white matter (**A**) for a total of three subjects with two pairs of spatially adjacent replicates (**B**). Each dissection of DLPFC was designed to span all six layers plus white matter (**C**). Using this web application you can explore the expression of known genes such as _SNAP25_ (**D**, a neuronal gene), _MOBP_ (**E**, an oligodendrocyte gene), and known layer markers from mouse studies such as _PCP4_ (**F**, a known layer 5 marker gene).
+
+<img src="http://research.libd.org/spatialLIBD/reference/figures/paper_figure1.jpg" align="center" width="800px" />
+
+### Shiny website mirrors
+
+* [Main shiny application website](http://spatial.libd.org/spatialLIBD)
+* [Shinyapps](https://jhubiostatistics.shinyapps.io/spatialLIBD/)
+* [Shinyapps Mirror 1](https://jhubiostatistics.shinyapps.io/spatialLIBD_mirror01/)
+* [Shinyapps Mirror 2](https://jhubiostatistics.shinyapps.io/spatialLIBD_mirror02/)
+
+
+### R/Bioconductor package
+
+The `spatialLIBD` package contains functions for:
+
+* Accessing the spatial transcriptomics data from the LIBD Human Pilot project ([code on GitHub](https://github.com/LieberInstitute/HumanPilot)) generated with the Visium platform from 10x Genomics. The data is retrieved from [Bioconductor](http://bioconductor.org/)'s `ExperimentHub`.
+* Visualizing the spot-level spatial gene expression data and clusters.
+* Inspecting the data interactively either on your computer or through [spatial.libd.org/spatialLIBD/](http://spatial.libd.org/spatialLIBD/).
+
+For more details, please check the [documentation website](http://lieberinstitute.github.io/spatialLIBD) or the Bioconductor package landing page [here](https://bioconductor.org/packages/spatialLIBD).
+
+### Installation instructions
+
+Get the latest stable `R` release from [CRAN](http://cran.r-project.org/). Then install `spatialLIBD` using from [Bioconductor](http://bioconductor.org/) the following code:
+
+```{r 'install', eval = FALSE}
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("spatialLIBD")
+```
+
+
+### Access the data
+
+Through the `spatialLIBD` package you can access the processed data in it's final R format. However, we also provide a table of links so you can download the raw data we received from 10x Genomics.
+
+#### Processed data
+
+Using `spatialLIBD` you can access the Human DLPFC spatial transcriptomics data from the 10x Genomics Visium platform. For example, this is the code you can use to access the layer-level data. For more details, check the help file for `fetch_data()`.
+
+```{r 'access_data', message=FALSE, fig.height = 8, fig.width = 9}
+## Load the package
+library('spatialLIBD')
+
+## Download the spot-level data
+sce <- fetch_data(type = 'sce')
+
+## This is a SingleCellExperiment object
+sce
+
+## Note the memory size
+pryr::object_size(sce)
+
+## Remake the logo image with histology information
+sce_image_clus(
+    sce = sce,
+    clustervar = 'layer_guess_reordered',
+    sampleid = '151673',
+    colors = libd_layer_colors,
+    ... = ' DLPFC Human Brain Layers\nMade with github.com/LieberInstitute/spatialLIBD'
+)
+```
+
+### Citation
+
+Below is the citation output from using `citation('spatialLIBD')` in R. Please 
+run this yourself to check for any updates on how to cite __spatialLIBD__.
+
+```{r 'citation', eval = requireNamespace('spatialLIBD')}
+citation('spatialLIBD')
+```
+
+Please note that the `spatialLIBD` was only made possible thanks to many other R and bioinformatics software authors. We have cited their work either in the pre-print or the vignette of the R package.
+
+<a href="https://www.libd.org/"><img src="http://aejaffe.com/media/LIBD_logo.jpg" width="250px"></a>
+
+
+### Closing remarks
+
+Overall, this project has everything that I like: R code, a Bioconductor package, challenging and interest biological data, excellent collaborator team, open communication, and so on.
+
+Now, these are early days of the 10x Genomics Visium platform and there's much we and others want to learn. So if you have the chance to hear anyone in our team talk more in detail about the project or you simply want to chat with them, here are some opportunities for you to do so as we'd love to collaborate with you or even hire you. Check [Stephanie's tweet](https://twitter.com/stephaniehicks/status/1229448057462382597?s=20) and the [LIBD career website](https://www.libd.org/careers) for more details or simply get in touch with us.
+
+* Kristen R Maynard and me will present a [The Scientist](https://www.the-scientist.com/) webinar on March 19th
+* Keri Martinowich will be at [CVCSN 2020](https://twitter.com/VirginiaNeuro/status/1214256625290240000) March 26-27th
+* I'll present a seminar at [LIIGH-UNAM](https://twitter.com/LIIGH_UNAM) on March 30th
+* Kristen R Maynard will be at the 2020 Single Cell Symposium on April 20th
+* Likely Andrew E Jaffe and others will be at [The Biology of Genomes 2020](https://meetings.cshl.edu/meetings.aspx?meet=GENOME&year=20) May 5-9th 
+* Stephanie Hicks will present at [eRum 2020](https://twitter.com/erum2020_conf) May 27-30
+* Likely some of us will attend [BioC2020](https://bioc2020.bioconductor.org/) July 29-31
+
+
+![](http://lcolladotor.github.io/post/2020-02-29-diving-together-into-the-unknown-world-of-spatial-transcriptomics_files/IMG_3284.jpg)
+
+Finally, here's the pre-print twitter thread:
+
+`r blogdown::shortcode('tweet', '1233661576433061888')`
+
+
+Thank you for getting this far!
+
+<iframe src="https://giphy.com/embed/26FxykLpuDxQiFbnG" width="480" height="256" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/veep-26FxykLpuDxQiFbnG">via GIPHY</a></p>
+
+
+
+
+### References
+
+```{r bibliography, results = 'asis', echo = FALSE, cache = FALSE, warning = FALSE}
+## Print bibliography
+bibliography(style = 'html')
+```
+
+### Reproducibility
+
+```{r reproducibility, echo = FALSE}
+## Reproducibility info
+options(width = 120)
+session_info()
+```
