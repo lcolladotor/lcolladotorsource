@@ -3,7 +3,7 @@ title = "Divergent neuronal DNA methylation patterns across human cortical devel
 date = "2019-09-26"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["__Amanda J. Price__ __*__", "[__Leonardo Collado-Torres__](/authors/admin) __*__", "Nikolay A. Ivanov", "Wei Xia", "Emily E. Burke", "Joo Heon Shin", "Ran Tao", "Liang Ma", "Yankai Jia", "Thomas M. Hyde", "Joel E. Kleinman", "Daniel R. Weinberger", "Andrew E Jaffe &dagger;"]
+authors = ["Amanda J. Price __*__", "[__Leonardo Collado-Torres__](/authors/admin) __*__", "Nikolay A. Ivanov", "Wei Xia", "Emily E. Burke", "Joo Heon Shin", "Ran Tao", "Liang Ma", "Yankai Jia", "Thomas M. Hyde", "Joel E. Kleinman", "Daniel R. Weinberger", "Andrew E Jaffe &dagger;"]
 
 # Publication type.
 # Legend:

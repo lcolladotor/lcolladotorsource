@@ -9,7 +9,7 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Staff Scientist II"
+role = "Research Scientist"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -104,8 +104,10 @@ user_groups = ["Admin"]
 
 +++
 
-At the Lieber Institute for Brain Development, I am part of the Data Science team whose goals include better understanding and characterizing genomics signatures in the human brain. We use high-throughput technologies such as DNA methylation and RNA sequencing. I help mentor other team members, provide support for LIBD projects and I am advancing my academic career as part of [Andrew Jaffe](http://aejaffe.com/)'s lab.
+At the Lieber Institute for Brain Development, I am part of the Data Science Team I led by [Andrew E Jaffe](http://aejaffe.com/). My research aims to better understand the roots and signatures of disease (particularly psychiatric disorders) by zooming in across dimensions of gene activity: from studying gene expression at all feature levels (genes to exons to exon-exon junctions and un-annotated regions of expression), to using different gene expression measurement technologies (bulk RNA-seq, single cell/nuclei RNA-seq to spatial transcriptomics) that provide finer biological resolution and localization of gene expression. I'm interested in both hypothesis-driven projects as well as building general resources such as [recount2](https://jhubiostatistics.shinyapps.io/recount/) that enable us to contextualize our findings across all of the public human gene expression landscape. I use the [R programming language](https://cran.r-project.org/) for nearly all my work and like to organize my code in R packages that I share mostly through the [Bioconductor project](http://bioconductor.org/). From my position at LIBD, I'm able to interact with and collaborate with fantastic biologists, data scientists, researchers at Johns Hopkins University and beyond. Furthermore, I officially help mentor LIBD employees in data science and R tools.
 
-As a quick background, I graduated from the [Undergraduate Program on Genomic Sciences](http://www.lcg.unam.mx/about) from the National Autonomous University of Mexico ([UNAM](http://unam.mx/)) in 2009 and worked for two years at Winter Genomics analyzing high-throughput sequencing data. I then got a PhD in the [Department of Biostatistics](http://www.jhsph.edu/departments/biostatistics/) at [Johns Hopkins Bloomberg School of Public Health](http://www.jhsph.edu/) thanks to a [CONACyT scholarship](http://www.conacyt.gob.mx/) awarded in 2011. I worked with [Jeff Leek](http://jtleek.com/) and Andrew Jaffe in developing [derfinder](http://bioconductor.org/packages/derfinder), [regionReport](http://bioconductor.org/packages/regionReport), [recount](http://bioconductor.org/packages/recount) as well as other applied projects.
+As a quick background, I graduated from the [Undergraduate Program on Genomic Sciences](http://www.lcg.unam.mx/about) from the National Autonomous University of Mexico ([UNAM](http://unam.mx/)) in 2009 and worked for two years at Winter Genomics analyzing high-throughput sequencing data. I then got a PhD in 2016 from the [Department of Biostatistics](http://www.jhsph.edu/departments/biostatistics/) at [Johns Hopkins Bloomberg School of Public Health](http://www.jhsph.edu/) thanks to a [CONACyT scholarship](http://www.conacyt.gob.mx/). I worked with [Jeff Leek](http://jtleek.com/) and Andrew Jaffe in developing [derfinder](http://bioconductor.org/packages/derfinder) and [recount](http://bioconductor.org/packages/recount). I then worked ~ 3.5 years as a Staff Scientist in Andrew Jaffe's lab on a variety of data analysis projects.
 
-Every day I use [R](http://cran.r-project.org/) and [Bioconductor](http://www.bioconductor.org/). Occasionally I blog about them and other tools. I'm a co-founder of the [LIBD rstats club](http://LieberInstitute.github.io/rstatsclub/) and the [CDSBMexico](https://comunidadbioinfo.github.io) community of R and Bioconductor developers in Latin America.
+Every day I use [R](http://cran.r-project.org/) and [Bioconductor](http://www.bioconductor.org/). Occasionally I blog about them and other tools. I'm a co-founder of the [LIBD rstats club](http://LieberInstitute.github.io/rstatsclub/) and the [CDSB community](https://comunidadbioinfo.github.io) of R and Bioconductor developers in Mexico and Latin America.
+
+If you want to join my team, please get in touch! ^_^

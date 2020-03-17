@@ -1,9 +1,9 @@
 +++
-title = "Regulatory sites for known and novel splicing in human basal ganglia are enriched for disease-relevant information"
-date = "2019-03-28"
+title = "Regulatory sites for splicing in human basal ganglia are enriched for disease-relevant information"
+date = "2020-02-25"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Sebastian Guelfi __*__", "Karishma D’Sa __*__", "Juan Botía __*__", "Jana Vandrovcova", "Regina H. Reynolds", "David Zhang", "Daniah Trabzuni", "[__Leonardo Collado-Torres__](/authors/admin)", "Andrew Thomason", "Pedro Quijada Leyton", "Sarah A. Gagliano", "Mike A. Nalls", "UK Brain Expression Consortium", "Kerrin S. Small", "Colin Smith", "Adaikalavan Ramasamy", "John Hardy", "Michael E. Weale &dagger;", "Mina Ryten &dagger;"]
+authors = ["Sebastian Guelfi __*__", "Karishma D’Sa __*__", "Juan Botía __*__", "Jana Vandrovcova", "Regina H. Reynolds", "David Zhang", "Daniah Trabzuni", "[__Leonardo Collado-Torres__](/authors/admin)", "Andrew Thomason", "Pedro Quijada Leyton", "Sarah A. Gagliano", "Mike A. Nalls", "International Parkinson’s Disease Genomics Consortium (IPDGC)", "UK Brain Expression Consortium", "Kerrin S. Small", "Colin Smith", "Adaikalavan Ramasamy", "John Hardy", "Michael E. Weale &dagger;", "Mina Ryten &dagger;"]
 
 # Publication type.
 # Legend:
@@ -16,20 +16,20 @@ authors = ["Sebastian Guelfi __*__", "Karishma D’Sa __*__", "Juan Botía __*__
 # 6 = Book section
 # 7 = Thesis
 # 8 = Patent
-publication_types = ["3"]
+publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "bioRxiv 591156"
+publication = "Nature Communications"
 publication_short = ""
 
 # Abstract.
-abstract = "Genome-wide association studies have generated an increasing number of common genetic variants that affect neurological and psychiatric disease risk. Given that many causal variants are likely to operate by regulating gene expression, an improved understanding of the genetic control of gene expression in human brain is vital. However, the difficulties of sampling human brain, and its complexity, has meant that brain-related expression quantitative trait loci (eQTL) and allele specific expression (ASE) signals have been more limited in their explanatory power than might otherwise be expected. To address this, we use paired genomic and transcriptomic data from putamen and substantia nigra dissected from 117 brains, combined with a comprehensive set of analyses, to interrogate regulation at different stages of RNA processing and uncover novel transcripts. We identify disease-relevant regulatory loci and reveal the types of analyses and regulatory positions yielding the most disease-specific information. We find that splicing eQTLs are enriched for neuronspecific regulatory information; that ASE analyses provide highly cell-specific regulatory information; and that incomplete annotation of the brain transcriptome limits the interpretation of risk loci for neuropsychiatric disease. We release this rich resource of regulatory data through a searchable webserver, http://braineacv2.inf.um.es/."
+abstract = "Genome-wide association studies have generated an increasing number of common genetic variants associated with neurological and psychiatric disease risk. An improved understanding of the genetic control of gene expression in human brain is vital considering this is the likely modus operandum for many causal variants. However, human brain sampling complexities limit the explanatory power of brain-related expression quantitative trait loci (eQTL) and allele-specific expression (ASE) signals. We address this, using paired genomic and transcriptomic data from putamen and substantia nigra from 117 human brains, interrogating regulation at different RNA processing stages and uncovering novel transcripts. We identify disease-relevant regulatory loci, find that splicing eQTLs are enriched for regulatory information of neuron-specific genes, that ASEs provide cell-specific regulatory information with evidence for cellular specificity, and that incomplete annotation of the brain transcriptome limits interpretation of risk loci for neuropsychiatric disease. This resource of regulatory data is accessible through our web server, http://braineacv2.inf.um.es/."
 
 # Summary. An optional shortened abstract.
 summary = ""
 
 # Digital Object Identifier (DOI)
-doi = "10.1101/591156"
+doi = "10.1038/s41467-020-14483-x"
 
 # Is this a featured publication? (true/false)
 featured = false
@@ -47,7 +47,7 @@ tags = ["recount2", "derfinder"]
 projects = ["recount2"]
 
 # Links (optional).
-url_pdf = "https://www.biorxiv.org/content/biorxiv/early/2019/03/28/591156.full-text.pdf"
+url_pdf = "https://doi.org/10.1038/s41467-020-14483-x"
 url_preprint = "https://www.biorxiv.org/content/10.1101/591156v1"
 url_code = ""
 url_dataset = ""
@@ -68,7 +68,7 @@ math = true
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 [image]
   # Caption (optional)
-  caption = "Image credit: [**bioRxiv**](https://www.biorxiv.org/content/biorxiv/early/2019/03/28/591156.full.pdf)"
+  caption = "Image credit: [**Nature Communications**](https://doi.org/10.1038/s41467-020-14483-x)"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
