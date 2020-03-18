@@ -1,0 +1,443 @@
+---
+title: You just commited a large file and can't push to GitHub
+author: L. Collado-Torres
+date: '2020-03-18'
+slug: you-just-commited-a-large-file-and-can-t-push-to-github
+categories:
+  - Computing
+tags:
+  - Git
+  - github
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-03-18T08:39:21-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+<p>{{% alert note %}}
+Oh ohh! 😱 What do you do now?
+{{% /alert %}}</p>
+<p>The data me and my colleagues work with is typically too big for our personal computers, so we use a high performance computing environment (cluster) and mostly interact with it through the command line terminal. As you might know, I’m a big fan of version control and I use <a href="https://git-scm.com/"><code>git</code></a> plus <a href="https://github.com/">GitHub</a> for sharing our code <a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>. That’s why I’ve been advocating others to use it for a while and when they do, they run to me if they have some issues. A while back, my former student <a href="/authors/apeterson/">Amy Peterson</a> wrote a blog post titled <a href="http://research.libd.org/rstatsclub/post/git-to-know-git/">git to know git: an 8 minute introduction</a> which is useful if you are getting started. Amy also links to the excellent <a href="https://happygitwithr.com/">Happy Git and GitHub for the useR</a> book.</p>
+<div id="recurrent-problem-you-just-commited-a-large-file-and-cant-push-to-github" class="section level3">
+<h3>Recurrent problem: you just commited a large file and can’t push to GitHub</h3>
+<p>One situation that I’ve frequently helped others with is when they use <code>git add *</code> or <code>git add .</code> and version control <em>every</em> file in their project. They then do a commit such as <code>git commit -m "added all files"</code> and run <code>git push</code> to sync their files to GitHub. But oops, GitHub complains that you are trying to commit files larger than 50 Mb and even grinds to a halt if they are larger than 100 Mb. Which given that we work with large data, happens frequently (even a PDF file can be that big!).</p>
+<p>Ok, so what can you do at this point? Remember, this is the scenario where you <strong>just</strong> made that commit. That is, it’s the last commit. At that point, it’s best to <em>undo your last git commit</em> which is well described in <a href="https://www.git-tower.com/learn/git/faq/undo-last-commit">this website</a>. However, when you <em>undo</em> a commit, you can either fully wipe out any changes (wipe them out fully from your disk, not only <code>git</code>’s version control!) or undo the version control step but also keep your files intact. The main solution then is to use:</p>
+<pre class="bash"><code>git reset --soft HEAD~1</code></pre>
+<p>However, maybe you tried other commands and it’s a bit more complicated than that. Which is why I greatly advise that you create a local backup of your <code>main_project</code> directory before you dive into commands such as <code>git reset</code>, specially whenever you see the <code>--hard</code> option being suggested. That is, do something like this:</p>
+<pre class="bash"><code>## Nagivate to the parent directory of your main_project
+cd directory_containing_your_project
+
+## Check the full size of your project directory
+du -sh main_project
+
+## Do you have enough disk space?
+df -h .
+
+## If you have enough disk space, then create a full backup
+cp -r main_project main_project_backup/</code></pre>
+<p>Once you are able to roll back the offending commit, instead of running <code>git add *</code> or <code>git add .</code> and similar commands, repeat the following cycle:</p>
+<ol style="list-style-type: decimal">
+<li>Check which files are not being version controlled (untracked) with <code>git status</code>.</li>
+<li>Check how big each of your untracked files is. You can do so with <code>ls -lh</code> and <code>ls -lh some_pattern</code>.</li>
+<li>Add the files or file patterns you want to avoid version controlling (the large files) to your <code>.gitignore</code> file <a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>.</li>
+<li>Double check that your pattern worked by confirming that these files do not show up as <em>untracked</em> when you run <code>git status</code>.</li>
+</ol>
+<p>Repeat this until the only remaining untracked files are those you actually want to version control and that are small enough <a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>.</p>
+<p>And that’s it! Keep version controlling your code and reap the benefits later on when you need to.</p>
+<iframe src="https://giphy.com/embed/KEXly2BwaldSlhY8BL" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen>
+</iframe>
+<p>
+<a href="https://giphy.com/gifs/latenightseth-seth-meyers-lnsm-late-night-with-KEXly2BwaldSlhY8BL">via GIPHY</a>
+</p>
+<p>We all run into this situation at some point (or multiple times), so please keep using version control. The benefits will outweigh the negatives!</p>
+</div>
+<div id="use-case-story-the-issue" class="section level3">
+<h3>Use case story: the issue</h3>
+<p>Thanks to a colleague who gave me permission to share their use case, here we can dive down into a real life example. First, this was their description (edited for anonymity):</p>
+<blockquote>
+<p>Ran these, as per GitHub’s instructions, and it went fine</p>
+</blockquote>
+<pre class="bash"><code>git init
+git add README.md
+git commit -m &quot;first commit&quot;
+git remote add origin git@github.com:LieberInstitute/some_repository.git
+git push -u origin master</code></pre>
+<blockquote>
+<p>Even added a <code>.gitignore</code> with some instructions on what to ignore when committing</p>
+</blockquote>
+<blockquote>
+<p>But it wasn’t enough and I hadn’t come to appreciate yet that there’s no need to commit <code>.rda</code>’s or other very large files, so my <code>git push</code> died.</p>
+</blockquote>
+<blockquote>
+<p>Since these were already staged, I thought the next move was to make another commit with an edited <code>.gitignore</code> listing anything in my <code>rdas/</code></p>
+</blockquote>
+<blockquote>
+<p>Putting me two branches ahead of master (Leo: commits I think)</p>
+</blockquote>
+<blockquote>
+<p>I got frustrated and thought then that ok, I want to go back two commits…</p>
+</blockquote>
+<blockquote>
+<p>my Googling suggested me to go for <code>git reset --hard HEAD~2</code>…</p>
+</blockquote>
+<blockquote>
+<p>That’s when I started panicking 😭</p>
+</blockquote>
+<p>My colleague started panicking at this point because they couldn’t see the files anymore. That is, running <code>ls -lh rdas/</code> didn’t list the files they had worked on really hard to create over the past months. But at this point, these large files were under version control by <code>git</code> <a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>, just not available on <code>GitHub</code> due to the file size limitations.</p>
+<blockquote>
+<p>So then my panic Googling took me to <a href="https://stackoverflow.com/questions/5788037/recover-from-git-reset-hard" class="uri">https://stackoverflow.com/questions/5788037/recover-from-git-reset-hard</a></p>
+</blockquote>
+<blockquote>
+<p>where I thought ok I just can run <code>git reset HEAD@{2}</code> , which was</p>
+</blockquote>
+<pre class="bash"><code>7cb9bac HEAD@{0}: reset: moving to HEAD@{2}
+1e8499d HEAD@{1}: reset: moving to HEAD~2
+f03b884 HEAD@{2}: commit: Committing EVERYTHING
+7cb9bac HEAD@{3}: commit: Commiting EVERYTHING          &lt;- this one
+1e8499d HEAD@{4}: commit (initial): first commit</code></pre>
+<blockquote>
+<p>And there it looked like not everything was quite lost, as I could see</p>
+</blockquote>
+<pre class="bash"><code>$ git status
+# On branch master
+# Your branch is ahead of &#39;origin/master&#39; by 1 commit.
+#   (use &quot;git push&quot; to publish your local commits)
+#
+# Changes not staged for commit:
+#   (use &quot;git add/rm &lt;file&gt;...&quot; to update what will be committed)
+#   (use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)
+#
+#   deleted:    .RData
+#   deleted:    .gitignore
+#   deleted:    *.R ## Lots of files with this pattern
+#   deleted:    *.sh ## same story about the file pattern
+#   deleted:    pdfs/*.pdf
+#   deleted:    rdas/*.rda
+#   deleted:    tables/*.csv
+#
+# Untracked files:
+#   (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)
+#
+#   logs/
+#   pdfs/*other*.pdf
+#   rdas/*other*.rda
+#   *other*.R
+no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</code></pre>
+<p>So now my colleague realizes that somehow <code>git</code> is version controlling the files, but the <code>deleted</code> label is still VERY scary!!</p>
+<blockquote>
+<p>And then I thought ok I just need to re-stage those deleted files…</p>
+</blockquote>
+<blockquote>
+<p>So I ran <code>git add -A</code> , but now I see</p>
+</blockquote>
+<pre class="bash"><code>$ git status
+# On branch master
+# Your branch is ahead of &#39;origin/master&#39; by 1 commit.
+#   (use &quot;git push&quot; to publish your local commits)
+#
+# Changes to be committed:
+#   (use &quot;git reset HEAD &lt;file&gt;...&quot; to unstage)
+#
+#   deleted:    .RData
+#   deleted:    .gitignore
+#   deleted:    *.R ## Lots of files with this pattern
+#   deleted:    *.sh ## same story about the file pattern
+#   deleted:    pdfs/*.pdf
+#   deleted:    rdas/*.rda
+#   deleted:    tables/*.csv
+#   new file:   logs/*.Rout
+#   new file:   logs/*.sh.*
+#   new file:   pdfs/*other*.pdf
+#   new file:   rdas/*other*.rda
+#   new file:   *other*.R
+#   renamed:    pdfs/*something*.pdf -&gt; pdfs/*something_else*.pdf
+#   renamed:    rdas/*something*.rda -&gt; rdas/*something_else*.rda</code></pre>
+<blockquote>
+<p>and clearly I don’t know what I’m doing so I stopped</p>
+</blockquote>
+<blockquote>
+<p>And thanked the lord you were online. 😭😭</p>
+</blockquote>
+<blockquote>
+<p>I promise I did some reviewing of resources and testing with local and JHPCE test dirs before</p>
+</blockquote>
+<p>My colleague then pointed me to the directory with the files and we fixed their files.</p>
+</div>
+<div id="use-case-story-the-solution" class="section level3">
+<h3>Use case story: the solution</h3>
+<p>Like I mentioned earlier, the first thing to do in cases like this is to create a backup.</p>
+<pre class="bash"><code>## Check how big it is
+du -sh project_FINAL
+
+## Create a backup
+cp -r project_FINAL project_leo_backup/
+
+## To wipe out the original copy
+## proceed with EXTREME caution!
+# rm -fr project_FINAL
+
+## Then restore everything from your backup copy
+cp -r project_leo_backup project_FINAL/</code></pre>
+<p>I actually messed up at one point and had to rely on this backup!! So, like I said,</p>
+<p>{{% alert note %}}
+Please backup everything before you start using <code>git reset</code> and similar commands!
+{{% /alert %}}</p>
+<p>Next, to undo all the <code>git rm</code> (deleting a file), I undid the <code>git add -A</code> step using a combination of <code>git reset</code> and <code>git checkout</code> (to restore files).</p>
+<pre class="bash"><code># https://stackoverflow.com/a/2125713/9374370
+$ git reset HEAD
+$ git checkout .
+
+## check things
+$ git status
+On branch master
+Your branch is ahead of &#39;origin/master&#39; by 1 commit.
+  (use &quot;git push&quot; to publish your local commits)
+nothing to commit, working tree clean
+$ git log
+commit 7cb9bac5378500b35a0c22480a5961248ecf67ea (HEAD -&gt; master)
+Author: xx &lt;xx@jhmi.edu&gt;
+Date:   Tue Mar 17 19:27:31 2020 -0400
+    Commiting EVERYTHING
+commit 1e8499d7d41cab6c12ea23ccdb2da8120b00a7f7 (origin/master)
+Author: XX &lt;xx@jhmi.edu&gt;
+Date:   Tue Mar 17 19:04:03 2020 -0400
+    first commit
+
+$ ls -lh rdas
+total 6.2G
+## I see tons of stuff (many of which I&#39;m now the &quot;owner&quot; of)</code></pre>
+<p>I then finally used <code>git reset --soft</code> to undo the last commit.</p>
+<pre class="bash"><code># https://www.git-tower.com/learn/git/faq/undo-last-commit
+git reset --soft HEAD~1 ## note that I&#39;m not using --hard
+
+## Everything is back to before that big commit
+$ git log
+commit 1e8499d7d41cab6c12ea23ccdb2da8120b00a7f7 (HEAD -&gt; master, origin/master)
+Author: XX &lt;xx@jhmi.edu&gt;
+Date:   Tue Mar 17 19:04:03 2020 -0400
+    first commit
+
+## and the files are there =)
+$ ls -lh rdas
+total 6.2G
+-rwxrwx--- 1 lcollado lieber_jaffe 690M Mar 18 00:22 *.rda ## exmaple file</code></pre>
+<p>Now that the directory and files have been restored to before all files were committed, we can proceed to ignore large files. For example, we can ignore the <code>rdas/</code> directory that has many large files that we don’t want to version control <a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>.</p>
+<pre class="bash"><code>$ git status
+On branch master
+Your branch is up to date with &#39;origin/master&#39;.
+
+Changes not staged for commit:
+  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
+  (use &quot;git restore &lt;file&gt;...&quot; to discard changes in working directory)
+    modified:   README.md
+
+Untracked files:
+  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)
+    .RData
+    .gitignore
+    *.R ## Lots of files with this pattern
+    *.sh ## Lots of files with this pattern
+    pdfs/
+    rdas/
+    tables/
+
+$ echo &quot;rdas&quot; &gt;&gt; .gitignore
+
+## Notice that rdas is not there anymore ^^
+$ git status
+On branch master
+Your branch is up to date with &#39;origin/master&#39;.
+
+Changes not staged for commit:
+  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
+  (use &quot;git restore &lt;file&gt;...&quot; to discard changes in working directory)
+    modified:   README.md
+
+Untracked files:
+  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)
+    .RData
+    .gitignore
+    *.R ## Lots of files with this pattern
+    *.sh ## Lots of files with this pattern
+    pdfs/
+    tables/</code></pre>
+<p>And now we can update our <code>.gitignore</code> and push this small change (ignoring the <code>rdas/</code> directory) to GitHub.</p>
+<pre class="bash"><code>$ git add .gitignore
+
+$ git commit -m &quot;Ignore rdas&quot;
+[master 52f1850] Ignore rdas
+ 1 file changed, 14 insertions(+)
+ create mode 100755 .gitignore
+
+$ git push
+X11 forwarding request failed on channel 0
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 420 bytes | 210.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:LieberInstitute/some_repository.git
+   1e8499d..52f1850  master -&gt; master</code></pre>
+<p>And we are done!</p>
+<iframe src="https://giphy.com/embed/wzD3nQPA4gqHK" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen>
+</iframe>
+<p>
+<a href="https://giphy.com/gifs/time-office-wzD3nQPA4gqHK">via GIPHY</a>
+</p>
+<p>And I’ll get some free beers hehe 🍻😄</p>
+<blockquote>
+<p>Omg you’re amazing beautiful lord n savior jesus christ</p>
+</blockquote>
+<blockquote>
+<p>Your next 10 beers are on me.</p>
+</blockquote>
+<blockquote>
+<p>plus 2 for the promotion 😄😇😎🙏😭</p>
+</blockquote>
+<p>To which I replied</p>
+<blockquote>
+<p>hehe, I’ve simply only have had more practice at this than you (fixing xx’s repos mostly hehe)</p>
+</blockquote>
+<blockquote>
+<p>but yeah, backing up is the best thing you can do</p>
+</blockquote>
+<blockquote>
+<p>that actually <strong>saved</strong> me from my one <code>git reset --hard HEAD~1</code> command that should have <code>been git reset --soft HEAD~1</code></p>
+</blockquote>
+</div>
+<div id="misc-notes" class="section level3">
+<h3>Misc notes</h3>
+<p>Note that you might also want to use <code>git status-size</code> in some situations.</p>
+<pre class="bash"><code>## From https://github.com/jtloong/git-status-size
+$ git status-size</code></pre>
+<p>Finally, if you are a <a href="https://jhpce.jhu.edu/">JHPCE</a> user, I recommend including these lines in your <code>~/.bashrc</code> file.</p>
+<pre class="bash"><code>## Load the git module by default when qrsh/qsub
+## thanks to Jiong Yang
+if [[ $HOSTNAME == compute-* ]]; then
+    echo &quot;Adding LIBD modules&quot;
+    module use /jhpce/shared/jhpce/modulefiles/libd
+    echo &quot;Loading git&quot;
+    module load git
+    module load git-status-size/github
+    module load git-lfs/2.8.0
+    module load rmate/1.5.9 ## macOS users
+    module load conda_R/3.6.x ## default R version
+fi</code></pre>
+</div>
+<div id="acknowledgments" class="section level3">
+<h3>Acknowledgments</h3>
+<p>I greatly appreciate the anonymous user who reached out to me about this issue and had an excellent history of commands which allowed me to figure out a possible solution and then write this blog post (with their permission). We both hope that this information will be useful to ourselves and others in the future.</p>
+<p>This blog post was made possible thanks to:</p>
+<ul>
+<li><em><a href="https://bioconductor.org/packages/3.10/BiocStyle">BiocStyle</a></em> <a id='cite-Oles_2020'></a>(<a href='https://github.com/Bioconductor/BiocStyle'>Oleś, Morgan, and Huber, 2020</a>)</li>
+<li><em><a href="https://CRAN.R-project.org/package=blogdown">blogdown</a></em> <a id='cite-Xie_2017'></a>(<a href='https://github.com/rstudio/blogdown'>Xie, Hill, and Thomas, 2017</a>)</li>
+<li><em><a href="https://CRAN.R-project.org/package=knitcitations">knitcitations</a></em> <a id='cite-Boettiger_2019'></a>(<a href='https://CRAN.R-project.org/package=knitcitations'>Boettiger, 2019</a>)</li>
+<li><em><a href="https://CRAN.R-project.org/package=sessioninfo">sessioninfo</a></em> <a id='cite-Csardi_2018'></a>(<a href='https://CRAN.R-project.org/package=sessioninfo'>Csárdi, core, Wickham, Chang, et al., 2018</a>)</li>
+</ul>
+</div>
+<div id="references" class="section level3">
+<h3>References</h3>
+<p>
+<a id='bib-Boettiger_2019'></a><a href="#cite-Boettiger_2019">[1]</a><cite>
+C. Boettiger.
+<em>knitcitations: Citations for ‘Knitr’ Markdown Files</em>.
+R package version 1.0.10.
+2019.
+URL: <a href="https://CRAN.R-project.org/package=knitcitations">https://CRAN.R-project.org/package=knitcitations</a>.</cite>
+</p>
+<p>
+<a id='bib-Csardi_2018'></a><a href="#cite-Csardi_2018">[2]</a><cite>
+G. Csárdi, R. core, H. Wickham, W. Chang, et al.
+<em>sessioninfo: R Session Information</em>.
+R package version 1.1.1.
+2018.
+URL: <a href="https://CRAN.R-project.org/package=sessioninfo">https://CRAN.R-project.org/package=sessioninfo</a>.</cite>
+</p>
+<p>
+<a id='bib-Oles_2020'></a><a href="#cite-Oles_2020">[3]</a><cite>
+A. Oleś, M. Morgan, and W. Huber.
+<em>BiocStyle: Standard styles for vignettes and other Bioconductor documents</em>.
+R package version 2.14.4.
+2020.
+URL: <a href="https://github.com/Bioconductor/BiocStyle">https://github.com/Bioconductor/BiocStyle</a>.</cite>
+</p>
+<p>
+<a id='bib-Xie_2017'></a><a href="#cite-Xie_2017">[4]</a><cite>
+Y. Xie, A. P. Hill, and A. Thomas.
+<em>blogdown: Creating Websites with R Markdown</em>.
+ISBN 978-0815363729.
+Boca Raton, Florida: Chapman and Hall/CRC, 2017.
+URL: <a href="https://github.com/rstudio/blogdown">https://github.com/rstudio/blogdown</a>.</cite>
+</p>
+</div>
+<div id="reproducibility" class="section level3">
+<h3>Reproducibility</h3>
+<pre><code>## ─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────
+##  setting  value                       
+##  version  R version 3.6.3 (2020-02-29)
+##  os       macOS Catalina 10.15.3      
+##  system   x86_64, darwin15.6.0        
+##  ui       X11                         
+##  language (EN)                        
+##  collate  en_US.UTF-8                 
+##  ctype    en_US.UTF-8                 
+##  tz       America/New_York            
+##  date     2020-03-18                  
+## 
+## ─ Packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────
+##  package       * version date       lib source                            
+##  assertthat      0.2.1   2019-03-21 [1] CRAN (R 3.6.0)                    
+##  bibtex          0.4.2.2 2020-01-02 [1] CRAN (R 3.6.0)                    
+##  BiocManager     1.30.10 2019-11-16 [1] CRAN (R 3.6.1)                    
+##  BiocStyle     * 2.14.4  2020-01-09 [1] Bioconductor                      
+##  blogdown        0.18    2020-03-04 [1] CRAN (R 3.6.0)                    
+##  bookdown        0.18    2020-03-05 [1] CRAN (R 3.6.0)                    
+##  cli             2.0.2   2020-02-28 [1] CRAN (R 3.6.0)                    
+##  colorout      * 1.2-1   2019-05-07 [1] Github (jalvesaq/colorout@7ea9440)
+##  crayon          1.3.4   2017-09-16 [1] CRAN (R 3.6.0)                    
+##  digest          0.6.25  2020-02-23 [1] CRAN (R 3.6.0)                    
+##  evaluate        0.14    2019-05-28 [1] CRAN (R 3.6.0)                    
+##  fansi           0.4.1   2020-01-08 [1] CRAN (R 3.6.0)                    
+##  glue            1.3.2   2020-03-12 [1] CRAN (R 3.6.0)                    
+##  htmltools       0.4.0   2019-10-04 [1] CRAN (R 3.6.0)                    
+##  httr            1.4.1   2019-08-05 [1] CRAN (R 3.6.0)                    
+##  jsonlite        1.6.1   2020-02-02 [1] CRAN (R 3.6.0)                    
+##  knitcitations * 1.0.10  2019-09-15 [1] CRAN (R 3.6.0)                    
+##  knitr           1.28    2020-02-06 [1] CRAN (R 3.6.0)                    
+##  lubridate       1.7.4   2018-04-11 [1] CRAN (R 3.6.0)                    
+##  magrittr        1.5     2014-11-22 [1] CRAN (R 3.6.0)                    
+##  plyr            1.8.6   2020-03-03 [1] CRAN (R 3.6.2)                    
+##  R6              2.4.1   2019-11-12 [1] CRAN (R 3.6.1)                    
+##  Rcpp            1.0.3   2019-11-08 [1] CRAN (R 3.6.0)                    
+##  RefManageR      1.2.12  2019-04-03 [1] CRAN (R 3.6.0)                    
+##  rlang           0.4.5   2020-03-01 [1] CRAN (R 3.6.0)                    
+##  rmarkdown       2.1     2020-01-20 [1] CRAN (R 3.6.0)                    
+##  sessioninfo   * 1.1.1   2018-11-05 [1] CRAN (R 3.6.0)                    
+##  stringi         1.4.6   2020-02-17 [1] CRAN (R 3.6.0)                    
+##  stringr         1.4.0   2019-02-10 [1] CRAN (R 3.6.0)                    
+##  withr           2.1.2   2018-03-15 [1] CRAN (R 3.6.0)                    
+##  xfun            0.12    2020-01-13 [1] CRAN (R 3.6.0)                    
+##  xml2            1.2.5   2020-03-11 [1] CRAN (R 3.6.0)                    
+##  yaml            2.2.1   2020-02-01 [1] CRAN (R 3.6.0)                    
+## 
+## [1] /Library/Frameworks/R.framework/Versions/3.6/Resources/library</code></pre>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Between our personal computers and the JHPCE cluster, but also with collaborators and the community at large.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>Note that you can also create <code>.gitignore</code> files inside each directory if you want to have tighter control. You could also ignore a full directory and the use <code>git add -f</code> to forcibly version control files, for example, <code>echo "my_subdir" &gt;&gt; .gitignore</code> plus <code>git add -f my_subdir/*.R</code> to forcibly version control the R script files inside <code>my_subdir</code> but ignore everything else.<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>If you really want to version control large files, look into <a href="https://git-lfs.github.com/"><code>git lfs</code></a>.<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p>Stored and hidden in some way inside the <code>.git</code> directory.<a href="#fnref4" class="footnote-back">↩︎</a></p></li>
+<li id="fn5"><p>Maybe later we’ll version control a few of them using <code>git add -f rdas/some_file.rda</code> but it’ll be a targeted version control command.<a href="#fnref5" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
