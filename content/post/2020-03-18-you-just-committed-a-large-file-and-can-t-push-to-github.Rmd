@@ -1,8 +1,8 @@
 ---
-title: You just commited a large file and can't push to GitHub
+title: You just committed a large file and can't push to GitHub
 author: L. Collado-Torres
 date: '2020-03-18'
-slug: you-just-commited-a-large-file-and-can-t-push-to-github
+slug: you-just-committed-a-large-file-and-can-t-push-to-github
 categories:
   - Computing
 tags:
@@ -54,7 +54,7 @@ One situation that I've frequently helped others with is when they use `git add 
 
 Ok, so what can you do at this point? Remember, this is the scenario where you **just** made that commit. That is, it's the last commit. At that point, it's best to _undo your last git commit_ which is well described in [this website](https://www.git-tower.com/learn/git/faq/undo-last-commit). However, when you _undo_ a commit, you can either fully wipe out any changes (wipe them out fully from your disk, not only `git`'s version control!) or undo the version control step but also keep your files intact. The main solution then is to use:
 
-```{bash 'main_soluiton', eval = FALSE}
+```{bash 'main_solution', eval = FALSE}
 git reset --soft HEAD~1
 ```
 
