@@ -16,7 +16,7 @@ role = "Research Scientist"
 organizations = [ { name = "Lieber Institute for Brain Development", url = "https://www.libd.org/" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Brain genomics #rstats coder working w/ @andrewejaffe @LieberInstitute. @lcgunam @jhubiostat @jtleek alumni. @LIBDrstats @CDSBMexico co-founder."
+bio = "[#rstats](https://twitter.com/search?q=%23rstats&src=hashtag_click)/🧠 genomics [@andrewejaffe](https://twitter.com/andrewejaffe) [@LieberInstitute](https://twitter.com/LieberInstitute)/[@lcgunam](https://twitter.com/lcgunam) [@jhubiostat](https://twitter.com/jhubiostat) [@jtleek](https://twitter.com/jtleek) alumni/[@LIBDrstats](https://twitter.com/LIBDrstats) [@CDSBMexico](https://twitter.com/CDSBMexico) co-founder/[@Bioconductor](https://twitter.com/Bioconductor) 🚕"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "lcolladotor@gmail.com"
