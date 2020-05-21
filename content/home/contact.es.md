@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 70  # Order that this section will appear.
 
-title = "Contact"
+title = "Contacto"
 subtitle = ""
 
 # Automatically link email and phone?
@@ -18,4 +18,4 @@ autolink = true
 email_form = 0
 +++
 
-If you have questions about the [R/Bioconductor packages I maintain](https://lcolladotor.github.io/pkgs/), please read [this post](http://lcolladotor.github.io/2017/03/06/how-to-ask-for-help-for-bioconductor-packages/#.WL3NQBIrJoM). If you send me an email, I'll simply refer you to the same post.
+Si tienes preguntas sobre los [paquetes de R/Bioconductor que mantengo](phttps://lcolladotor.github.io/pkgs/), por favor lée [este post](http://lcolladotor.github.io/2017/03/06/how-to-ask-for-help-for-bioconductor-packages/#.WL3NQBIrJoM) (en inglés). Si me envías un correo, simplemente te mandaré la liga al mismo post.

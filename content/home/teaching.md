@@ -30,7 +30,7 @@ weight = 65
 ## 2016
 
 1. Biostatistics and Stata instructor at a [workshop for Kandahar University Faculty](http://lcolladotor.github.io/kandahar), organized by Johns Hopkins University. 
-1. Invited instructor for the [Genomeeting 2016](http://www.genomeeting.com/) course biostat INMEGEN, Mexico City, Mexico.
+1. Invited instructor for the [Genomeeting 2016](http://www.genomeeting.com/) course taught at INMEGEN, Mexico City, Mexico.
 
 # JHBSPH
 
@@ -39,8 +39,8 @@ weight = 65
 
 ## 2015-2016
 
-1. Teaching assistant and guest lecturer for [Introduction to R for Public Health Researchers](http://www.aejaffe.com/summerR_2015/)
-1. Teaching assistant for Statistical Methods in Public Health [I (140.621)](http://www.biostat.jhsph.edu/courses/bio621/index.html)
+1. Teaching assistant and guest lecturer for [Introduction to R for Public Health Researchers](http://www.aejaffe.com/summerR_2015/).
+1. Teaching assistant for Statistical Methods in Public Health [I (140.621)](http://www.biostat.jhsph.edu/courses/bio621/index.html).
 1. Lead teaching assistant for Statistical Methods in Public Health [II (140.622)](http://www.biostat.jhsph.edu/courses/bio622/index.html).
 1. Teaching assistant for the MPH capstone project.
 
@@ -71,15 +71,15 @@ While working at Winter Genomics I taught two courses for students of the Biomed
 
 ## IBT
 
-While I was at the Institute of Biotechnology (UNAM) working with the Winter Genomics crew I organized two courses. One was a series of various bioinformatics and biology mini-courses and another one involved members of different institutions.
+While I was at the Institute of Biotechnology (UNAM) working with the Winter Genomics crew I organized two courses. One was a series of various bioinformatics and biology mini-courses and another one involved members of different academic institutions.
 
 1. [Introduction to R for bench biologists](http://lcolladotor.github.io/courses/mIntroR.html) Oct-Nov 2009. This mini-course has quite a bit of material on learning how to make plots with R.
-1. [Métodos Estadísticos y Analíticos de Datos Genómicos](http://lcolladotor.github.io/courses/MEyAdDG.html) (Statistical Methods and Analysis of Genomic Data) Jan 2010. This one week course had lectures about Perl, using a Cluster, high-throughput technologies, R and Bioconductor, C, and biology overviews.
+1. [Statistical Methods and Analysis of Genomic Data](http://lcolladotor.github.io/courses/MEyAdDG.html) Jan 2010. This one week course had lectures about Perl, using a Cluster, high-throughput technologies, R and Bioconductor, C, and biology overviews.
 
 ## LCG
 
 I taught three courses during my undergrad stage at the Undergraduate Program on Genomic Sciences (LCG). Each of these courses has its own website organizing the material. These are:
 
-1. [Intensive course on R/Bioconductor](http://www.lcg.unam.mx/~lcollado/R/) Oct-Nov 2008 ([backup](http://lcolladotor.github.io/courses/Courses/R/))
-1. [Principles of Statistics](http://www.lcg.unam.mx/~lcollado/E/) Feb-June 2009 ([backup](http://lcolladotor.github.io/courses/Courses/E/))
-1. [Seminar III: R/Bioconductor](http://www.lcg.unam.mx/~lcollado/B/) Aug-Dec 2009 ([backup](http://lcolladotor.github.io/courses/Courses/B/))
+1. [Intensive course on R/Bioconductor](http://lcolladotor.github.io/courses/Courses/R/) Oct-Nov 2008
+1. [Principles of Statistics](http://lcolladotor.github.io/courses/Courses/E/) Feb-June 2009
+1. [Seminar III: R/Bioconductor](http://lcolladotor.github.io/courses/Courses/B/) Aug-Dec 2009
