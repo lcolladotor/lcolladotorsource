@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Leonardo Collado-Torres"
+title = "Leonardo Collado-Torres"
 
 # Username (this should match the folder name)
 authors = ["admin"]
@@ -103,6 +103,8 @@ user_groups = ["Admin"]
   link = "http://lcolladotor.github.io/cv/en_CV_lcollado.pdf"
 
 +++
+
+<img src="/img/Leo_transparente.png" width="300px" align="right"/>
 
 At the Lieber Institute for Brain Development, I am part of the Data Science Team I led by [Andrew E Jaffe](http://aejaffe.com/). My research aims to better understand the roots and signatures of disease (particularly psychiatric disorders) by zooming in across dimensions of gene activity: from studying gene expression at all feature levels (genes to exons to exon-exon junctions and un-annotated regions of expression), to using different gene expression measurement technologies (bulk RNA-seq, single cell/nuclei RNA-seq to spatial transcriptomics) that provide finer biological resolution and localization of gene expression. I'm interested in both hypothesis-driven projects as well as building general resources such as [recount2](https://jhubiostatistics.shinyapps.io/recount/) that enable us to contextualize our findings across all of the public human gene expression landscape. I use the [R programming language](https://cran.r-project.org/) for nearly all my work and like to organize my code in R packages that I share mostly through the [Bioconductor project](http://bioconductor.org/), for which I'm part of its [Community Advisory Board](http://bioconductor.org/about/community-advisory-board/). From my position at LIBD, I'm able to interact with and collaborate with fantastic biologists, data scientists, researchers at Johns Hopkins University and beyond. Furthermore, I officially help mentor LIBD employees in data science and R tools.
 

@@ -10,8 +10,15 @@
     {{ end }}
   </p>
   {{ end }}
-  
+
   <p class="powered-by">
+    {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}}{{ end }}
+  </p>
+
+  {{/* Display copyright license. */}}
+  {{ partial "site_footer_license" . }}
+  
+  <p>
       <!-- AddThis Smart Layers BEGIN -->
       <!-- Go to http://www.addthis.com/get/smart-layers to customize -->
       <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4ef23e545d41b87c"></script>
@@ -62,13 +69,12 @@
   </p>
 
   <p class="powered-by">
-    {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} &middot; {{ end }}
+    {{ if not site.Params.i_am_a_sponsor }}
+    Published with
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic Website Builder</a>
+    {{ end }}
 
-    Powered by the
-    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
-
-    {{ if not (in (slice "docs" "updates") .Type) }}
+    {{ if not (in (slice "book" "docs" "updates") .Type) }}
     <span class="float-right" aria-hidden="true">
       <a href="#" class="back-to-top">
         <span class="button_icon">

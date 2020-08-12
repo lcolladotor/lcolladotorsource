@@ -1,5 +1,5 @@
 +++
-title = "Presentaciones recientes y futuras"
+title = "Presentaciones"
 subtitle = ""
 widget = ""
 weight = 50

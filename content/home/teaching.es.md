@@ -19,6 +19,11 @@ weight = 65
 
 <img class="image alignleft" src="images/LIBD.jpg" width="268" alt="" />
 
+## 2020
+
+1. Instructor y miembro del Comité Organizador del Taller CDSB 2020: [Construyendo flujos de trabajo con RStudio y Bioconductor para datos transcriptómicos de célula única (scRNA-seq)](https://comunidadbioinfo.github.io/es/post/cdsb2020-building-workflows-with-rstudio-and-scrnaseq-with-bioconductor/#.XzMwjZNKiuo) (diapositivas en 🇲🇽) ![](https://comunidadbioinfo.github.io/img/icon.png)
+1. Instructor del curso [_Analyzing scRNA-seq data with Bioconductor_](https://lcolladotor.github.io/osca_LIIGH_UNAM_2020/) para alumnos de la LCG-EJ-UNAM.
+
 ## 2019
 
 1. Instructor y miembro del Comité Organizador del Taller CDSB 2019: [Cómo Crear y Ordenar Herramientas 'Tidy'](https://comunidadbioinfo.github.io/es/post/building-tidy-tools-cdsb-runconf-2019/#.XKj6-etKjOQ) (diapositivas en 🇲🇽) ![](https://comunidadbioinfo.github.io/img/icon.png)
