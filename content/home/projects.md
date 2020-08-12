@@ -26,6 +26,10 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
+    name = "Spatial Transcriptomics"
+    tag = "spatial"
+    
+  [[content.filter_button]]
     name = "BrainSeq Consortium"
     tag = "BrainSeq"
 
