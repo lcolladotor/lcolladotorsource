@@ -53,7 +53,7 @@ projects = ["recount2"]
 
 # Links (optional).
 url_pdf = ""
-url_video = ""
+url_video = "https://www.youtube.com/watch?v=EDe0e_VaENQ"
 url_code = "https://github.com/LieberInstitute/recountWorkshop2020"
 
 # Demo talk page uses LaTeX math.
