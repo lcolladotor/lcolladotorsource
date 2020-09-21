@@ -1,0 +1,91 @@
+---
+title: The start of a new phase for me
+author: L. Collado-Torres
+date: '2020-09-21'
+slug: the-start-of-a-new-phase-for-me
+categories:
+  - LIBD
+  - rstats
+tags:
+  - Academia
+  - Industry
+  - rstats
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-09-21T12:04:15-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
+## For R images to display well in the RSS feed (disable for local preview)
+knitr::opts_knit$set(base.url = 'http://lcolladotor.github.io/post/')
+
+## Load frequently used packages for blog posts
+library('knitcitations') # for citations
+library('BiocStyle') # for CRANpkg() Biocpkg() Githubpkg()
+library('sessioninfo') # for session_info()
+
+## Load knitcitations with a clean bibliography
+cleanbib()
+cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')
+
+bib <- c(
+    'BiocStyle' = citation('BiocStyle'),
+    'blogdown' = citation('blogdown')[2],
+    'knitcitations' = citation('knitcitations'),
+    'sessioninfo' = citation('sessioninfo'),
+    'bookdown' = citation('bookdown')[2]
+)
+```
+
+
+Today I have accepted a new role at the [Lieber Institute for Brain Development](https://www.libd.org/) (LIBD) as an **Investigator**. Since LIBD is affiliated with Johns Hopkins University (JHU), LIBD will support me on becoming a JHU faculty member ^[The rules are Department and School specific at JHU, which is something that I have yet to explore in detail.]. This change means that I'll now be leading a team at LIBD, which is why I'm actively working on a new website ^[It's technically a book made using `bookdown`.] called [R/Bioconductor-powered Team Data Science](https://lcolladotor.github.io/bioc_team_ds/). On that website I'm implementing the ideas I recently proposed on [_another type of data science group_](https://speakerdeck.com/lcolladotor/another-ds-group-type) which involve [Data Science guidance sessions](https://lcolladotor.github.io/bioc_team_ds/data-science-guidance-sessions.html) based on my three year experience as a teaching assistant for the MPH capstone at JHBSPH.
+
+<script async class="speakerdeck-embed" data-id="c6c779d808e142d4999bf1c0bbe4e2ee" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+I also plan to make publicly available as much material as we can. This will include a [series of bootcamps](https://lcolladotor.github.io/bioc_team_ds/rbioconductor-data-science-bootcamps.html) that I'm going to start running today for my team members and guests. It will also include our team [journal/software club presentations](https://lcolladotor.github.io/bioc_team_ds/team-meetings.html#papers-software) as well as the [LIBD rstats club](http://research.libd.org/rstatsclub/#.X2jRxGdKiuo) presentations. The [material that I'll be using](https://lcolladotor.github.io/bioc_team_ds/rbioconductor-data-science-bootcamps.html#bootcamp-source-materials) was made by many collaborators and friends at JHU, Harvard, WEHI, RStudio and the [rstats](https://twitter.com/search?q=%23rstats&src=typed_query) community in general. I'm really thankful that so many people have shared their educational materials in ways that can be re-used and for making it easier for all of us to learn from them. Thank you!
+
+Beyond the 20% education and data science guidance efforts, my team will be working with our LIBD peers, JHU collaborators, and external allies on interesting research projects such as the **teamSpatial** ^[[Keri Martinowich](https://twitter.com/martinowk), [Kristen Maynard](https://twitter.com/kr_maynard), [Stephanie Hicks](https://twitter.com/stephaniehicks), and their team members.] that developed [#spatialLIBD](https://twitter.com/search?q=%23spatialLIBD&src=typed_query), [#recount3](https://twitter.com/search?q=%23recount3&src=typed_query), and many other upcoming projects in the realms of RNA-seq, R/Bioconductor, and genomics. We will be developing methods and software, analyzing data, and aim to build a stronger bridge between LIBD and JHU.
+
+I'm really thankful to everyone who has been a part of my journey: mentors, colleagues, allies, sponsors, and many friends. I want to highlight my mentors [Jeff Leek](https://twitter.com/jtleek) and [Andrew Jaffe](https://twitter.com/andrewejaffe) without whom I wouldn't be where I am right now. They've always been my fiercest advocates and have looked out for me all these years. It's now my turn to try have a positive influence in others, though they set a very high bar! I have a lot to learn and work to do, but I'm looking forward to it. At LIBD, JHU and elsewhere I have many people I can ask for support, which I'm grateful for.
+ 
+Finally, after reading Jeff Leek's _How to be a modern scientist_ book in preparation for the [first bootcamp today](https://lcolladotor.github.io/bioc_team_ds/how-to-be-a-modern-scientist.html), I've updated my Twitter username to match my GitHub one. That is, I've gone from `fellgernon` to `lcolladotor`. See you around [on Twitter](https://twitter.com/lcolladotor) and elsewhere!
+
+<img src="https://lcolladotor.github.io/img/Leo_transparente.png" width="200px" />
+
+P.S. If you find this type of team and the work that we do appealing, let me know and we'll evaluate what options are available =)
+
+### Acknowledgments
+
+
+This blog post was made possible thanks to:
+
+* `r Biocpkg('BiocStyle')` `r citep(bib[['BiocStyle']])`
+* `r CRANpkg('blogdown')` `r citep(bib[['blogdown']])`
+* `r CRANpkg('knitcitations')` `r citep(bib[['knitcitations']])`
+* `r CRANpkg('sessioninfo')` `r citep(bib[['sessioninfo']])`
+
+[R/Bioconductor-powered Team Data Science](https://lcolladotor.github.io/bioc_team_ds/) was made possible thanks to `bookdown` and a GitHub Actions workflow that depends on [Bioconductor's docker image](http://bioconductor.org/help/docker/), which in turn depends on the [Rocker Project](https://www.rocker-project.org/).
+
+* `r CRANpkg('bookdown')` `r citep(bib[['bookdown']])`
+
+### References
+
+```{r bibliography, results = 'asis', echo = FALSE, cache = FALSE, warning = FALSE}
+## Print bibliography
+bibliography(style = 'html')
+```
+
+### Reproducibility
+
+```{r reproducibility, echo = FALSE}
+## Reproducibility info
+options(width = 120)
+session_info()
+```
