@@ -187,7 +187,7 @@ citation('spatialLIBD')
 
 Please note that the `spatialLIBD` was only made possible thanks to many other R and bioinformatics software authors. We have cited their work either in the pre-print or the vignette of the R package.
 
-<a href="https://www.libd.org/"><img src="http://aejaffe.com/media/LIBD_logo.jpg" width="250px"></a>
+<a href="https://www.libd.org/"><img src="http://lcolladotor.github.io/img/LIBD_logo.jpg" width="250px"></a>
 
 
 ### Closing remarks
