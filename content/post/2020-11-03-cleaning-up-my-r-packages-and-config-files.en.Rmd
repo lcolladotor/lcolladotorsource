@@ -1,0 +1,132 @@
+---
+title: Cleaning up my R packages and config files
+author: L. Collado-Torres
+date: '2020-11-03'
+slug: cleaning-up-my-r-packages-and-config-files
+categories:
+  - rstats
+tags:
+  - Bioconductor
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-11-03T20:57:43-05:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
+## For R images to display well in the RSS feed (disable for local preview)
+knitr::opts_knit$set(base.url = 'http://lcolladotor.github.io/post/')
+
+## Load frequently used packages for blog posts
+library('knitcitations') # for citations
+library('BiocStyle') # for CRANpkg() Biocpkg() Githubpkg()
+library('sessioninfo') # for session_info()
+
+## Load knitcitations with a clean bibliography
+cleanbib()
+cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')
+
+bib <- c(
+    'BiocStyle' = citation('BiocStyle'),
+    'blogdown' = citation('blogdown')[2],
+    'knitcitations' = citation('knitcitations'),
+    'sessioninfo' = citation('sessioninfo')
+)
+```
+
+
+Today was an unusual day at work given the US Elections. This meant that I had fewer meetings than what I've had lately. Earlier in the day I noticed an email announcing that the Bioconductor 3.13 docker image had been released for the next 6 month development cycle, which was a reminder of the recent [Bioconductor 3.12 release](http://bioconductor.org/news/bioc_3_12_release/). This prompted me to start updating my R packages.
+
+In the past, I've updated all my currently installed R packages using the framework I described in a [2017 blog post](http://lcolladotor.github.io/2017/05/04/updating-r/#.X6ICiIhKguU). I remember seeing a tweet by [Hadley Wickham](https://twitter.com/hadleywickham) not so long ago ^[I couldn't find the tweet right now.] that for him, a new R version was an opportunity to start with a clean slate. I like having everything I need ready to use, but well, my list of installed R packages was getting pretty long. Given that 4 year windows of time are in our minds, it felt like a good opportunity to clean my house. Or well, my R packages.
+
+Thus, I started writing down which are the packages I want to have installed. At this point for me, that includes several R/Bioconductor packages I've made and their dependencies in case I need to work on them to resolve bugs or add new features. My R packages already use many of my favorite R packages, so I took advantage of this in order to avoid having to list every single R package I like using. In order to achieve this, I used the `dependencies = TRUE` argument that you can use with `r BiocStyle::CRANpkg("remotes")` and `r BiocStyle::CRANpkg("BiocManager")`.
+
+```{r "main_r_packages", eval = FALSE}
+## Install from scratch
+if (!requireNamespace("remotes", quietly = TRUE))
+    install.packages("remotes")
+remotes::install_cran("BiocManager")
+BiocManager::version()
+
+## Rprofile packages
+remotes::install_github(c(
+    "jalvesaq/colorout"
+))
+remotes::install_cran(c(
+    "devtools",
+    "usethis"
+))
+
+## Main packages
+BiocManager::install(c(
+    "biocthis",
+    "brainflowprobes",
+    "derfinder",
+    "derfinderPlot",
+    "GenomicState",
+    "megadepth",
+    "recount",
+    "recountWorkflow",
+    "recount3",
+    "regutools",
+    "regionReport",
+    "spatialLIBD"
+), dependencies = TRUE, update = FALSE)
+```
+
+Once I had my main packages, I started adding some from LIBD, some from CRAN, and other ones from Bioconductor. You can see the full list at my team's website under [Config files: R setup; R packages](https://lcolladotor.github.io/bioc_team_ds/config-files.html#r-packages).
+
+I was curious about how these changes affected my list of installed R packages and used my older [2017 blog post](http://lcolladotor.github.io/2017/05/04/updating-r/#.X6ICiIhKguU) code to check this. That resulted in [this list](https://gist.github.com/lcolladotor/d0af9b22e3806af196233655dce54fde) which shows 423 installed R packages and 589 that I used to have installed. I suspect that several of them will come back. For example, I needed to install `r BiocStyle::CRANpkg("blogdown")` to work on this blog post. Some of the 423 packages are new, like `r BiocStyle::Githubpkg("gadenbuie/rsthemes")` which we recently learned about at the LIBD rstats club.
+
+`r blogdown::shortcode("tweet", "1312187753371561984")`
+
+### Config files
+
+Since I was doing all this work on both my macOS and Windows laptops for my R setup, I also went ahead and cleaned up a bit my configuration files. I have several of them with settings that I recommend others to use. That's why I wrote a little "chapter" about them on my [team's website](https://lcolladotor.github.io/bioc_team_ds/config-files.html#config-files). The list includes:
+
+* Software I use (including R and RStudio)
+* R packages
+* R configuration files such as `~/.Rprofile` and `~/.Renviron`
+* Git configuration files `~/.gitconfig` and `~/.gitignore_global`
+* JHPCE (linux) configuration files such as `~/.bashrc`, `~/.inputrc`, `~/.bash_profile` and `~/.sge_request`
+
+### Wrapping up
+
+I'm hoping that all this information will be useful to both current and new team members, but it could be useful also to you. Though you might need to adapt some things. Earlier on in my career I learned from how others use configuration files to speed up their work or make their work experience more enjoyable. I'm still learning, but now I have a decent bag of tricks to share too.
+
+Have fun!
+
+![](http://lcolladotor.github.io/2020-11-03-cleaning-up-my-r-packages-and-config-files/index.en_files/Bag-of-Tricks-1.jpg){width=400px}
+
+[Image source](https://criticalhitgamingsupplies.com/product/bag-of-tricks/)
+
+### Acknowledgments
+
+
+This blog post was made possible thanks to:
+
+* `r Biocpkg('BiocStyle')` `r citep(bib[['BiocStyle']])`
+* `r CRANpkg('blogdown')` `r citep(bib[['blogdown']])`
+* `r CRANpkg('knitcitations')` `r citep(bib[['knitcitations']])`
+* `r CRANpkg('sessioninfo')` `r citep(bib[['sessioninfo']])`
+
+### References
+
+```{r bibliography, results = 'asis', echo = FALSE, cache = FALSE, warning = FALSE}
+## Print bibliography
+bibliography(style = 'html')
+```
+
+### Reproducibility
+
+```{r reproducibility, echo = FALSE}
+## Reproducibility info
+options(width = 120)
+session_info()
+```
