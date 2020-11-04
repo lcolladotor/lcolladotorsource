@@ -102,7 +102,7 @@ I'm hoping that all this information will be useful to both current and new team
 
 Have fun!
 
-![](http://lcolladotor.github.io/2020-11-03-cleaning-up-my-r-packages-and-config-files/index.en_files/Bag-of-Tricks-1.jpg){width=400px}
+![](http://lcolladotor.github.io/post/2020-11-03-cleaning-up-my-r-packages-and-config-files/Bag-of-Tricks-1.jpg){width=400px}
 
 [Image source](https://criticalhitgamingsupplies.com/product/bag-of-tricks/)
 
