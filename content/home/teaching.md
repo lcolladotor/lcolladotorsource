@@ -65,7 +65,7 @@ weight = 65
 
 # UNAM
 
-<img class="image alignleft" src="https://www.unam.mx/sites/default/files/images/boletines/negro_-290x277.jpg" width="277" alt="" />
+<img class="image alignleft" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Escudo-UNAM-escalable.svg/1200px-Escudo-UNAM-escalable.svg.png" width="200" alt="" />
 
 ## PDCB
 
