@@ -19,10 +19,18 @@ weight = 65
 
 <img class="image alignleft" src="images/LIBD.jpg" width="268" alt="" />
 
+
+## 2021
+
+1. Instructor of the [Introduction to RNA-seq data analysis with Bioconductor](https://lcolladotor.github.io/rnaseq_LCG-UNAM_2021/) course for LCG-UNAM students.
+1. Instructor of the [Getting started with scRNA-seq analyses with Bioconductor](https://github.com/lcolladotor/HCA_LA_2021) 2 hour workshop for the [Human Cell Atlas - Latin America](https://www.humancellatlas.org/hca-latin-america-2021-workshop/) workshop.
+1. Instructor of the [Interactive exploration of RNA-seq data with iSEE](https://github.com/ComunidadBioInfo/minicurso_mayo_2021/) mini course that is part of the [mini courses series organized by CDSB, RMB and NNB-CCG (UNAM)](https://comunidadbioinfo.github.io/post/cs_and_s_event_fund_award/).
+
 ## 2020
 
 1. Instructor and member of the Organizing Committee for the CDSB Workshop 2020: [Building workflows with RStudio and Bioconductor for single cell RNA-seq analysis](https://comunidadbioinfo.github.io/post/cdsb2020-building-workflows-with-rstudio-and-scrnaseq-with-bioconductor/#.XzMwSpNKiuo) ![](https://comunidadbioinfo.github.io/img/icon.png)
 1. Instructor of the [Analyzing scRNA-seq data with Bioconductor](https://lcolladotor.github.io/osca_LIIGH_UNAM_2020/) for LCG-EJ-UNAM students.
+1. Instructor for the [R/Bioconductor Data Science LIBD bootcamps](https://lcolladotor.github.io/bioc_team_ds/rbioconductor-data-science-bootcamps.html#.YJ6Hw5NKiEs).
 
 ## 2019
 

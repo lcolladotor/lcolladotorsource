@@ -44,7 +44,7 @@ tags = ["DNAm"]
 #   E.g. `projects = ["deep-learning"]` references 
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = [""]
+projects = []
 
 # Links (optional).
 url_pdf = "https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-019-1805-1"

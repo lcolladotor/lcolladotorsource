@@ -1,28 +1,17 @@
 ---
-title: "Transcriptome-scale spatial gene expression in the human dorsolateral prefrontal cortex"
+title: "spatialLIBD: an R/Bioconductor package to visualize spatially-resolved transcriptomics data"
 authors:
-- "Kristen R Maynard __*__"
-- "[__Leonardo Collado-Torres__](/authors/admin) __*__"
+- "bpardo"
+- "Abby Spangler"
 - "Lukas M. Weber"
-- "Cedric Uytingco"
-- "Brianna K. Barry"
-- "Stephen R. Williams"
-- "Joseph L. Catallini II"
-- "Matthew N. Tran"
-- "Zachary Besich"
-- "Madhavi Tippani"
-- "Jennifer Chew"
-- "Yifeng Yin"
-- "Joel E. Kleinman"
-- "Thomas M. Hyde"
-- "Nikhil Rao"
 - "Stephanie C. Hicks"
-- "Keri Martinowich &dagger;"
-- "Andrew E Jaffe &dagger;"
+- "Andrew E. Jaffe"
+- "Keri Martinowich"
+- "Kristen R. Maynard"
+- "admin"
 
-
-date: "2020-02-28T00:00:00Z"
-doi: "10.1101/2020.02.28.969931"
+date: "2021-04-29T00:00:00Z"
+doi: "10.1101/2021.04.29.440149"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: ""
@@ -37,31 +26,32 @@ publication_types: ["3"]
 publication: "*bioRxiv*"
 publication_short: ""
 
-abstract: We used the 10x Genomics Visium platform to define the spatial topography of gene expression in the six-layered human dorsolateral prefrontal cortex (DLPFC). We identified extensive layer-enriched expression signatures, and refined associations to previous laminar markers. We overlaid our laminar expression signatures onto large-scale single nuclei RNA sequencing data, enhancing spatial annotation of expression-driven clusters. By integrating neuropsychiatric disorder gene sets, we showed differential layer-enriched expression of genes associated with schizophrenia and autism spectrum disorder, highlighting the clinical relevance of spatially-defined expression. We then developed a data-driven framework to define unsupervised clusters in spatial transcriptomics data, which can be applied to other tissues or brain regions where morphological architecture is not as well-defined as cortical laminae. We lastly created a web application for the scientific community to explore these raw and summarized data to augment ongoing neuroscience and spatial transcriptomics research (http://research.libd.org/spatialLIBD).
+abstract: "__Motivation__. Spatially-resolved transcriptomics has now enabled the quantification of high-throughput and transcriptome-wide gene expression in intact tissue while also retaining the spatial coordinates. Incorporating the precise spatial mapping of gene activity advances our understanding of intact tissuespecific biological processes. In order to interpret these novel spatial data types, interactive visualization tools are necessary. __Results__. We describe spatialLIBD, an R/Bioconductor package to interactively explore spatially-resolved transcriptomics data generated with the 10x Genomics Visium platform. The package contains functions to interactively access, visualize, and inspect the observed spatial gene expression data and data-driven clusters identified with supervised or unsupervised analyses, either on the user’s computer or through a web application. __Availability__. spatialLIBD is available at bioconductor.org/packages/spatialLIBD."
 
 # Summary. An optional shortened abstract.
 summary:
 
 tags:
 - spatial
-featured: true
+featured: false
 
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://www.biorxiv.org/content/10.1101/2020.02.28.969931v1
-url_code: https://bioconductor.org/packages/spatialLIBD
-url_dataset: https://github.com/LieberInstitute/HumanPilot
+url_pdf: ''
+url_code: 'https://bioconductor.org/packages/spatialLIBD'
+url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
-url_source: https://github.com/LieberInstitute/spatialLIBD
+url_slides: 'http://research.libd.org/spatialLIBD/'
+url_source: 'https://github.com/LieberInstitute/spatialLIBD'
 url_video: ''
+url_preprint: 'https://www.biorxiv.org/content/10.1101/2021.04.29.440149v1'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**bioRxiv**](https://doi.org/10.1101/2020.02.28.969931)'
+  caption: 'Image credit: [**bioRxiv**](https://doi.org/10.1101/2021.04.29.440149)'
   focal_point: ""
   preview_only: false
 

@@ -3,7 +3,7 @@ title = "Regional heterogeneity in gene expression, regulation, and coherence in
 date = "2019-06-04"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["admin", "Emily E Burke", "Amy Peterson", "JooHeon Shin", "Richard E Straub", "Anandita Rajpurohit", "Stephen A Semick", "William S Ulrich", "BrainSeq Consortium", "Amanda J Price", "Cristian Valencia", "Ran Tao", "Amy Deep-Soboslay", "Thomas M Hyde", "Joel E Kleinman", "Daniel R Weinberger &dagger;", "Andrew E Jaffe &dagger;"]
+authors = ["admin", "Emily E Burke", "apeterson", "JooHeon Shin", "Richard E Straub", "Anandita Rajpurohit", "Stephen A Semick", "William S Ulrich", "BrainSeq Consortium", "Amanda J Price", "Cristian Valencia", "Ran Tao", "Amy Deep-Soboslay", "Thomas M Hyde", "Joel E Kleinman", "Daniel R Weinberger &dagger;", "Andrew E Jaffe &dagger;"]
 
 # Publication type.
 # Legend:

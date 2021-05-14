@@ -258,8 +258,6 @@ Controlling for a nearby pLI gene? I’ve seen pLI mentioned a few times. Gotta 
 
 ### Diversity 
 
-`r blogdown::shortcode("tweet", "1052623977657430016")`
-
 `r blogdown::shortcode("tweet", "1052716627689500672")`
 
 `r blogdown::shortcode("tweet", "1052717401429532672")`
