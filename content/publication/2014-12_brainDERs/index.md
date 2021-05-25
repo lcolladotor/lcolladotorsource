@@ -3,7 +3,7 @@ title = "Developmental regulation of human cortex transcription and its clinical
 date = "2014-12-19T17:17:48-05:00"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Jaffe AE", "Shin J", "__Collado-Torres L__", "Leek JT", "Tao R", "Li C", "Gao Y", "Jia Y", "Maher BJ", "Hyde TM", "Kleinman JE", "Weinberger DR"]
+authors = ["Jaffe AE", "Shin J", "admin", "Leek JT", "Tao R", "Li C", "Gao Y", "Jia Y", "Maher BJ", "Hyde TM", "Kleinman JE", "Weinberger DR"]
 
 # Publication type.
 # Legend:

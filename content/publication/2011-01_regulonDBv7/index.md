@@ -3,7 +3,7 @@ title = "RegulonDB version 7.0: transcriptional regulation of Escherichia coli K
 date = "2011-01-19T16:58:16-05:00"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Gama-Castro S", "Salgado H", "Peralta-Gil M", "Santos-Zavaleta A", "Muñiz-Rascado L", "Solano-Lira H", "Jimenez-Jacinto V", "Weiss V", "García-Sotelo JS", "López-Fuentes A", "Porrón-Sotelo L", "Alquicira-Hernández S", "Medina-Rivera A", "Martínez-Flores I", "Alquicira-Hernández K", "Martínez-Adame R", "Bonavides-Martínez C", "Miranda-Ríos J", "Huerta AM", "Mendoza-Vargas A", "__Collado-Torres L__", "Taboada B", "Vega-Alvarado L", "Olvera M", "Olvera L", "Grande R", "Morett E", "Collado-Vides J"]
+authors = ["Gama-Castro S", "Salgado H", "Peralta-Gil M", "Santos-Zavaleta A", "Muñiz-Rascado L", "Solano-Lira H", "Jimenez-Jacinto V", "Weiss V", "García-Sotelo JS", "López-Fuentes A", "Porrón-Sotelo L", "Alquicira-Hernández S", "Medina-Rivera A", "Martínez-Flores I", "Alquicira-Hernández K", "Martínez-Adame R", "Bonavides-Martínez C", "Miranda-Ríos J", "Huerta AM", "Mendoza-Vargas A", "admin", "Taboada B", "Vega-Alvarado L", "Olvera M", "Olvera L", "Grande R", "Morett E", "Collado-Vides J"]
 
 # Publication type.
 # Legend:

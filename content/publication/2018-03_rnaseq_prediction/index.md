@@ -3,7 +3,7 @@ title = "Improving the value of public RNA-seq expression data by phenotype pred
 date = "2018-03-05T16:45:43-05:00"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Shannon SE", "__Collado-Torres L__", "Jaffe AE", "Leek JT"]
+authors = ["Shannon SE", "admin", "Jaffe AE", "Leek JT"]
 
 # Publication type.
 # Legend:

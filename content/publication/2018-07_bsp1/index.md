@@ -3,7 +3,7 @@ title = "Developmental and genetic regulation of the human cortex transcriptome 
 date = "2018-07-26"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Jaffe AE", "Straub R", "Shin JH", "Tao R", "Gao Y", "__Collado-Torres L__", "Kam-Thong T", "Xi HS", "Quan J", "Chen Q", "Colantuoni C", "Ulrich WS", "Maher BJ", "Deep-Soboslay A", "The BrainSeq Consortium", "Cross AJ", "Brandon NJ", "Leek JT", "Hyde TM", "Kleinman JE", "Weinberger DR"]
+authors = ["Jaffe AE", "Straub R", "Shin JH", "Tao R", "Gao Y", "admin", "Kam-Thong T", "Xi HS", "Quan J", "Chen Q", "Colantuoni C", "Ulrich WS", "Maher BJ", "Deep-Soboslay A", "The BrainSeq Consortium", "Cross AJ", "Brandon NJ", "Leek JT", "Hyde TM", "Kleinman JE", "Weinberger DR"]
 
 # Publication type.
 # Legend:

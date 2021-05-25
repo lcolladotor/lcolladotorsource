@@ -3,7 +3,7 @@ title = "Incomplete annotation has a disproportionate impact on our understandin
 date = "2020-06-10"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["David Zhang __*__", "Sebastian Guelfi __*__", "Sonia Garcia Ruiz", "Beatrice Costa", "Regina H Reynolds", "Karishma D'Sa", "Wenfei Liu", "Thomas Courtin", "Amy Peterson", "Andrew E Jaffe", "John Hardy", "Juan Botia", "admin", "Mina Ryten"]
+authors = ["David Zhang __*__", "Sebastian Guelfi __*__", "Sonia Garcia Ruiz", "Beatrice Costa", "Regina H Reynolds", "Karishma D'Sa", "Wenfei Liu", "Thomas Courtin", "apeterson", "Andrew E Jaffe", "John Hardy", "Juan Botia", "admin", "Mina Ryten"]
 
 # Publication type.
 # Legend:

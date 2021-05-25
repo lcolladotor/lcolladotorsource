@@ -3,7 +3,7 @@ title = "RNA-seq transcript quantification from reduced-representation data in r
 date = "2018-01-12T16:45:43-05:00"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Fu J", "Kammers K", "Nellore A", "__Collado-Torres L__", "Leek JT", "Taub MA"]
+authors = ["Fu J", "Kammers K", "Nellore A", "admin", "Leek JT", "Taub MA"]
 
 # Publication type.
 # Legend:

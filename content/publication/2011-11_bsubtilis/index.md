@@ -3,7 +3,7 @@ title = "Interspecies interactions that result in Bacillus subtilis forming biof
 date = "2011-11-10T17:13:40-05:00"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Shank EA", "Klepac-Ceraj V", "__Collado-Torres L__", "Powers GE", "Losick R", "Kolter R"]
+authors = ["Shank EA", "Klepac-Ceraj V", "admin", "Powers GE", "Losick R", "Kolter R"]
 
 # Publication type.
 # Legend:

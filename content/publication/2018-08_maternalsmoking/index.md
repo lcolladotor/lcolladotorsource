@@ -3,7 +3,7 @@ title = "Developmental effects of maternal smoking during pregnancy on the human
 date = "2018-08-21"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Semick SA", "__Collado-Torres L__", "Markunas CA", "Shin JH", "Deep-Soboslay A", "Tao R", "Huestis MA", "Bierut LJ", "Maher BS", "Johnson EO", "Hyde TM", "Weinberger DR", "Hancock DB", "Kleinman JE &dagger;", "Jaffe AE &dagger;"]
+authors = ["Semick SA", "admin", "Markunas CA", "Shin JH", "Deep-Soboslay A", "Tao R", "Huestis MA", "Bierut LJ", "Maher BS", "Johnson EO", "Hyde TM", "Weinberger DR", "Hancock DB", "Kleinman JE &dagger;", "Jaffe AE &dagger;"]
 
 # Publication type.
 # Legend:
