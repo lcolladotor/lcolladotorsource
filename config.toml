@@ -16,7 +16,7 @@ baseurl = "http://lcolladotor.github.io/"
 copyright = "&copy; 2011-{year} Leonardo Collado Torres under (CC) BY-NC-SA 4.0. All thoughts and opinions here are my own."
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "UA-45299226-1"
+googleAnalytics = "G-3CBVR6GQ07"
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = "fellgernonbit"
@@ -83,7 +83,7 @@ preserveTaxonomyNames = true
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
-  
+
 # # Link custom CSS and JS assets
 # #   (relative to /static/css and /static/js respectively)
 # custom_css = []
