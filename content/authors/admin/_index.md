@@ -112,9 +112,10 @@ user_groups = ["Admin"]
   icon_pack = "ai"
   link = "http://lcolladotor.github.io/cv/en_CV_lcollado.pdf"
 
+highlight_name = "true"
 +++
 
-<img src="/img/Leo_transparente.png" width="300px" align="right"/>
+<img src="/media/Leo_transparente.png" width="300px" align="right"/>
 
 At the Lieber Institute for Brain Development ([LIBD](https://www.libd.org/)), I lead the [**R/Bioconductor-powered Team Data Science**](https://lcolladotor.github.io/bioc_team_ds/) group that works on understanding the roots and signatures of disease (particularly psychiatric disorders) by zooming in across dimensions of gene activity. We achieve this by studying gene expression at all expression feature levels (genes, exons, exon-exon junctions, and un-annotated regions) and by using different gene expression measurement technologies (bulk RNA-seq, single cell/nuclei RNA-seq, and spatial transcriptomics) that provide finer biological resolution and localization of gene expression. My group works closely with collaborators from LIBD as well as from Johns Hopkins University (JHU) which reflects the cross-disciplinary approach and diversity in expertise needed to further advance our understanding of high throughout biology. I am also interested in outreach activities as member of the [Bioconductor Community Advisory Board](http://bioconductor.org/about/community-advisory-board/), the advisory board for [rOpenSci’s Statistical Software Peer Review](https://ropensci.org/stat-software-review/), and the board of the [Community of Bioinformatics Software Developers](https://comunidadbioinfo.github.io/#people) in Mexico. In order to provide a supportive and stimulating research environment the team is involved in [career planning](https://lcolladotor.github.io/bioc_team_ds/career-growth.html), [internal training opportunities](https://lcolladotor.github.io/bioc_team_ds/rbioconductor-data-science-bootcamps.html), [Data Science guidance sessions](https://lcolladotor.github.io/bioc_team_ds/data-science-guidance-sessions.html), the [LIBD rstats club](http://research.libd.org/rstatsclub/#.YEvDq2RKgdk), among other initiatives.
 

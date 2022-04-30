@@ -10,9 +10,9 @@ slug: 'How-to-ask-for-help-for-Bioconductor-packages'
 ---
 
 
-{{% alert note %}}
+{{% callout note %}}
 tl;dr Please post your question at the Bioconductor support website https://support.bioconductor.org/ and check the posting guide http://www.bioconductor.org/help/support/posting-guide/. It's important that you provide reproducible code and information about your R session.
-{{% /alert %}}
+{{% /callout %}}
 
 Recently I have been getting more questions about several packages I maintain. It's great to see more interest from users, but at the same time most questions lack the information I need to help the users. I have also gotten most of the questions via email, which is why I am writing this post. As of today, I will no longer answer questions related to my Bioconductor packages via personal emails. This might sound harsh, but hopefully the rest of this post will convince you that it's the best thing to do. You might also be interested in the basics of using [derfinder](http://bioconductor.org/packages/release/bioc/vignettes/derfinder/inst/doc/derfinder-quickstart.html#basics), [regionReport](http://bioconductor.org/packages/release/bioc/vignettes/regionReport/inst/doc/regionReport.html#basics) or [recount](http://bioconductor.org/packages/release/bioc/vignettes/recount/inst/doc/recount-quickstart.html#basics), among others.
 

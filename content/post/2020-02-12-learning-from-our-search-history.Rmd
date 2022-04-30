@@ -85,7 +85,7 @@ Now, we all ask for help regardless of how long we have been writing code. Here'
 
 #### We are diverse
 
-![](http://lcolladotor.github.io/img/amy_mph.jpg){width=600px}
+![](http://lcolladotor.github.io/media/amy_mph.jpg){width=600px}
 
 The team (shown as of May 2018) we work at is very diverse because we all:
 

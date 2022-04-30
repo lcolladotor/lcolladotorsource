@@ -86,7 +86,7 @@ Along with Andrew Jaffe, I co-mentored Amy Peterson in 2017-2018. Check her webs
 
 | | Amy's MPH capstone presentation |
 | --- | --- |
-| ![](/img/amy_mph.jpg) | ![](/img/amy_mph2.jpg) |
+| ![](/media/amy_mph.jpg) | ![](/media/amy_mph2.jpg) |
 
 
 

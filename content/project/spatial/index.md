@@ -31,7 +31,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/fellgernon"}, {name = "spatialLIBD shiny app", url = "http://spatial.libd.org/spatialLIBD"}, {icon_pack = "fab", icon = "r-project", name = "Bioconductor", url = "https://bioconductor.org/packages/spatialLIBD"}]
+links = [{icon_pack = "fab", icon="twitter", name="#spatialLIBD", url = "https://twitter.com/search?q=%23spatialLIBD&src=typed_query"}, {name = "spatialLIBD shiny app", url = "http://spatial.libd.org/spatialLIBD"}, {icon_pack = "fab", icon = "r-project", name = "Bioconductor", url = "https://bioconductor.org/packages/spatialLIBD"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 

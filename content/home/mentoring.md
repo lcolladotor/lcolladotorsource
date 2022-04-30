@@ -36,7 +36,7 @@ subtitle = ""
   # gradient_end = "SkyBlue"
   
   # Background image.
-  # image = "background.jpg"  # Name of image in `static/img/`.
+  # image = "background.jpg"  # Name of image in `static/media/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
@@ -50,4 +50,4 @@ subtitle = ""
  css_class = ""
 +++
 
-Here you can find the students that I've mentored as their advisor and/or are currently working with me.
+Here you can find the students that I've mentored as their advisor and/or are currently working with me. Check the [anonymous team survey results](https://lcolladotor.github.io/team_surveys/) for more detailed and fully transparent information about what people in the team feel like.

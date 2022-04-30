@@ -38,7 +38,7 @@ bib <- c(
 
 It's Friday 7pm and it's been a long week with ups and downs^[Feeling welcomed can be hard... oh well.]. But I'm enthused as I write this blog post. In less than a month from now I'll be attending [rOpenSci unconf18](http://unconf18.ropensci.org/) and it'll be my first time at this type of event. Yay!
 
-`r blogdown::shortcode("tweet", "983876013015826432")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="983876013015826432")`
 
 In my self introduction to everyone attending, I mentioned that I don't use the pipe (`%>%`) symbol and that I use `<-` for assignment.
 

@@ -73,4 +73,8 @@ user_groups = ["Visiting Student"]
 +++
 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Our paper describing our package <a href="https://twitter.com/hashtag/spatialLIBD?src=hash&amp;ref_src=twsrc%5Etfw">#spatialLIBD</a> is finally out! 🎉🎉🎉<br><br>spatialLIBD is an <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> / <a href="https://twitter.com/Bioconductor?ref_src=twsrc%5Etfw">@Bioconductor</a> package to visualize spatial transcriptomics data.<br>⁰<br>This is especially exciting for me as it is my first paper as a first author 🦑.<a href="https://t.co/COW013x4GA">https://t.co/COW013x4GA</a><br><br>1/9 <a href="https://t.co/xevIUg3IsA">pic.twitter.com/xevIUg3IsA</a></p>&mdash; Brenda Pardo (@PardoBree) <a href="https://twitter.com/PardoBree/status/1388253938391175173?ref_src=twsrc%5Etfw">April 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet user="PardoBree" id="1388253938391175173" >}}
+
+Check her presentation summarizing her experience in my team.
+
+{{< youtube VojNV7q3i2s >}}

@@ -31,7 +31,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/fellgernon"}, {icon_pack = "fab", icon = "r-project", name = "Bioconductor", url = "https://bioconductor.org/packages/derfinder"}]
+links = [{icon_pack = "fab", icon="twitter", name="#derfinder", url = "https://twitter.com/search?q=%23derfinder&src=typed_query"}, {icon_pack = "fab", icon = "r-project", name = "Bioconductor", url = "https://bioconductor.org/packages/derfinder"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 

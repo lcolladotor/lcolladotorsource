@@ -57,7 +57,7 @@ I'm really thankful to everyone who has been a part of my journey: mentors, coll
  
 Finally, after reading Jeff Leek's _How to be a modern scientist_ book in preparation for the [first bootcamp today](https://lcolladotor.github.io/bioc_team_ds/how-to-be-a-modern-scientist.html), I've updated my Twitter username to match my GitHub one. That is, I've gone from `fellgernon` to `lcolladotor`. See you around [on Twitter](https://twitter.com/lcolladotor) and elsewhere!
 
-<img src="https://lcolladotor.github.io/img/Leo_transparente.png" width="200px" />
+<img src="https://lcolladotor.github.io/media/Leo_transparente.png" width="200px" />
 
 P.S. If you find this type of team and the work that we do appealing, let me know and we'll evaluate what options are available =)
 

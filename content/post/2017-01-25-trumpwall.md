@@ -7,9 +7,9 @@ categories:
 date: 2017-01-25T02:00:00Z
 ---
 
-{{% alert note %}}
+{{% callout note %}}
 tl;dr There is a 600 million to 2 billion USD annual market related to crossing the Mexico-US border. Allow temporary work visas (say 3 years) to take over this market and use the money to boost the US Border Patrol to build a wall of eyes, not a physical wall.
-{{% /alert %}}
+{{% /callout %}}
 
 President Trump of the United States of America,
 
@@ -37,9 +37,9 @@ Leonardo
 <a href="https://en.wikipedia.org/wiki/Mexican_Americans"><img alt = 'Mexican American flag' width='700' src='https://upload.wikimedia.org/wikipedia/en/3/32/Mexican_American_Flag.PNG' /></a>
 </center>
 
-{{% alert warning %}}
+{{% callout warning %}}
 This open letter is my opinion only and not that of my employer or other people I know.
-{{% /alert %}}
+{{% /callout %}}
 
 ### Calculations used
 
@@ -91,7 +91,7 @@ This open letter is my opinion only and not that of my employer or other people 
 
 I finally wrote this open letter after my poll a few weeks ago:
 
-{{< tweet 817608772000608256 >}}
+{{< tweet user="lcolladotor" id="817608772000608256" >}}
 
 
 ### References

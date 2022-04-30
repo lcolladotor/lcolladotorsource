@@ -37,7 +37,7 @@ bib <- c(
 ```
 
 
-In the summer of 2008, nearly 12 years ago, I attended my first R/Bioconductor conference: [BioC2008](https://bioconductor.org/help/course-materials/2008/BioC2008/). Just last week I went to my second [rstudio::conf(2020)](https://rstudio.com/conference/) which I greatly enjoyed. After some [tweets exchanges today](https://twitter.com/fellgernon/status/1224512627017244673?s=20), I started reflecting on my journey and wanted to share my thoughts.
+In the summer of 2008, nearly 12 years ago, I attended my first R/Bioconductor conference: [BioC2008](https://bioconductor.org/help/course-materials/2008/BioC2008/). Just last week I went to my second [rstudio::conf(2020)](https://rstudio.com/conference/) which I greatly enjoyed. After some [tweets exchanges today](https://twitter.com/lcolladotor/status/1224512627017244673?s=20), I started reflecting on my journey and wanted to share my thoughts.
 
 ### Why I like going to conferences
 
@@ -72,7 +72,7 @@ The desire to avoid feeling alone is something that can still shape my behavior 
 
 Yet recently, I've grown more conscious of the fact that I've been around longer than others. Meaning that I might be the person that knows X or Y that they want to meet or talk to. That is, I find myself more frequently in the position of introducing people and helping them make connections. Somehow asking X or Y: "hey, do you have a minute? Can I introduce you to someone?" is way less scary even if I'm not the closest acquaintance of X or Y. That is, becoming a _sponsor_: mostly the _access_ portion as defined by [this blog post by Emily Robinson](https://hookedondata.org/the-importance-of-sponsorship/).
 
-So, while I still network like I used to, a portion of my time is spent checking on others I know so they are not alone and helping them when possible make the connections they want. Doing so also helps me strengthen my own connections as I detailed near the end of my [tweet series post-rstudio::conf(2020)](https://twitter.com/fellgernon/status/1224034242537119744?s=20).
+So, while I still network like I used to, a portion of my time is spent checking on others I know so they are not alone and helping them when possible make the connections they want. Doing so also helps me strengthen my own connections as I detailed near the end of my [tweet series post-rstudio::conf(2020)](https://twitter.com/lcolladotor/status/1224034242537119744?s=20).
 
 `r blogdown::shortcode('tweet', '1224034315429994502')`
 

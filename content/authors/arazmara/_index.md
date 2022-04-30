@@ -95,7 +95,7 @@ I mentored Ashkaun Razmara in 2017-2018 while he was visiting the Johns Hopkins 
 
 Ashkaun is the lead author of the `recount-brain` project which you can read in more detail at [here](http://LieberInstitute.github.io/recount-brain/).
 
-![](/img/recount_brain.png)
+![](/media/recount_brain.png)
 
 
 <!-- ![](http://ghchart.rshah.org/DA2536/Ashkaunr.svg) -->

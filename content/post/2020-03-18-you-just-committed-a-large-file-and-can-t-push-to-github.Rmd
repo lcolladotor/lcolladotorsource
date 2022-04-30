@@ -42,9 +42,9 @@ bib <- c(
 ```
 
 
-{{% alert note %}}
+{{% callout note %}}
 Oh ohh! 😱 What do you do now?
-{{% /alert %}}
+{{% /callout %}}
 
 The data me and my colleagues work with is typically too big for our personal computers, so we use a high performance computing environment (cluster) and mostly interact with it through the command line terminal. As you might know, I'm a big fan of version control and I use [`git`](https://git-scm.com/) plus [GitHub](https://github.com/) for sharing our code ^[Between our personal computers and the JHPCE cluster, but also with collaborators and the community at large.]. That's why I've been advocating others to use it for a while and when they do, they run to me if they have some issues. A while back, my former student [Amy Peterson](/authors/apeterson/) wrote a blog post titled [git to know git: an 8 minute introduction](http://research.libd.org/rstatsclub/post/git-to-know-git/) which is useful if you are getting started. Amy also links to the excellent [Happy Git and GitHub for the useR](https://happygitwithr.com/) book.
 
@@ -223,9 +223,9 @@ cp -r project_leo_backup project_FINAL/
 
 I actually messed up at one point and had to rely on this backup!! So, like I said,
 
-{{% alert note %}}
+{{% callout note %}}
 Please backup everything before you start using `git reset` and similar commands!
-{{% /alert %}}
+{{% /callout %}}
 
 Next, to undo all the `git rm` (deleting a file), I undid the `git add -A` step using a combination of `git reset` and `git checkout` (to restore files).
 

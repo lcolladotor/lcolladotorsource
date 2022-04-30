@@ -1,21 +1,43 @@
-+++
-# Contact widget.
-widget = "contact"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 70  # Order that this section will appear.
+---
+# An instance of the Contact widget.
+widget: contact
 
-title = "Contacto"
-subtitle = ""
+# This file represents a page section.
+headless: true
 
-# Automatically link email and phone?
-autolink = true
+# Order that this section appears on the page.
+weight: 70
 
-# Email form provider
-#   0: Disable email form
-#   1: Netlify (requires that the site is hosted by Netlify)
-#   2: formspree.io
-email_form = 0
-+++
+title: Contacto
+subtitle:
+
+content:
+  # Automatically link email and phone or display as text?
+  autolink: true
+
+  # Contact details (edit or remove options as required)
+  email: lcolladotor@gmail.com
+  phone: '+1-410-955-1000'
+  address:
+    street: '855 N. Wolfe, Suite 300'
+    city: Baltimore
+    region: MD
+    postcode: '21205'
+    country: United States
+    country_code: US
+  coordinates:
+    latitude: '39.300068'
+    longitude: '-76.590742'
+  directions: 'Entra al edificio Rangos, regístrate, sube el elevador al tercer piso, y vuele a registrarte en LIBD.'
+  appointment_url: 'https://calendly.com/lcolladotor'
+  contact_links:
+    - icon: twitter
+      icon_pack: fab
+      name: Mándame un MD
+      link: 'https://twitter.com/lcolladotor'
+
+design:
+  columns: '2'
+---
 
 Si tienes preguntas sobre los [paquetes de R/Bioconductor que mantengo](phttps://lcolladotor.github.io/pkgs/), por favor lée [este post](http://lcolladotor.github.io/2017/03/06/how-to-ask-for-help-for-bioconductor-packages/#.WL3NQBIrJoM) (en inglés). Si me envías un correo, simplemente te mandaré la liga al mismo post.

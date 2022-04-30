@@ -242,7 +242,7 @@ Since I am interested in getting my blog to be a part of [R-bloggers](http://www
 
 For the category-specific RSS I used `feed.category.xml` (<span class="showtooltip" title="(2013). 'jekyll-rss-feeds.' ."><a href="https://github.com/snaptortoise/jekyll-rss-feeds">Jekyll RSS Feed Templates</a></span>) and created [rss-rstats.xml](https://github.com/lcolladotor/lcolladotor.github.com/blob/master/rss-rstats.xml) [see [atom-rstats.xml](https://github.com/lcolladotor/lcolladotor.github.com/blob/master/atom-rstats.xml) if you prefer Atom RSS] which is then processed and converted to [feeds.feedburner.com/FellgernonBit-rstats](http://feeds.feedburner.com/FellgernonBit-rstats). 
 
-Note that I use [FeedBurner](http://feedburner.google.com/) to then create [Twitter updates](https://twitter.com/fellgernon) linking to back to the posts. Also, for the rstats one I add the [#rstats](https://twitter.com/search?q=%23rstats) hashtag to the post. 
+Note that I use [FeedBurner](http://feedburner.google.com/) to then create [Twitter updates](https://twitter.com/lcolladotor) linking to back to the posts. Also, for the rstats one I add the [#rstats](https://twitter.com/search?q=%23rstats) hashtag to the post. 
 
 
 ### Writing an R post

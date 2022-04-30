@@ -22,9 +22,9 @@ projects: []
 
 
 
-<p>{{% alert note %}}
+<p>{{% callout note %}}
 Oh ohh! 😱 What do you do now?
-{{% /alert %}}</p>
+{{% /callout %}}</p>
 <p>The data me and my colleagues work with is typically too big for our personal computers, so we use a high performance computing environment (cluster) and mostly interact with it through the command line terminal. As you might know, I’m a big fan of version control and I use <a href="https://git-scm.com/"><code>git</code></a> plus <a href="https://github.com/">GitHub</a> for sharing our code <a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>. That’s why I’ve been advocating others to use it for a while and when they do, they run to me if they have some issues. A while back, my former student <a href="/authors/apeterson/">Amy Peterson</a> wrote a blog post titled <a href="http://research.libd.org/rstatsclub/post/git-to-know-git/">git to know git: an 8 minute introduction</a> which is useful if you are getting started. Amy also links to the excellent <a href="https://happygitwithr.com/">Happy Git and GitHub for the useR</a> book.</p>
 <div id="recurrent-problem-you-just-commited-a-large-file-and-cant-push-to-github" class="section level3">
 <h3>Recurrent problem: you just commited a large file and can’t push to GitHub</h3>
@@ -187,9 +187,9 @@ cp -r project_FINAL project_leo_backup/
 ## Then restore everything from your backup copy
 cp -r project_leo_backup project_FINAL/</code></pre>
 <p>I actually messed up at one point and had to rely on this backup!! So, like I said,</p>
-<p>{{% alert note %}}
+<p>{{% callout note %}}
 Please backup everything before you start using <code>git reset</code> and similar commands!
-{{% /alert %}}</p>
+{{% /callout %}}</p>
 <p>Next, to undo all the <code>git rm</code> (deleting a file), I undid the <code>git add -A</code> step using a combination of <code>git reset</code> and <code>git checkout</code> (to restore files).</p>
 <pre class="bash"><code># https://stackoverflow.com/a/2125713/9374370
 $ git reset HEAD

@@ -31,7 +31,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/fellgernon"}, {name = "recount2 website", url = "https://jhubiostatistics.shinyapps.io/recount/"}, {icon_pack = "fab", icon = "r-project", name = "Bioconductor", url = "https://bioconductor.org/packages/recount"}]
+links = [{icon_pack = "fab", icon="twitter", name="#recount2", url = "https://twitter.com/search?q=%23recount2&src=typed_query"}, {name = "recount2 website", url = "https://jhubiostatistics.shinyapps.io/recount/"}, {icon_pack = "fab", icon = "r-project", name = "Bioconductor", url = "https://bioconductor.org/packages/recount"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
