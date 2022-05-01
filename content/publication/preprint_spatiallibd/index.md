@@ -82,3 +82,7 @@ Click the *Slides* button above to demo Academic's Markdown slides feature.
 
 Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
 -->
+
+{{< youtube VojNV7q3i2s >}}
+{{% tweet user="PardoBree" id="1388253938391175173" %}}
+{{< youtube LZ2kvCiRVdM >}}
