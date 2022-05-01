@@ -142,7 +142,7 @@ As you can see, this is just an idea, or a collection of them around one theme. 
 
 Do you want to listen to the whole panel discussion? From this tweet it looks like the recording will be available online:
 
-`r blogdown::shortcode("tweet", user="JohnsHopkinsSPH", id="1041732455865171972")`
+`r blogdown::shortcode("tweet", "1041732455865171972")`
 
 
 This blog post was made possible thanks to:

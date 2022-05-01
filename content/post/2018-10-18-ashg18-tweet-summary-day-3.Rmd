@@ -41,23 +41,23 @@ Continuing from my [ASHG18 day 1 post](http://lcolladotor.github.io/2018/10/16/a
 
 #### Jenna Carlson
 
-`r blogdown::shortcode("tweet", user="CharlestonCWKC", id="")`
+`r blogdown::shortcode("tweet", "1052956456578834432")`
 
-`r blogdown::shortcode("tweet", user="StatGenDan", id="")`
+`r blogdown::shortcode("tweet", "1052959881756430337")`
 
 
 #### Christopher R. Gignoux
 
 
-`r blogdown::shortcode("tweet", user="23andMeResearch", id="")`
+`r blogdown::shortcode("tweet", "1052960113005215744")`
 
-`r blogdown::shortcode("tweet", user="Brooke_LaFlamme", id="")`
+`r blogdown::shortcode("tweet", "1052961594487988224")`
 
-`r blogdown::shortcode("tweet", user="CharlestonCWKC", id="")`
+`r blogdown::shortcode("tweet", "1052962128749969408")`
 
 [www.pagestudy.org](www.pagestudy.org)
 
-`r blogdown::shortcode("tweet", user="ElenaSorokin", id="")`
+`r blogdown::shortcode("tweet", "1052962347810086913")`
 
 #### Angela Andaleon
 
@@ -70,27 +70,27 @@ Continuing from my [ASHG18 day 1 post](http://lcolladotor.github.io/2018/10/16/a
 Angela is presenting the continuation of her undergrad project. 
 
 
-`r blogdown::shortcode("tweet", user="CharlestonCWKC", id="")`
+`r blogdown::shortcode("tweet", "1052964260764995584")`
 
-`r blogdown::shortcode("tweet", user="23andMeResearch", id="")`
+`r blogdown::shortcode("tweet", "1052964989030490112")`
 
 
 ### 6C 10 am
 
 #### Zongli Xu
 
-`r blogdown::shortcode("tweet", user="michaelhoffman", id="")`
+`r blogdown::shortcode("tweet", "1052968599705464832")`
 
 #### Lang Wu
 
 
-`r blogdown::shortcode("tweet", user="michaelhoffman", id="")`
+`r blogdown::shortcode("tweet", "1052971499336781824")`
 
-`r blogdown::shortcode("tweet", user="michaelhoffman", id="")`
+`r blogdown::shortcode("tweet", "1052972239342133249")`
 
 Hmm, why use a 0.01 $R^2$ cutoff? Isn’t that super low? Maybe I missed something. 
 
-`r blogdown::shortcode("tweet", user="michaelhoffman", id="")`
+`r blogdown::shortcode("tweet", "1052972394401263616")`
 
 Moving to Hawaii to start his career as a PI. He had nice pictures to motivate others to join his lab ;)
 
@@ -103,32 +103,32 @@ Missed it: got there for the questions.
 
 #### Tarjinder Singh
 
-`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
+`r blogdown::shortcode("tweet", "1052991257847377921")`
 
 They built a browser for seeing the rare variants and the exome data. Not available yet. 
 
 #### Rujia Dai
 
-`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
+`r blogdown::shortcode("tweet", "1052992420244156416")`
 
-`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
+`r blogdown::shortcode("tweet", "1052993618246393856")`
 
 
 
 #### Ying Ji
 
-`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
+`r blogdown::shortcode("tweet", "1052995946051645440")`
 
-`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
+`r blogdown::shortcode("tweet", "1052996602133008385")`
 
 
 Bpred and Gpred genes have different expression over development: they intersect at birth. 
 
 #### Kiran Girdhar
 
-`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
+`r blogdown::shortcode("tweet", "1052998540669014016")`
 
-`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
+`r blogdown::shortcode("tweet", "1053000456228622336")`
 
 * Looked at enhancers too.
 * Question from the audience about the differential shapes of the peaks between cases and controls. 
@@ -144,106 +144,106 @@ Used CRISPR to perturbe noncoding variants linked to SCZD risk: the ASoC SNPs.
 Then used single cell (10x Genomics) to measure expression. 
 
 
-`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
+`r blogdown::shortcode("tweet", "1053003636135972864")`
 
 ### Other (morning)
 
-`r blogdown::shortcode("tweet", user="Single_Molecule", id="")`
+`r blogdown::shortcode("tweet", "1052969248891359232")`
 
-`r blogdown::shortcode("tweet", user="anavinuela", id="")`
+`r blogdown::shortcode("tweet", "1052999291764203521")`
 
-`r blogdown::shortcode("tweet", user="StatGenDan", id="")`
+`r blogdown::shortcode("tweet", "1053000619504500736")`
 
 ### Afternoon awards
 
 #### Eric Lander
 
-`r blogdown::shortcode("tweet", user="mycoacia", id="")`
+`r blogdown::shortcode("tweet", "1053070553773293568")`
 
-`r blogdown::shortcode("tweet", user="23andMeResearch", id="")`
+`r blogdown::shortcode("tweet", "1053069188124762112")`
 
-`r blogdown::shortcode("tweet", user="raungar", id="")`
+`r blogdown::shortcode("tweet", "1053083099674755072")`
 
 #### Jan M. Friedman
 
-`r blogdown::shortcode("tweet", user="23andMeResearch", id="")`
+`r blogdown::shortcode("tweet", "1053072202596147200")`
 
-`r blogdown::shortcode("tweet", user="23andMeResearch", id="")`
+`r blogdown::shortcode("tweet", "1053074190515941376")`
 
-`r blogdown::shortcode("tweet", user="michaelhoffman", id="")`
+`r blogdown::shortcode("tweet", "1053074247956946944")`
 
-`r blogdown::shortcode("tweet", user="averydavisbell", id="")`
+`r blogdown::shortcode("tweet", "1053075148725612544")`
 
 ### Presidential Symposium 
 
 #### John Hawks
 
-`r blogdown::shortcode("tweet", user="liminalphase", id="")`
+`r blogdown::shortcode("tweet", "1053076488398888960")`
 
-`r blogdown::shortcode("tweet", user="thatdnaguy", id="")`
+`r blogdown::shortcode("tweet", "1053077309001891840")`
 
-`r blogdown::shortcode("tweet", user="jlpcphotography", id="")`
+`r blogdown::shortcode("tweet", "1053078045387444225")`
 
-`r blogdown::shortcode("tweet", user="liminalphase", id="")`
+`r blogdown::shortcode("tweet", "1053081405016571904")`
 
-`r blogdown::shortcode("tweet", user="JHmeljak", id="")`
+`r blogdown::shortcode("tweet", "1053083391711571969")`
 
 #### Himla Soodyall
 
-`r blogdown::shortcode("tweet", user="michaelhoffman", id="")`
+`r blogdown::shortcode("tweet", "1053083269640540161")`
 
-`r blogdown::shortcode("tweet", user="cgonzagaj", id="")`
+`r blogdown::shortcode("tweet", "1053085462456221697")`
 
-`r blogdown::shortcode("tweet", user="michaelhoffman", id="")`
+`r blogdown::shortcode("tweet", "1053085978976432128")`
 
-`r blogdown::shortcode("tweet", user="thatdnaguy", id="")`
+`r blogdown::shortcode("tweet", "1053087721990672384")`
 
-`r blogdown::shortcode("tweet", user="thatdnaguy", id="")`
+`r blogdown::shortcode("tweet", "1053088764405272576")`
 
-`r blogdown::shortcode("tweet", user="yhtacgnol", id="")`
+`r blogdown::shortcode("tweet", "1053089547448287232")`
 
 #### Ambroise Wonkman
 
-`r blogdown::shortcode("tweet", user="michaelhoffman", id="")`
+`r blogdown::shortcode("tweet", "1053090334236860416")`
 
-`r blogdown::shortcode("tweet", user="GenomeBiology", id="")`
+`r blogdown::shortcode("tweet", "1053090716551806976")`
 
 ### Diversity
 
-`r blogdown::shortcode("tweet", user="sawerkar", id="")`
+`r blogdown::shortcode("tweet", "1052956621477896192")`
 
-`r blogdown::shortcode("tweet", user="Brooke_LaFlamme", id="")`
+`r blogdown::shortcode("tweet", "1052968546945228801")`
 
-`r blogdown::shortcode("tweet", user="tomsegal", id="")`
+`r blogdown::shortcode("tweet", "1052970460089077764")`
 
 Trolls :/
 
-`r blogdown::shortcode("tweet", user="megkesh", id="")`
+`r blogdown::shortcode("tweet", "1053002564181024768")`
 
-`r blogdown::shortcode("tweet", user="yhtacgnol", id="")`
+`r blogdown::shortcode("tweet", "1053091162372767744")`
 
 ### Misc
 
 
-`r blogdown::shortcode("tweet", user="bioinfo_mark", id="")`
+`r blogdown::shortcode("tweet", "1052964337197797376")`
 
-`r blogdown::shortcode("tweet", user="Brooke_LaFlamme", id="")`
+`r blogdown::shortcode("tweet", "1052964844381429761")`
 
 This is hard. Some don’t mention the methods to avoid this issue, but then it becomes a “black box”. I guess that it can also be a “black box” if they don’t explain a bit what the model is/does. /shrug
 
-`r blogdown::shortcode("tweet", user="genome_sheriff", id="")`
+`r blogdown::shortcode("tweet", "1052970283533889536")`
 
-`r blogdown::shortcode("tweet", user="alon_goren", id="")`
+`r blogdown::shortcode("tweet", "1052990699166035968")`
 
-`r blogdown::shortcode("tweet", user="ErickLoomis", id="")`
+`r blogdown::shortcode("tweet", "1053000667969683458")`
 
-`r blogdown::shortcode("tweet", user="dgmacarthur", id="")`
+`r blogdown::shortcode("tweet", "1052996814356373504")`
 
-`r blogdown::shortcode("tweet", user="hendricks_ae", id="")`
+`r blogdown::shortcode("tweet", "1053073453035642881")`
 
-`r blogdown::shortcode("tweet", user="johnomix", id="")`
+`r blogdown::shortcode("tweet", "1053076114032205824")`
 
-`r blogdown::shortcode("tweet", user="michaelhoffman", id="")`
+`r blogdown::shortcode("tweet", "1053081242042691584")`
 
 
 
@@ -259,9 +259,9 @@ This blog post was made possible thanks to:
 
 and everyone that I met at the tweetup
 
-`r blogdown::shortcode("tweet", user="michaelhoffman", id="")`
+`r blogdown::shortcode("tweet", "1053167988109565952")`
 
-`r blogdown::shortcode("tweet", user="meandertail", id="")`
+`r blogdown::shortcode("tweet", "1053180338380333056")`
 
 ### References
 

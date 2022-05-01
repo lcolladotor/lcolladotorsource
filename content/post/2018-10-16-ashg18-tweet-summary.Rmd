@@ -40,37 +40,37 @@ The linked tweets are frequently from [Eli Robertson](https://twitter.com/thatdn
 
 So, without further ado, here we go:
 
-`r blogdown::shortcode("tweet", user="skathire", id="")`
+`r blogdown::shortcode("tweet", "1052045759019773954")`
 
 ### Award presentations
 
-`r blogdown::shortcode("tweet", user="michaelhoffman", id="")`
+`r blogdown::shortcode("tweet", "1052353598934245376")`
 
 Sek also thanked all his mentees ^^.
 
-`r blogdown::shortcode("tweet", user="thatdnaguy", id="")`
+`r blogdown::shortcode("tweet", "1052357277318111232")`
 
-`r blogdown::shortcode("tweet", user="MariaChahrour", id="")`
+`r blogdown::shortcode("tweet", "1052360103381221376")`
 
 ### Diversity
 
-`r blogdown::shortcode("tweet", user="michaelhoffman", id="")`
+`r blogdown::shortcode("tweet", "1051517538067197957")`
 
-`r blogdown::shortcode("tweet", user="princyparsana", id="")`
+`r blogdown::shortcode("tweet", "1052210653950345217")`
 
-`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
+`r blogdown::shortcode("tweet", "1052340441377435648")`
 
-`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
+`r blogdown::shortcode("tweet", "1052345071062798336")`
 
-`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
+`r blogdown::shortcode("tweet", "1052356640651898881")`
 
 ### Mitchel Cole
 
 SNP crispr-cas9 perturbation study in blood cells.
 
-`r blogdown::shortcode("tweet", user="thatdnaguy", id="")`
+`r blogdown::shortcode("tweet", "1052359394439106560")`
 
-`r blogdown::shortcode("tweet", user="aidanbutty", id="")`
+`r blogdown::shortcode("tweet", "1052360756610519040")`
 
 MC mentioned metaFDR for combining pvalues from 4 tests.
 
@@ -79,75 +79,75 @@ MC mentioned metaFDR for combining pvalues from 4 tests.
 
 Uniparental disomy using 23andMe data. Seeking prevalence information in general population.
 
-`r blogdown::shortcode("tweet", user="thatdnaguy", id="")`
+`r blogdown::shortcode("tweet", "1052364953984876544")`
 
-`r blogdown::shortcode("tweet", user="michaelhoffman", id="")`
+`r blogdown::shortcode("tweet", "1052365691565760512")`
 
 3 types that can be identified by 2 in silico methods.
 
-`r blogdown::shortcode("tweet", user="CharlestonCWKC", id="")`
+`r blogdown::shortcode("tweet", "1052366223487381504")`
 
-`r blogdown::shortcode("tweet", user="23andMeResearch", id="")`
+`r blogdown::shortcode("tweet", "1052366741118976001")`
 
-`r blogdown::shortcode("tweet", user="23andMeResearch", id="")`
+`r blogdown::shortcode("tweet", "1052367633738166273")`
 
-`r blogdown::shortcode("tweet", user="thatdnaguy", id="")`
+`r blogdown::shortcode("tweet", "1052368774257618945")`
 
 Mentioned PheWAS. 
 
 PN: Don't know if you can get single cell data from 23andMe customers.
 
 
-`r blogdown::shortcode("tweet", user="23andMeResearch", id="")`
+`r blogdown::shortcode("tweet", "1052369350802300934")`
 
-`r blogdown::shortcode("tweet", user="beryl_bbc", id="")`
+`r blogdown::shortcode("tweet", "1052370107651915777")`
 
-`r blogdown::shortcode("tweet", user="s_ramach", id="")`
+`r blogdown::shortcode("tweet", "1052371085675528193")`
 
 
 ### Jack A Kosmicki
 
-`r blogdown::shortcode("tweet", user="beryl_bbc", id="")`
+`r blogdown::shortcode("tweet", "1052370135304949763")`
 
-`r blogdown::shortcode("tweet", user="thatdnaguy", id="")`
+`r blogdown::shortcode("tweet", "1052370234030649344")`
 
 
 
 mentioned pLl method 
 
-`r blogdown::shortcode("tweet", user="DrGeneUK", id="")`
+`r blogdown::shortcode("tweet", "1052371239644196865")`
 
-`r blogdown::shortcode("tweet", user="Single_Molecule", id="")`
+`r blogdown::shortcode("tweet", "1052371262071169024")`
 
-`r blogdown::shortcode("tweet", user="ksamocha", id="")`
+`r blogdown::shortcode("tweet", "1052371493647147009")`
 
 
 99 ASD genes 
 
-`r blogdown::shortcode("tweet", user="beryl_bbc", id="")`
+`r blogdown::shortcode("tweet", "1052371900926554112")`
 
-`r blogdown::shortcode("tweet", user="michaelhoffman", id="")`
+`r blogdown::shortcode("tweet", "1052372607029264384")`
 
 summary
 
-`r blogdown::shortcode("tweet", user="StatGenDan", id="")`
+`r blogdown::shortcode("tweet", "1052373073402294272")`
 
-`r blogdown::shortcode("tweet", user="thatdnaguy", id="")`
+`r blogdown::shortcode("tweet", "1052373218932199424")`
 
 ### Caitlin Bowen
 
-`r blogdown::shortcode("tweet", user="thatdnaguy", id="")`
+`r blogdown::shortcode("tweet", "1052375530656464896")`
 
 Sorry, I left this talk early to see the poster talks (that I didn't know had been delayed).
 
 
 ### Wrap up
 
-`r blogdown::shortcode("tweet", user="thatdnaguy", id="")`
+`r blogdown::shortcode("tweet", "1052380042481807360")`
 
 ### Poster talks
 
-`r blogdown::shortcode("tweet", user="Genomes2People", id="")`
+`r blogdown::shortcode("tweet", "1052382540550557696")`
 
 Single cell composition and organs poster 2012 seemed interesting to me. I added to my calendar!
 
@@ -164,7 +164,7 @@ This blog post was made possible thanks to:
 
 as well as everyone who was tweeting! See you on Thursday!
 
-`r blogdown::shortcode("tweet", user="michaelhoffman", id="")`
+`r blogdown::shortcode("tweet", "1051524651950718977")`
 
 ### References
 

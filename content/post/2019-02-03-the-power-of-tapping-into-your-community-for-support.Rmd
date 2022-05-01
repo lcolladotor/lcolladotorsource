@@ -89,7 +89,7 @@ Thanks [EpiRen](https://twitter.com/EpiRen/status/1091844480112775168)!
 
 Thanks Baltimore Sun staff and the Baltimore Police!
 
-`r blogdown::shortcode('tweet', user='lcolladotor', id='1091466386868748288')`
+`r blogdown::shortcode('tweet', '1091466386868748288')`
 
 This blog post was made possible thanks to:
 

@@ -42,7 +42,7 @@ Into the unknown</p>
 </blockquote>
 <p>All of us have been building our careers with other types of data and/or experiments, and taking on a new type of data knowing we had an <a href="https://www.biospace.com/article/10x-genomics-begins-shipments-of-visium-spatial-gene-expression-solution/">early access advantage</a> over others was quite the challenge. I don’t know about my co-authors, but maybe some of them shared thoughts like mine that were along the lines: can I do this? can I make it work? do my analysis choices make sense? what will experts think of doing once they have access to this data? All while racing against time, even if it was just an illusion in our minds.</p>
 <p>But it’s not my first adventure and I’ve picked up skills and confidence along the way. In particular, I’ve written <a href="https://bioconductor.org">Bioconductor</a> R packages, dealt with <code>pkgdown</code>/<code>travis</code> issues like <a href="https://github.com/r-lib/pkgdown/issues/1206">#1206</a>, made <em><a href="https://CRAN.R-project.org/package=shiny">shiny</a></em> web applications, analyzed large RNA-seq data, <a href="http://lcolladotor.github.io/2019/04/02/how-to-write-academic-documents-with-googledocs/#.XlnnqJNKg0o">written papers using GoogleDocs</a>, gotten better at asking for help, among other skills.</p>
-{{% tweet user="lcolladotor" id="1233186931590123522" %}}
+{{% tweet "1233186931590123522" %}}
 <p>I’ve also gotten more comfortable with the idea that I can’t do it all. Others will shortly develop new methods for this type of data, or proper infrastructure to handle this data, or faster visualizations, and so goes on the list. But I’m proud and really happy to say that we built quite the robust prototype. Plus maybe we’ll be involved in shaping this future.</p>
 <p>And you noticed that I mentioned <em>we</em>. That’s because I have been learning over the years how to foster collaborations. This particular project involved working with two other members of my workplace who are awesome and that I didn’t know that well. It also involved a new collaboration with someone I’ve known for a while now (we initially met through Twitter in 2014) but hadn’t had the chance to work with. Thus we dove into the unknown together 👩‍🚀🧑‍🚀.</p>
 <iframe src="https://giphy.com/embed/Ph0nUfRpbMcQvA7ue8" width="480" height="199" frameBorder="0" class="giphy-embed" allowFullScreen>
@@ -51,19 +51,19 @@ Into the unknown</p>
 <a href="https://giphy.com/gifs/disneystudios-disney-frozen-2-Ph0nUfRpbMcQvA7ue8">via GIPHY</a>
 </p>
 <p>I feel like we complemented each other quite well and all I can confidently say that our new adventure so far has been very stimulating, even it cost me some sleep.</p>
-{{% tweet user="lcolladotor" id="1230107491372912641" %}}
+{{% tweet "1230107491372912641" %}}
 <div id="spatial-transcriptomics" class="section level3">
 <h3>Spatial transcriptomics</h3>
 <p>So, where does <em>spatial transcriptomics</em> come into play and what does it mean? I work with gene <em>activity</em> data which we formally refer to as <em>gene expression</em> 🧬. That is, we measure 🔍🧮 the activity levels of genes for a particular biological condition or tissue sample. For several years now (about since 2007-2009) we have been able to measure many genes from a tissue sample, called bulk RNA-sequencing and abbreviated as RNA-seq.</p>
 <p>That’s great! But biology is complicated and a single tissue sample is composed of multiple cells of various types. For example, in the brain there are cells that send signals around (neurons) and others that give structure to the brain. That is why technologies for measuring the gene expression at the single cell level were developed, abbreviated as scRNA-seq. scRNA-seq has been used widely to study mouse brains to live tissue samples.</p>
 <p>In recent years I’ve been working with data from the human brain 🧠. The <a href="http://libd.org">Lieber Institute for Brain Development</a> has about two thousand brain samples. To preserve them for years to come, the brains are frozen 🥶. Cells are a bit fragile and freezing them breaks them. This fact has made it challenging to study data from frozen human brains. Several of my colleagues work on adapting research protocols to handle frozen human brain tissue. The research field overall has been able to generate single nucleus RNA sequencing (snRNA-seq) data and we are all generating some more.</p>
 <p>snRNA-seq and scRNA-seq are great because you can measure what genes (pieces of the cell) are active, classify them into groups, and use prior knowledge to label these groups. However, you lose information about what part of the tissue they come from. That’s where technologies for <em>spatial transcriptomics</em>, that is, measuring gene expression 🧬 as close a possible to the single cell level yet retaining spatial coordinates are being actively developed. Thus, you end up with two main sources of data: the gene expression measurements but also images from the tissue (<em>histology</em> information). <a href="https://doi.org/10.1038/s41386-019-0484-7">My coworkers anticipated</a> what could these technologies be used for and what type of research questions they help us answer.</p>
-{{% tweet user="andrewejaffe" id="1232009768006344704" %}}
+{{% tweet "1232009768006344704" %}}
 </div>
 <div id="our-projects-history" class="section level3">
 <h3>Our project’s history</h3>
 <p>My coworkers got early access to a specific new type of spatial transcriptomics technology called <a href="https://wp.10xgenomics.com/spatial-transcriptomics/">Visium from the 10x Genomics company</a> and started piloting it on human brain tissue. They recruited me to their project in early November 2019 (11th) and I recruited more colleagues in early December (4th). Today on February 28th 2020 we made public our research advances, code, and software we built for this project.</p>
-{{% tweet user="mwgerber" id="1232468210886144000" %}}
+{{% tweet "1232468210886144000" %}}
 <p>Given that we have many potential websites others can find us through, we decided to unify as much as possible the documentation even if that meant repeating it. The basic start of our documentation is included further below.</p>
 </div>
 <div id="spatiallibd" class="section level3">
@@ -197,7 +197,7 @@ run this yourself to check for any updates on how to cite <strong>spatialLIBD</s
 </ul>
 <p><img src="http://lcolladotor.github.io/post/2020-02-29-diving-together-into-the-unknown-world-of-spatial-transcriptomics_files/IMG_3284.jpg" /></p>
 <p>Finally, here’s the pre-print twitter thread:</p>
-{{% tweet user="lcolladotor" id="1233661576433061888" %}}
+{{% tweet "1233661576433061888" %}}
 <p>Thank you for getting this far!</p>
 <iframe src="https://giphy.com/embed/26FxykLpuDxQiFbnG" width="480" height="256" frameBorder="0" class="giphy-embed" allowFullScreen>
 </iframe>

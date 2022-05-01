@@ -43,9 +43,9 @@ Recently I’ve been thinking on the subject of asking for help. In short, it’
 
 I mostly encounter the situation of asking for help in two scenarios. One is about work, mostly R programming. The other one is about personal issues. There are plenty more, like spelling, cultural references, word definitions and academic citations.
 
-`r blogdown::shortcode("tweet", user="lcolladotor", id="1061281934666543106")`
+`r blogdown::shortcode("tweet", "1061281934666543106")`
 
-`r blogdown::shortcode("tweet", user="lpachter", id="1061288301825413121")`
+`r blogdown::shortcode("tweet", "1061288301825413121")`
 
 ### Programming context
 

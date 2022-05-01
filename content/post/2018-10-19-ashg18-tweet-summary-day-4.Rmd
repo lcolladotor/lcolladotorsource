@@ -46,80 +46,80 @@ Had #diversitymatters and many flags including the rainbow one in her last slide
 
 #### Benjamin Neale
 
-`r blogdown::shortcode("tweet", user="averydavisbell", id="")`
+`r blogdown::shortcode("tweet", "1053356294369759233")`
 
-`r blogdown::shortcode("tweet", user="saralpulit", id="")`
+`r blogdown::shortcode("tweet", "1053356661694324736")`
 
-`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
+`r blogdown::shortcode("tweet", "1053356800609705984")`
 
-`r blogdown::shortcode("tweet", user="ellenmschmidt", id="")`
+`r blogdown::shortcode("tweet", "1053360343408246784")`
 
 
 All results are available to download for free from his lab website!
 
 #### Barbara Stranger
 
-`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
+`r blogdown::shortcode("tweet", "1053369322981085184")`
 
 
 ### Other (morning)
 
 
-`r blogdown::shortcode("tweet", user="Misha_Vysotskiy", id="")`
+`r blogdown::shortcode("tweet", "1053319220048486400")`
 
-`r blogdown::shortcode("tweet", user="artwuster", id="")`
+`r blogdown::shortcode("tweet", "1053320618194522113")`
 
-`r blogdown::shortcode("tweet", user="dccc_phd", id="")`
+`r blogdown::shortcode("tweet", "1053324083771789313")`
 
-`r blogdown::shortcode("tweet", user="iGenomics", id="")`
+`r blogdown::shortcode("tweet", "1053358670925316096")`
 
-`r blogdown::shortcode("tweet", user="skerfoot", id="")`
+`r blogdown::shortcode("tweet", "1053363725376282624")`
 
 ### Afternoon
 
 
-`r blogdown::shortcode("tweet", user="splon", id="")`
+`r blogdown::shortcode("tweet", "1053427841029693440")`
 
-`r blogdown::shortcode("tweet", user="splon", id="")`
+`r blogdown::shortcode("tweet", "1053428153857728512")`
 
-`r blogdown::shortcode("tweet", user="michaelhoffman", id="")`
+`r blogdown::shortcode("tweet", "1053429511604195328")`
 
-`r blogdown::shortcode("tweet", user="cgonzagaj", id="")`
+`r blogdown::shortcode("tweet", "1053429846821429249")`
 
-`r blogdown::shortcode("tweet", user="cgonzagaj", id="")`
+`r blogdown::shortcode("tweet", "1053433460721836032")`
 
-`r blogdown::shortcode("tweet", user="_chriscole_", id="")`
+`r blogdown::shortcode("tweet", "1053432233610989568")`
 
-`r blogdown::shortcode("tweet", user="michaelhoffman", id="")`
+`r blogdown::shortcode("tweet", "1053429016739241984")`
 
 
 ### Diversity
 
 
-`r blogdown::shortcode("tweet", user="ColleenMacmurdo", id="")`
+`r blogdown::shortcode("tweet", "1053322523973013504")`
 
-`r blogdown::shortcode("tweet", user="averydavisbell", id="")`
+`r blogdown::shortcode("tweet", "1053363947154243584")`
 
-`r blogdown::shortcode("tweet", user="ReillyLikesIt", id="")`
+`r blogdown::shortcode("tweet", "1053365583566188544")`
 
-`r blogdown::shortcode("tweet", user="averydavisbell", id="")`
+`r blogdown::shortcode("tweet", "1053367064168022016")`
 
 ### Misc
 
 
-`r blogdown::shortcode("tweet", user="AleMedinaRivera", id="")`
+`r blogdown::shortcode("tweet", "1053320504122036224")`
 
-`r blogdown::shortcode("tweet", user="robinfchan", id="")`
+`r blogdown::shortcode("tweet", "1053320437814325248")`
 
-`r blogdown::shortcode("tweet", user="JedMSP", id="")`
+`r blogdown::shortcode("tweet", "1053353588146155520")`
 
-`r blogdown::shortcode("tweet", user="michaelhoffman", id="")`
+`r blogdown::shortcode("tweet", "1053356648247418881")`
 
-`r blogdown::shortcode("tweet", user="CatCafeSanDiego", id="")`
+`r blogdown::shortcode("tweet", "1053358887737442305")`
 
-`r blogdown::shortcode("tweet", user="bioinfo_mark", id="")`
+`r blogdown::shortcode("tweet", "1053365107235807233")`
 
-`r blogdown::shortcode("tweet", user="23andMeResearch", id="")`
+`r blogdown::shortcode("tweet", "1053434810150993921")`
 
 
 ### Acknowledgments
