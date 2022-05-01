@@ -74,7 +74,7 @@ Yet recently, I've grown more conscious of the fact that I've been around longer
 
 So, while I still network like I used to, a portion of my time is spent checking on others I know so they are not alone and helping them when possible make the connections they want. Doing so also helps me strengthen my own connections as I detailed near the end of my [tweet series post-rstudio::conf(2020)](https://twitter.com/lcolladotor/status/1224034242537119744?s=20).
 
-`r blogdown::shortcode('tweet', '1224034315429994502')`
+`r blogdown::shortcode('tweet', user='lcolladotor', id='1224034315429994502')`
 
 ### Feeling empowered
 

@@ -112,9 +112,9 @@ And you are done! 🙌🏽🎉
 
 ### Quick embedding
 
-Note that my blog is powered by `r CRANpkg('blogdown')` `r citep(bib[['blogdown']])` which has the function `blogdown::shortcode()` for embedding tweets. For example, `blogdown::shortcode("tweet", "1054380320533950464")` generates the `hugo` syntax code which then `hugo` renders into the tweet itself.
+Note that my blog is powered by `r CRANpkg('blogdown')` `r citep(bib[['blogdown']])` which has the function `blogdown::shortcode()` for embedding tweets. For example, `blogdown::shortcode("tweet", user="lcolladotor", id="1054380320533950464")` generates the `hugo` syntax code which then `hugo` renders into the tweet itself.
 
-`r blogdown::shortcode("tweet", "1054380320533950464")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="1054380320533950464")`
 
 As an alternative, we can use Twitter itself by copy-pasting the code for embedding the tweet directly from the Twitter app/website. On the top right side menu on the tweet itself, select _Embed Tweet_
 

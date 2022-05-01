@@ -84,7 +84,7 @@ Once I had my main packages, I started adding some from LIBD, some from CRAN, an
 
 I was curious about how these changes affected my list of installed R packages and used my older [2017 blog post](http://lcolladotor.github.io/2017/05/04/updating-r/#.X6ICiIhKguU) code to check this. That resulted in [this list](https://gist.github.com/lcolladotor/d0af9b22e3806af196233655dce54fde) which shows 423 installed R packages and 589 that I used to have installed. I suspect that several of them will come back. For example, I needed to install `r BiocStyle::CRANpkg("blogdown")` to work on this blog post. Some of the 423 packages are new, like `r BiocStyle::Githubpkg("gadenbuie/rsthemes")` which we recently learned about at the LIBD rstats club.
 
-`r blogdown::shortcode("tweet", "1312187753371561984")`
+`r blogdown::shortcode("tweet", user="LIBDrstats", id="1312187753371561984")`
 
 ### Config files
 

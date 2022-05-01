@@ -68,8 +68,8 @@ header:
 </div>
 <div id="quick-embedding" class="section level3">
 <h3>Quick embedding</h3>
-<p>Note that my blog is powered by <em><a href="https://CRAN.R-project.org/package=blogdown">blogdown</a></em> <a id='cite-Xie_2017'></a>(<a href='https://github.com/rstudio/blogdown'>Xie, Hill, and Thomas, 2017</a>) which has the function <code>blogdown::shortcode()</code> for embedding tweets. For example, <code>blogdown::shortcode("tweet", "1054380320533950464")</code> generates the <code>hugo</code> syntax code which then <code>hugo</code> renders into the tweet itself.</p>
-{{% tweet "1054380320533950464" %}}
+<p>Note that my blog is powered by <em><a href="https://CRAN.R-project.org/package=blogdown">blogdown</a></em> <a id='cite-Xie_2017'></a>(<a href='https://github.com/rstudio/blogdown'>Xie, Hill, and Thomas, 2017</a>) which has the function <code>blogdown::shortcode()</code> for embedding tweets. For example, <code>blogdown::shortcode("tweet", user="lcolladotor", id="1054380320533950464")</code> generates the <code>hugo</code> syntax code which then <code>hugo</code> renders into the tweet itself.</p>
+{{% tweet user="lcolladotor" id="1054380320533950464" %}}
 <p>As an alternative, we can use Twitter itself by copy-pasting the code for embedding the tweet directly from the Twitter app/website. On the top right side menu on the tweet itself, select <em>Embed Tweet</em></p>
 <p><img src="http://lcolladotor.github.io/post/2018-10-23-steps-for-writing-a-twitter-summary-conference-blog-post_files/Screen%20Shot%202018-10-23%20at%2011.04.03%20PM.png" width="500" /></p>
 <p>then copy-paste the HTML code into your post.</p>

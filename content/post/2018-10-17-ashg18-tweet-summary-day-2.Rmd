@@ -38,54 +38,54 @@ bib <- c(
 Continuing from my [ASHG18 day 1 post](http://lcolladotor.github.io/2018/10/16/ashg18-tweet-summary-day-1/#.W8gWEBNKg0o), here's my list of tweets from day 2. Note that I changed sessions a few times.
 
 
-`r blogdown::shortcode("tweet", "1052618815274700802")`
+`r blogdown::shortcode("tweet", user="JulieNadel", id="")`
 
-`r blogdown::shortcode("tweet", "1052622201533358080")`
+`r blogdown::shortcode("tweet", user="dccc_phd", id="")`
  
 
 ### 6E 10:30 am
 
-`r blogdown::shortcode("tweet", "1052077112931172352")`
+`r blogdown::shortcode("tweet", user="NanibaaGarrison", id="")`
  
 
 #### Nanibaa’ Garrison 
 
-`r blogdown::shortcode("tweet", "1052615800480129025")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
 
 #### Maile Taualii
 
 “Nobody wakes up thinking how can I harm indigenous populations!”
 
-`r blogdown::shortcode("tweet", "1052616982535667712")`
+`r blogdown::shortcode("tweet", user="Brooke_LaFlamme", id="")`
 
-`r blogdown::shortcode("tweet", "1052617666555338754")`
+`r blogdown::shortcode("tweet", user="NanibaaGarrison", id="")`
 
-`r blogdown::shortcode("tweet", "1052617774818713601")`
+`r blogdown::shortcode("tweet", user="KeoluFox", id="")`
 
-`r blogdown::shortcode("tweet", "1052618174028378112")`
+`r blogdown::shortcode("tweet", user="Brooke_LaFlamme", id="")`
  
 
 #### Nadine Caron
 
 
-`r blogdown::shortcode("tweet", "1052618270384185345")`
+`r blogdown::shortcode("tweet", user="CharlestonCWKC", id="")`
 
-`r blogdown::shortcode("tweet", "1052618572575453185")`
+`r blogdown::shortcode("tweet", user="johnhawks", id="")`
 
-`r blogdown::shortcode("tweet", "1052621619712090112")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
 
-`r blogdown::shortcode("tweet", "1052622727578865665")`
+`r blogdown::shortcode("tweet", user="paleogenomics", id="")`
 
-`r blogdown::shortcode("tweet", "1052621558194221056")`
+`r blogdown::shortcode("tweet", user="popgenepi", id="")`
  
 
 #### Ngiare Brown
 
-`r blogdown::shortcode("tweet", "1052622923918274565")`
+`r blogdown::shortcode("tweet", user="ElenaSorokin", id="")`
 
-`r blogdown::shortcode("tweet", "1052623035084099587")`
+`r blogdown::shortcode("tweet", user="riley_ilyse", id="")`
 
-`r blogdown::shortcode("tweet", "1052624418856361984")`
+`r blogdown::shortcode("tweet", user="NanibaaGarrison", id="")`
 
 Third time she mentioned “sexy research”. I thought that this term was frowned upon, maybe it's not.
 
@@ -93,16 +93,16 @@ Third time she mentioned “sexy research”. I thought that this term was frown
 
 He made us laugh with his conflict of interest slide. No commercial interests. Just interest in indigenous genomics and helping others. 
 
-`r blogdown::shortcode("tweet", "1052625563813339136")`
+`r blogdown::shortcode("tweet", user="johnhawks", id="")`
 
 Issue with open data. They want to control how the data is re-used. Like for imputation: what are they looking at? Is it something they agree?
 
 
-`r blogdown::shortcode("tweet", "1052626680546758656")`
+`r blogdown::shortcode("tweet", user="johnhawks", id="")`
 
-`r blogdown::shortcode("tweet", "1052633878421274624")`
+`r blogdown::shortcode("tweet", user="johnhawks", id="")`
 
-`r blogdown::shortcode("tweet", "1052634541083512833")`
+`r blogdown::shortcode("tweet", user="johnhawks", id="")`
  
 
 
@@ -111,27 +111,27 @@ Issue with open data. They want to control how the data is re-used. Like for imp
 #### Kelly East
 
 
-`r blogdown::shortcode("tweet", "1052628766739054592")`
+`r blogdown::shortcode("tweet", user="girlscientist", id="")`
 
-`r blogdown::shortcode("tweet", "1052628958330552320")`
+`r blogdown::shortcode("tweet", user="averydavisbell", id="")`
 
-`r blogdown::shortcode("tweet", "1052630261052002304")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
  (others made better tweets!)
 
 
-`r blogdown::shortcode("tweet", "1052630028364599296")`
+`r blogdown::shortcode("tweet", user="girlscientist", id="")`
 
-`r blogdown::shortcode("tweet", "1052630250918567937")`
+`r blogdown::shortcode("tweet", user="averydavisbell", id="")`
 
-`r blogdown::shortcode("tweet", "1052631513332834304")`
+`r blogdown::shortcode("tweet", user="sgpombe", id="")`
 
-`r blogdown::shortcode("tweet", "1052631235770572800")`
+`r blogdown::shortcode("tweet", user="averydavisbell", id="")`
 
-`r blogdown::shortcode("tweet", "1052631310290669568")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
 
-`r blogdown::shortcode("tweet", "1052632738287706112")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
 
-`r blogdown::shortcode("tweet", "1052633474354405377")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
 
 I guess that it’s for US scientists, but I don't think of the "Deep South" in the US when I hear "SouthSeq". Anyway, SouthSeq looks like a great project with many ways to train others in genetics. 
 
@@ -140,60 +140,60 @@ I guess that it’s for US scientists, but I don't think of the "Deep South" in 
 
 #### Chris Gunter
 
-`r blogdown::shortcode("tweet", "1052636166804013056")`
+`r blogdown::shortcode("tweet", user="averydavisbell", id="")`
 
 35,000 page views on DNA awareness day3. 23andMe did a survey study in March 2018
 
-`r blogdown::shortcode("tweet", "1052636686025256960")`
+`r blogdown::shortcode("tweet", user="MoleculeMind", id="")`
 
-`r blogdown::shortcode("tweet", "1052638967663800320")`
+`r blogdown::shortcode("tweet", user="CincyKidsGenomX", id="")`
 
-`r blogdown::shortcode("tweet", "1052639236086616065")`
+`r blogdown::shortcode("tweet", user="averydavisbell", id="")`
 
-`r blogdown::shortcode("tweet", "1052640088360796161")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
 
-`r blogdown::shortcode("tweet", "1052641512524111872")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
 
-`r blogdown::shortcode("tweet", "1052641926833291264")`
+`r blogdown::shortcode("tweet", user="yhtacgnol", id="")`
 
-`r blogdown::shortcode("tweet", "1052643639267012613")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
 
-`r blogdown::shortcode("tweet", "1052620297155829760")`
+`r blogdown::shortcode("tweet", user="girlscientist", id="")`
  
 
 ### Other (morning)
 
-`r blogdown::shortcode("tweet", "1052622463060701187")`
+`r blogdown::shortcode("tweet", user="michaelhoffman", id="")`
 
-`r blogdown::shortcode("tweet", "1052634348610977792")`
+`r blogdown::shortcode("tweet", user="introspection", id="")`
  
 
 ### 20BC 4:15 pm (4:23)
 
 #### Semanti Mukherjee
 
-`r blogdown::shortcode("tweet", "1052701901886636032")`
+`r blogdown::shortcode("tweet", user="michaelhoffman", id="")`
 
-`r blogdown::shortcode("tweet", "1052701298502459392")`
+`r blogdown::shortcode("tweet", user="Single_Molecule", id="")`
 
-`r blogdown::shortcode("tweet", "1052702644764987392")`
+`r blogdown::shortcode("tweet", user="cgonzagaj", id="")`
 
 
 #### Chimene Kesserwan:
 
-`r blogdown::shortcode("tweet", "1052704646773370880")`
+`r blogdown::shortcode("tweet", user="michaelhoffman", id="")`
 
 
 #### Cynthia Zepeda
 
-`r blogdown::shortcode("tweet", "1052708167715414018")`
+`r blogdown::shortcode("tweet", user="cgonzagaj", id="")`
 
-`r blogdown::shortcode("tweet", "1052709637521166336")`
+`r blogdown::shortcode("tweet", user="cgonzagaj", id="")`
 
 
 #### Xiaowu Gai
 
-`r blogdown::shortcode("tweet", "1052712645944532992")`
+`r blogdown::shortcode("tweet", user="Single_Molecule", id="")`
 
 He thanked others for uploading data and making it publicly available so bioinformaticians like him can download it and re-analyze it. I totally agree with him!
 
@@ -211,62 +211,62 @@ PI Panos Roussos. Single cell data.
 
 ### Other (afternoon)
 
-`r blogdown::shortcode("tweet", "1052717804678303744")`
+`r blogdown::shortcode("tweet", user="GenomeNathan", id="")`
 
 ### 20 BC 6 pm
 
 #### Christopher Lau
 
-`r blogdown::shortcode("tweet", "1052726969597538304")`
+`r blogdown::shortcode("tweet", user="UDNconnect", id="")`
 
-`r blogdown::shortcode("tweet", "1052729599803547648")`
+`r blogdown::shortcode("tweet", user="lizworthey", id="")`
 
 #### Matt Velinder
 
 
-`r blogdown::shortcode("tweet", "1052732184937656321")`
+`r blogdown::shortcode("tweet", user="lizworthey", id="")`
 
-`r blogdown::shortcode("tweet", "1052732625134149632")`
+`r blogdown::shortcode("tweet", user="lizworthey", id="")`
 
-`r blogdown::shortcode("tweet", "1052734223746908160")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="")`
 
 
 ### 20 A 6:42 pm
 
 #### Ira Hall
 
-`r blogdown::shortcode("tweet", "1052736415744716800")`
+`r blogdown::shortcode("tweet", user="ryanlayer", id="")`
 
 Controlling for a nearby pLI gene? I’ve seen pLI mentioned a few times. Gotta read more about it!
 
 ### Sarcasm/fun
 
-`r blogdown::shortcode("tweet", "1052625791853293569")`
+`r blogdown::shortcode("tweet", user="BiochemG_thall", id="")`
 
-`r blogdown::shortcode("tweet", "1052640703333859328")`
+`r blogdown::shortcode("tweet", user="ChloeReuterCGC", id="")`
 
-`r blogdown::shortcode("tweet", "1052701624395649024")`
+`r blogdown::shortcode("tweet", user="apicoplast", id="")`
 
-`r blogdown::shortcode("tweet", "1052711607170621440")`
+`r blogdown::shortcode("tweet", user="GenomeBiology", id="")`
 
-`r blogdown::shortcode("tweet", "1052713384221716480")`
+`r blogdown::shortcode("tweet", user="joyceykao", id="")`
  plus they have a 50% off discount
 
-`r blogdown::shortcode("tweet", "1052715424859602944")`
+`r blogdown::shortcode("tweet", user="apicoplast", id="")`
 
-`r blogdown::shortcode("tweet", "1052727741668159488")`
+`r blogdown::shortcode("tweet", user="genome_sheriff", id="")`
 
 ### Diversity 
 
-`r blogdown::shortcode("tweet", "1052716627689500672")`
+`r blogdown::shortcode("tweet", user="averydavisbell", id="")`
 
-`r blogdown::shortcode("tweet", "1052717401429532672")`
+`r blogdown::shortcode("tweet", user="NatalieTelis", id="")`
 
-`r blogdown::shortcode("tweet", "1052720229715914753")`
+`r blogdown::shortcode("tweet", user="lizworthey", id="")`
 
 ### Motivational
 
-`r blogdown::shortcode("tweet", "1052629878569234432")`
+`r blogdown::shortcode("tweet", user="skerfoot", id="")`
 
 ### Acknowledgments
 
@@ -280,7 +280,7 @@ This blog post was made possible thanks to:
 
 and everyone who wrote tweets with the [ASHG18](https://twitter.com/search?q=%23ASHG18) hashtag!
 
-`r blogdown::shortcode("tweet", "1051524651950718977")`
+`r blogdown::shortcode("tweet", user="michaelhoffman", id="")`
 
 ### References
 

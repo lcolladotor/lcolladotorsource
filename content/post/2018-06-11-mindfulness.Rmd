@@ -51,15 +51,15 @@ In academia and science, but really anywhere, we can encounter many sources of s
 All these tweets are threads, so you'll have to open them to see them: click on the blue bird on the right side of each tweet.
 
 ```{r echo=FALSE}
-blogdown::shortcode('tweet', '1005618536100683777')
+blogdown::shortcode('tweet', user='BryonyDuPont', id='1005618536100683777')
 ```
 
 ```{r echo=FALSE}
-blogdown::shortcode('tweet', '1004798860835938305')
+blogdown::shortcode('tweet', user='daniela_oaks', id='1004798860835938305')
 ```
 
 ```{r echo=FALSE}
-blogdown::shortcode('tweet', '1004478330257707008')
+blogdown::shortcode('tweet', user='lcolladotor', id='1004478330257707008')
 ```
 
 One of the exercises on our silent retreat was _mindful eating_. That is, eating slowly and focusing on our senses while eating food. This involved smelling the food, seeing all the colors it has, feeling all the different textures, and focusing on its taste. Plus, not talking to anyone. I had bought a lunch before the retreat (so I wouldn't have to break the silence during it) that I normally don't find interesting: some fruit and a chicken curry wrap from CVS. But wow, it was amazing that day! I greatly enjoyed how it tasted and all the different sensations I felt. I couldn't believe it was the same food I had eaten other times before without much excitement.
@@ -73,7 +73,7 @@ I thought I did, returned to work, and nah, I couldn't do it today. So I went ho
 Just some things are taking me way more time than normal. For example, it took me 2 days to process what I wanted to reply to a tweet and how to word it: it turned out well because I think we all heard each other ^^. 
 
 ```{r echo=FALSE}
-blogdown::shortcode('tweet', '1006207918813958145')
+blogdown::shortcode('tweet', user='lcolladotor', id='1006207918813958145')
 ```
 
 I also discovered that the silent retreat reminded me of vacations where I turn off my phone/email and spend a few days thinking about what's next. I used to go to Mexico every 6 months or so during my PhD to recharge. I want to do it again, but I can't. That lead me to my strong feelings of homesickness I had today.

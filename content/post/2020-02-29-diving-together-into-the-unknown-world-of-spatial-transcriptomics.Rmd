@@ -62,7 +62,7 @@ All of us have been building our careers with other types of data and/or experim
 
 But it's not my first adventure and I've picked up skills and confidence along the way. In particular, I've written [Bioconductor](https://bioconductor.org) R packages, dealt with `pkgdown`/`travis` issues like [#1206](https://github.com/r-lib/pkgdown/issues/1206), made `r BiocStyle::CRANpkg('shiny')` web applications, analyzed large RNA-seq data, [written papers using GoogleDocs](http://lcolladotor.github.io/2019/04/02/how-to-write-academic-documents-with-googledocs/#.XlnnqJNKg0o), gotten better at asking for help, among other skills. 
 
-`r blogdown::shortcode('tweet', '1233186931590123522')`
+`r blogdown::shortcode('tweet', user='lcolladotor', id='1233186931590123522')`
 
 I've also gotten more comfortable with the idea that I can't do it all. Others will shortly develop new methods for this type of data, or proper infrastructure to handle this data, or faster visualizations, and so goes on the list. But I'm proud and really happy to say that we built quite the robust prototype. Plus maybe we'll be involved in shaping this future.
 
@@ -72,7 +72,7 @@ And you noticed that I mentioned _we_. That's because I have been learning over 
 
 I feel like we complemented each other quite well and all I can confidently say that our new adventure so far has been very stimulating, even it cost me some sleep.
 
-`r blogdown::shortcode('tweet', '1230107491372912641')`
+`r blogdown::shortcode('tweet', user='lcolladotor', id='1230107491372912641')`
 
 
 ### Spatial transcriptomics
@@ -85,13 +85,13 @@ In recent years I've been working with data from the human brain 🧠. The [Lieb
 
 snRNA-seq and scRNA-seq are great because you can measure what genes (pieces of the cell) are active, classify them into groups, and use prior knowledge to label these groups. However, you lose information about what part of the tissue they come from. That's where technologies for _spatial transcriptomics_, that is, measuring gene expression 🧬 as close a possible to the single cell level yet retaining spatial coordinates are being actively developed. Thus, you end up with two main sources of data: the gene expression measurements but also images from the tissue (_histology_ information). [My coworkers anticipated](https://doi.org/10.1038/s41386-019-0484-7) what could these technologies be used for and what type of research questions they help us answer.
 
-`r blogdown::shortcode('tweet', '1232009768006344704')`
+`r blogdown::shortcode('tweet', user='andrewejaffe', id='1232009768006344704')`
 
 ### Our project's history
 
 My coworkers got early access to a specific new type of spatial transcriptomics technology called [Visium from the 10x Genomics company](https://wp.10xgenomics.com/spatial-transcriptomics/) and started piloting it on human brain tissue. They recruited me to their project in early November 2019 (11th) and I recruited more colleagues in early December (4th). Today on February 28th 2020 we made public our research advances, code, and software we built for this project. 
 
-`r blogdown::shortcode('tweet', '1232468210886144000')`
+`r blogdown::shortcode('tweet', user='mwgerber', id='1232468210886144000')`
 
 Given that we have many potential websites others can find us through, we decided to unify as much as possible the documentation even if that meant repeating it. The basic start of our documentation is included further below.
 
@@ -209,7 +209,7 @@ Now, these are early days of the 10x Genomics Visium platform and there's much w
 
 Finally, here's the pre-print twitter thread:
 
-`r blogdown::shortcode('tweet', '1233661576433061888')`
+`r blogdown::shortcode('tweet', user='lcolladotor', id='1233661576433061888')`
 
 
 Thank you for getting this far!
