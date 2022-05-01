@@ -19,8 +19,21 @@ weight = 65
 
 <img class="image alignleft" src="../images/LIBD.jpg" width="268" alt="" />
 
+## 2022
+
+1. Instructor del curso [Introducción a análisis de datos de RNA-seq con Bioconductor](https://lcolladotor.github.io/rnaseq_LCG-UNAM_2022/) para alumnos de la LCG-UNAM.
+
+## 2021
+
+1. Organizador e instructor de [CDSB 2021: Análisis de datos transcriptómicos de célula única (scRNA-seq) con R y Bioconductor](https://comunidadbioinfo.github.io/cdsb2021_scRNAseq/).
+1. Instructor del curso [Introducción a análisis de datos de RNA-seq con Bioconductor](https://lcolladotor.github.io/rnaseq_LCG-UNAM_2021/) para alumnos de la LCG-UNAM.
+1. Instructor de la sesión de 2 horas sobre [Análisis de scRNA-seq con Bioconductor](https://github.com/lcolladotor/HCA_LA_2021), parte del taller [Human Cell Atlas - Latin America](https://www.humancellatlas.org/hca-latin-america-2021-workshop/).
+1. Instructor del mini curso [Exploración interactiva de datos: plotly e iSEE](https://github.com/ComunidadBioInfo/minicurso_mayo_2021/) para de la serie de [mini cursos organizados por la CDSB, RMB y el NNB-CCG (UNAM)](https://comunidadbioinfo.github.io/es/post/cs_and_s_event_fund_award/).
+
+
 ## 2020
 
+1. Instructor para los talleres sobre [R/Bioconductor y Ciencia de Datos en LIBD](https://lcolladotor.github.io/bioc_team_ds/rbioconductor-data-science-bootcamps.html#.YJ6Hw5NKiEs).
 1. Instructor y miembro del Comité Organizador del Taller CDSB 2020: [Construyendo flujos de trabajo con RStudio y Bioconductor para datos transcriptómicos de célula única (scRNA-seq)](https://comunidadbioinfo.github.io/es/post/cdsb2020-building-workflows-with-rstudio-and-scrnaseq-with-bioconductor/#.XzMwjZNKiuo) (diapositivas en 🇲🇽) ![](https://comunidadbioinfo.github.io/img/icon.png)
 1. Instructor del curso [_Analyzing scRNA-seq data with Bioconductor_](https://lcolladotor.github.io/osca_LIIGH_UNAM_2020/) para alumnos de la LCG-EJ-UNAM.
 
