@@ -1,5 +1,5 @@
 ---
-title: "Widespread methylation quantitative trait loci and their role in schizophrenia risk"
+title: "Genome-wide sequencing-based identification of methylation quantitative trait loci and their role in schizophrenia risk"
 authors:
 - "Kira A. Perzel Mandell"
 - "Nicholas J. Eagles"
@@ -7,16 +7,17 @@ authors:
 - "Amanda J. Price"
 - "Stephen A. Semick"
 - "admin"
+- "William S. Ulrich"
 - "Ran Tao"
 - "Shizhong Han"
 - "Alexander S. Szalay"
 - "Thomas M. Hyde"
 - "Joel E. Kleinman"
-- "Daniel R. Weinberger"
+- "Daniel R. Weinberger &dagger;"
 - "Andrew E. Jaffe &dagger;"
 
-date: "2020-09-24T00:00:00Z"
-doi: "10.1101/2020.09.24.311878"
+date: "2021-09-02T00:00:00Z"
+doi: "10.1038/s41467-021-25517-3"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: ""
@@ -25,13 +26,13 @@ publishDate: ""
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*bioRxiv*"
-publication_short: ""
+publication: "*Nature Communications*"
+publication_short: "Nat Commun"
 
-abstract: DNA methylation (DNAm) regulates gene expression and may represent gene-environment interactions. Using whole genome bisulfite sequencing, we surveyed DNAm in a large sample (n=344) of human brain tissues. We identify widespread genetic influence on local methylation levels throughout the genome, with 76% of SNPs and 38% of CpGs being part of methylation quantitative trait loci (meQTLs). These associations can further be clustered into regions that are differentially methylated by a given SNP, highlighting putative functional regions that explain much of the heritability associated with risk loci. Furthermore, some CpH sites associated with genetic variation. We have established a comprehensive, single base resolution view of association between genetic variation and genomic methylation, and implicate schizophrenia GWAS-associated variants as influencing the epigenetic plasticity of the brain.
+abstract: DNA methylation (DNAm) is an epigenetic regulator of gene expression and a hallmark of gene-environment interaction. Using whole-genome bisulfite sequencing, we have surveyed DNAm in 344 samples of human postmortem brain tissue from neurotypical subjects and individuals with schizophrenia. We identify genetic influence on local methylation levels throughout the genome, both at CpG sites and CpH sites, with 86% of SNPs and 55% of CpGs being part of methylation quantitative trait loci (meQTLs). These associations can further be clustered into regions that are differentially methylated by a given SNP, highlighting the genes and regions with which these loci are epigenetically associated. These findings can be used to better characterize schizophrenia GWAS-identified variants as epigenetic risk variants. Regions differentially methylated by schizophrenia risk-SNPs explain much of the heritability associated with risk loci, despite covering only a fraction of the genomic space. We provide a comprehensive, single base resolution view of association between genetic variation and genomic methylation, and implicate schizophrenia GWAS-associated variants as influencing the epigenetic plasticity of the brain.
 
 # Summary. An optional shortened abstract.
 summary:
@@ -43,7 +44,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: ''
+url_pdf: 'https://doi.org/10.1038/s41467-021-25517-3'
 url_code: ''
 url_dataset: ''
 url_poster: ''
