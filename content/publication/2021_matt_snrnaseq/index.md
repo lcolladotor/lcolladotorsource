@@ -1,11 +1,12 @@
 ---
-title: "Single-nucleus transcriptome analysis reveals cell type-specific molecular signatures across reward circuitry in the human brain"
+title: "Single-nucleus transcriptome analysis reveals cell-type-specific molecular signatures across reward circuitry in the human brain"
 authors:
 
 - "Matthew N. Tran __*__"
 - "Kristen R. Maynard __*__"
 - "Abby Spangler"
-- "admin"
+- "Louise A. Huuki"
+- "Kelsey D. Montgomery"
 - "Vijay Sadashivaiah"
 - "Madhavi Tippani"
 - "Brianna K. Barry"
@@ -13,11 +14,12 @@ authors:
 - "Stephanie C. Hicks"
 - "Joel E. Kleinman"
 - "Thomas M. Hyde"
-- "Keri Martinowich &dagger;"
+- "admin"
 - "Andrew E. Jaffe &dagger;"
+- "Keri Martinowich &dagger;"
 
-date: "2020-10-07T00:00:00Z"
-doi: "10.1101/2020.10.07.329839"
+date: "2021-10-06T00:00:00Z"
+doi: "10.1016/j.neuron.2021.09.001"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: ""
@@ -26,13 +28,13 @@ publishDate: ""
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*bioRxiv*"
+publication: "*Neuron*"
 publication_short: ""
 
-abstract: Single cell/nucleus technologies are powerful tools to study cell type-specific expression in the human brain, but most large-scale efforts have focused on characterizing cortical brain regions and their constituent cell types. However, additional brain regions - particularly those embedded in basal ganglia and limbic circuits - play important roles in neuropsychiatric disorders and addiction, suggesting a critical need to better understand their molecular characteristics. We therefore created a single-nucleus RNA-sequencing (snRNA-seq) resource across five human brain regions (hippocampus, HPC; dorsolateral prefrontal cortex, DLPFC; subgenual anterior cingulate cortex, sACC; nucleus accumbens, NAc; and amygdala, AMY), with emphasis on the NAc and AMY, given their involvement in reward signaling and emotional processing. We identified distinct and potentially novel neuronal subpopulations, which we validated by smFISH for various subclasses of NAc interneurons and medium spiny neurons (MSNs). We additionally benchmarked these datasets against published datasets for corresponding regions in rodent models to define cross-species convergence and divergence across analogous cell subclasses. We characterized the transcriptomic architecture of regionally-defined neuronal subpopulations, which revealed strong patterns of similarities in specific neuronal subclasses across the five profiled regions. Finally, we measured genetic associations between risk for psychiatric disease and substance use behaviors with each of the regionally-defined cell types. This analysis further supported NAc and AMY involvement in risk for psychiatric illness by implicating specific neuronal subpopulations, and highlighted potential involvement of an MSN population associated with stress signaling in genetic risk for substance use.
+abstract: "Single-cell gene expression technologies are powerful tools to study cell types in the human brain, but efforts have largely focused on cortical brain regions. We therefore created a single-nucleus RNA-sequencing resource of 70,615 high-quality nuclei to generate a molecular taxonomy of cell types across five human brain regions that serve as key nodes of the human brain reward circuitry: nucleus accumbens, amygdala, subgenual anterior cingulate cortex, hippocampus, and dorsolateral prefrontal cortex. We first identified novel subpopulations of interneurons and medium spiny neurons (MSNs) in the nucleus accumbens and further characterized robust GABAergic inhibitory cell populations in the amygdala. Joint analyses across the 107 reported cell classes revealed cell-type substructure and unique patterns of transcriptomic dynamics. We identified discrete subpopulations of D1- and D2-expressing MSNs in the nucleus accumbens to which we mapped cell-type-specific enrichment for genetic risk associated with both psychiatric disease and addiction."
 
 # Summary. An optional shortened abstract.
 summary:
@@ -44,7 +46,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: ''
+url_pdf: 'https://doi.org/10.1016/j.neuron.2021.09.001'
 url_code: 'https://github.com/LieberInstitute/10xPilot_snRNAseq-human'
 url_dataset: ''
 url_poster: ''
@@ -88,3 +90,5 @@ Click the *Slides* button above to demo Academic's Markdown slides feature.
 
 Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
 -->
+
+{{% tweet user="mattntran" id="1442509542412128258"%}}
