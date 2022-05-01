@@ -17,8 +17,8 @@ authors:
 - "Kasper D. Hansen &dagger;"
 - "Ben Langmead &dagger;"
 
-date: "2021-05-23T00:00:00Z"
-doi: "10.1101/2021.05.21.445138"
+date: "2021-11-29T00:00:00Z"
+doi: "10.1186/s13059-021-02533-6"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: ""
@@ -27,11 +27,11 @@ publishDate: ""
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*bioRxiv*"
-publication_short: ""
+publication: "*Genome Biology*"
+publication_short: "Genome Biol"
 
 abstract: "We present recount3, a resource consisting of over 750,000 publicly available human and mouse RNA sequencing (RNA-seq) samples uniformly processed by our new Monorail analysis pipeline. To facilitate access to the data, we provide the recount3 and snapcount R/Bioconductor packages as well as complementary web resources. Using these tools, data can be downloaded as study-level summaries or queried for specific exon-exon junctions, genes, samples, or other features. Monorail can be used to process local and/or private data, allowing results to be directly compared to any study in recount3. Taken together, our tools help biologists maximize the utility of publicly available RNA-seq data, especially to improve their understanding of newly collected data. recount3 is available from http://rna.recount.bio."
 
@@ -45,7 +45,7 @@ featured: true
 # links:
 # - name: ""
 #   url: ""
-url_pdf: ''
+url_pdf: 'https://doi.org/10.1186/s13059-021-02533-6'
 url_code: 'https://bioconductor.org/packages/recount3'
 url_dataset: 'http://rna.recount.bio/'
 url_poster: ''
@@ -89,3 +89,6 @@ Click the *Slides* button above to demo Academic's Markdown slides feature.
 
 Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
 -->
+
+{{% tweet user="jtleek" id="1465332392151838727" %}}
+{{% tweet user="BenLangmead" id="1396907972211748865" %}}
