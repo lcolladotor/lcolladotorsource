@@ -70,19 +70,19 @@ Again, I'm excited to invite you to attend the [Latin American R/BioConductor De
 * Bioc Support website: https://support.bioconductor.org/p/108108/
 * Bioc twitter: https://twitter.com/Bioconductor/status/986943878535303168
 
-`r blogdown::shortcode("tweet", "986943878535303168")`
+`r blogdown::shortcode("tweet", user="Bioconductor", id="986943878535303168")`
 
 * Tweet by Alejandro Reyes: https://twitter.com/areyesq/status/986943887976656896
 
-`r blogdown::shortcode("tweet", "986943887976656896")`
+`r blogdown::shortcode("tweet", user="areyesq", id="986943887976656896")`
 
 * Tweet by LCG UNAM: https://twitter.com/lcgunam/status/986691090920230913
 
-`r blogdown::shortcode("tweet", "986691090920230913")`
+`r blogdown::shortcode("tweet", user="lcgunam", id="986691090920230913")`
 
 * CDSBMexico twitter: https://twitter.com/CDSBMexico/status/986672270964871169
 
-`r blogdown::shortcode("tweet", "986672270964871169")`
+`r blogdown::shortcode("tweet", user="CDSBMexico", id="986672270964871169")`
 
 * CDSBMexico facebook: https://www.facebook.com/events/215830399185346/
 * Website: https://comunidadbioinfo.github.io/post/r-bioconductor-developers-workshop-2018/

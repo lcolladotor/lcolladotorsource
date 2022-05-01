@@ -41,7 +41,7 @@ bib <- c(
 
 The [`hugo-academic`](https://github.com/gcushen/hugo-academic) theme which powers my website is active and frequently updated. I don't update my website that frequently anymore, but I recently found about many of their changes when I made the [CDSB website](https://comunidadbioinfo.github.io/).
 
-`r blogdown::shortcode('tweet', '1114003433755959296')`
+`r blogdown::shortcode('tweet', user='CDSBMexico', id='1114003433755959296')`
 
 
 One of the new features that I liked quite a bit was the ability to have landing pages for each person in your team. I wanted to improve my website's section [describing the people I've mentored](http://lcolladotor.github.io/#mentoring) so I decided to update my personal website too. Once I started this process, I realized that talks and publications had drastically changed. You could now have an image per talk or publication, add tags to them and link them to projects. Furthermore, I noticed that I hadn't uploaded all my posters nor the slides for all my talks. So this whole process of updating my website took quite a bit of time! All this new information is also reflected on my [CV](http://lcolladotor.github.io/#cv) now.

@@ -124,17 +124,17 @@ For the full list of LCG-UNAM alumni, check http://www.lcg.unam.mx/es/titulados.
 
 Everyone has their own story of breaking barriers and overcoming challenges. All of them would love the opportunity to present their work and to compete for funds to travel to conferences and do so. 
 
-`r blogdown::shortcode("tweet", "1052349309818232832")`
+`r blogdown::shortcode("tweet", user="AleMedinaRivera", id="1052349309818232832")`
 
 To close off, here are some inspiring or thought provoking tweets:
 
-`r blogdown::shortcode("tweet", "1056571008662949888")`
+`r blogdown::shortcode("tweet", user="mgschiavon", id="1056571008662949888")`
 
-`r blogdown::shortcode("tweet", "1055124381876260865")`
+`r blogdown::shortcode("tweet", user="WeAreRLadies", id="1055124381876260865")`
 
-`r blogdown::shortcode("tweet", "1019597807395770368")`
+`r blogdown::shortcode("tweet", user="daniela_oaks", id="1019597807395770368")`
 
-`r blogdown::shortcode("tweet", "1001985730904764417")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="1001985730904764417")`
 
 In Mexico, Day of the Dead was just last week (November 2nd) and Aldo's birthday would have been a few weeks ago on October 27th. It was time to finally write this blog post. I hope that you take something positive from it.
 
@@ -199,11 +199,11 @@ session_info()
 
 ### Reactions to the blog post
 
-`r blogdown::shortcode("tweet", "1060038817774657536")`
+`r blogdown::shortcode("tweet", user="lbolanos68", id="1060038817774657536")`
 
-`r blogdown::shortcode("tweet", "1060116424415436800")`
+`r blogdown::shortcode("tweet", user="mreyespri", id="1060116424415436800")`
 
-`r blogdown::shortcode("tweet", "1060355174546505729")`
+`r blogdown::shortcode("tweet", user="paleogenomics", id="1060355174546505729")`
 
 
 

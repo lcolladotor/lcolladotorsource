@@ -42,15 +42,15 @@ Continuing from my [ASHG18 day 1 post](http://lcolladotor.github.io/2018/10/16/a
 #### Jane Loveland
 
 
-`r blogdown::shortcode("tweet", "1053673447040184320")`
+`r blogdown::shortcode("tweet", user="ensembl", id="1053673447040184320")`
 
-`r blogdown::shortcode("tweet", "1053682492316672001")`
+`r blogdown::shortcode("tweet", user="dgmacarthur", id="1053682492316672001")`
 
-`r blogdown::shortcode("tweet", "1053683827359404034")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="1053683827359404034")`
 
-`r blogdown::shortcode("tweet", "1053684796398817280")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="1053684796398817280")`
 
-`r blogdown::shortcode("tweet", "1053685569027330048")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="1053685569027330048")`
 
 
 
@@ -58,11 +58,11 @@ Continuing from my [ASHG18 day 1 post](http://lcolladotor.github.io/2018/10/16/a
 
 #### Genevieve Stein-O’Brien
 
-`r blogdown::shortcode("tweet", "1053693765007724544")`
+`r blogdown::shortcode("tweet", user="NeBanovich", id="1053693765007724544")`
 
 #### Yu Hu
 
-`r blogdown::shortcode("tweet", "1053699063990734848")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="1053699063990734848")`
 
 Mingyao Li and Nancy Zhang were his advisors. 
 
@@ -74,88 +74,88 @@ Hierarchical model with normal + (missed it) + log + poisson
 #### Stephanie Kravitz
 
 
-`r blogdown::shortcode("tweet", "1053700571121610752")`
+`r blogdown::shortcode("tweet", user="aaronquinlan", id="1053700571121610752")`
 
-`r blogdown::shortcode("tweet", "1053700970616504320")`
+`r blogdown::shortcode("tweet", user="aaronquinlan", id="1053700970616504320")`
 
-`r blogdown::shortcode("tweet", "1053702240412651521")`
+`r blogdown::shortcode("tweet", user="aaronquinlan", id="1053702240412651521")`
 
-`r blogdown::shortcode("tweet", "1053703467091423232")`
+`r blogdown::shortcode("tweet", user="aaronquinlan", id="1053703467091423232")`
 
 
 #### Li Chen
 
 
-`r blogdown::shortcode("tweet", "1053705292880310273")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="1053705292880310273")`
 
-`r blogdown::shortcode("tweet", "1053706299051925504")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="1053706299051925504")`
 
-`r blogdown::shortcode("tweet", "1053708045170032640")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="1053708045170032640")`
 
 
 #### Nicholas Bogard
 
 
-`r blogdown::shortcode("tweet", "1053709703916580865")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="1053709703916580865")`
 
-`r blogdown::shortcode("tweet", "1053711826813280256")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="1053711826813280256")`
 
 
 ### Other
 
 
-`r blogdown::shortcode("tweet", "1053674723970813952")`
+`r blogdown::shortcode("tweet", user="DaleYuzuki", id="1053674723970813952")`
 
-`r blogdown::shortcode("tweet", "1053693658518642688")`
+`r blogdown::shortcode("tweet", user="JEMgenes", id="1053693658518642688")`
 
-`r blogdown::shortcode("tweet", "1053697490124386304")`
+`r blogdown::shortcode("tweet", user="michaelhoffman", id="1053697490124386304")`
 
-`r blogdown::shortcode("tweet", "1053709216878194688")`
+`r blogdown::shortcode("tweet", user="averydavisbell", id="1053709216878194688")`
 
 
 
 ### Diversity 
 
 
-`r blogdown::shortcode("tweet", "1053674078966493184")`
+`r blogdown::shortcode("tweet", user="jsdron", id="1053674078966493184")`
 
-`r blogdown::shortcode("tweet", "1053677254260088834")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="1053677254260088834")`
 
-`r blogdown::shortcode("tweet", "1053681995912368128")`
+`r blogdown::shortcode("tweet", user="GeneticsSociety", id="1053681995912368128")`
 
-`r blogdown::shortcode("tweet", "1053707734288261120")`
+`r blogdown::shortcode("tweet", user="genome_sheriff", id="1053707734288261120")`
 
-`r blogdown::shortcode("tweet", "1053682864301105152")`
+`r blogdown::shortcode("tweet", user="SeymaKatrinli", id="1053682864301105152")`
 
-`r blogdown::shortcode("tweet", "1053686351789346818")`
+`r blogdown::shortcode("tweet", user="terencecwong", id="1053686351789346818")`
 
 
 
 ### Misc
 
 
-`r blogdown::shortcode("tweet", "1053684376679010305")`
+`r blogdown::shortcode("tweet", user="JansonWhite", id="1053684376679010305")`
 
-`r blogdown::shortcode("tweet", "1053693247418073088")`
+`r blogdown::shortcode("tweet", user="michaelhoffman", id="1053693247418073088")`
 
-`r blogdown::shortcode("tweet", "1053698711216214016")`
+`r blogdown::shortcode("tweet", user="aaronquinlan", id="1053698711216214016")`
 
-`r blogdown::shortcode("tweet", "1053699388881592320")`
+`r blogdown::shortcode("tweet", user="spendlove_sarah", id="1053699388881592320")`
 
-`r blogdown::shortcode("tweet", "1053704802549428225")`
+`r blogdown::shortcode("tweet", user="wouter_decoster", id="1053704802549428225")`
 
-`r blogdown::shortcode("tweet", "1053707539844521984")`
+`r blogdown::shortcode("tweet", user="apicoplast", id="1053707539844521984")`
 
-`r blogdown::shortcode("tweet", "1053708117576306690")`
+`r blogdown::shortcode("tweet", user="apicoplast", id="1053708117576306690")`
 
-`r blogdown::shortcode("tweet", "1053710100811018240")`
+`r blogdown::shortcode("tweet", user="genome_sheriff", id="1053710100811018240")`
 
 
 ### The end
 
 And that's a wrap!
 
-`r blogdown::shortcode("tweet", "1053716471962992641")`
+`r blogdown::shortcode("tweet", user="cgonzagaj", id="1053716471962992641")`
 
 ### Acknowledgments
 

@@ -44,7 +44,7 @@ Today was a big day. I care about many things including diversity in science (ST
 
 This was a very important day for me. It was the beginning of the [Latin American R/BioConductor Developers Workshop 2018](https://comunidadbioinfo.github.io/post/r-bioconductor-developers-workshop-2018/) in Cuernavaca, Mexico. I already wrote a blog post about [why I was super excited about CDSBMexico](http://lcolladotor.github.io/2018/04/19/latin-american-r-bioconductor-developers-workshop-2018/#.W1-lhNhKi50), but briefly it's because this is something we've been wanting to see become a reality for years and have been working towards it. 
 
-`r blogdown::shortcode("tweet", "1023665229882961922")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="1023665229882961922")`
 
 My job was to give the first keynote to pump up everyone at the workshop. So I had a bit of trouble sleeping and woke up remembering a dream. If you know me, I _never_ dream: or never remember my dreams. It was a dream of my grandmother Mercedes Vides Tovar.
 
@@ -68,55 +68,55 @@ I did inherit her souvenirs from her trips (my dad also loves them) and somethin
 
 In my dream there was a moment where I was sitting next to her (me in my current adult form) and we were revising many of our shared moments. She was explaining to me things she couldn't explain before because I wouldn't have understood them. She also pumped me up before my day and wished me luck for my talk. I think that I delivered ^^
 
-`r blogdown::shortcode("tweet", "1023953817187090435")`
+`r blogdown::shortcode("tweet", user="semiramis_cj", id="1023953817187090435")`
 
 
 ### WomenInStem
 
 Today was a big day for [WomenInSTEM](https://twitter.com/search?q=womeninstem) and in particular in the field of Statistics. Why? Today the Joint Statistical Meetings ([JSM2018](https://twitter.com/search?q=jsm2018)) held a session on "Addressing Sexual Misconduct in Statistics" that was organized by [Stephanie Hicks](https://twitter.com/stephaniehicks) and chaired by [Keegan Korthauer](https://twitter.com/keegankorthauer).
 
-`r blogdown::shortcode("tweet", "1004467110918213637")`
+`r blogdown::shortcode("tweet", user="stephaniehicks", id="1004467110918213637")`
 
 The session is not a direct response (I think) but it's definitely related to [Kristian Lum](https://twitter.com/KLdivergence)'s blog post titled [Statistics, we have a problem](https://medium.com/@kristianlum/statistics-we-have-a-problem-304638dc5de5) and to the more general [MeToo](https://twitter.com/search?q=metoo) movement. 
 
 Sexual harassment and misconduct not a US problem only. We have a code of conduct at [CDSBMexico](https://twitter.com/CDSBMexico) both in [English](https://github.com/ComunidadBioInfo/R-BioConductor-Developers-Workshop-2018/blob/master/R-Bioconductor-2018_Program.rmd#code-of-conduct) and [Spanish](https://comunidadbioinfo.github.io/codigo-de-conducta/) to help prevent any issues.
 
 
-`r blogdown::shortcode("tweet", "1024060403138142209")`
+`r blogdown::shortcode("tweet", user="michaelhoffman", id="1024060403138142209")`
 
 
 I couldn't be there, but I wasn't the only one excited following what has happening online thanks to tweets from many including [Mandy Mejia](https://twitter.com/mandyfmejia) and [Michael Hoffman](https://twitter.com/michaelhoffman).
 
-`r blogdown::shortcode("tweet", "1024042337033285632")`
+`r blogdown::shortcode("tweet", user="mandyfmejia", id="1024042337033285632")`
 
 
 ### Times are changing
 
 I do think that slowly, maybe sometimes quickly, the times are changing. I've been telling friends and family for a few years now that I've come to realize that we need to keep trying to improve, to stay updated, to do what's best and maybe sometimes come up with new ideas to improve things. I do care quite a bit for [WomenInSTEM](https://twitter.com/search?q=womeninstem) but for me, it's larger than that. It's about diversity. I don't know in how many different ways we can label each other and it's not the point. So yes, gender diversity is a good thing and initiatives like this seem like a good thing to do:
 
-`r blogdown::shortcode("tweet", "1024068383564853248")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="1024068383564853248")`
 
 But then I think immediately of next steps, like race and ethnicity as well as sexual diversity. I want to ask for more, but I sometimes hold myself back. I'm no expert on many of these topics, so maybe what seems like a good policy could easily backfire later. So I think about incremental steps. But maybe that's too slow and not enough. Maybe careers are suffering but I guess that as a community we are going as safely and fast as we can.
 
-`r blogdown::shortcode("tweet", "1024044326664527875")`
+`r blogdown::shortcode("tweet", user="FertigLab", id="1024044326664527875")`
 
 
 I'm not supporting whoever Michael was referencing in his next tweet. I don't flirt at conferences: I do socialize and try to make new friends with fellow conference attendees. I do acknowledge that I struggle in my head with what is ok and not ok to do, particularly with people you spend at lot of time with at school, work, etc. I'm not certain of the boundary between clumsy dating skills and sexual misconduct in some scenarios. I think that I'm not the only one because I've heard different versions in different sexual harassment prevention sessions. So mostly I end up doing nothing yet sometimes I wonder if I lost out because I didn't try a bit more with X person. For instance, Mercedes maried her classmate Rolando. What can I say, I'm still learning and we all probably need to learn to differentiate these boundaries better through more training.
 
-`r blogdown::shortcode("tweet", "1024066415752433664")`
+`r blogdown::shortcode("tweet", user="michaelhoffman", id="1024066415752433664")`
 
 I also know that sometimes I've been a bystander and failed to take action. So this next idea sounds good to me. I do try to intervene more now, specially with micro aggressions: because they are less high pressure situations and easier to do something about, at least that's how I feel.
 
-`r blogdown::shortcode("tweet", "1024063008987787264")`
+`r blogdown::shortcode("tweet", user="michaelhoffman", id="1024063008987787264")`
 
 
 To close my post, I encourage you to check their request for feedback!
 
-`r blogdown::shortcode("tweet", "1023977618104889346")`
+`r blogdown::shortcode("tweet", user="KLdivergence", id="1023977618104889346")`
 
 And if you are an R non-cis male person, you should totally join the R-Ladies community slack!
 
-`r blogdown::shortcode("tweet", "1022031250759053314")`
+`r blogdown::shortcode("tweet", user="RLadiesGlobal", id="1022031250759053314")`
 
 
 

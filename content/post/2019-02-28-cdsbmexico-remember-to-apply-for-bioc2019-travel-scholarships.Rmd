@@ -40,7 +40,7 @@ bib <- c(
 
 _This blog post was first published at the [CDSBMexico website](https://comunidadbioinfo.github.io/post/cdsbmexico-remember-to-apply-for-bioc2019-travel-scholarships/)._
 
-`r blogdown::shortcode('tweet', '1101339389395943424')`
+`r blogdown::shortcode('tweet', user='CDSBMexico', id='1101339389395943424')`
 
 About 10 months ago [we announced our plans](http://lcolladotor.github.io/2018/04/19/latin-american-r-bioconductor-developers-workshop-2018/#.XHiaE1NKg0o) to start a new community of R/Bioconductor developers in Mexico and Latin America. The National Bioinformatics Node ([NNB-UNAM](http://www.nnb.unam.mx/) in Spanish) [has organized workshops](http://congresos.nnb.unam.mx/) in bioinformatics and R since 2006 and more frequently since 2010. Last year, 2018, there were [five simultaneous one week workshops](http://congresos.nnb.unam.mx/TIB2018/):
 

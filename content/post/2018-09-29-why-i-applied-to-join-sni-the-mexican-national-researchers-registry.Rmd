@@ -38,7 +38,7 @@ bib <- c(
 
 A few days ago a friend of mine told me that I was on the list of newly admitted SNI members. A few have asked me since why did I request to join it. So here's my public reply.
 
-`r blogdown::shortcode("tweet", "1045051193146396674")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="1045051193146396674")`
 
 ### SNI
 
@@ -78,18 +78,18 @@ But back to protection and security. My father has taught me that it's our respo
 
 This attitude goes beyond SNI. That is why I compete when I can for awards and scholarships that I think fit me, even if its a long shot. No one will come to you and say, "hey, your work is great, now you are a SNI member" (or any award). I believe that you have to keep working and make it hard for others to say no to your applications. You have to keep trying though because you won't get them all. That was one of my messages in my recent CDSBMexico keynote.
 
-`r blogdown::shortcode("tweet", "1023665229882961922")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="1023665229882961922")`
 
 
 Here are some of my recent applications: 
 
-`r blogdown::shortcode("tweet", "1009559232931401730")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="1009559232931401730")`
 
-`r blogdown::shortcode("tweet", "960590896310968320")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="960590896310968320")`
 
-`r blogdown::shortcode("tweet", "1032287739176267776")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="1032287739176267776")`
 
-`r blogdown::shortcode("tweet", "1045763904964612096")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="1045763904964612096")`
 
 
 So what happens now? I updated my CV as a friend suggested to list that I'm a SNI National Researcher Level 1. 
@@ -100,7 +100,7 @@ So what happens now? I updated my CV as a friend suggested to list that I'm a SN
 
 I want to thank my friends that helped me during the SNI application process!
 
-`r blogdown::shortcode("tweet", "1045053659967639555")`
+`r blogdown::shortcode("tweet", user="lcolladotor", id="1045053659967639555")`
 
 This blog post was made possible thanks to:
 
