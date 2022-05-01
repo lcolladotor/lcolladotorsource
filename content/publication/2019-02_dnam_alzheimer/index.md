@@ -76,3 +76,5 @@ math = true
 +++
 
 <!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. -->
+
+{{% tweet user="lcolladotor" id="1092463008910053378" %}}

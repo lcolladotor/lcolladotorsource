@@ -76,3 +76,5 @@ math = true
 +++
 
 <!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. -->
+
+{{% tweet user="JFuBiostats" id="952088579718729729" %}}

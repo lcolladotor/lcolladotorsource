@@ -88,3 +88,6 @@ Click the *Slides* button above to demo Academic's Markdown slides feature.
 
 Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
 -->
+
+{{% tweet user="Kira_P_M" id="1433445829252091911"%}}
+{{% tweet user="Kira_P_M" id="1309474500585689088"%}}
