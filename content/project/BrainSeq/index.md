@@ -6,7 +6,7 @@ title = "BrainSEQ™ Consortium"
 date = 2017-08-03T00:00:00
 
 # Project summary to display on homepage.
-summary = "BrainSeq Consortium lead by LIBD to understand the genetics and gene expression variability in schizophrenia disorder"
+summary = "BrainSeq Consortium lead by LIBD to understand the genetics and gene expression variability in psychiatric disorder including schizorphenia, bipolar disorder, and major depression disorder."
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -49,5 +49,5 @@ The Lieber Institute and pharmaceutical companies AstraZeneca, Astellas, Eli Lil
 * Utilizing LIBD’s unprecedented brain tissue repository to generate and analyze genomic data related to neuropsychiatric disorders.
 * Making data freely available to scientists worldwide.
 
-As part of the BrainSeq Consortium I have analyzed parts of Phase I and II data, either for the publications describing those phases or for re-analyses of the same data.
+As part of the BrainSEQ Consortium, I have analyzed datasets from Phase I and II , either for the publications describing those phases or for re-analyses of the same data. We then adapted this code base for the BipSeq and MDDSeq projects, among other ones.
 
