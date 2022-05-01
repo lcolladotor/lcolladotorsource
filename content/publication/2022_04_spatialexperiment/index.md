@@ -8,7 +8,7 @@ authors:
 - "admin"
 - "Shila Ghazanfar"
 - "Aaron T. L. Lun,"
-- "tephanie C. Hicks &dagger;"
+- "Stephanie C. Hicks &dagger;"
 - "Davide Risso &dagger;"
 
 date: "2022-04-28T00:00:00Z"
@@ -24,7 +24,7 @@ publishDate: ""
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Bioinformatics*"
+publication: "*Oxford Bioinformatics*"
 publication_short: ""
 
 abstract: "__Summary__ SpatialExperiment is a new data infrastructure for storing and accessing spatially resolved transcriptomics data, implemented within the R/Bioconductor framework, which provides advantages of modularity, interoperability, standardized operations, and comprehensive documentation. Here, we demonstrate the structure and user interface with examples from the 10x Genomics Visium and seqFISH platforms, and provide access to example datasets and visualization tools in the STexampleData, TENxVisiumData, and ggspavis packages. __Availability and Implementation__ The SpatialExperiment, STexampleData, TENxVisiumData, and ggspavis packages are available from Bioconductor. The package versions described in this manuscript are available in Bioconductor version 3.15 onwards. __Supplementary information__ Supplementary tables and figures are available at Bioinformatics online."
