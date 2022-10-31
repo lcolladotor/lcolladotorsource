@@ -68,7 +68,7 @@ user_groups = ["Admin"]
 [[social]]
   icon = "youtube"
   icon_pack = "fab"
-  link = "https://www.youtube.com/c/LeonardoColladoTorres/playlists"
+  link = "https://www.youtube.com/@lcolladotor/playlists"
 
 [[social]]
   icon = "google-scholar"
