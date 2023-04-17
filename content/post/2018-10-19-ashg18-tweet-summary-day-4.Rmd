@@ -73,8 +73,6 @@ All results are available to download for free from his lab website!
 
 `r blogdown::shortcode("tweet", user="iGenomics", id="1053358670925316096")`
 
-`r blogdown::shortcode("tweet", user="skerfoot", id="1053363725376282624")`
-
 ### Afternoon
 
 
@@ -95,8 +93,6 @@ All results are available to download for free from his lab website!
 
 ### Diversity
 
-
-`r blogdown::shortcode("tweet", user="ColleenMacmurdo", id="1053322523973013504")`
 
 `r blogdown::shortcode("tweet", user="averydavisbell", id="1053363947154243584")`
 

@@ -174,8 +174,6 @@ I guess that it’s for US scientists, but I don't think of the "Deep South" in 
 
 `r blogdown::shortcode("tweet", user="michaelhoffman", id="1052701901886636032")`
 
-`r blogdown::shortcode("tweet", user="Single_Molecule", id="1052701298502459392")`
-
 `r blogdown::shortcode("tweet", user="cgonzagaj", id="1052702644764987392")`
 
 
@@ -192,8 +190,6 @@ I guess that it’s for US scientists, but I don't think of the "Deep South" in 
 
 
 #### Xiaowu Gai
-
-`r blogdown::shortcode("tweet", user="Single_Molecule", id="1052712645944532992")`
 
 He thanked others for uploading data and making it publicly available so bioinformaticians like him can download it and re-analyze it. I totally agree with him!
 
@@ -263,10 +259,6 @@ Controlling for a nearby pLI gene? I’ve seen pLI mentioned a few times. Gotta 
 `r blogdown::shortcode("tweet", user="NatalieTelis", id="1052717401429532672")`
 
 `r blogdown::shortcode("tweet", user="lizworthey", id="1052720229715914753")`
-
-### Motivational
-
-`r blogdown::shortcode("tweet", user="skerfoot", id="1052629878569234432")`
 
 ### Acknowledgments
 

@@ -117,8 +117,6 @@ mentioned pLl method
 
 `r blogdown::shortcode("tweet", user="DrGeneUK", id="1052371239644196865")`
 
-`r blogdown::shortcode("tweet", user="Single_Molecule", id="1052371262071169024")`
-
 `r blogdown::shortcode("tweet", user="ksamocha", id="1052371493647147009")`
 
 

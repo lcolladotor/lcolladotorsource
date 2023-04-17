@@ -148,8 +148,6 @@ Then used single cell (10x Genomics) to measure expression.
 
 ### Other (morning)
 
-`r blogdown::shortcode("tweet", user="Single_Molecule", id="1052969248891359232")`
-
 `r blogdown::shortcode("tweet", user="anavinuela", id="1052999291764203521")`
 
 `r blogdown::shortcode("tweet", user="StatGenDan", id="1053000619504500736")`
