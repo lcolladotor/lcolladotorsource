@@ -73,5 +73,3 @@ user_groups = ["Visiting Student"]
 +++
 
 
-#{{< tweet user="PardoBree" id="1388253938391175173" >}}
-
