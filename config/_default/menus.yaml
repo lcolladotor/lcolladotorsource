@@ -7,26 +7,26 @@ main:
   - name: Home
     url: "#about"
     weight: 1
-  - name: Projects
-    url: "#projects"
-    weight: 2
-  - name: Publications
-    url: "#publications"
-    weight: 3
-  - name: Talks
-    url: "#talks_favorite"
-    weight: 4
-  - name: Blog
-    url: "#blog"
-    weight: 5
-  - name: CV
-    url: "#cv"
-    weight: 6
   - name: Team
     url: "#team"
-    weight: 7
+    weight: 2
+  - name: Projects
+    url: "#projects"
+    weight: 3
+  - name: Publications
+    url: "#publications"
+    weight: 4
+  - name: Talks
+    url: "#talks_favorite"
+    weight: 5
+  - name: Blog
+    url: "#blog"
+    weight: 6
   - name: Teaching
     url: "#teaching"
+    weight: 7
+  - name: CV
+    url: "#cv"
     weight: 8
   - name: Contact
     url: "#contact"

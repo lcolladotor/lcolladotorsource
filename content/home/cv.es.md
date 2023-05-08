@@ -4,7 +4,7 @@ draft = false
 title = "Curriculum vitae"
 subtitle = ""
 widget = ""
-weight = 50
+weight = 80
 +++
 
 

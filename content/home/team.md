@@ -5,7 +5,7 @@
 widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 60  # Order that this section will appear.
+weight = 20  # Order that this section will appear.
 
 title = "Team"
 subtitle = ""
@@ -50,6 +50,6 @@ subtitle = ""
  css_class = ""
 +++
 
-Here you can find information about my **R/Bioconductor-powered Team Data Science** team members. Our [team documentation website](https://lcolladotor.github.io/bioc_team_ds) contains more details for on boarding, how to ask for help, bootcamps, writing papers, authorship, configuration files, and much more.
+Here you can find information about the **R/Bioconductor-powered Team Data Science** team members. Our [team documentation website](https://lcolladotor.github.io/bioc_team_ds) contains more details for on boarding, how to ask for help, bootcamps, writing papers, authorship, configuration files, and much more.
 
 Check the [anonymous team survey results](https://lcolladotor.github.io/team_surveys/) for more detailed and fully transparent information about what people in the team have thought about it.

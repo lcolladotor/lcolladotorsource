@@ -7,23 +7,26 @@ main:
   - name: Principal
     url: "#about"
     weight: 1
-  - name: Publicaciones
-    url: "#publications"
-    weight: 3
-  - name: Presentaciones
-    url: "#talks"
-    weight: 4
-  - name: Blog
-    url: "#blog"
-    weight: 5
-  - name: CV
-    url: "#cv"
-    weight: 6
   - name: Equipo
     url: "#team"
-    weight: 7
+    weight: 2
+  - name: Proyectos
+    url: "#projects"
+    weight: 3
+  - name: Publicaciones
+    url: "#publications"
+    weight: 4
+  - name: Presentaciones
+    url: "#talks"
+    weight: 5
+  - name: Blog
+    url: "#blog"
+    weight: 6
   - name: Cursos
     url: "#teaching"
+    weight: 7
+  - name: CV
+    url: "#cv"
     weight: 8
   - name: Contacto
     url: "#contact"
