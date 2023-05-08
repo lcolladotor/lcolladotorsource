@@ -33,11 +33,11 @@ content:
   contact_links:
     - icon: twitter
       icon_pack: fab
-      name: DM me
+      name: DM Leonardo
       link: 'https://twitter.com/lcolladotor'
 
 design:
   columns: '2'
 ---
 
-If you have questions about the [R/Bioconductor packages I maintain](https://lcolladotor.github.io/pkgs/), please read [this post](http://lcolladotor.github.io/2017/03/06/how-to-ask-for-help-for-bioconductor-packages/#.WL3NQBIrJoM). If you send me an email, I'll simply refer you to the same post.
+If you have questions about the [R/Bioconductor packages that Leonardo maintains](https://lcolladotor.github.io/pkgs/), please read [this post](http://lcolladotor.github.io/2017/03/06/how-to-ask-for-help-for-bioconductor-packages/#.WL3NQBIrJoM). If you send him an email, he'll simply refer you to the same blog post.

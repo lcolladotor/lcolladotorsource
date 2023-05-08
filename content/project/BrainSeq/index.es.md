@@ -49,4 +49,4 @@ El Instituto Lieber y las compañías farmacéuticas AstraZeneca, Astellas, Eli 
 * Utilizando el repositorio de tejido cerebral sin precedentes de LIBD para generar y analizar datos genómicos relacionados con trastornos neuropsiquiátricos.
 * Hacer que los datos estén disponibles gratuitamente para científicos de todo el mundo.
 
-Como parte del Consorcio BrainSEQ, Leo analizó conjuntos de datos de las Fases I y II, ya sea para las publicaciones que describen esas fases o para reanálisis de los mismos datos. Como equipo, adaptamos este código base para los proyectos BipSeq y MDDSeq, entre otros.
+Como parte del Consorcio BrainSEQ, Leonardo analizó conjuntos de datos de las Fases I y II, ya sea para las publicaciones que describen esas fases o para reanálisis de los mismos datos. Como equipo, adaptamos este código base para los proyectos BipSeq y MDDSeq, entre otros.

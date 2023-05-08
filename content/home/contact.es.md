@@ -33,11 +33,11 @@ content:
   contact_links:
     - icon: twitter
       icon_pack: fab
-      name: Mándame un MD
+      name: Mándame un MD a Leonardo
       link: 'https://twitter.com/lcolladotor'
 
 design:
   columns: '2'
 ---
 
-Si tienes preguntas sobre los [paquetes de R/Bioconductor que mantengo](phttps://lcolladotor.github.io/pkgs/), por favor lée [este post](http://lcolladotor.github.io/2017/03/06/how-to-ask-for-help-for-bioconductor-packages/#.WL3NQBIrJoM) (en inglés). Si me envías un correo, simplemente te mandaré la liga al mismo post.
+Si tienes preguntas sobre los [paquetes de R/Bioconductor que mantiene Leonardo](phttps://lcolladotor.github.io/pkgs/), por favor lée [este post](http://lcolladotor.github.io/2017/03/06/how-to-ask-for-help-for-bioconductor-packages/#.WL3NQBIrJoM) (en inglés). Si le envías un correo, simplemente te mandará la liga al mismo post.

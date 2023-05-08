@@ -66,4 +66,4 @@ subtitle = ""
  css_class = ""
 +++
 
-Posts with the [rstats](/categories/rstats/) category can also be found at [RBloggers](https://www.r-bloggers.com) and [R Weekly](https://rweekly.org/). Also check the [LIBD rstats club](http://LieberInstitute.github.io/rstatsclub/) where I am a contributor. You can also view posts grouped by [category](categories) or [tag](tags).
+Posts with the [rstats](/categories/rstats/) category can also be found at [RBloggers](https://www.r-bloggers.com) and [R Weekly](https://rweekly.org/). Also check the [LIBD rstats club](http://LieberInstitute.github.io/rstatsclub/) where Leonardo is a contributor. You can also view posts grouped by [category](categories) or [tag](tags).

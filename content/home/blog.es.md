@@ -66,4 +66,4 @@ subtitle = ""
  css_class = ""
 +++
 
-La mayoría de mis posts están disponibles solo [en inglés](http://lcolladotor.github.io/#blog) ya que me tomaría mucho tiempo traducirlos. Posts de la categoría [rstats](http://lcolladotor.github.io/categories/rstats/) también son difundidos a través de [RBloggers](https://www.r-bloggers.com) y [R Weekly](https://rweekly.org/). También revisa el [club de R de LIBD](http://LieberInstitute.github.io/rstatsclub/) donde contribuyo posts.
+La mayoría de los posts de Leonardo están disponibles solo [en inglés](http://lcolladotor.github.io/#blog) ya que le tomaría mucho tiempo traducirlos. Posts de la categoría [rstats](http://lcolladotor.github.io/categories/rstats/) también son difundidos a través de [RBloggers](https://www.r-bloggers.com) y [R Weekly](https://rweekly.org/). También revisa el [club de R de LIBD](http://LieberInstitute.github.io/rstatsclub/) donde Leonardo contribuye posts.

@@ -72,4 +72,4 @@ Quickly discover relevant content by [filtering publications]({{< ref "/publicat
 
 &dagger; indicates corresponding author, __*__ indicates equal contribution
 
-You can also find my publications list at [NCBI](https://www.ncbi.nlm.nih.gov/myncbi/leonardo.collado%20torres.1/bibliography/public/), [ORCiD](https://orcid.org/0000-0003-2140-308X), and [Google Scholar](https://scholar.google.com/citations?user=h57-MykAAAAJ&hl=en).
+You can also find Leonardo's publications list at [NCBI](https://www.ncbi.nlm.nih.gov/myncbi/leonardo.collado%20torres.1/bibliography/public/), [ORCiD](https://orcid.org/0000-0003-2140-308X), and [Google Scholar](https://scholar.google.com/citations?user=h57-MykAAAAJ&hl=en).
