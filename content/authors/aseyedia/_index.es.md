@@ -1,15 +1,15 @@
 +++
 # Display name
-title = "Renee Garcia-Flores"
+title = "Arta Seyedian"
 
 # Username (this should match the folder name)
-authors = ["rgarcia"]
+authors = ["aseyedia"]
 
 # Is this the primary user of the site?
 superuser = false
 
 # Role/position
-role = "Contratista 2023-actualidad"
+role = "Research Associate 2020-2021"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -19,24 +19,23 @@ organizations = [ { name = "LIBD", url = "" } ]
 bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "renee.garciaflores@gmail.com"
+email = "arta.seyedian@gmail.com"
 
 # List (academic) interests or hobbies
 interests = [
-  "Programación en R",
-  "Enfermedades humanas",
-  "Comunicación científica"
+  "transcriptómica",
+  "genómica evolutiva del humano"
 ]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Personal Remoto"]
+user_groups = ["Alumni"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Licenciatura en Ciencias Genómicas (LCG)"
-  institution = "Universidad Nacional Autónoma de México (UNAM)"
-  year = 2022
+  course = "Licenciatura en Neurociencias"
+  institution = "George Mason University"
+  year = 2015
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -46,22 +45,22 @@ user_groups = ["Personal Remoto"]
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:renee.garciaflores@gmail.com"  # For a direct email link, use "mailto:test@example.org".
+  link = "mailto:arta.seyedian@gmail.com"  # For a direct email link, use "mailto:test@example.org".
   
-[[social]]
-  icon = "home"
-  icon_pack = "fas"
-  link = "https://reneegf.github.io/"
-
 [[social]]
   icon = "twitter"
   icon_pack = "fab"
-  link = "https://twitter.com/SubmarineGene"
+  link = "https://twitter.com/artaseyedian"
 
 [[social]]
   icon = "github"
   icon_pack = "fab"
-  link = "https://github.com/reneegf"
+  link = "https://github.com/aseyedia"
+  
+[[social]]
+    icon = "linkedin"
+    icon_pack = "fab"
+    link = "https://www.linkedin.com/in/artaseyedian/"
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -72,6 +71,6 @@ user_groups = ["Personal Remoto"]
 
 +++
 
-De Renee:
+![](http://ghchart.rshah.org/DA2536/aseyedia.svg)
 
-> Soy una joven científica mexicana descubriendo su camino en la ciencia y una bioinformática en entrenamiento. Actualmente trabajo con datos de secuenciación masiva de ARN (bulk RNA-seq) y de snRNA-seq de cerebros de LIBD. También estoy entrenando para un medio maratón y comiendo acorde a este entramiento.
+{{< tweet user="artaseyedian" id="1361354851431677959" >}}
