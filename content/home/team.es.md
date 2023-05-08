@@ -49,7 +49,3 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
-Aquí puedes encontrar información sobre las personas en mi equipo: **R/Bioconductor-powered Team Data Science**. El [sitio web de documentación del equipo](https://lcolladotor.github.io/bioc_team_ds) contiene información sobre el proceso de trabajo en el equipo, cómo pedir ayuda, cursos internos, cómo escribir artículos, autoría, archivos de configuración, y mucho más.
-
-Checa los [resultados de la encuestas anónimas](https://lcolladotor.github.io/team_surveys/) del equipo para información detallada y transparente de lo que piensan las personas del mismo equipo.
