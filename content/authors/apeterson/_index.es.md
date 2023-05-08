@@ -23,9 +23,9 @@ email = ""
 
 # List (academic) interests or hobbies
 interests = [
-  "R programming",
-  "Biostatistics",
-  "Clinical Research"
+  "Programación en R",
+  "Bioestadística",
+  "Investigación clínica"
 ]
 
 # Organizational groups that you belong to (for People widget)
@@ -34,12 +34,12 @@ user_groups = ["Alumni"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Master of Public Health"
+  course = "Maestría en Salud Pública"
   institution = "Johns Hopkins Bloomberg School of Public Health"
   year = 2018
 
 [[education.courses]]
-  course = "BA in Neuroscience"
+  course = "Licenciatura en Neurociencia"
   institution = "Boston University"
   year = 2012
 
@@ -82,28 +82,26 @@ user_groups = ["Alumni"]
 
 +++
 
-Along with Andrew Jaffe, I co-mentored Amy Peterson in 2017-2018. Check her website for more information about her. 
+Junto con Andrew Jaffe, fui co-tutor de Amy Peterson en 2017-2018. Checa su sitio web personal para ver más información sobre Amy. 
 
-| | Amy's MPH capstone presentation |
+| | Presentación de Amy para su _MPH capstone_ |
 | --- | --- |
 | ![](/media/amy_mph.jpg) | ![](/media/amy_mph2.jpg) |
 
+Aquí está un resumen de los proyectos en los que trabajó conmigo (adaptado de su sitio web)
 
+### Proyectos
 
-Here are some of projects she did with me (taken from her website):
-
-### Projects
-
-* Worked in collaboration with [Mina Ryten](https://rytenlab.com/)'s lab at University College London to analyze [Genotype-Tissue Expression (GTEx)](https://www.gtexportal.org/) project data to explore gene expression variability across brain regions
-    - Analyzed GTEx brain samples from [recount2](http://bioconductor.org/packages/recount) using [recount.bwtool](https://github.com/LieberInstitute/recount.bwtool) with [JHPCE](https://jhpce.jhu.edu), a high-performance computing environment
+* Junto con el laboratorio de [Mina Ryten](https://rytenlab.com/) de la Universidad College London analizó datos del proyecto de [Genotype-Tissue Expression (GTEx)](https://www.gtexportal.org/) para estudiar la variabilidad de expresión en diferentes regiones del cerebro humano
+    - Analizó muestras del cerebro con datos de GTEx a través de [recount2](http://bioconductor.org/packages/recount) usando [recount.bwtool](https://github.com/LieberInstitute/recount.bwtool) en [JHPCE](https://jhpce.jhu.edu),
 * Capstone: Applying Statistical Correction for Brain Tissue Degradation to Gene Expression in Schizophrenia 
-    - Analyzed postmortem human brain RNA-sequencing data in [R](https://cran.r-project.org) using [Bioconductor](https://www.bioconductor.org) packages with [JHPCE](https://jhpce.jhu.edu)
+    - Analizó datos de secuenciación masiva de ARN de muestras postmortem de cerebro humano usando [R](https://cran.r-project.org) y paquetes de [Bioconductor](https://www.bioconductor.org) en [JHPCE](https://jhpce.jhu.edu)
 
-### Presentations
+### Presentaciones
 
-* MPH Capstone Presentation "Applying Statistical Correction for Brain Tissue RNA Degradation to Gene Expression Differences in Schizophrenia" (May 4, 2018) [slides](https://speakerdeck.com/apeterson/rna-quality-degradation).
-* Presented "Postmortem Human Brain RNA-seq Analyses with Public and Private Data" at Delta Omega Poster Competition at JHPSH [PDF](http://amy-peterson.github.io/files/Peterson%20Poster.pdf) (February 28, 2018).
-* Presented "Expression Profiles in GTEx Data" at the [Leekgroup](http://jtleek.com) meeting (February 19, 2018) [slides](https://speakerdeck.com/apeterson/expression-profiles-in-gtex-data).
+* Presentación del MPH Capstone "Applying Statistical Correction for Brain Tissue RNA Degradation to Gene Expression Differences in Schizophrenia" (4 de mayo, 2018) [diapositivas](https://speakerdeck.com/apeterson/rna-quality-degradation).
+* Presentó "Postmortem Human Brain RNA-seq Analyses with Public and Private Data" en la Competición del Póster Delta Omega en JHPSH [PDF](http://amy-peterson.github.io/files/Peterson%20Poster.pdf) (28 de febrero, 2018).
+* Presentó "Expression Profiles in GTEx Data" en la reunión del equipo [Leekgroup](http://jtleek.com) (19 de febrero, 2018) [slides](https://speakerdeck.com/apeterson/expression-profiles-in-gtex-data).
 
 
 <!-- ![](http://ghchart.rshah.org/DA2536/amy-peterson.svg) -->

@@ -16,15 +16,15 @@ role = "JHBSPH MPH 2017-2018"
 organizations = [ { name = "Frank H. Netter M.D. School of Medicine at Quinnipiac  University", url = "" }, {name = "Johns Hopkins Bloomberg School of Public Health"} ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include distributed robotics, mobile computing and programmable matter."
+bio = "Mis intereses de investigación incluyen robótica, computación móvil, y matería programable."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""
 
 # List (academic) interests or hobbies
 interests = [
-  "Neuroscience",
-  "Reproducibility"
+  "Neurociencia",
+  "Reproducibilidad"
 ]
 
 # Organizational groups that you belong to (for People widget)
@@ -33,17 +33,17 @@ user_groups = ["Alumni"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "M.D."
+  course = "Medicina"
   institution = "Frank H. Netter M.D. School of Medicine at Quinnipiac University"
   year = 2019
   
 [[education.courses]]
-  course = "Master in Public Health"
+  course = "Maestría en Salud Pública"
   institution = "Johns Hopkins Bloomberg School of Public Health"
   year = 2018
 
 [[education.courses]]
-  course = "B.S. in Biology"
+  course = "Licenciatura en Biología"
   institution = "University of California, Berkeley"
   year = 2013
 
@@ -91,9 +91,9 @@ link = "https://ashkaunrazmara.com/"
 
 +++
 
-I mentored Ashkaun Razmara in 2017-2018 while he was visiting the Johns Hopkins Bloomberg School of Public Health. Check his website for more information about him.
+Ashkaun Razmara trabajó conmigo durante 2017-2018 cuando visitó la Escuela de Salud Pública de Johns Hopkins (Johns Hopkins Bloomberg School of Public Health).
 
-Ashkaun is the lead author of the `recount-brain` project which you can read in more detail at [here](http://LieberInstitute.github.io/recount-brain/).
+Ashkaun es el primer autor del proyecto `recount-brain` del cual puedes leer más [aquí](http://LieberInstitute.github.io/recount-brain/).
 
 ![](/media/recount_brain.png)
 

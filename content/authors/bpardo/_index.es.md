@@ -23,9 +23,9 @@ email = ""
 
 # List (academic) interests or hobbies
 interests = [
-  "R programming",
-  "Regeneration",
-  "Stem cells"
+  "Programación en R",
+  "Regeneración",
+  "Células madre"
 ]
 
 # Organizational groups that you belong to (for People widget)
@@ -34,8 +34,8 @@ user_groups = ["Alumni"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Bachelor in Genomic Sciences (LCG)"
-  institution = "National Autonomous University of Mexico (UNAM)"
+  course = "Licenciatura en Ciencias Genómicas, ENES Juriquilla (LCGEJ)"
+  institution = "Universidad Nacional Autónoma de México (UNAM)"
   year = 2022
 
 # Social/Academic Networking
@@ -75,6 +75,6 @@ user_groups = ["Alumni"]
 
 {{< tweet user="PardoBree" id="1388253938391175173" >}}
 
-Check her presentation summarizing her experience in my team.
+Checa su presentación resumiendo su experiencia en el equipo.
 
 {{< youtube VojNV7q3i2s >}}

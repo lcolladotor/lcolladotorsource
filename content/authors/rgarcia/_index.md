@@ -9,14 +9,14 @@ authors = ["rgarcia"]
 superuser = false
 
 # Role/position
-role = "Post-baccalaureate researcher"
+role = "Contractor 2023-ongoing"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
 organizations = [ { name = "LIBD", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "I am a young mexican scientist discovering her path in science and a bioinformatician in training. I am currently working with bulk and snRNA-seq data from the brain at LIBD. I’m also training for a half-marathon and enjoying eating accordingly."
+bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "renee.garciaflores@gmail.com"
@@ -30,7 +30,7 @@ interests = [
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Visiting Student"]
+user_groups = ["Remote Members"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
@@ -72,4 +72,6 @@ user_groups = ["Visiting Student"]
 
 +++
 
+From Renee:
 
+> I am a young mexican scientist discovering her path in science and a bioinformatician in training. I am currently working with bulk and snRNA-seq data from the brain at LIBD. I’m also training for a half-marathon and enjoying eating accordingly.

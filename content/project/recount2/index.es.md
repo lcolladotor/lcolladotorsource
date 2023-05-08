@@ -6,7 +6,7 @@ title = "recount2"
 date = 2016-06-20T00:00:00
 
 # Project summary to display on homepage.
-summary = "Uniform processing of human RNA-seq data to improve usability and power methods development"
+summary = "Procesamiento uniforme de datos de RNA-seq humanos para mejorar la usabilidad y promover el desarrollo de métodos"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -31,7 +31,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{icon_pack = "fab", icon="twitter", name="#recount2", url = "https://twitter.com/search?q=%23recount2&src=typed_query"}, {name = "recount2 website", url = "https://jhubiostatistics.shinyapps.io/recount/"}, {icon_pack = "fab", icon = "r-project", name = "Bioconductor", url = "https://bioconductor.org/packages/recount"}]
+links = [{icon_pack = "fab", icon="twitter", name="#recount2", url = "https://twitter.com/search?q=%23recount2&src=typed_query"}, {name = "sitio web de recount2", url = "https://jhubiostatistics.shinyapps.io/recount/"}, {icon_pack = "fab", icon = "r-project", name = "Bioconductor", url = "https://bioconductor.org/packages/recount"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
@@ -44,4 +44,4 @@ links = [{icon_pack = "fab", icon="twitter", name="#recount2", url = "https://tw
   focal_point = "Smart"
 +++
 
-In 2015 we re-processed all the human RNA-seq that was publicly available at the time in an effort to improve the usability of this complex type of data and to facilitate developing new bioinformatic and biostatistical methods. Via `recount2` we have democratized the access to this rich data and this project has lead to many different publications by the `recount2` team and other researchers.
+En 2015, reprocesamos todo el RNA-seq humano que estaba disponible públicamente en ese momento en un esfuerzo por mejorar la usabilidad de este complejo tipo de datos y facilitar el desarrollo de nuevos métodos bioinformáticos y bioestadísticos. A través de `recount2` hemos democratizado el acceso a esta rica información y este proyecto ha dado lugar a muchas publicaciones diferentes por parte del equipo de `recount2` y otros investigadores.

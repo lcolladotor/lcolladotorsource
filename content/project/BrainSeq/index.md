@@ -49,5 +49,5 @@ The Lieber Institute and pharmaceutical companies AstraZeneca, Astellas, Eli Lil
 * Utilizing LIBD’s unprecedented brain tissue repository to generate and analyze genomic data related to neuropsychiatric disorders.
 * Making data freely available to scientists worldwide.
 
-As part of the BrainSEQ Consortium, I have analyzed datasets from Phase I and II , either for the publications describing those phases or for re-analyses of the same data. We then adapted this code base for the BipSeq and MDDSeq projects, among other ones.
+As part of the BrainSEQ Consortium, Leo analyzed datasets from Phase I and II, either for the publications describing those phases or for re-analyses of the same data. As a team, we then adapted this code base for the BipSeq and MDDSeq projects, among other ones.
 

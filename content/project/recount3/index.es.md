@@ -1,19 +1,19 @@
 +++
 # Project title.
-title = "recount2"
+title = "recount3"
 
 # Date this page was created.
-date = 2016-06-20T00:00:00
+date = 2021-05-14T00:00:00
 
 # Project summary to display on homepage.
-summary = "Uniform processing of human RNA-seq data to improve usability and power methods development"
+summary = "recount3: resúmenes y consultas para datos de expresión de RNA-seq y spicling a gran escala"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["recount2"]
+tags = ["recount3"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = ""
+external_link = "http://rna.recount.bio"
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -31,17 +31,18 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{icon_pack = "fab", icon="twitter", name="#recount2", url = "https://twitter.com/search?q=%23recount2&src=typed_query"}, {name = "recount2 website", url = "https://jhubiostatistics.shinyapps.io/recount/"}, {icon_pack = "fab", icon = "r-project", name = "Bioconductor", url = "https://bioconductor.org/packages/recount"}]
+links = [{icon_pack = "fab", icon="twitter", name="#recount3", url = "https://twitter.com/search?q=%23recount3&src=typed_query"}, {name = "sitio web de recount3", url = "https://rna.recount.bio"}, {icon_pack = "fab", icon = "r-project", name = "Bioconductor", url = "https://bioconductor.org/packages/recount3"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
 [image]
   # Caption (optional)
-  caption = "Image credit: [**F1000Research**](https://f1000research.com/articles/6-1558/v1)"
+  caption = "Image credit: [**bioRxiv**](https://TODO)"
   
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Smart"
 +++
 
-In 2015 we re-processed all the human RNA-seq that was publicly available at the time in an effort to improve the usability of this complex type of data and to facilitate developing new bioinformatic and biostatistical methods. Via `recount2` we have democratized the access to this rich data and this project has lead to many different publications by the `recount2` team and other researchers.
+
+

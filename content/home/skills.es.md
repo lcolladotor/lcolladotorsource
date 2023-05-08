@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 15  # Order that this section will appear.
 
 title = "Campos de interés"
-subtitle = "que me emocionan"
+subtitle = "que nos emocionan"
 
 # Showcase personal skills or business features.
 # 

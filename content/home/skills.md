@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 15  # Order that this section will appear.
 
 title = "Fields"
-subtitle = "that drive me"
+subtitle = "that drive us"
 
 # Showcase personal skills or business features.
 # 
