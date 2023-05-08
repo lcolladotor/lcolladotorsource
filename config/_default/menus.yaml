@@ -22,8 +22,8 @@ main:
   - name: CV
     url: "#cv"
     weight: 6
-  - name: Mentoring
-    url: "#mentoring"
+  - name: Team
+    url: "#team"
     weight: 7
   - name: Teaching
     url: "#teaching"

@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
-title = "Mentoring"
+title = "Equipo"
 subtitle = ""
 
 [content]
@@ -27,27 +27,29 @@ subtitle = ""
   #   Uncomment (by removing `#`) an option to apply it.
   #   Choose a light or dark text color by setting `text_color_light`.
   #   Any HTML color name or Hex value is valid.
-  
+
   # Background color.
   # color = "navy"
-  
+
   # Background gradient.
   # gradient_start = "DeepSkyBlue"
   # gradient_end = "SkyBlue"
-  
+
   # Background image.
   # image = "background.jpg"  # Name of image in `static/media/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  # text_color_light = true  
-  
+  # text_color_light = true
+
 [advanced]
- # Custom CSS. 
+ # Custom CSS.
  css_style = ""
- 
+
  # CSS class.
  css_class = ""
 +++
 
-Here you can find the students that I've mentored as their advisor and/or are currently working with me. Check the [anonymous team survey results](https://lcolladotor.github.io/team_surveys/) for more detailed and fully transparent information about what people in the team feel like.
+Aquí puedes encontrar información sobre las personas en mi equipo: **R/Bioconductor-powered Team Data Science**. El [sitio web de documentación del equipo](https://lcolladotor.github.io/bioc_team_ds) contiene información sobre el proceso de trabajo en el equipo, cómo pedir ayuda, cursos internos, cómo escribir artículos, autoría, archivos de configuración, y mucho más.
+
+Checa los [resultados de la encuestas anónimas](https://lcolladotor.github.io/team_surveys/) del equipo para información detallada y transparente de lo que piensan las personas del mismo equipo.

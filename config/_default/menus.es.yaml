@@ -19,6 +19,9 @@ main:
   - name: CV
     url: "#cv"
     weight: 6
+  - name: Equipo
+    url: "#team"
+    weight: 7
   - name: Cursos
     url: "#teaching"
     weight: 8
