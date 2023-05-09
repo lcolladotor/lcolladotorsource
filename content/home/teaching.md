@@ -5,7 +5,7 @@
 date = "2017-01-19T00:00:00"
 draft = false
 
-title = "Teaching"
+title = "Courses taught by Leonardo"
 subtitle = ""
 widget = "custom"
 

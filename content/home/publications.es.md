@@ -1,8 +1,8 @@
 +++
 title = "Publicaciones recientes"
-subtitle = "y pósters"
+subtitle = "y pósters de Leonardo"
 widget = ""
-weight = 40
+weight = 50
 +++
 
 Esta sección solo está disponible en [inglés](http://lcolladotor.github.io/#publications).

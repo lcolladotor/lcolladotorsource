@@ -1,8 +1,8 @@
 +++
 title = "Presentaciones"
-subtitle = ""
+subtitle = "de Leonardo"
 widget = ""
-weight = 50
+weight = 40
 +++
 
 

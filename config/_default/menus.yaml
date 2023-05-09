@@ -13,11 +13,11 @@ main:
   - name: Projects
     url: "#projects"
     weight: 3
-  - name: Publications
-    url: "#publications"
-    weight: 4
   - name: Talks
     url: "#talks_favorite"
+    weight: 4
+  - name: Publications
+    url: "#publications"
     weight: 5
   - name: Blog
     url: "#blog"

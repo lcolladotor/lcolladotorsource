@@ -1,7 +1,7 @@
 +++
 date = "2017-01-19T00:00:00"
 draft = false
-title = "Curriculum vitae"
+title = "Leonardo's curriculum vitae"
 subtitle = ""
 widget = ""
 weight = 80
