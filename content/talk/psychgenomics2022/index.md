@@ -23,7 +23,7 @@ event_url = ""
 abstract = ""
 
 # Summary. An optional shortened abstract.
-summary = "Invited seminar at Psychgenomics from Ichan School of Medicine"
+summary = "Invited seminar at Psychgenomics, Ichan School of Medicine"
 
 # Is this a featured talk? (true/false)
 featured = false
