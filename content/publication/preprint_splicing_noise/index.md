@@ -19,7 +19,7 @@ authors:
 - S Guelfi
 - admin
 - M Ryten
-tags: ["recount3"]
+tags: ["recount3", "CHESS-BRAIN"]
 categories: []
 date: '2023-03-29'
 lastmod: ''
@@ -39,7 +39,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: ["recount3"]
+projects: ["recount3", "CHESS-BRAIN"]
 publishDate: ''
 publication_types:
 - '3'
