@@ -16,7 +16,7 @@ role = "Investigador"
 organizations = [ { name = "Instituto Lieber para el Desarrollo Cerebral (LIBD)", url = "https://www.libd.org/" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "[#rstats](https://twitter.com/search?q=%23rstats&src=hashtag_click)/🧠 genomics [@LieberInstitute](https://twitter.com/LieberInstitute)/[@lcgunam](https://twitter.com/lcgunam) [@jhubiostat](https://twitter.com/jhubiostat) [@jtleek](https://twitter.com/jtleek) [@andrewejaffe](https://twitter.com/andrewejaffe) alumni/[@LIBDrstats](https://twitter.com/LIBDrstats) [@CDSBMexico](https://twitter.com/CDSBMexico) co-founder/[@Bioconductor](https://twitter.com/Bioconductor) 🚕"
+bio = "[#rstats](https://twitter.com/search?q=%23rstats&src=hashtag_click) [@Bioconductor](https://twitter.com/Bioconductor)/genómica del 🧠  [@LieberInstitute](https://twitter.com/LieberInstitute)/[@lcgunam](https://twitter.com/lcgunam) [@jhubiostat](https://twitter.com/jhubiostat) [@jtleek](https://twitter.com/jtleek) [@andrewejaffe](https://twitter.com/andrewejaffe) alumni/[@LIBDrstats](https://twitter.com/LIBDrstats) [@CDSBMexico](https://twitter.com/CDSBMexico) co-fundador"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "lcolladotor@gmail.com"
