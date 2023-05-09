@@ -19,14 +19,14 @@ authors = ["admin"]
 publication_types = ["0"]
 
 # Publication name and optional abbreviated version.
-publication = "Poster presented at JHU Biostatistics Department Retreat"
+publication = ""
 publication_short = ""
 
 # Abstract.
 abstract = ""
 
 # Summary. An optional shortened abstract.
-summary = ""
+summary = "Poster presented at JHU Biostatistics Department Retreat"
 
 # Digital Object Identifier (DOI)
 doi = ""

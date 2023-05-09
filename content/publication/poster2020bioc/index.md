@@ -23,10 +23,10 @@ publication = "Poster presented at BioC2020"
 publication_short = ""
 
 # Abstract.
-abstract = "Poster on the HumanPilot project for BioC2020 using spatialLIBD."
+abstract = ""
 
 # Summary. An optional shortened abstract.
-summary = ""
+summary = "Poster on the HumanPilot project for BioC2020 using spatialLIBD."
 
 # Digital Object Identifier (DOI)
 doi = "10.7490/f1000research.1118079.1"

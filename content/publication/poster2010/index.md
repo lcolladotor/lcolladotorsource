@@ -19,14 +19,14 @@ authors = ["admin"]
 publication_types = ["0"]
 
 # Publication name and optional abbreviated version.
-publication = "Poster presented at EMBO Conference Series from Functional Genomics to Systems Biology 2010"
+publication = ""
 publication_short = ""
 
 # Abstract.
 abstract = ""
 
 # Summary. An optional shortened abstract.
-summary = ""
+summary = "Poster presented at EMBO Conference Series from Functional Genomics to Systems Biology 2010"
 
 # Digital Object Identifier (DOI)
 doi = ""
