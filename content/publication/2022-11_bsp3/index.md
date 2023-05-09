@@ -1,12 +1,18 @@
 ---
-title: "Genetic and environmental regulation of caudate nucleus transcriptome: insight into schizophrenia risk and the dopamine system"
+title: "Analysis of the caudate nucleus transcriptome in individuals with schizophrenia highlights effects of antipsychotics and new risk genes"
 authors:
 - "Kynon JM Benjamin"
+- "Qiang Chen"
+- "Andrew E Jaffe"
+- "joshstolz"
+- "admin"
+- "lahuuki"
+- "Emily E Burke"
+- "Ria Arora"
 - "Arthur S Feltrin"
 - "André Rocha Barbosa"
-- "Andrew E Jaffe"
-- "admin"
-- "Emily E Burke"
+- "Eugenia Radulescu"
+- "Giulio Pergola"
 - "Joo Heon Shin"
 - "William S Ulrich"
 - "Amy Deep-Soboslay"
@@ -14,12 +20,12 @@ authors:
 - "the BrainSeq Consortium"
 - "Thomas M Hyde"
 - "Joel E Kleinman"
-- "Jennifer A Erwin"
+- "Jennifer A Erwin &dagger;"
 - "Daniel R Weinberger &dagger;"
 - "Apuã CM Paquola &dagger;"
 
-date: "2020-11-18T00:00:00Z"
-doi: "10.1101/2020.11.18.20230540"
+date: "2022-11-01T00:00:00Z"
+doi: "10.1038/s41593-022-01182-7"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: ""
@@ -28,13 +34,13 @@ publishDate: ""
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*medRxiv*"
+publication: "*Nature Neuroscience*"
 publication_short: ""
 
-abstract: Increased dopamine (DA) signaling in the striatum has been a cornerstone hypothesis about psychosis for over 50 years. Increased dopamine release results in psychotic symptoms, while D2 dopamine receptor (DRD2) antagonists are antipsychotic. Recent schizophrenia GWAS identified risk-associated common variants near the DRD2 gene, but the risk mechanism has been unclear. To gain novel insight into risk mechanisms underlying schizophrenia, we performed a comprehensive analysis of the genetic and transcriptional landscape of schizophrenia in postmortem caudate nucleus from a cohort of 444 individuals. Integrating expression quantitative trait loci (eQTL) analysis, transcriptome wide association study (TWAS), and differential expression analysis, we found many new genes associated with schizophrenia through genetic modulation of gene expression. Using a new approach based on deep neural networks, we construct caudate nucleus gene expression networks that highlight interactions involving schizophrenia risk. Interestingly, we found that genetic risk for schizophrenia is associated with decreased expression of the short isoform of DRD2, which encodes the presynaptic autoreceptor, and not with the long isoform, which encodes the postsynaptic receptor. This association suggests that decreased control of presynaptic DA release is a potential genetic mechanism of schizophrenia risk. Altogether, these analyses provide a new resource for the study of schizophrenia that can bring insight into risk mechanisms and potential novel therapeutic targets.
+abstract: Most studies of gene expression in the brains of individuals with schizophrenia have focused on cortical regions, but subcortical nuclei such as the striatum are prominently implicated in the disease, and current antipsychotic drugs target the striatum’s dense dopaminergic innervation. Here, we performed a comprehensive analysis of the genetic and transcriptional landscape of schizophrenia in the postmortem caudate nucleus of the striatum of 443 individuals (245 neurotypical individuals, 154 individuals with schizophrenia and 44 individuals with bipolar disorder), 210 from African and 233 from European ancestries. Integrating expression quantitative trait loci analysis, Mendelian randomization with the latest schizophrenia genome-wide association study, transcriptome-wide association study and differential expression analysis, we identified many genes associated with schizophrenia risk, including potentially the dopamine D2 receptor short isoform. We found that antipsychotic medication has an extensive influence on caudate gene expression. We constructed caudate nucleus gene expression networks that highlight interactions involving schizophrenia risk. These analyses provide a resource for the study of schizophrenia and insights into risk mechanisms and potential therapeutic targets.
 
 # Summary. An optional shortened abstract.
 summary:
@@ -46,7 +52,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: ''
+url_pdf: 'https://doi.org/10.1038/s41593-022-01182-7'
 url_code: ''
 url_dataset: ''
 url_poster: ''
