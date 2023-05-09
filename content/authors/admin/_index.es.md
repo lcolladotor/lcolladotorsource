@@ -116,6 +116,8 @@ user_groups = ["Admin", "Investigador Principal"]
 
 <img src="/media/Leo_transparente.png" width="300px" align="right"/>
 
+![](http://ghchart.rshah.org/DA2536/lcolladotor.svg)
+
 En el Instituto Lieber para el Desarrollo Cerebral (LIBD en inglés), soy el líder del equipo de [R/Bioconductor-powered Team Data Science](https://lcolladotor.github.io/es/#about). También me interesan actividades para fomentar comunidades como miembro de la Junta Directiva de la [Comunidad de Desarrolladores de Software en Bioinformática](https://comunidadbioinfo.github.io/#people) (CDSB).
 
 Brevemente, me gradué de la [Licenciatura en Ciencias Genómicas](http://www.lcg.unam.mx/) de la Universidad Nacional Autónoma de México ([UNAM](http://unam.mx/)) en 2009 y trabajé dos años en Winter Genomics analizando datos de secuenciación masiva. Después obtuve mi doctorado en 2016 dentro del [Departmento de Bioestadística](http://www.jhsph.edu/departments/biostatistics/) en [Johns Hopkins Bloomberg School of Public Health](http://www.jhsph.edu/) gracias a una [beca de CONACyT](http://www.conacyt.gob.mx/). Trabajé con [Jeff Leek](http://jtleek.com/) y [Andrew Jaffe](http://aejaffe.com/) para desarrollar [derfinder](http://bioconductor.org/packages/derfinder) y [recount](http://bioconductor.org/packages/recount). Después trabajé alrededor de 4 años como _Staff Scientist_ y _Research Scientist_ en el laboratorio de Andrew Jaffe en una gama diversa de proyectos de análisis de datos. Desde septiembre 2020 soy jefe de grupo.
