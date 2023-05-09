@@ -85,12 +85,6 @@ We constantly create new content to share what we are learning or working on, wh
 * run the LIBD rstats club: [**rstats club schedule**](https://docs.google.com/spreadsheets/d/1is8dZSd0FZ9Qi1Zvq1uRhm-P1McnJRd_zxdAfCRoMfA/edit?usp=sharing)
 * discuss papers and software in our team meetings: [**team meeting schedule**](https://docs.google.com/spreadsheets/d/1r6552ySisg7_KpmJmChOvLHVWdMmss3bncEf2jqIM9k/edit?usp=sharing)
 
-## Recent work overview
-
-For an overview of our recent work, check this video and [companion slides](https://speakerdeck.com/lcolladotor/libd-ds-tldr).
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/33scakbTNO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## Join the team
 
 If you are interested in joining the **R/Bioconductor-powered Team Data Science** group, please check our open positions at the [LIBD career opportunities website](https://www.libd.org/careers/). You might be interested in checking our [anonymous team survey results](https://lcolladotor.github.io/team_surveys/), which highlights some strengths but also some weaknesses and areas we can improve.
