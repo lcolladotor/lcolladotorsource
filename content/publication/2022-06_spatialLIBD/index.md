@@ -10,8 +10,8 @@ authors:
 - "Kristen R. Maynard"
 - "admin"
 
-date: "2021-04-29T00:00:00Z"
-doi: "10.1101/2021.04.29.440149"
+date: "2022-06-11T00:00:00Z"
+doi: "10.1186/s12864-022-08601-w"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: ""
@@ -20,13 +20,13 @@ publishDate: ""
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*bioRxiv*"
+publication: "*BMC Genomics*"
 publication_short: ""
 
-abstract: "__Motivation__. Spatially-resolved transcriptomics has now enabled the quantification of high-throughput and transcriptome-wide gene expression in intact tissue while also retaining the spatial coordinates. Incorporating the precise spatial mapping of gene activity advances our understanding of intact tissuespecific biological processes. In order to interpret these novel spatial data types, interactive visualization tools are necessary. __Results__. We describe spatialLIBD, an R/Bioconductor package to interactively explore spatially-resolved transcriptomics data generated with the 10x Genomics Visium platform. The package contains functions to interactively access, visualize, and inspect the observed spatial gene expression data and data-driven clusters identified with supervised or unsupervised analyses, either on the user’s computer or through a web application. __Availability__. spatialLIBD is available at bioconductor.org/packages/spatialLIBD."
+abstract: "__Background__. Spatially-resolved transcriptomics has now enabled the quantification of high-throughput and transcriptome-wide gene expression in intact tissue while also retaining the spatial coordinates. Incorporating the precise spatial mapping of gene activity advances our understanding of intact tissue-specific biological processes. In order to interpret these novel spatial data types, interactive visualization tools are necessary. __Results__. We describe _spatialLIBD_, an R/Bioconductor package to interactively explore spatially-resolved transcriptomics data generated with the 10x Genomics Visium platform. The package contains functions to interactively access, visualize, and inspect the observed spatial gene expression data and data-driven clusters identified with supervised or unsupervised analyses, either on the user’s computer or through a web application. __Conclusions__. _spatialLIBD_ is available at https://bioconductor.org/packages/spatialLIBD. It is fully compatible with SpatialExperiment and the Bioconductor ecosystem. Its functionality facilitates analyzing and interactively exploring spatially-resolved data from the Visium platform."
 
 # Summary. An optional shortened abstract.
 summary:
@@ -39,7 +39,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: ''
+url_pdf: 'https://doi.org/10.1186/s12864-022-08601-w'
 url_code: 'https://bioconductor.org/packages/spatialLIBD'
 url_dataset: ''
 url_poster: ''
