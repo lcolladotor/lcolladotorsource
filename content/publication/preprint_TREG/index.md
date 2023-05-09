@@ -6,13 +6,13 @@ title: Data-driven Identification of Total RNA Expression Genes (TREGs) for Esti
 subtitle: ''
 summary: ''
 authors:
-- Louise A. Huuki-Myers
+- lahuuki
 - Kelsey D. Montgomery
 - Sang Ho Kwon
 - Stephanie C. Page
 - Stephanie C. Hicks
 - "Kristen R. Maynard &dagger;"
-- "Leonardo Collado-Torres  &dagger;"
+- "Leonardo Collado-Torres &dagger;"
 tags: []
 categories: []
 date: '2022-04-28'

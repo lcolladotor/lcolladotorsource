@@ -1,12 +1,12 @@
 ---
 title: "SPEAQeasy: a scalable pipeline for expression analysis and quantification for R/Bioconductor-powered RNA-seq analyses"
 authors:
-- "Nicholas J. Eagles"
+- nickeagles
 - "Emily E. Burke"
 - "Jacob Leonard"
 - "Brianna K. Barry"
-- "Joshua M. Stolz"
-- "Louise Huuki"
+- joshstolz
+- lahuuki
 - "BaDoi N. Phan"
 - "Violeta Larios Serrato"
 - "Everardo Gutiérrez-Millán"

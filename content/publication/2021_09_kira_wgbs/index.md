@@ -2,7 +2,7 @@
 title: "Genome-wide sequencing-based identification of methylation quantitative trait loci and their role in schizophrenia risk"
 authors:
 - "Kira A. Perzel Mandell"
-- "Nicholas J. Eagles"
+- nickeagles
 - "Richard Wilton"
 - "Amanda J. Price"
 - "Stephen A. Semick"

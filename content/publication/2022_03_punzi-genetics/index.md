@@ -10,7 +10,7 @@ authors:
 - Qiang Chen
 - Eugenia Radulescu
 - Ran Tao
-- Louise A. Huuki
+- lahuuki
 - Pasquale Di Carlo
 - "admin"
 - Joo Heon Shin

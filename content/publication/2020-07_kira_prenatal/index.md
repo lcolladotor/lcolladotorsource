@@ -3,7 +3,7 @@ title = "Characterizing the dynamic and functional DNA methylation landscape in 
 date = "2020-07-15"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Kira A Perzel Mandell", "Amanda J Price", "Richard Wilton", "admin", "Ran Tao", "Nicholas J Eagles", "Alexander S Szalay", "Thomas M Hyde", "Daniel R Weinberger", "Joel E Kleinman", "Andrew E Jaffe &dagger;"]
+authors = ["Kira A Perzel Mandell", "Amanda J Price", "Richard Wilton", "admin", "Ran Tao", "nickeagles", "Alexander S Szalay", "Thomas M Hyde", "Daniel R Weinberger", "Joel E Kleinman", "Andrew E Jaffe &dagger;"]
 
 # Publication type.
 # Legend:

@@ -5,7 +5,7 @@ authors:
 - "Matthew N. Tran __*__"
 - "Kristen R. Maynard __*__"
 - "Abby Spangler"
-- "Louise A. Huuki"
+- lahuuki
 - "Kelsey D. Montgomery"
 - "Vijay Sadashivaiah"
 - "Madhavi Tippani"

@@ -6,7 +6,7 @@ title: 'BiocMAP: A Bioconductor-friendly, GPU-Accelerated Pipeline for Bisulfite
 subtitle: ''
 summary: ''
 authors:
-- Nicholas J. Eagles
+- nickeagles
 - Richard Wilton
 - Andrew E. Jaffe
 - admin

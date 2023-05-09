@@ -11,8 +11,8 @@ authors:
 - Fernando S. Goes
 - Emily E. Burke
 - "admin"
-- Louise Huuki-Myers
-- Arta Seyedian
+- lahuuki
+- aseyedia
 - Yian Lin
 - Fayaz Seifuddin
 - Mehdi Pirooznia
