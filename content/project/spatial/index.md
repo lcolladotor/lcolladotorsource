@@ -10,7 +10,7 @@ summary = "Human brain spatial transcriptomics work using Visium from 10x Genomi
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["spatial", "HumanPilot", "spatialLIBD", "VistoSeg", "spatialDLPFC", "Visium_SPD_AD"]
+tags = ["spatial", "HumanPilot", "spatialLIBD", "VistoSeg", "spatialDLPFC", "Visium_SPD_AD", "scRNAseq", "Visium"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

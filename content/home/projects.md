@@ -26,20 +26,16 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "Spatial Transcriptomics"
-    tag = "spatial"
+    name = "bulk RNAseq"
+    tag = "bulk"
     
   [[content.filter_button]]
-    name = "BrainSeq Consortium"
-    tag = "BrainSeq"
+    name = "sc/snRNA-seq"
+    tag = "scRNAseq"
 
   [[content.filter_button]]
-    name = "recount2"
-    tag = "recount2"
-
-  [[content.filter_button]]
-    name = "derfinder"
-    tag = "derfinder"
+    name = "Visium"
+    tag = "Visium"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

@@ -10,7 +10,7 @@ summary = "Deciphering proportions of cell types on human brain postmortem bulk 
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["deconvolution", "DeconvoBuddies", "TREG"]
+tags = ["deconvolution", "DeconvoBuddies", "TREG", "bulk", "scRNAseq"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

@@ -10,7 +10,7 @@ summary = "Annotation-agnostic methods for gene expression data"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["derfinder"]
+tags = ["derfinder", "bulk"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

@@ -22,24 +22,21 @@ subtitle = ""
   filter_default = 0
 
   [[content.filter_button]]
-    name = "All"
+    name = "Todos"
     tag = "*"
+  
+  [[content.filter_button]]
+    name = "ARN-seq de tejido"
+    tag = "bulk"
+    
+  [[content.filter_button]]
+    name = "ARN-seq de célula/núcleo único"
+    tag = "scRNAseq"
 
   [[content.filter_button]]
-    name = "Spatial Transcriptomics"
-    tag = "spatial"
+    name = "Visium"
+    tag = "Visium"
 
-  [[content.filter_button]]
-    name = "BrainSeq Consortium"
-    tag = "BrainSeq"
-
-  [[content.filter_button]]
-    name = "recount2"
-    tag = "recount2"
-
-  [[content.filter_button]]
-    name = "derfinder"
-    tag = "derfinder"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

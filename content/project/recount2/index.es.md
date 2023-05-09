@@ -10,7 +10,7 @@ summary = "Procesamiento uniforme de datos de RNA-seq humanos para mejorar la us
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["recount2"]
+tags = ["recount2", "bulk"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

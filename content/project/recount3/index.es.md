@@ -10,7 +10,7 @@ summary = "recount3: resúmenes y consultas para datos de expresión de RNA-seq 
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["recount3"]
+tags = ["recount3", "bulk"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "http://rna.recount.bio"

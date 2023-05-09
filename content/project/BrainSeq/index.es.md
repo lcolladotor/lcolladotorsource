@@ -10,7 +10,7 @@ summary = "Dirigigo por LIBD, el Consorcio BrainSeq busca comprender la genétic
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["BrainSeq"]
+tags = ["BrainSeq", "bulk"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
