@@ -13,7 +13,7 @@ authors:
 - Stephanie C. Hicks
 - "Kristen R. Maynard &dagger;"
 - "Leonardo Collado-Torres &dagger;"
-tags: []
+tags: ["deconvolution", "TREG"]
 categories: []
 date: '2022-04-28'
 lastmod: 2022-05-01T14:40:02-04:00
@@ -33,7 +33,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: ["deconvolution"]
 publishDate: '2022-04-28T00:00:00Z'
 publication_types:
 - '3'
