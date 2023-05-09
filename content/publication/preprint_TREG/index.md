@@ -24,7 +24,7 @@ draft: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: 'Image credit: [**bioRxiv**](https://doi.org/10.1101/2022.04.28.489923<em></em>)'
+  caption: 'Image credit: [**bioRxiv**](https://doi.org/10.1101/2022.04.28.489923)'
   focal_point: ''
   preview_only: false
 
