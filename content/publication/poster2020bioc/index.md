@@ -23,7 +23,7 @@ publication = "Poster presented at BioC2020"
 publication_short = ""
 
 # Abstract.
-abstract = "Poster on the spatialLIBD project for BioC2020."
+abstract = "Poster on the HumanPilot project for BioC2020 using spatialLIBD."
 
 # Summary. An optional shortened abstract.
 summary = ""
@@ -36,7 +36,7 @@ featured = false
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["spatial", "Poster"]
+tags = ["spatial", "Poster", "HumanPilot", "spatialLIBD"]
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

@@ -33,6 +33,7 @@ summary:
 
 tags:
 - spatial
+- spatialLIBD
 featured: false
 
 # links:

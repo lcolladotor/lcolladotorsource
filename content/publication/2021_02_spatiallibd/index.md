@@ -44,6 +44,8 @@ summary:
 
 tags:
 - spatial
+- spatialLIBD
+- HumanPilot
 featured: true
 
 # links:
