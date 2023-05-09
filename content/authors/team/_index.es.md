@@ -91,8 +91,6 @@ Para obtener una descripción general de nuestro trabajo reciente, consulta este
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/33scakbTNO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<script async class="speakerdeck-embed" data-id="3c32410b600740abb4724486e83ebd30" data-ratio="1.77725118483412" src="//speakerdeck.com/assets/embed.js"></script>
-
 ## Únete al equipo
 
 Si te interesa unirte al grupo **R/Bioconductor-powered Team Data Science**, consulta nuestras vacantes en el [sitio web de oportunidades profesionales de LIBD](https://www.libd.org/careers/). Es posible que te interese consultar nuestros [resultados anónimos de la encuesta del equipo](https://lcolladotor.github.io/team_surveys/), que destaca algunas fortalezas pero también algunas debilidades y áreas que podemos mejorar.
