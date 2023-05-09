@@ -46,7 +46,7 @@ publishDate: ''
 publication_types:
 - '3'
 abstract: Neuropathological lesions in the brains of individuals affected with neurodegenerative disorders are hypothesized to trigger molecular and cellular processes that disturb homeostasis of local microenvironments. Here, we applied the 10x Genomics Visium Spatial Proteogenomics (Visium-SPG) platform, which measures spatial gene expression coupled with immunofluorescence protein co-detection, in post-mortem human brain tissue from individuals with late-stage Alzheimer’s disease (AD) to investigate changes in spatial gene expression with respect to amyloid-β (Aβ) and hyperphosphorylated tau (pTau) pathology. We identified Aβ-associated transcriptomic signatures in the human inferior temporal cortex (ITC) during late-stage AD, which we further investigated at cellular resolution with combined immunofluorescence and single molecule fluorescent in situ hybridization (smFISH) co-detection technology. We present a workflow for analysis of Visium-SPG data and demonstrate the power of multi-omic profiling to identify spatially-localized changes in molecular dynamics that are linked to pathology in human brain disease. We provide the scientific community with web-based, interactive resources to access the datasets of the spatially resolved AD-related transcriptomes at https://research.libd.org/Visium_SPG_AD/.
-publication: ''
+publication: '*bioRxiv*'
 doi: 10.1101/2023.04.20.537710
 links:
 - name: Preprint
