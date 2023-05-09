@@ -18,7 +18,7 @@ authors:
 - Andrew E. Jaffe
 - Shizhong Han &dagger;
 - Daniel R. Weinberger &dagger;
-tags: ["AANRI"]
+tags: ["AANRI", "BrainSeq"]
 categories: []
 date: '2023-03-28'
 lastmod: ''
