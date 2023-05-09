@@ -10,7 +10,7 @@ summary = "Transcriptómica espacial del cerebro humano utilizando Visium de 10x
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["spatial", "HumanPilot", "spatialLIBD", "VistoSeg", "spatialDLPFC", "Visium_SPD_AD", "scRNAseq", "Visium"]
+tags = ["spatial", "HumanPilot", "spatialLIBD", "VistoSeg", "spatialDLPFC", "Visium_SPG_AD", "scRNAseq", "Visium"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

@@ -30,7 +30,7 @@ featured = false
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["spatial", "HumanPilot", "spatialLIBD", "VistoSeg", "Visium_SPD_AD"]
+tags = ["spatial", "HumanPilot", "spatialLIBD", "VistoSeg", "Visium_SPG_AD"]
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
