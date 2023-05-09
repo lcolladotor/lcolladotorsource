@@ -3,3 +3,4 @@ public
 resources
 static/img/profile*
 static/img/*.HEIC
+.hugo_build.lock
