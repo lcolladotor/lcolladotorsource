@@ -16,14 +16,14 @@ authors = ["admin", "lahuuki"]
 location = "Virtual event"
 
 # Name of event and optional event URL.
-event = "Invited seminar at Psychgenomics from Ichan School of Medicine"
+event = ""
 event_url = ""
 
 # Abstract. What's your talk about?
 abstract = ""
 
 # Summary. An optional shortened abstract.
-summary = ""
+summary = "Invited seminar at Psychgenomics from Ichan School of Medicine"
 
 # Is this a featured talk? (true/false)
 featured = false

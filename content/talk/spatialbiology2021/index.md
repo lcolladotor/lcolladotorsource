@@ -16,14 +16,14 @@ authors = ["admin"]
 location = "Virtual event"
 
 # Name of event and optional event URL.
-event = "Spatial Biology 2021"
+event = ""
 event_url = ""
 
 # Abstract. What's your talk about?
 abstract = ""
 
 # Summary. An optional shortened abstract.
-summary = ""
+summary = "Spatial Biology US 2021"
 
 # Is this a featured talk? (true/false)
 featured = false
