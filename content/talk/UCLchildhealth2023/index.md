@@ -1,37 +1,36 @@
 +++
-title = "BrainSeq Phase II: schizophrenia-associated expression differences between the hippocampus and the dorsolateral prefrontal cortex"
+title = "Navigating human brain gene expression measurements at different resolutions to study psychiatric disorders"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date = 2018-05-12T11:40:00
-date_end = 2018-05-12T12:00:00
+date = 2023-05-22
 all_day = false
 
 # Schedule page publish date (NOT talk date).
-publishDate = ""
+publishDate = "2023-05-22"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["admin"]
 
 # Location of event.
-location = "Cold Spring Harbor Laboratory"
+location = "UCL Great Ormond Street Institute of Child Health, UK"
 
 # Name of event and optional event URL.
-event = "BoG2018"
-event_url = "https://meetings.cshl.edu/meetings.aspx?meet=genome&year=18"
+event = ""
+event_url = ""
 
 # Abstract. What's your talk about?
-abstract = "BrainSeq Phase II at Biology of Genomes 2018. Includes a shoutout to my LCG-UNAM peers."
+abstract = ""
 
 # Summary. An optional shortened abstract.
-summary = "BrainSeq Phase II at Biology of Genomes 2018"
+summary = "Invited seminar by Mina Ryten"
 
 # Is this a featured talk? (true/false)
-featured = false
+featured = true
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["BrainSeq"]
+tags = ["derfinder", "brainseq", "recount2", "recount3", "spatial", "spatialLIBD", "VistoSeg", "Visium_SPG_AD", "deconvolution", "Favorite"]
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
@@ -42,7 +41,7 @@ tags = ["BrainSeq"]
 slides = ""
 
 # Optional filename of your slides within your talk folder or a URL.
-url_slides = "https://speakerdeck.com/lcolladotor/bsp2-bog18"
+url_slides = "https://speakerdeck.com/lcolladotor/ucl-ich-2023"
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
@@ -50,11 +49,11 @@ url_slides = "https://speakerdeck.com/lcolladotor/bsp2-bog18"
 #   E.g. `projects = ["deep-learning"]` references 
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = ["BrainSeq"]
+projects = ["derfinder", "brainseq", "recount2", "recount3", "spatial", "deconvolution"]
 
 # Links (optional).
 url_pdf = ""
-url_video = "https://youtu.be/SRGkibDQgIc"
+url_video = ""
 url_code = ""
 
 # Demo talk page uses LaTeX math.
@@ -71,6 +70,6 @@ math = false
   focal_point = "Right"
 +++
 
-<script async class="speakerdeck-embed" data-id="37474bd548fa451ea01d2127ee695c41" data-ratio="1.29456384323641" src="//speakerdeck.com/assets/embed.js"></script>
+<script defer class="speakerdeck-embed" data-id="4cc4e8d972824502b14f3b4273050048" data-ratio="1.77725118483412" src="//speakerdeck.com/assets/embed.js"></script>
 
-
+{{< tweet user="lcolladotor" id="1661837334084460552" >}}

@@ -73,3 +73,4 @@ math = false
 <script defer class="speakerdeck-embed" data-id="b7bc949180e3467aa01d5a649858ab74" data-ratio="1.77725118483412" src="//speakerdeck.com/assets/embed.js"></script>
 
 {{< tweet user="sanghokwon17" id="1650589385379962881" >}}
+{{< tweet user="lcolladotor" id="1661837334084460552" >}}

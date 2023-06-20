@@ -26,11 +26,11 @@ abstract = ""
 summary = "BioTuring webinar presented along with Kristen R Maynard from the Lieber Institute for Brain Development."
 
 # Is this a featured talk? (true/false)
-featured = true
+featured = false
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["spatial", "Favorite", "HumanPilot"]
+tags = ["spatial", "HumanPilot"]
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
