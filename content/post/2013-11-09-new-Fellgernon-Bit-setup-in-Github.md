@@ -142,7 +142,7 @@ Note that (<span class="showtooltip" title="Fisher JC (2012). 'Jekyll Build on W
 
 Note that you do have to add to `_includes/themes/twitter-2.0/default.html` the following line:
 
-```{html}
+```
 <link href="/assets/themes/twitter-2.0/css/syntax.css" rel="stylesheet" type="text/css">
 ```
 
