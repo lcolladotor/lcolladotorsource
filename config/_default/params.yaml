@@ -18,11 +18,13 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: ''
+    description: 'R/Bioconductor-powered Team Data Science'
     twitter: 'lcolladotor'
   analytics:
     google_analytics: 'G-3CBVR6GQ07'
     baidu_tongji: ''
+    google_tag_manager: ''
+    microsoft_clarity: ''
   verification:
     google: ''
     baidu: ''
@@ -61,12 +63,8 @@ locale:
 
 features:
   syntax_highlighter:
-    enable: true
-    extra_languages:
-      - r
-      - latex
-      - stata
-      - bash
+    theme_light: github-light
+    theme_dark: dracula
   math:
     enable: true
   privacy_pack:
@@ -85,6 +83,11 @@ features:
       show_count: true
     commento:
       url: ''
+    giscus:
+      repo: ''
+      repo_id: ''
+      category: ''
+      category_id: ''
   search:
     provider: wowchemy
     algolia:

@@ -7,7 +7,7 @@ draft = false
 
 title = "Cursos impartidos por Leonardo"
 subtitle = ""
-widget = "custom"
+widget = ""
 
 # Order that this section will appear in.
 weight = 70
