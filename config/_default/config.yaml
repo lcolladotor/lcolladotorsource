@@ -76,3 +76,9 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+
+## Allow blog posts to be commentable
+cascade:
+- _target:
+    path: '/post/**'
+  commentable: true
