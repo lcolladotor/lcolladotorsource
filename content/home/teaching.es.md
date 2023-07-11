@@ -22,7 +22,7 @@ weight = 70
 ## 2023
 
 1. Instructor del curso [Introducción a análisis de datos de RNA-seq con Bioconductor](https://lcolladotor.github.io/rnaseq_LCG-UNAM_2023/) para alumnos de la LCG-UNAM.
-1. Instructor en el curso [Statistical Analysis of Genome Scale Data](https://meetings.cshl.edu/courses.aspx?course=C-DATA&year=23) organizado por Cold Spring Harbor Laboratory.
+1. Instructor de una [porción](https://lcolladotor.github.io/cshl_rstats_genome_scale_2023/) del curso [Statistical Analysis of Genome Scale Data](https://meetings.cshl.edu/courses.aspx?course=C-DATA&year=23) llevado a cabo en Cold Spring Harbor Laboratory.
 
 ## 2022
 
