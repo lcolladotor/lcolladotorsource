@@ -9,11 +9,11 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Investigator"
+role = "Investigator @ LIBD, Assistant Professor, Department of Biostatistics @ JHBSPH"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Lieber Institute for Brain Development", url = "https://www.libd.org/" } ]
+organizations = [ { name = "Lieber Institute for Brain Development", url = "https://www.libd.org/" }, { name = "Johns Hopkins Blomberg School of Public Health", url = "https://publichealth.jhu.edu/departments/biostatistics" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "[#rstats](https://twitter.com/search?q=%23rstats&src=hashtag_click) [@Bioconductor](https://twitter.com/Bioconductor)/🧠 genomics [@LieberInstitute](https://twitter.com/LieberInstitute)/[@lcgunam](https://twitter.com/lcgunam) [@jhubiostat](https://twitter.com/jhubiostat) [@jtleek](https://twitter.com/jtleek) [@andrewejaffe](https://twitter.com/andrewejaffe) alumni/[@LIBDrstats](https://twitter.com/LIBDrstats) [@CDSBMexico](https://twitter.com/CDSBMexico) co-founder"
@@ -119,7 +119,7 @@ highlight_name = "true"
 
 ![](http://ghchart.rshah.org/DA2536/lcolladotor.svg)
 
-At the Lieber Institute for Brain Development ([LIBD](https://www.libd.org/)), I lead the [**R/Bioconductor-powered Team Data Science**](https://lcolladotor.github.io/#about) group. I am also interested in outreach activities as a board member of the [Community of Bioinformatics Software Developers](https://comunidadbioinfo.github.io/#people). 
+At the Lieber Institute for Brain Development ([LIBD](https://www.libd.org/)), I lead the [**R/Bioconductor-powered Team Data Science**](https://lcolladotor.github.io/#about) group. I am also an Assistant Professor in the [Department of Biostastics](https://publichealth.jhu.edu/departments/biostatistics) at the Johns Hopkins Bloomberg School of Public Health. Additionally, I am interested in outreach activities as a board member of the [Community of Bioinformatics Software Developers](https://comunidadbioinfo.github.io/#people). 
 
 As a quick background, I graduated from the [Undergraduate Program on Genomic Sciences](http://www.lcg.unam.mx/about) from the National Autonomous University of Mexico ([UNAM](http://unam.mx/)) in 2009 and worked for two years at Winter Genomics analyzing high-throughput sequencing data. I then got a PhD in 2016 from the [Department of Biostatistics](http://www.jhsph.edu/departments/biostatistics/) at [Johns Hopkins Bloomberg School of Public Health](http://www.jhsph.edu/) thanks to a [CONACyT scholarship](http://www.conacyt.gob.mx/). There I worked with [Jeff Leek](http://jtleek.com/) and [Andrew Jaffe](http://aejaffe.com/) in developing [derfinder](http://bioconductor.org/packages/derfinder) and [recount](http://bioconductor.org/packages/recount). I then worked ~ 4 years as a Staff Scientist and Research Scientist in Andrew Jaffe's lab on a variety of data analysis projects. I became a principal investigator in September 2020.
 

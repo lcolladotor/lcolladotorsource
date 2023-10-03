@@ -69,15 +69,11 @@ All results are available to download for free from his lab website!
 
 {{% tweet user="averydavisbell" id="1053363947154243584" %}}
 
-{{% tweet user="ReillyLikesIt" id="1053365583566188544" %}}
-
 {{% tweet user="averydavisbell" id="1053367064168022016" %}}
 
 ### Misc
 
 {{% tweet user="AleMedinaRivera" id="1053320504122036224" %}}
-
-{{% tweet user="robinfchan" id="1053320437814325248" %}}
 
 {{% tweet user="JedMSP" id="1053353588146155520" %}}
 
