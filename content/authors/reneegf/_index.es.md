@@ -9,7 +9,7 @@ authors = ["rgarcia"]
 superuser = false
 
 # Role/position
-role = "Contratista desde 2023"
+role = "Contratista 2023 Feb-Agt"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -30,7 +30,7 @@ interests = [
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Personal Remoto"]
+user_groups = ["Alumni"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
