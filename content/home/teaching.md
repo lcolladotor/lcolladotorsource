@@ -23,6 +23,7 @@ weight = 70
 
 1. Instructor of the [Introduction to RNA-seq data analysis with Bioconductor](https://lcolladotor.github.io/rnaseq_LCG-UNAM_2023/) course for LCG-UNAM students.
 1. Instructor for a [portion](https://lcolladotor.github.io/cshl_rstats_genome_scale_2023/) of the [Statistical Analysis of Genome Scale Data](https://meetings.cshl.edu/courses.aspx?course=C-DATA&year=23) course at Cold Spring Harbor Laboratory.
+1. Instructor for [140.776 Statistical Computing](https://lcolladotor.github.io/jhustatcomputing2023/) course at the Johns Hopkins Bloomberg School of Public Health.
 
 ## 2022
 
