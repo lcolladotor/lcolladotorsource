@@ -9,7 +9,7 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Investigador @ LIBD, Profesor Asistente, Departmanento de Bioestadística @ JHBSPH"
+role = "Investigador @ LIBD, Profesor Asistente, Departamento de Bioestadística @ JHBSPH"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
