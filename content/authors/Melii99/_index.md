@@ -9,7 +9,7 @@ authors = ["Melii99"]
 superuser = false
 
 # Role/position
-role = "Intern Sep 2023-ongoing"
+role = "Intern 2023-ongoing"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
