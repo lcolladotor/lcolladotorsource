@@ -9,11 +9,11 @@ authors = ["Melii99"]
 superuser = false
 
 # Role/position
-role = "Apprentice, Sep 2023-ongoing"
+role = "Intern Sep 2023-ongoing"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "LIBD", url = "" } ]
+organizations = [ { name = "LIBD", url = "https://www.libd.org/" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""
@@ -30,13 +30,13 @@ interests = [
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = [] ## Not in LIBD 
+user_groups = ["Remote Members"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
   course = "Bachelor in Genomic Sciences (LCG)"
   institution = "National Autonomous University of Mexico (UNAM)"
-  year = Currently
+  year = 2025
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
