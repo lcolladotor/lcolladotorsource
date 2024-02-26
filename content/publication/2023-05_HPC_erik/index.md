@@ -48,5 +48,3 @@ links:
 - name: iSEE app
   url: https://libd.shinyapps.io/2022_HPC_ARG/
 ---
-
-{{< tweet user="erik_sci" id="1598688517462245378" >}}

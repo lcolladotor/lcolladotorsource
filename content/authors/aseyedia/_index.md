@@ -72,5 +72,3 @@ user_groups = ["Alumni"]
 +++
 
 ![](http://ghchart.rshah.org/DA2536/aseyedia.svg)
-
-{{< tweet user="artaseyedian" id="1361354851431677959" >}}

@@ -27,8 +27,6 @@ So, without further ado, here we go:
 
 Sek also thanked all his mentees ^^.
 
-{{% tweet user="thatdnaguy" id="1052357277318111232" %}}
-
 {{% tweet user="MariaChahrour" id="1052360103381221376" %}}
 
 ### Diversity
@@ -47,8 +45,6 @@ Sek also thanked all his mentees ^^.
 
 SNP crispr-cas9 perturbation study in blood cells.
 
-{{% tweet user="thatdnaguy" id="1052359394439106560" %}}
-
 {{% tweet user="aidanbutty" id="1052360756610519040" %}}
 
 MC mentioned metaFDR for combining pvalues from 4 tests.
@@ -57,7 +53,6 @@ MC mentioned metaFDR for combining pvalues from 4 tests.
 
 Uniparental disomy using 23andMe data. Seeking prevalence information in general population.
 
-{{% tweet user="thatdnaguy" id="1052364953984876544" %}}
 
 {{% tweet user="michaelhoffman" id="1052365691565760512" %}}
 
@@ -69,7 +64,6 @@ Uniparental disomy using 23andMe data. Seeking prevalence information in general
 
 {{% tweet user="23andMeResearch" id="1052367633738166273" %}}
 
-{{% tweet user="thatdnaguy" id="1052368774257618945" %}}
 
 Mentioned PheWAS.
 
@@ -84,8 +78,6 @@ PN: Don’t know if you can get single cell data from 23andMe customers.
 ### Jack A Kosmicki
 
 {{% tweet user="beryl_bbc" id="1052370135304949763" %}}
-
-{{% tweet user="thatdnaguy" id="1052370234030649344" %}}
 
 mentioned pLl method
 
@@ -103,17 +95,11 @@ summary
 
 {{% tweet user="StatGenDan" id="1052373073402294272" %}}
 
-{{% tweet user="thatdnaguy" id="1052373218932199424" %}}
-
 ### Caitlin Bowen
-
-{{% tweet user="thatdnaguy" id="1052375530656464896" %}}
 
 Sorry, I left this talk early to see the poster talks (that I didn’t know had been delayed).
 
 ### Wrap up
-
-{{% tweet user="thatdnaguy" id="1052380042481807360" %}}
 
 ### Poster talks
 

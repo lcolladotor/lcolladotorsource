@@ -123,8 +123,6 @@ Then used single cell (10x Genomics) to measure expression.
 
 #### Eric Lander
 
-{{% tweet user="mycoacia" id="1053070553773293568" %}}
-
 {{% tweet user="23andMeResearch" id="1053069188124762112" %}}
 
 {{% tweet user="raungar" id="1053083099674755072" %}}
@@ -145,8 +143,6 @@ Then used single cell (10x Genomics) to measure expression.
 
 {{% tweet user="liminalphase" id="1053076488398888960" %}}
 
-{{% tweet user="thatdnaguy" id="1053077309001891840" %}}
-
 {{% tweet user="jlpcphotography" id="1053078045387444225" %}}
 
 {{% tweet user="liminalphase" id="1053081405016571904" %}}
@@ -160,10 +156,6 @@ Then used single cell (10x Genomics) to measure expression.
 {{% tweet user="cgonzagaj" id="1053085462456221697" %}}
 
 {{% tweet user="michaelhoffman" id="1053085978976432128" %}}
-
-{{% tweet user="thatdnaguy" id="1053087721990672384" %}}
-
-{{% tweet user="thatdnaguy" id="1053088764405272576" %}}
 
 {{% tweet user="yhtacgnol" id="1053089547448287232" %}}
 
