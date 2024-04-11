@@ -259,8 +259,6 @@ and everyone that I met at the tweetup
 
 `r blogdown::shortcode("tweet", user="michaelhoffman", id="1053167988109565952")`
 
-`r blogdown::shortcode("tweet", user="meandertail", id="1053180338380333056")`
-
 ### References
 
 ```{r bibliography, results = 'asis', echo = FALSE, cache = FALSE}

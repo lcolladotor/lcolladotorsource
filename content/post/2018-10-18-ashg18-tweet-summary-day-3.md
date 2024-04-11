@@ -214,8 +214,6 @@ and everyone that I met at the tweetup
 
 {{% tweet user="michaelhoffman" id="1053167988109565952" %}}
 
-{{% tweet user="meandertail" id="1053180338380333056" %}}
-
 ### References
 
 <p>
