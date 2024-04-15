@@ -36,7 +36,7 @@ Oh ohh! My `GitHub` repository is huge! 😱 What do I do now?
 
 ## Our story
 
-That's how things start. In our case, we had a repository that would download over 22.6 GB of data and use 55.9 GB of disk space.
+That's how things start. In our case, we had a repository that would download over 22.6 GB of data and use 55.9 GB of disk space. _Note: This repository is currently (April 15 2024) private, but will be made public soon._
 
 ```bash
 % git clone git@github.com:LieberInstitute/spatial_hpc.git
@@ -859,7 +859,7 @@ URL: <a href="https://bookdown.org/yihui/blogdown/">https://bookdown.org/yihui/b
 ##  collate  en_US.UTF-8
 ##  ctype    en_US.UTF-8
 ##  tz       America/New_York
-##  date     2024-04-11
+##  date     2024-04-15
 ##  pandoc   3.1.12.1 @ /opt/homebrew/bin/ (via rmarkdown)
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────
