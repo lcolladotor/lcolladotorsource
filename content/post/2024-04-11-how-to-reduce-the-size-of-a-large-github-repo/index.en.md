@@ -14,7 +14,7 @@ tags:
   - rstats
 subtitle: ''
 summary: ''
-authors: []
+authors: ["admin"]
 lastmod: '2024-04-11T14:10:53-04:00'
 featured: no
 image:
@@ -266,7 +266,7 @@ total 132K
 With [R](https://cran.r-project.org/), we can read that CSV file and help us diagnose our situation. We recommend that you inspect [this CSV file](https://github.com/lcolladotor/lcolladotor.github.com/blob/master/2024/04/11/how-to-reduce-the-size-of-a-large-github-repo/f5f9a19e-HEAD.csv), which will be ordered by file path.
 
 
-```r
+``` r
 ## Read in the CSV file with R
 ten <- read.csv("f5f9a19e-HEAD.csv", header = FALSE)
 
@@ -278,7 +278,7 @@ nrow(ten)
 ## [1] 885
 ```
 
-```r
+``` r
 ## What's the format of this CSV file?
 head(ten)
 ```
@@ -310,7 +310,7 @@ head(ten)
 The fourth column specifies the `file path` and the fifth column specifies the `file size` in bytes. Given that this project was organized according to our [`template_project`](https://github.com/LieberInstitute/template_project), Erik (who has been heavily involved in this project) could easily diagnose whether some of the listed files were important to share or whether they were older exploration results.
 
 
-```r
+``` r
 ## Sort them by file size if you want to
 # ten <- ten[order(ten$V5, decreasing = TRUE), ]
 
@@ -323,20 +323,20 @@ summary(ten$V5 / 1024^2)
 ##   10.01   19.08   26.12   26.31   32.50   92.87
 ```
 
-```r
+``` r
 boxplot(ten$V5 / 1024^2)
 ```
 
 <img src="https://lcolladotor.github.io/2024/04/11/how-to-reduce-the-size-of-a-large-github-repo/index.en_files/figure-html/unnamed-chunk-2-1.png" width="672" />
 
-```r
+``` r
 ## Explore frequency of file sizes rounded to 1 digit
 barplot(table(round(ten$V5 / 1024^2, 1)))
 ```
 
 <img src="https://lcolladotor.github.io/2024/04/11/how-to-reduce-the-size-of-a-large-github-repo/index.en_files/figure-html/unnamed-chunk-2-2.png" width="672" />
 
-```r
+``` r
 ## How much total space do these "dirty files" use?
 sum(ten$V5 / 1024^2) ## In MB
 ```
@@ -345,7 +345,7 @@ sum(ten$V5 / 1024^2) ## In MB
 ## [1] 23285.45
 ```
 
-```r
+``` r
 sum(ten$V5 / 1024^3) ## In GB
 ```
 
@@ -356,7 +356,7 @@ sum(ten$V5 / 1024^3) ## In GB
 A question Erik posed was: is it mostly plots? In general, you could use file extensions if you wanted. But in our case, thanks to [`template_project`](https://github.com/LieberInstitute/template_project), we can check what is the main directory for each file.
 
 
-```r
+``` r
 ## Extract main directory from the file paths
 x <- dirname(ten$V4)
 x <- gsub("/.*", "", x)
@@ -374,7 +374,7 @@ table(x)
 We could then explore some of the odd cases.
 
 
-```r
+``` r
 ## Visual inspection determined that we were OK deleting these files
 ten[x == "snRNAseq_hpc", ]
 ```
@@ -398,7 +398,7 @@ ten[x == "snRNAseq_hpc", ]
 ## 885 snRNAseq_hpc/plots/build_sce/UMAPs_unccorrected_filtered.pdf 16767377 NA
 ```
 
-```r
+``` r
 ## Same thing for these large "code" files (2 logs and one file that is not
 ## needed to run the actual code and thus reproduce results)
 ten[x == "code", ]
@@ -419,7 +419,7 @@ ten[x == "code", ]
 ## 3 20518064 NA
 ```
 
-```r
+``` r
 ## These are important sample information files we do want to keep.
 ten[x == "raw-data", ]
 ```
@@ -441,7 +441,7 @@ ten[x == "raw-data", ]
 Once we have identified which files we no longer want to distribute through `GitHub`, we can proceed to eliminate them from the `git` history in our local working copy. Before we can use `BFG`, we first have to _clean_ these "dirty files". The first step is to remove them from the list of version controlled files using the `git rm` command. However, **we do want to keep a copy of these files**. So we use the `--cached` option to do so.
 
 
-```r
+``` r
 ## Change directory to the location of your local copy
 setwd("~/Desktop/spatial_hpc/")
 
@@ -460,7 +460,7 @@ for (i in seq_along(cmds)) {
 Here's how one of these commands would look like. We used `system()` to actually run these commands on my macOS computer.
 
 
-```r
+``` r
 cmds[1]
 ```
 
@@ -471,7 +471,7 @@ cmds[1]
 At this point, with `git rm` we have told `git` to no longer version control these 880+ files. To avoid the mistake of version controlling them again, we then added them to the main `.gitignore` file using `readLines()` and `writeLines()`.
 
 
-```r
+``` r
 ## Update our main .gitignore file with the list of files
 ## we no longer want to version control.
 gitignore <- readLines(".gitignore")
@@ -809,7 +809,7 @@ Enjoy! Best of luck with navigating similar situations.
 
 This blog post was made possible thanks to:
 
-* *[BiocStyle](https://bioconductor.org/packages/3.18/BiocStyle)* <a id='cite-Oles_2023'></a>(<a href='https://bioconductor.org/packages/BiocStyle'>Oleś, 2023</a>)
+* *[BiocStyle](https://bioconductor.org/packages/3.19/BiocStyle)* <a id='cite-Oles_2024'></a>(<a href='https://github.com/Bioconductor/BiocStyle'>Oleś, 2024</a>)
 * *[blogdown](https://CRAN.R-project.org/package=blogdown)* <a id='cite-Xie_2017'></a>(<a href='https://bookdown.org/yihui/blogdown/'>Xie, Hill, and Thomas, 2017</a>)
 * *[knitcitations](https://CRAN.R-project.org/package=knitcitations)* <a id='cite-Boettiger_2021'></a>(<a href='https://CRAN.R-project.org/package=knitcitations'>Boettiger, 2021</a>)
 * *[sessioninfo](https://CRAN.R-project.org/package=sessioninfo)* <a id='cite-Wickham_2021'></a>(<a href='https://CRAN.R-project.org/package=sessioninfo'>Wickham, Chang, Flight, Müller et al., 2021</a>)
@@ -823,13 +823,12 @@ R package version 1.0.12.
 2021.
 URL: <a href="https://CRAN.R-project.org/package=knitcitations">https://CRAN.R-project.org/package=knitcitations</a>.</cite></p>
 
-<p><a id='bib-Oles_2023'></a><a href="#cite-Oles_2023">[2]</a><cite>
+<p><a id='bib-Oles_2024'></a><a href="#cite-Oles_2024">[2]</a><cite>
 A. Oleś.
 <em>BiocStyle: Standard styles for vignettes and other Bioconductor documents</em>.
-R package version 2.30.0.
-2023.
-DOI: <a href="https://doi.org/10.18129/B9.bioc.BiocStyle">10.18129/B9.bioc.BiocStyle</a>.
-URL: <a href="https://bioconductor.org/packages/BiocStyle">https://bioconductor.org/packages/BiocStyle</a>.</cite></p>
+R package version 2.32.0.
+2024.
+URL: <a href="https://github.com/Bioconductor/BiocStyle">https://github.com/Bioconductor/BiocStyle</a>.</cite></p>
 
 <p><a id='bib-Wickham_2021'></a><a href="#cite-Wickham_2021">[3]</a><cite>
 H. Wickham, W. Chang, R. Flight, K. Müller, et al.
@@ -851,61 +850,61 @@ URL: <a href="https://bookdown.org/yihui/blogdown/">https://bookdown.org/yihui/b
 ```
 ## ─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────
 ##  setting  value
-##  version  R version 4.3.2 (2023-10-31)
-##  os       macOS Sonoma 14.3.1
+##  version  R version 4.4.0 (2024-04-24)
+##  os       macOS Sonoma 14.5
 ##  system   aarch64, darwin20
 ##  ui       X11
 ##  language (EN)
 ##  collate  en_US.UTF-8
 ##  ctype    en_US.UTF-8
 ##  tz       America/New_York
-##  date     2024-04-15
-##  pandoc   3.1.12.1 @ /opt/homebrew/bin/ (via rmarkdown)
+##  date     2024-05-23
+##  pandoc   3.2 @ /opt/homebrew/bin/ (via rmarkdown)
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────
 ##  package       * version    date (UTC) lib source
-##  backports       1.4.1      2021-12-13 [1] CRAN (R 4.3.0)
-##  bibtex          0.5.1      2023-01-26 [1] CRAN (R 4.3.0)
-##  BiocManager     1.30.22    2023-08-08 [1] CRAN (R 4.3.0)
-##  BiocStyle     * 2.30.0     2023-10-26 [1] Bioconductor
-##  blogdown        1.19       2024-02-01 [1] CRAN (R 4.3.1)
-##  bookdown        0.37       2023-12-01 [1] CRAN (R 4.3.1)
-##  bslib           0.6.1.9001 2024-03-02 [1] Github (rstudio/bslib@243499a)
-##  cachem          1.0.8      2023-05-01 [1] CRAN (R 4.3.0)
-##  cli             3.6.2      2023-12-11 [1] CRAN (R 4.3.1)
-##  colorout      * 1.3-0.2    2024-02-27 [1] Github (jalvesaq/colorout@c6113a2)
-##  digest          0.6.34     2024-01-11 [1] CRAN (R 4.3.1)
-##  evaluate        0.23       2023-11-01 [1] CRAN (R 4.3.1)
-##  fastmap         1.1.1      2023-02-24 [1] CRAN (R 4.3.0)
-##  generics        0.1.3      2022-07-05 [1] CRAN (R 4.3.0)
-##  glue            1.7.0      2024-01-09 [1] CRAN (R 4.3.1)
-##  highr           0.10       2022-12-22 [1] CRAN (R 4.3.0)
-##  htmltools       0.5.7      2023-11-03 [1] CRAN (R 4.3.1)
-##  httr            1.4.7      2023-08-15 [1] CRAN (R 4.3.0)
-##  jquerylib       0.1.4      2021-04-26 [1] CRAN (R 4.3.0)
-##  jsonlite        1.8.8      2023-12-04 [1] CRAN (R 4.3.1)
-##  knitcitations * 1.0.12     2021-01-10 [1] CRAN (R 4.3.0)
-##  knitr           1.45       2023-10-30 [1] CRAN (R 4.3.1)
-##  lifecycle       1.0.4      2023-11-07 [1] CRAN (R 4.3.1)
-##  lubridate       1.9.3      2023-09-27 [1] CRAN (R 4.3.1)
-##  magrittr        2.0.3      2022-03-30 [1] CRAN (R 4.3.0)
-##  plyr            1.8.9      2023-10-02 [1] CRAN (R 4.3.1)
-##  R6              2.5.1      2021-08-19 [1] CRAN (R 4.3.0)
-##  Rcpp            1.0.12     2024-01-09 [1] CRAN (R 4.3.1)
-##  RefManageR      1.4.0      2022-09-30 [1] CRAN (R 4.3.0)
-##  rlang           1.1.3      2024-01-10 [1] CRAN (R 4.3.1)
-##  rmarkdown       2.25       2023-09-18 [1] CRAN (R 4.3.1)
-##  rstudioapi      0.15.0     2023-07-07 [1] CRAN (R 4.3.0)
-##  sass            0.4.8.9000 2024-02-27 [1] Github (rstudio/sass@ae93a9a)
-##  sessioninfo   * 1.2.2      2021-12-06 [1] CRAN (R 4.3.0)
-##  stringi         1.8.3      2023-12-11 [1] CRAN (R 4.3.1)
-##  stringr         1.5.1      2023-11-14 [1] CRAN (R 4.3.1)
-##  timechange      0.3.0      2024-01-18 [1] CRAN (R 4.3.1)
-##  xfun            0.42       2024-02-08 [1] CRAN (R 4.3.1)
-##  xml2            1.3.6      2023-12-04 [1] CRAN (R 4.3.1)
-##  yaml            2.3.8      2023-12-11 [1] CRAN (R 4.3.1)
+##  backports       1.4.1      2021-12-13 [1] CRAN (R 4.4.0)
+##  bibtex          0.5.1      2023-01-26 [1] CRAN (R 4.4.0)
+##  BiocManager     1.30.23    2024-05-04 [1] CRAN (R 4.4.0)
+##  BiocStyle     * 2.32.0     2024-04-30 [1] Bioconductor 3.19 (R 4.4.0)
+##  blogdown        1.19       2024-02-01 [1] CRAN (R 4.4.0)
+##  bookdown        0.39       2024-04-15 [1] CRAN (R 4.4.0)
+##  bslib           0.7.0      2024-03-29 [1] CRAN (R 4.4.0)
+##  cachem          1.1.0      2024-05-16 [1] CRAN (R 4.4.0)
+##  cli             3.6.2      2023-12-11 [1] CRAN (R 4.4.0)
+##  colorout      * 1.3-0.2    2024-05-03 [1] Github (jalvesaq/colorout@c6113a2)
+##  digest          0.6.35     2024-03-11 [1] CRAN (R 4.4.0)
+##  evaluate        0.23       2023-11-01 [1] CRAN (R 4.4.0)
+##  fastmap         1.2.0      2024-05-15 [1] CRAN (R 4.4.0)
+##  generics        0.1.3      2022-07-05 [1] CRAN (R 4.4.0)
+##  glue            1.7.0      2024-01-09 [1] CRAN (R 4.4.0)
+##  highr           0.10       2022-12-22 [1] CRAN (R 4.4.0)
+##  htmltools       0.5.8.1    2024-04-04 [1] CRAN (R 4.4.0)
+##  httr            1.4.7      2023-08-15 [1] CRAN (R 4.4.0)
+##  jquerylib       0.1.4      2021-04-26 [1] CRAN (R 4.4.0)
+##  jsonlite        1.8.8      2023-12-04 [1] CRAN (R 4.4.0)
+##  knitcitations * 1.0.12     2021-01-10 [1] CRAN (R 4.4.0)
+##  knitr           1.46       2024-04-06 [1] CRAN (R 4.4.0)
+##  lifecycle       1.0.4      2023-11-07 [1] CRAN (R 4.4.0)
+##  lubridate       1.9.3      2023-09-27 [1] CRAN (R 4.4.0)
+##  magrittr        2.0.3      2022-03-30 [1] CRAN (R 4.4.0)
+##  plyr            1.8.9      2023-10-02 [1] CRAN (R 4.4.0)
+##  R6              2.5.1      2021-08-19 [1] CRAN (R 4.4.0)
+##  Rcpp            1.0.12     2024-01-09 [1] CRAN (R 4.4.0)
+##  RefManageR      1.4.0      2022-09-30 [1] CRAN (R 4.4.0)
+##  rlang           1.1.3      2024-01-10 [1] CRAN (R 4.4.0)
+##  rmarkdown       2.27       2024-05-17 [1] CRAN (R 4.4.0)
+##  rstudioapi      0.16.0     2024-03-24 [1] CRAN (R 4.4.0)
+##  sass            0.4.9.9000 2024-05-03 [1] Github (rstudio/sass@9228fcf)
+##  sessioninfo   * 1.2.2      2021-12-06 [1] CRAN (R 4.4.0)
+##  stringi         1.8.4      2024-05-06 [1] CRAN (R 4.4.0)
+##  stringr         1.5.1      2023-11-14 [1] CRAN (R 4.4.0)
+##  timechange      0.3.0      2024-01-18 [1] CRAN (R 4.4.0)
+##  xfun            0.44       2024-05-15 [1] CRAN (R 4.4.0)
+##  xml2            1.3.6      2023-12-04 [1] CRAN (R 4.4.0)
+##  yaml            2.3.8      2023-12-11 [1] CRAN (R 4.4.0)
 ## 
-##  [1] /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
+##  [1] /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library
 ## 
 ## ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 ```

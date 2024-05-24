@@ -8,23 +8,30 @@ categories:
   - LIBD
 tags:
   - spatialLIBD
-  - VistoSeg
   - spatial
   - rstats
   - RNA Sequencing
 subtitle: ''
 summary: ''
-authors: []
+authors: ["admin"]
 lastmod: '2024-05-23T18:27:35-04:00'
 featured: no
 image:
   caption: ''
   focal_point: ''
   preview_only: no
-projects: []
+projects: ["spatial"]
 ---
 
-A few years ago now (2021) we published a study we refer to with a very generic name: `HumanPilot` <a id='cite-Maynard_2021'></a>(<a href='https://www.nature.com/articles/s41593-020-00787-0'>Maynard, Collado-Torres, Weber, Uytingco et al., 2021</a>). In this peer-reviewed study, we were the first ones to use a commercially available technology for generating spatially-resolved transcriptomics data. It’s called [*Visium* and it’s sold by 10x Genomics](https://www.10xgenomics.com/products/spatial-gene-expression). Note ⚠️ that members of that company were co-authors of our study. As we work in the [Lieber Institute for Brain Development](https://www.libd.org/), we tested *Visium* with postmortem human brain data. I explained the initial pre-print (before peer-review) version of our work in a [blog post back in Feb 20, 2019](https://lcolladotor.github.io/2020/02/29/diving-together-into-the-unknown-world-of-spatial-transcriptomics/).
+{{% callout note %}}
+Would you prefer a video walkthrough over reading this blog post? Check out this explainer video 🎥
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HGioWKuI3ek?si=X-tqtZtcPSV-3uMt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen data-external="1">
+</iframe>
+
+{{% /callout %}}
+
+A few years ago now (2021) we published a study we refer to with a very generic name: `HumanPilot` <a id='cite-Maynard_2021'></a>(<a href='https://www.nature.com/articles/s41593-020-00787-0'>Maynard, Collado-Torres, Weber, Uytingco et al., 2021</a>). In this peer-reviewed study, we were the first ones to use a commercially available technology for generating spatially-resolved transcriptomics data. It’s called [*Visium* and it’s sold by 10x Genomics](https://www.10xgenomics.com/products/spatial-gene-expression). Note ⚠️ that members of that company were co-authors of our study. As we work in the [Lieber Institute for Brain Development](https://www.libd.org/), we tested *Visium* with postmortem human brain data. I explained the initial pre-print (before peer-review) version of our work in a [blog post back from Feb 29, 2020](https://lcolladotor.github.io/2020/02/29/diving-together-into-the-unknown-world-of-spatial-transcriptomics/).
 
 {{% tweet user="lcolladotor" id="1233661576433061888" %}}
 
@@ -32,27 +39,27 @@ But enough with the fancy specific words. Here I explain the main points of why 
 
 ## What is a fruit? Banana, orange?
 
-[<img src="images/orange.jpg" width="400" alt="Orange (full round)" />](https://en.wikipedia.org/wiki/File:Oranges_-_whole-halved-segment.jpg)
+[<img src="https://lcolladotor.github.io/2024/05/23/humanpilot-first-spatially-resolved-transcriptomics-study-using-visium/images/orange.jpg" width="400" alt="Orange (full round)" />](https://en.wikipedia.org/wiki/File:Oranges_-_whole-halved-segment.jpg)
 
-[<img src="images/Bananas.jpg" width="400" alt="Bananas in the supermarket" />](https://en.wikipedia.org/wiki/File:Bananas.jpg)
+[<img src="https://lcolladotor.github.io/2024/05/23/humanpilot-first-spatially-resolved-transcriptomics-study-using-visium/images/Bananas.jpg" width="400" alt="Bananas in the supermarket" />](https://en.wikipedia.org/wiki/File:Bananas.jpg)
 
 When we are growing up, we don’t know what is an orange or a banana. What makes them both fruits, and why they are different.
 
 If you look at them, touch them, smell them, you start to notice differences between them. In science, we end up trying to come up with systematic and specific ways of describing things that surround us in nature. In this case, two fruits. When you look at an orange and a banana and try to explain how they are different, you might end up slicing them.
 
-[<img src="images/orange_sliced.jpg" width="400" alt="Orange (sliced with a knife)" />](https://en.wikipedia.org/wiki/File:Oranges_-_whole-halved-segment.jpg)
+[<img src="https://lcolladotor.github.io/2024/05/23/humanpilot-first-spatially-resolved-transcriptomics-study-using-visium/images/orange_sliced.jpg" width="400" alt="Orange (sliced with a knife)" />](https://en.wikipedia.org/wiki/File:Oranges_-_whole-halved-segment.jpg)
 
-[<img src="images/Banana-slice-isolated-on-transparent-background-PNG.png" width="400" alt="Banana sliced" />](https://similarpng.com/banana-slice-isolated-on-transparent-background-png/)
+[<img src="https://lcolladotor.github.io/2024/05/23/humanpilot-first-spatially-resolved-transcriptomics-study-using-visium/images/Banana-slice-isolated-on-transparent-background-PNG.png" width="400" alt="Banana sliced" />](https://similarpng.com/banana-slice-isolated-on-transparent-background-png/)
 
 Once you slice them, you are actively zooming in and looking at finer differences. You might end up using a microscope to notice even smaller differences.
 
 ## Measuring gene activity
 
-[<img src="images/nat_methods_spatial.png" width="400" alt="Nature Methods 2020 cover" />](https://doi.org/10.1038/s41592-020-01042-x)
+[<img src="https://lcolladotor.github.io/2024/05/23/humanpilot-first-spatially-resolved-transcriptomics-study-using-visium/images/nat_methods_spatial.png" width="400" alt="Nature Methods 2020 cover" />](https://doi.org/10.1038/s41592-020-01042-x)
 
 Now imagine that you want to measure gene 🧬 activity levels. Some previous technologies could measure gene activity levels by taking a chunk of tissue to have enough material for the technology to work. In the 2010s the technology was developed to measure single cells or nuclei, but you lost the spatial context. Then in 2020 the ability to measure gene activity while retaining the spatial awareness was crowned the new method of the year. The specific term is *spatially-resolved transcriptomics*.
 
-[<img src="images/Color3DBarsByHeightExample_02.png" width="400" alt="3D barplots" />](https://www.mathworks.com/help/matlab/creating_plots/color-3-d-bars-by-height-1.html)
+[<img src="https://lcolladotor.github.io/2024/05/23/humanpilot-first-spatially-resolved-transcriptomics-study-using-visium/images/Color3DBarsByHeightExample_02.png" width="400" alt="3D barplots" />](https://www.mathworks.com/help/matlab/creating_plots/color-3-d-bars-by-height-1.html)
 
 *Visium* in particular works by having about 5,000 circles (called “spots”) arranged in a honeycomb pattern where we can measure gene activity levels. 10x Genomics has some videos explaining how to it works, but it basically comes down to having an X and Y map for which you can make multiple 3D barplots like this one. Say that this is the one for gene 1 where we have a flat map and the height of the bars is how much that gene 1 was active in each square.
 
@@ -62,19 +69,19 @@ With *Visium* we have 5,000 spots, or specific (*X*, *Y*) pairs and for each of 
 
 Just like we were talking about bananas and oranges being two types of fruits, well, the brain has different regions. Each of them carries out specific functions and can be quite different despite them all clearly remaining a part of the brain. Just like bananas and oranges look very different but still remain fruits.
 
-Now, scientists by training are skeptical. So with a new exciting but expensive technology, the first thing we wanted to do is to test it with a small study. That is, run a pilot study. We work studying gene activity levels from human brain samples, particularly postmortem human brain samples that were donated to our institution for research purposes. One particular region we are interested in is called the *DLPFC* and its important because differences between individuals that do not have schizophrenia (which we refer to as the neurotypical congrol group) and those that do schizophrenia have been linked to this brain region, among other reasons.
+Now, scientists by training are skeptical. So with a new exciting but expensive technology, the first thing we wanted to do is to test it with a small study. That is, run a pilot study. We work studying gene activity levels from human brain samples, particularly postmortem human brain samples that were donated to our institution for research purposes. One particular region we are interested in is called the *DLPFC* and its important because differences between individuals that do not have schizophrenia (which we refer to as the neurotypical control group) and those that do schizophrenia have been linked to this brain region, among other reasons.
 
-[![Banana varieties](images/Bananavarieties.jpg)](https://en.wikipedia.org/wiki/File:Bananavarieties.jpg)
+[![Banana varieties](https://lcolladotor.github.io/2024/05/23/humanpilot-first-spatially-resolved-transcriptomics-study-using-visium/images/Bananavarieties.jpg)](https://en.wikipedia.org/wiki/File:Bananavarieties.jpg)
 
 But before we can distinguish the two groups of donors at the molecular level, with the ultimate goal of helping those affected by disorders such as schizophrenia, we first needed to understand what is typically different neurotypical control (NTC) donors. Just like we can look at different healthy bananas and notice how they are different.
 
 And so we got started with our `HumanPilot` study. We generated data from 3 NTC donors as you need to look at more than one donor to have an idea of biological variability.
 
-[<img src="images/fig1ab.png" width="800" alt="Figure 1 A and B from the HumanPilot study" />](https://doi.org/10.1038/s41593-020-00787-0)
+[<img src="https://lcolladotor.github.io/2024/05/23/humanpilot-first-spatially-resolved-transcriptomics-study-using-visium/images/fig1ab.png" width="800" alt="Figure 1 A and B from the HumanPilot study" />](https://doi.org/10.1038/s41593-020-00787-0)
 
 But because *Visium* was a new technology then, we also generated spatially-adjacent replicates (two pairs per donor). These are technical replicates in the sense that we took contiguous slices of tissue. Think of it as two paired slices of bread 10 microns apart: we generated a pair early in the loaf and one more 300 microns apart in that same loaf. Yes, things do change even when you look at things 10 microns apart, but hopefully they don’t change too much then, but should once you look at them 300 microns apart. That’s what we wanted to see.
 
-[<img src="images/fig1def.png" width="800" alt="Figure 1 D, E, and F from the HumanPilot study" />](https://doi.org/10.1038/s41593-020-00787-0)
+[<img src="https://lcolladotor.github.io/2024/05/23/humanpilot-first-spatially-resolved-transcriptomics-study-using-visium/images/fig1def.png" width="800" alt="Figure 1 D, E, and F from the HumanPilot study" />](https://doi.org/10.1038/s41593-020-00787-0)
 
 The DLPFC has been quite well studied and it was well known that gene *SNAP25* is more active in neurons while *MOBP* is much less active in neurons. When we looked at the activity levels of these genes and could see basically how they complemented each other like a Yin and Yang symbol ☯, we were very excited.
 
@@ -105,7 +112,7 @@ That was awesome! Yes, white matter is very different from gray matter (as shown
 
 Is that it? Of course not. Other technologies and laborious experiments were needed to find some marker genes for the DLPFC layers. But now we could identify other ones. So that’s what we did. Not only did we find genes that can help us separate these layers from each other, but we then proceeded to verify a few of them using other experiments.
 
-[<img src="images/fig4.png" width="800" alt="Figure 4 from the HumanPilot study" />](https://doi.org/10.1038/s41593-020-00787-0)
+[<img src="https://lcolladotor.github.io/2024/05/23/humanpilot-first-spatially-resolved-transcriptomics-study-using-visium/images/fig4.png" width="800" alt="Figure 4 from the HumanPilot study" />](https://doi.org/10.1038/s41593-020-00787-0)
 
 The above figure showcases some of these new marker genes that have higher activity levels in the layer they mark. It doesn’t mean that they are not active elsewhere. Though if you are interested in finding on/off marker genes, we have computational methods for that too nowadays implemented in our [`DeconvoBuddies`](https://research.libd.org/DeconvoBuddies/) software.
 
@@ -140,7 +147,7 @@ We used a measure called adjusted rand index to do this, where higher values are
 - We made our data public as soon as we pre-printed our study in Feb 29, 2020.
   - That is, we didn’t wait for a full peer-review process (our paper was published in Feb 8th 2021, nearly a year later). Openly sharing data early can help accelerate science.
 - We made our data easy to access in a easy to use computational format.
-  – pecifically, `SingleCellExperiment` R/Bioconductor objects downloadable through [`spatialLIBD::fetch_data()`](https://research.libd.org/spatialLIBD/reference/fetch_data.html). Nowadays, we provide the data in the more specialized `SpatialExperiment` format.
+  - specifically, `SingleCellExperiment` R/Bioconductor objects downloadable through [`spatialLIBD::fetch_data()`](https://research.libd.org/spatialLIBD/reference/fetch_data.html). Nowadays, we provide the data in the more specialized `SpatialExperiment` format.
 - We showed how you can compare results from clustering methods to the manual annotation using the adjusted rand index metric.
 
 <script defer class="speakerdeck-embed" data-slide="28" data-id="dde92cd6dfc04f9589770e074915658f" data-ratio="1.3333333333333333" src="//speakerdeck.com/assets/embed.js"></script>
@@ -157,7 +164,7 @@ Naturally we heard questions about what could happen if we had a larger pilot st
 
 {{% tweet user="lahuuki" id="1793714294334648638" %}}
 
-Something I want to highlight is that my colleague Kristen R. Maynard and I were co-first authors of `HumanPilot`, and are now co-corresponding authors of `spatialDLPFC`. `HumanPilot` started in 2019 and was published in 2021, `spatialDLPFC` started in 2020 and was published in 2024. These projects have large cycles and it takes a whole village, or a federation of villages, to get them completed and published. So I want to shoutout all past colleagues. We couldn’t have gotten to where we are without their work! And thank you for everyone who has been interested in our work and has been using it to learn new things. We also learn through you. Thank you!!!
+Something I want to highlight is that my colleague Kristen R. Maynard and I were co-first authors of `HumanPilot`, and are now co-corresponding authors of `spatialDLPFC`. `HumanPilot` started in 2019 and was published in 2021, `spatialDLPFC` started in 2020 and was published in 2024. These projects have large cycles and it takes a whole village, or a federation of villages, to get them completed and published. So I want to shout out all past colleagues. We couldn’t have gotten to where we are without their work! And thank you for everyone who has been interested in our work and has been using it to learn new things. We also learn through you. Thank you!!!
 
 {{% tweet user="helucro" id="1597579271945715717" %}}
 
