@@ -88,7 +88,7 @@ Now imagine that you want to measure gene 🧬 activity levels. Some previous te
 
 [![3D barplots](https://lcolladotor.github.io/2024/05/23/humanpilot-first-spatially-resolved-transcriptomics-study-using-visium/images/Color3DBarsByHeightExample_02.png){width="400px"}](https://www.mathworks.com/help/matlab/creating_plots/color-3-d-bars-by-height-1.html)
 
-_Visium_ in particular works by having about 5,000 circles (called "spots") arranged in a honeycomb pattern where we can measure gene activity levels. 10x Genomics has some videos explaining how to it works, but it basically comes down to having an X and Y map for which you can make multiple 3D barplots like this one. Say that this is the one for gene 1 where we have a flat map and the height of the bars is how much that gene 1 was active in each square.
+_Visium_ in particular works by having about 5,000 circles (called "spots") arranged in a honeycomb pattern 🐝 where we can measure gene activity levels. 10x Genomics has some videos explaining how to it works, but it basically comes down to having an X and Y map for which you can make multiple 3D barplots like this one. Say that this is the one for gene 1 where we have a flat map and the height of the bars is how much that gene 1 was active in each square.
 
 With _Visium_ we have 5,000 spots, or specific (_X_, _Y_) pairs and for each of them we can have about 2,000 genes measured. So imagine having 2,000 of these 3D barplots. That's quite a bit of data and it's exciting to think what this technology can be used for.
 
@@ -120,7 +120,7 @@ We could also see more specific gene patterns, such as _PCP4_ which marks a spec
 
 ## Tons of manual work to reproduce what we knew!
 
-Now that trusted the technology, we could get to work. We started visualizing gene activity patterns for genes that other scientists had previously identified as marker genes for the DLPFC layers. Some have identified in other organisms such as mouse. Some, due to the nature of _Visium_, we can only measure 2,000 genes instead of 20,000-30,000 ones that you can detect with other non-spatially-aware technologies.
+Now that trusted the technology, we could get to work. We started visualizing gene activity patterns for genes that other scientists had previously identified as marker genes for the DLPFC layers. Some have identified in other organisms such as mouse 🐁. Some, due to the nature of _Visium_, we could not observe them. _Visium_ can only measure 2,000 genes instead of the 20,000-30,000 genes that you can detect with other non-spatially-aware technologies.
 
 `r blogdown::shortcode("tweet", user="PardoBree", id="1388253938391175173")`
 
@@ -128,7 +128,7 @@ Data visualization, particularly with any new technology, is always a challenge.
 
 <script defer class="speakerdeck-embed" data-slide="10" data-id="dde92cd6dfc04f9589770e074915658f" data-ratio="1.3333333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
-This was a terrific amount of work, and it is has a fundamental reason why our study has been so well cited so far. Before I get ahead of myself, now that we have labeled all these spots, we can collapse the data and perform several types of analyses. Of them is looking at the different layers and white matter (WM) from the 12 tissue slices using principal component analysis (PCA). For a lot more on the mathematical theory of PCA check [Wikipedia](https://en.wikipedia.org/wiki/Principal_component_analysis). What matters here is that PC1 explain the most differences, and we can see the WM points in black on the left side, clearly separated from the other points. Then PC2 is associated with L1 in pink at bottom of the Y-axis, to then L2 in blue, L3 in green, L4 in purple, L5 in yellow, and L6 in orange.
+This was a terrific amount of work, and it is has been a fundamental reason why our study has been so well cited so far. Before I get ahead of myself, now that we have labeled all these spots, we can collapse the data and perform several types of analyses. Of them is looking at the different layers and white matter (WM) from the 12 tissue slices using principal component analysis (PCA). For a lot more on the mathematical theory of PCA check [Wikipedia](https://en.wikipedia.org/wiki/Principal_component_analysis). What matters here is that PC1 explain the most differences, and we can see the WM points in black on the left side, clearly separated from the other points. Then PC2 is associated with L1 in pink at bottom of the Y-axis, to then L2 in blue, L3 in green, L4 in purple, L5 in yellow, and L6 in orange.
 
 That was awesome! Yes, white matter is very different from gray matter (as shown in PC1), but then also the gray matter layers are different from each other in a sequential way (as shown in PC2). All of this was known before our study, but it always feels great when you can use a different technology to reproduce previous findings.
 
@@ -144,17 +144,17 @@ The above figure showcases some of these new marker genes that have higher activ
 
 ## What about disorders? How does your `HumanPilot` study help us understand them?
 
-As you have followed the story so far, our data is from 3 neurotypical control donors. It's not like we can use their data to find what is different between them and individuals affected by other disorders. But what we can do is ask, is there a significant overlap between the DLPFC layer marker genes and genes that have been associated with specific disorders? 
+As you have followed the story so far, our data is from 3 neurotypical control donors. It's not like we can use their data (*n* = 3) to find what is overall different between neurotypical control donors and individuals affected by other brain disorders. But what we can do is ask, is there a significant overlap between the DLPFC layer marker genes and genes that have been associated with specific brain disorders? 
 
 <script defer class="speakerdeck-embed" data-slide="21" data-id="dde92cd6dfc04f9589770e074915658f" data-ratio="1.3333333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
-So we obtained several gene lists from previous studies with much larger sample sizes that compared NTC donors against those affected by certain disorders. Some of these studies are based on gene activity levels, some of them are based on DNA variants which they then link to genes by proximity. One set of studies we looked at were those investigating autism spectrum disorder (ASD). What was fascinating to us is that two studies (SFARI and ASC102) had similar enrichment between ASD-associated genes and L2 and L5 marker genes. But the ASC102 study can be broken apart into two sets, ASD53 and DDID49, and each is associated with just one layer (L5 and L2, respectively).
+So we obtained several gene lists from previous studies with much larger sample sizes that compared NTC donors against those affected by certain brain disorders. Some of these studies are based on gene activity levels, some of them are based on DNA variants which they then link to genes by proximity. One set of studies we looked at were those investigating autism spectrum disorder (ASD). What was fascinating to us is that two studies (SFARI and ASC102) had similar enrichment between ASD-associated genes and L2 and L5 marker genes. But the ASC102 study can be broken apart into two sets, ASD53 and DDID49, and each is associated with just one layer (L5 and L2, respectively).
 
 So spatially-resolved transcriptomics could be used to further locate to specific tissue architectural elements the genes that have been implicated in different diseases, disorders, or biologically-relevant groups. Even small pilot studies like ours have the potential of helping us understand how some of these genes are distinctly spatially active.
 
 ## Fueling the development of methods, and benefiting from it
 
-We knew that this wasn't going to be the end. Our `HumanPilot` was just the beginning and for our research groups, it effectively started a whole new wave of studies. We are now using _Visium_ and other technologies to dive into other brain regions which aren't necessarily as well studied as the DLPFC, or to look at differences between specific sets of groups of donors. Yet, this isn't our first time witnessing the emergence of a brand new technology. We are well aware that each new technology has its imperfections, biases, and sources of measurement noise. One particular challenge we wanted help with was the process of manually annotating thousands of spots.
+We knew that this wasn't going to be the end. Our `HumanPilot` was just the beginning and for our research groups, it effectively started a whole new wave of studies. We are now using _Visium_ and other technologies to dive into other brain regions which aren't necessarily as well studied as the DLPFC, or to look at differences between specific sets of groups of donors. Yet, this isn't our first time witnessing the emergence of a brand new technology. We are well aware that each new technology has its imperfections, biases, and sources of measurement noise. One particular challenge we wanted help with was the process of manually annotating thousands of *Visium* spots.
 
 <script defer class="speakerdeck-embed" data-slide="23" data-id="dde92cd6dfc04f9589770e074915658f" data-ratio="1.3333333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
