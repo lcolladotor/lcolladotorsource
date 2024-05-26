@@ -24,10 +24,9 @@ projects: ["spatial"]
 ---
 
 {{% callout note %}}
-¿Prefieres ver un video en vez de leer? Checa este video explicativo 🎥 (en inglés)
+¿Prefieres ver un video en vez de leer? Checa este video explicativo 🎥
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HGioWKuI3ek?si=X-tqtZtcPSV-3uMt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen data-external="1">
-</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h6UXCXi_2Vo?si=PRe77Ege7xJ-oNoL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen data-external="1"></iframe>
 
 {{% /callout %}}
 
