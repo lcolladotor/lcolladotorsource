@@ -17,9 +17,9 @@ content:
 
   # Contact details (edit or remove options as required)
   email: lcolladotor@gmail.com
-  phone: '+1-410-955-1000'
+  phone: '+1-301-450-2083'
   address:
-    street: '855 N. Wolfe, Oficina 385'
+    street: '855 N. Wolfe, Oficina 382'
     city: Baltimore
     region: MD
     postcode: '21205'
