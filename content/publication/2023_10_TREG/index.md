@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Data-driven Identification of Total RNA Expression Genes (TREGs) for Estimation
-  of RNA Abundance in Heterogeneous Cell Types
+title: Data-driven identification of total RNA expression genes for estimation of RNA abundance in heterogeneous cell types highlighted in brain tissue
 subtitle: ''
 summary: ''
 authors:
@@ -15,8 +14,8 @@ authors:
 - "Leonardo Collado-Torres &dagger;"
 tags: ["deconvolution", "TREG"]
 categories: []
-date: '2022-04-28'
-lastmod: 2022-05-01T14:40:02-04:00
+date: '2023-10-16'
+lastmod: ''
 featured: false
 draft: false
 
@@ -34,23 +33,12 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: ["deconvolution"]
-publishDate: '2022-04-28T00:00:00Z'
+publishDate: '2023-10-16T00:00:00Z'
 publication_types:
-- '3'
-abstract: Next-generation sequencing technologies have facilitated data-driven identification
-  of gene sets with different features including genes with stable expression, cell-type
-  specific expression, or spatially variable expression. Here, we aimed to define
-  and identify a new class of \"control\" genes called Total RNA Expression Genes
-  (TREGs), which correlate with total RNA abundance in heterogeneous cell types of
-  different sizes and transcriptional activity. We provide a data-driven method to
-  identify TREGs from single cell RNA-sequencing (RNA-seq) data, available as an R/Bioconductor
-  package at https://bioconductor.org/packages/TREG. We demonstrated the utility of
-  our method in the postmortem human brain using multiplex single molecule fluorescent
-  in situ hybridization (smFISH) and compared candidate TREGs against classic housekeeping
-  genes. We identified _AKT3_ as a top TREG across five brain regions, especially in
-  the dorsolateral prefrontal cortex.
-publication: ''
-doi: 10.1101/2022.04.28.489923
+- '2'
+abstract: "We define and identify a new class of control genes for next-generation sequencing called total RNA expression genes (TREGs), which correlate with total RNA abundance in cell types of different sizes and transcriptional activity. We provide a data-driven method to identify TREGs from single-cell RNA sequencing data, allowing the estimation of total amount of RNA when restricted to quantifying a limited number of genes. We demonstrate our method in postmortem human brain using multiplex single-molecule fluorescent in situ hybridization and compare candidate TREGs against classic housekeeping genes. We identify AKT3 as a top TREG across five brain regions."
+publication: '*Genome Biology*'
+doi: 10.1186/s13059-023-03066-w
 links:
 - name: Preprint
   url: https://www.biorxiv.org/content/10.1101/2022.04.28.489923v1

@@ -14,7 +14,7 @@ authors:
 - "Stephanie C. Hicks &dagger;"
 tags: ["spatial", "HumanPilot", "spatialDLPFC", "SamuiBrowser"]
 categories: []
-date: '2023-01-28'
+date: '2023-07-12'
 lastmod: ''
 featured: false
 draft: false
@@ -35,10 +35,10 @@ image:
 projects: ["spatial"]
 publishDate: ''
 publication_types:
-- '3'
+- '2'
 abstract: "High-resolution and multiplexed imaging techniques are giving us an increasingly detailed observation of a biological system. However, sharing, exploring, and customizing the visualization of large multidimensional images can be a challenge. Here, we introduce Samui, a performant and interactive image visualization tool that runs completely in the web browser. Samui is specifically designed for fast image visualization and annotation and enables users to browse through large images and their selected features within seconds of receiving a link. We demonstrate the broad utility of Samui with images generated with two platforms: Vizgen MERFISH and 10x Genomics Visium Spatial Gene Expression. Samui along with example datasets is available at https://samuibrowser.com."
-publication: '*bioRxiv*'
-doi: 10.1101/2023.01.28.525943
+publication: '*Biological Imaging*'
+doi: 10.1017/S2633903X2300017X
 links:
 - name: Preprint
   url: https://www.biorxiv.org/content/10.1101/2023.01.28.525943v1
