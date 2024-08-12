@@ -23,13 +23,16 @@ weight = 70
 
 1. Instructor del curso [Introducción a análisis de datos de RNA-seq con Bioconductor](https://lcolladotor.github.io/rnaseq_LCG-UNAM_2024/) para alumnos de la LCG-UNAM.
 1. Instructor invitado para un curso virtual organizado por [EMBL-EBI](https://docs.google.com/document/d/1kOVPFW1Dq2kmZigyXuHRdoziDuYZnT7NNUtcqLyo9w0/edit?usp=sharing).
+1. Instructor de una [porción](https://lcolladotor.github.io/cshl_rstats_genome_scale_2024/) del curso [Statistical Analysis of Genome Scale Data](https://meetings.cshl.edu/courses.aspx?course=C-DATA&year=24) llevado a cabo en Cold Spring Harbor Laboratory.
+1. Instructor de la clase [140.776 Computación Estadística](https://lcolladotor.github.io/jhustatcomputing2024/) en la Johns Hopkins Bloomberg Escuela de Salud Pública.
 
 ## 2023
 
 1. Instructor del curso [Introducción a análisis de datos de RNA-seq con Bioconductor](https://lcolladotor.github.io/rnaseq_LCG-UNAM_2023/) para alumnos de la LCG-UNAM.
 1. Instructor de una [porción](https://lcolladotor.github.io/cshl_rstats_genome_scale_2023/) del curso [Statistical Analysis of Genome Scale Data](https://meetings.cshl.edu/courses.aspx?course=C-DATA&year=23) llevado a cabo en Cold Spring Harbor Laboratory.
 1. Instructor de la clase [140.776 Computación Estadística](https://lcolladotor.github.io/jhustatcomputing2023/) en la Johns Hopkins Bloomberg Escuela de Salud Pública.
-1. Instructor invitado para este [curso organizado con fondos de PROINNOVA](https://speakerdeck.com/lcolladotor/proinnova2023).
+1. Instructor invitado para [CDSB 2023](https://comunidadbioinfo.github.io/cdsb2023/).
+1. Instructor invitado para este [curso organizado con fondos de PROINNOVA](https://speakerdeck.com/lcolladotor/proinnova2023) para el Centro Universitario Los Altos.
 
 ## 2022
 
