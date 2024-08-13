@@ -9,11 +9,11 @@ authors = ["lahuuki"]
 superuser = false
 
 # Role/position
-role = "Research Associate 2020-2022, Staff Scientist I, Ciencia de Datos desde 2022"
+role = "Research Associate 2020-2022, Staff Scientist I, Ciencia de Datos desde 2022, Estudiante de Doctorado desde 2024"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "LIBD", url = "" } ]
+organizations = [ { name = "LIBD", url = "" }, { name = "University of Cambridge", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""

@@ -68,7 +68,12 @@ user_groups = ["Admin", "Investigador Principal"]
 [[social]]
   icon = "youtube"
   icon_pack = "fab"
-  link = "https://www.youtube.com/@lcolladotor/playlists"
+  link = "https://www.youtube.com/@lcolladotor"
+  
+[[social]]
+  icon = "blueksy"
+  icon_pack = "fab"
+  link = "https://bsky.app/profile/lcolladotor.bsky.social"
 
 [[social]]
   icon = "google-scholar"

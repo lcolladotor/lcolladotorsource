@@ -9,7 +9,7 @@ authors = ["daianna21"]
 superuser = false
 
 # Role/position
-role = "LIBD Summer Intern 2022, Intern desde 2022"
+role = "LIBD Summer Intern 2022, Intern 2022-2024"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -30,7 +30,7 @@ interests = [
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Personal Remoto"]
+user_groups = ["Alumni"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
@@ -80,3 +80,5 @@ user_groups = ["Personal Remoto"]
 ![](http://ghchart.rshah.org/DA2536/daianna21.svg)
 
 {{< tweet user="daianna_glez" id="1621728401038999553" >}}
+
+{{< tweet user="daianna_glez" id="1810765027990983038" >}}

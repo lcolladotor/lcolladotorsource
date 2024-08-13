@@ -1,6 +1,6 @@
 +++
 # Display name
-title = "Ciencia de Datos I"
+title = "División de Neurociencia Traslacional, Ciencia de Datos I"
 
 # Username (this should match the folder name)
 authors = ["team"]
@@ -74,7 +74,7 @@ highlight_name = "true"
 
 <img src="/media/Leo_transparente.png" width="300px" align="right"/>
 
-En el Instituto Lieber para el Desarrollo Cerebral ([LIBD](https://www.libd.org/)), nuestro grupo trabaja para comprender las raíces y las firmas de las enfermedades (en particular, los trastornos psiquiátricos) al ampliar las dimensiones de la actividad genética. Logramos esto mediante el estudio de la expresión génica en todos los niveles de características de expresión (genes, exones, uniones exón-exón y regiones no anotadas) y mediante el uso de diferentes tecnologías de medición de la expresión génica (seq de ARN a granel, seq de ARN de células/núcleos individuales, y transcriptómica espacial) que proporcionan una mejor resolución biológica y localización de la expresión génica. Trabajamos en estrecha colaboración con colaboradores de LIBD, así como de la Universidad Johns Hopkins (JHU) y otras instituciones, lo que refleja el enfoque interdisciplinario y la diversidad de conocimientos necesarios para avanzar en nuestra comprensión de la biología de alto rendimiento.
+En el Instituto Lieber para el Desarrollo Cerebral ([LIBD](https://www.libd.org/)), como parte de la División de Neurociencia Traslacional, nuestro grupo trabaja para comprender las raíces y las firmas de las enfermedades (en particular, los trastornos psiquiátricos) al ampliar las dimensiones de la actividad genética. Logramos esto mediante el estudio de la expresión génica en todos los niveles de características de expresión (genes, exones, uniones exón-exón y regiones no anotadas) y mediante el uso de diferentes tecnologías de medición de la expresión génica (seq de ARN a granel, seq de ARN de células/núcleos individuales, y transcriptómica espacial) que proporcionan una mejor resolución biológica y localización de la expresión génica. Trabajamos en estrecha colaboración con colaboradores de LIBD, así como de la Universidad Johns Hopkins (JHU), la Universidad de Cambridge, y otras instituciones, lo que refleja el enfoque interdisciplinario y la diversidad de conocimientos necesarios para avanzar en nuestra comprensión de la biología de alto rendimiento.
 
 Con el fin de proporcionar un entorno de investigación estimulante y de apoyo en LIBD, nuestro grupo ofrece [sesiones de orientación sobre ciencia de datos](https://lcolladotor.github.io/bioc_team_ds/data-science-guidance-sessions.html) abiertas a cualquier miembro del personal de LIBD. miembro y organizamos el [LIBD rstats club](http://research.libd.org/rstatsclub/#.YEvDq2RKgdk), entre otras iniciativas. Nuestro [sitio web del libro de documentación](https://lcolladotor.github.io/bioc_team_ds) contiene más detalles sobre la incorporación al equipo, cómo solicitar ayuda, cursos internos, redacción de artículos científicos, autoría, archivos de configuración y mucho más.
 
