@@ -36,7 +36,7 @@ user_groups = ["Alumni"]
 [[education.courses]]
   course = "Bachelor in Genomic Sciences (LCG)"
   institution = "National Autonomous University of Mexico (UNAM)"
-  year = 2023
+  year = 2024
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons

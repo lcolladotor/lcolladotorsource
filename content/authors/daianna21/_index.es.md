@@ -36,7 +36,7 @@ user_groups = ["Alumni"]
 [[education.courses]]
   course = "Licenciatura en Ciencias Genómicas"
   institution = "Universidad Nacional Autónoma de México (UNAM)"
-  year = 2023
+  year = 2024
   
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
