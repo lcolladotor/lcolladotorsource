@@ -24,13 +24,13 @@ weight = 70
 1. Instructor of the [Introduction to RNA-seq data analysis with Bioconductor](https://lcolladotor.github.io/rnaseq_LCG-UNAM_2024/) course for LCG-UNAM students.
 1. Invited instructor for this [EMBL-EBI](https://docs.google.com/document/d/1kOVPFW1Dq2kmZigyXuHRdoziDuYZnT7NNUtcqLyo9w0/edit?usp=sharing) virtual course.
 1. Instructor for a [portion](https://lcolladotor.github.io/cshl_rstats_genome_scale_2024/) of the [Statistical Analysis of Genome Scale Data](https://meetings.cshl.edu/courses.aspx?course=C-DATA&year=24) course at Cold Spring Harbor Laboratory.
-1. Instructor for [140.776 Statistical Computing](https://lcolladotor.github.io/jhustatcomputing2024/) course at the Johns Hopkins Bloomberg School of Public Health.
+1. Instructor for [140.776 Statistical Computing](https://lcolladotor.github.io/jhustatcomputing/) course at the Johns Hopkins Bloomberg School of Public Health.
 
 ## 2023
 
 1. Instructor of the [Introduction to RNA-seq data analysis with Bioconductor](https://lcolladotor.github.io/rnaseq_LCG-UNAM_2023/) course for LCG-UNAM students.
 1. Instructor for a [portion](https://lcolladotor.github.io/cshl_rstats_genome_scale_2023/) of the [Statistical Analysis of Genome Scale Data](https://meetings.cshl.edu/courses.aspx?course=C-DATA&year=23) course at Cold Spring Harbor Laboratory.
-1. Instructor for [140.776 Statistical Computing](https://lcolladotor.github.io/jhustatcomputing2023/) course at the Johns Hopkins Bloomberg School of Public Health.
+1. Instructor for [140.776 Statistical Computing](https://lcolladotor.github.io/jhustatcomputing/) course at the Johns Hopkins Bloomberg School of Public Health.
 1. Invited instructor for [CDSB 2023](https://comunidadbioinfo.github.io/cdsb2023/).
 1. Invited instructor for this [PROINNOVA-funded course](https://speakerdeck.com/lcolladotor/proinnova2023) for Centro Universitario Los Altos.
 
