@@ -9,7 +9,7 @@ authors = ["manishabarse"]
 superuser = false
 
 # Role/position
-role = "Research Assistant, Data Science 2024-ongoing"
+role = "Research Assistant I, Data Science 2024-ongoing"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -25,7 +25,7 @@ email = "mbarse.libd@gmail.com"
 interests = [
   "bulk RNA-seq",
   "scRNA-seq",
-  "spatial transcriptomics"
+  "spatial transcriptomics",
   "building computational pipelines"
 ]
 
@@ -45,12 +45,12 @@ user_groups = ["LIBD Staff"]
   year = 2022
   
 [[education.courses]]
-  course = "MTech in VLSI Design"
+  course = "Master's in Technology in VLSI Design"
   institution = "ABV Indian Institute of Information Technology & Management"
   year = 2018
   
 [[education.courses]]
-  course = "BE in Electronics & Telecommunications"
+  course = "Bachelors of Engineering: Electronics & Telecommunications"
   institution = "Savitribai Phule Pune University"
   year = 2016
 
@@ -88,4 +88,4 @@ user_groups = ["LIBD Staff"]
 
 +++
 
-
+![](http://ghchart.rshah.org/DA2536/manishabarse.svg)
