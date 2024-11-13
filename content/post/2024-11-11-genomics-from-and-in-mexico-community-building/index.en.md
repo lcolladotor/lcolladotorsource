@@ -77,7 +77,7 @@ One personal reason why I had still being using X/Twitter was because I felt tha
 
 To try to implement my wishes, I created [a Bluesky starter pack](https://go.bsky.app/5bWBN5V). The name is limited to 50 characters, but well, I wanted to make it broad in a sense: anyone who has been trained in Mexico, works in Mexico (don't need to be a Mexican citizen), or has helped train Mexicans within the genomics scientific domain.
 
-<img src="images/Genomics_scientists_trained_working_in_Mexico_Share_Card.png" alt="QR code for the starter pack" width="300px"/>
+<a href="https://go.bsky.app/5bWBN5V"><img src="images/Genomics_scientists_trained_working_in_Mexico_Share_Card.png" alt="QR code for the starter pack" width="300px"/></a>
 
 This definition definitely includes LCG-UNAM and LCG-EJ-UNAM members, but also CDSB, [RMB](https://www.redmexicanadebioinformatica.org/), and [NNB-UNAM](https://www.nnb.unam.mx/) workshops alumni. Plus scientists working or involved with [CCG-UNAM](https://www.ccg.unam.mx/en/), [IBt-UNAM](https://www.ibt.unam.mx/), [LIIGH-UNAM](https://bsky.app/profile/liigh-unam.bsky.social), among other institutions. Yes, UNAM is highly prevalent right now for many reasons, but one of them being that I was trained at LCG-UNAM and thus know more about that network right now.
 

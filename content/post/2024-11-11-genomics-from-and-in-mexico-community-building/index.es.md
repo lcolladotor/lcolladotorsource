@@ -78,7 +78,7 @@ Una razón personal por la que todavía estaba usando X/Twitter era porque sent�
 
 Para tratar de implementar mis deseos, creé [un paquete de inicio de Bluesky](https://go.bsky.app/5bWBN5V). El nombre está limitado a 50 caracteres, pero bueno, quería hacerlo amplio en un sentido: cualquier persona que haya sido entrenada en México, trabaje en México (no necesita ser ciudadanx mexicanx) o haya ayudado a entrenar a mexicanxs dentro del dominio científico de la genómica.
 
-<img src="images/Genomics_scientists_trained_working_in_Mexico_Share_Card.png" alt="QR code for the starter pack" width="300px"/>
+<a href="https://go.bsky.app/5bWBN5V"><img src="images/Genomics_scientists_trained_working_in_Mexico_Share_Card.png" alt="QR code for the starter pack" width="300px"/></a>
 
 Esta definición definitivamente incluye a miembrxs de LCG-UNAM y LCG-EJ-UNAM, pero también a lxs egresadxs de los talleres de la CDSB, [RMB](https://www.redmexicanadebioinformatica.org/), y [NNB-UNAM](https://www.nnb.unam.mx/). Además de científicxs que trabajan o están involucradxs con [CCG-UNAM](https://www.ccg.unam.mx/), [IBt-UNAM](https://www.ibt.unam.mx/), [LIIGH-UNAM](https://bsky.app/profile/liigh-unam.bsky.social), entre otras instituciones. Sí, la UNAM es muy prevalente en este momento por muchas razones, pero una de ellas es que fui entrenado en LCG-UNAM y por lo tanto sé más sobre esa red en este momento.
 
