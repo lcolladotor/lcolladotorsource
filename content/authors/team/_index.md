@@ -91,4 +91,6 @@ If you are interested in joining the **R/Bioconductor-powered Team Data Science*
 
 If we don't have any open positions, please reach out to Leonardo with your CV, GitHub/GitLab/etc profile with open-source software, and a short description of why you are interested in our team.
 
-<a class="twitter-timeline" data-height="1000" href="https://twitter.com/LIBDrstats?ref_src=twsrc%5Etfw">Tweets by LIBDrstats</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+<bsky-embed username="libdrstats.bsky.social" mode="" limit="2">
+</bsky-embed>

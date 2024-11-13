@@ -88,3 +88,7 @@ user_groups = ["LIBD Staff"]
 +++
 
 ![](http://ghchart.rshah.org/DA2536/cyntsc.svg)
+
+<script src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+<bsky-embed username="cynthiasc.bsky.social" mode="" limit="2">
+</bsky-embed>

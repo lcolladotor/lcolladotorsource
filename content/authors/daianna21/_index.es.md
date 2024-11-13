@@ -79,6 +79,10 @@ user_groups = ["Alumni"]
 
 ![](http://ghchart.rshah.org/DA2536/daianna21.svg)
 
+<script src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+<bsky-embed username="daiannaglez.bsky.social" mode="" limit="2">
+</bsky-embed>
+
 {{< tweet user="daianna_glez" id="1621728401038999553" >}}
 
 {{< tweet user="daianna_glez" id="1810765027990983038" >}}

@@ -78,3 +78,7 @@ user_groups = ["Personal Remoto"]
 De Melissa:
 
 > Soy estudiante de la Licenciatura en Ciencias Genómicas impartida por la UNAM. Mis intereses se inclinan mayormente hacia la biología del desarrollo, la transcriptómica, la epigenética y el aprendizaje automático. Actualmente, soy aprendiz y un nuevo miembro del laboratorio de Leonardo Collado en el Instituto Lieber para el Desarrollo del Cerebro.
+
+<script src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+<bsky-embed username="meli-mq99.bsky.social" mode="" limit="2">
+</bsky-embed>

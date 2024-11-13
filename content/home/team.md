@@ -49,3 +49,7 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+
+<center>
+<a href="https://go.bsky.app/53gy4UP"><img src="/media/LIBD_Data_Science_Team_1__members_and_alumni_Share_Card.png" alt = "LIBD Data Science Team 1 Bluesky starter pack" width = "300"></a>
+</center>

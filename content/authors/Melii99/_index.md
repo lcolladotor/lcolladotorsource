@@ -77,3 +77,8 @@ user_groups = ["Remote Members"]
 From Melissa:
 
 > I am an undergraduate student in Genomic Sciences program at LCG-UNAM. My research interests lean towards in developmental biology, transcriptomics, epigenetics and ML. Currently I´m an apprentice and a new member of Leonardo Collado's laboratory at the Lieber Institute for Brain Development.
+
+<script src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+<bsky-embed username="meli-mq99.bsky.social" mode="" limit="2">
+</bsky-embed>
+

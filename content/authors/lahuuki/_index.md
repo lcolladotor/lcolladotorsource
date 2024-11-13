@@ -86,6 +86,11 @@ user_groups = ["LIBD Staff"]
 
 ![](http://ghchart.rshah.org/DA2536/lahuuki.svg)
 
-{{< tweet user="lahuuki" id="1521581339903873024" >}}
+<script src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+<bsky-embed username="lahuuki.bsky.social" mode="" limit="2">
+</bsky-embed>
+
+
+{{< tweet user="lahuuki" id="1521581339903873024" >}} 
 
 {{< tweet user="lahuuki" id="1626686409313763328" >}}

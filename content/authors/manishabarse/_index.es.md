@@ -88,3 +88,7 @@ user_groups = ["Personal de LIBD"]
 +++
 
 ![](http://ghchart.rshah.org/DA2536/manishabarse.svg)
+
+<script src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+<bsky-embed username="mbarse.bsky.social" mode="" limit="2">
+</bsky-embed>
