@@ -61,8 +61,8 @@ user_groups = ["Admin", "Investigador Principal"]
   link = "http://lcolladotor.github.io"
   
 [[social]]
-  icon = "bluesky"
-  icon_pack = "fab"
+  icon = ":butterfly:"
+  icon_pack = "emoji"
   link = "https://bsky.app/profile/lcolladotor.bsky.social"
 
 [[social]]
