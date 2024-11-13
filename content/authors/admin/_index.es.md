@@ -16,7 +16,7 @@ role = "Investigador @ LIBD, Profesor Asistente, Departamento de Bioestadística
 organizations = [ { name = "Instituto Lieber para el Desarrollo Cerebral (LIBD)", url = "https://www.libd.org/" }, { name = "Johns Hopkins Blomberg Escuela de Salud Pública", url = "https://publichealth.jhu.edu/departments/biostatistics" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "[#rstats](https://twitter.com/search?q=%23rstats&src=hashtag_click) [@Bioconductor](https://twitter.com/Bioconductor)/genómica del 🧠  [@LieberInstitute](https://twitter.com/LieberInstitute)/[@lcgunam](https://twitter.com/lcgunam) [@jhubiostat](https://twitter.com/jhubiostat) [@jtleek](https://twitter.com/jtleek) [@andrewejaffe](https://twitter.com/andrewejaffe) alumni/[@LIBDrstats](https://twitter.com/LIBDrstats) [@CDSBMexico](https://twitter.com/CDSBMexico) co-fundador"
+bio = "[#rstats](https://bsky.app/search?q=%23RStats) [@Bioconductor](https://bsky.app/profile/bioconductor.bsky.social)/genómica del 🧠 [@LieberInstitute](https://bsky.app/profile/lieberinstitute.bsky.social)/[@lcgunam](https://twitter.com/lcgunam) [@jhubiostat](https://bsky.app/profile/jhubiostat.bsky.social) [@jtleek](https://bsky.app/profile/jtleek.bsky.social) [@andrewejaffe](https://bsky.app/profile/aejaffe.bsky.social) alumni/[@LIBDrstats](https://bsky.app/profile/libdrstats.bsky.social) [@CDSBMexico](https://bsky.app/profile/cdsbmexico.bsky.social) cofundador"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "lcolladotor@gmail.com"
