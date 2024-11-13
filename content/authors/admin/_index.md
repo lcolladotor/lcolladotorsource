@@ -59,7 +59,12 @@ user_groups = ["Admin", "Principal Investigator"]
   icon = "home"
   icon_pack = "fas"
   link = "http://lcolladotor.github.io"
-  
+
+[[social]]
+  icon = "bluesky"
+  icon_pack = "brands"
+  link = "https://bsky.app/profile/lcolladotor.bsky.social"
+
 [[social]]
   icon = "twitter"
   icon_pack = "fab"
@@ -69,11 +74,6 @@ user_groups = ["Admin", "Principal Investigator"]
   icon = "youtube"
   icon_pack = "fab"
   link = "https://www.youtube.com/@lcolladotor"
-
-[[social]]
-  icon = "bluesky"
-  icon_pack = "brands"
-  link = "https://bsky.app/profile/lcolladotor.bsky.social"
 
 [[social]]
   icon = "google-scholar"
