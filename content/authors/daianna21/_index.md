@@ -54,6 +54,11 @@ user_groups = ["Alumni"]
   link = "https://daianna21.github.io/"
 
 [[social]]
+  icon = "bluesky"
+  icon_pack = "fab"
+  link = "https://bsky.app/profile/daiannaglez.bsky.social"
+  
+[[social]]
   icon = "twitter"
   icon_pack = "fab"
   link = "https://twitter.com/daianna_glez"

@@ -64,6 +64,11 @@ user_groups = ["Personal de LIBD"]
   link = "https://cyntsc.github.io/"
 
 [[social]]
+  icon = "bluesky"
+  icon_pack = "fab"
+  link = "https://bsky.app/profile/cynthiasc.bsky.social"
+
+[[social]]
   icon = "twitter"
   icon_pack = "fab"
   link = "https://twitter.com/cynthiasotocar"

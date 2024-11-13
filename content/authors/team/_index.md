@@ -53,7 +53,12 @@ user_groups = ["Team"]
   icon = "home"
   icon_pack = "fas"
   link = "https://lcolladotor.github.io/bioc_team_ds/"
-  
+
+[[social]]
+  icon = "bluesky"
+  icon_pack = "fab"
+  link = "https://bsky.app/profile/libdrstats.bsky.social"
+
 [[social]]
   icon = "twitter"
   icon_pack = "fab"

@@ -54,6 +54,11 @@ user_groups = ["Personal Remoto"]
   link = "https://melii99.github.io/"
 
 [[social]]
+  icon = "bluesky"
+  icon_pack = "fab"
+  link = "https://bsky.app/profile/meli-mq99.bsky.social"
+
+[[social]]
   icon = "twitter"
   icon_pack = "fab"
   link = "https://twitter.com/meli_mq99"

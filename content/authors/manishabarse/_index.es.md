@@ -69,6 +69,11 @@ user_groups = ["Personal de LIBD"]
   link = "https://manishabarse.github.io/"
 
 [[social]]
+  icon = "bluesky"
+  icon_pack = "fab"
+  link = "https://bsky.app/profile/mbarse.bsky.social"
+
+[[social]]
   icon = "github"
   icon_pack = "fab"
   link = "https://github.com/manishabarse"

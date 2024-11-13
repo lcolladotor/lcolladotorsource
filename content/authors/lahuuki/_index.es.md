@@ -61,6 +61,11 @@ user_groups = ["Personal de LIBD"]
   link = "https://lahuuki.github.io/"
 
 [[social]]
+  icon = "bluesky"
+  icon_pack = "fab"
+  link = "https://bsky.app/profile/lahuuki.bsky.social"
+  
+[[social]]
   icon = "twitter"
   icon_pack = "fab"
   link = "https://twitter.com/lahuuki"
