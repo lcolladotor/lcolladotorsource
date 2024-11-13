@@ -62,7 +62,7 @@ user_groups = ["Admin", "Principal Investigator"]
 
 [[social]]
   icon = "bluesky"
-  icon_pack = "brands"
+  icon_pack = "fab"
   link = "https://bsky.app/profile/lcolladotor.bsky.social"
 
 [[social]]
