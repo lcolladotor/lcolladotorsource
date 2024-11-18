@@ -54,6 +54,11 @@ user_groups = ["Personal de LIBD"]
   link = "https://nick-eagles.github.io/"
 
 [[social]]
+  icon = "bluesky"
+  icon_pack = "fab"
+  link = "https://bsky.app/profile/nick-eagles.bsky.social"
+
+[[social]]
   icon = "github"
   icon_pack = "fab"
   link = "https://github.com/Nick-Eagles"
@@ -74,6 +79,19 @@ user_groups = ["Personal de LIBD"]
 
 ![](http://ghchart.rshah.org/DA2536/nick-eagles.svg)
 
+<script src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+<bsky-embed username="nick-eagles.bsky.social" mode="" limit="2">
+</bsky-embed>
+
 {{< tweet user="lcolladotor" id="1337637531945496577" >}}
 
 {{< tweet user="lcolladotor" id="1517331826666319873" >}}
+
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:h7p2smbyfobkpcs7dbgvhmeh/app.bsky.feed.post/3lbadv6gmlk2j" data-bluesky-cid="bafyreibrbrkqckypgqiitckld7i6lcqfkek4wzwqoyvovmrvns3nzhldxa"><p lang="en">I&#x27;m thrilled to share with you that #visiumStitched led by @nick-eagles.bsky.social has now been published
+
+Our #RStats / @bioconductor.bsky.social 📦 provides a framework for stitching together multiple #Visium @10xgenomics.bsky.social capture areas together
+
+#AcademicSky
+
+doi.org/10.1186/s128...<br><br><a href="https://bsky.app/profile/did:plc:h7p2smbyfobkpcs7dbgvhmeh/post/3lbadv6gmlk2j?ref_src=embed">[image or embed]</a></p>&mdash; 🇲🇽 Leonardo Collado-Torres (<a href="https://bsky.app/profile/did:plc:h7p2smbyfobkpcs7dbgvhmeh?ref_src=embed">@lcolladotor.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:h7p2smbyfobkpcs7dbgvhmeh/post/3lbadv6gmlk2j?ref_src=embed">November 18, 2024 at 11:32 AM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+
