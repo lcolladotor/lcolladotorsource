@@ -6,7 +6,7 @@ tags:
 - work-life
 title: What are reasonable work hours and salary expectations for biostats/genomics
   careers?
-url: /2015/02/12/salary-work-hours-expectations
+
 ---
 
 

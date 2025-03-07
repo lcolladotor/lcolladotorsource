@@ -5,7 +5,7 @@ date: 2014-11-21T00:00:00Z
 tags:
 - Graphics
 title: An xpd-tion into R plot margins
-url: /2014/11/21/add-logo-in-R
+
 ---
 
 _This is a guest post by [Prasad Patil](http://www.biostat.jhsph.edu/~prpatil/) that answers the question: how to put a shape in the margin of an R plot?_

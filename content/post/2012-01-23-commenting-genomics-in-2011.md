@@ -6,7 +6,7 @@ tags:
 - Genomics
 - Paper comments
 title: 'Commenting: Genomics in 2011'
-url: /2012/01/23/Commenting-Genomics-in-2011
+
 ---
 
 <p>Today is my first day of classes and <a href="http://scholar.google.com/citations?hl=en&amp;user=8XOPyM4AAAAJ&amp;oi=sra">Kasper</a> couldn&#8217;t have had a better timing to share the link to <a href="http://genomebiology.com/2011/12/12/137">Genomics in 2011: challenges and opportunities</a>. There, the Editorial Board members of Genome Biology gave their opinion on: important 2011 papers, influential people for their careers, advice to young scientists, top challenges in their field, and unlimited money projects. I felt identified several times and as:</p>

@@ -5,7 +5,6 @@ date: 2011-11-30T00:00:00Z
 tags:
 - Blog
 title: Make it easy for your visitors to suscribe with a burnt RSS feed
-url: /2011/11/30/make-it-easy-for-your-visitors-to-suscribe-with-a-burnt
 ---
 
 <p>Recently I talked about <a href="http://fellgernon.tumblr.com/post/13070638939/setting-up-your-blog">how to set up your own blog</a> and now I&#8217;m going to continue by emphasizing the importance of an <a href="http://en.wikipedia.org/wiki/RSS">RSS feed</a>. What is it? Basically it is a unique format in which content from frequently updated sites (like a blog) is <a href="http://en.wikipedia.org/wiki/Web_syndication">syndicated</a>. Web syndication allows you to share the content of your site (blog) to many different sites automatically. This is specially useful for people who are interested in following your blog. Sure, you can let them type your blog&#8217;s site each time or simply allow them to receive updates on their email, feed reader (I recommend <a href="http://www.google.com/reader">Google Reader</a>), etc. After all, you don&#8217;t want your followers to have to remember to visit your site every time if there is an easier option out there. Sure, you already made your blog social but that was meant to facilitate comments and sharing of your blog&#8217;s content by it&#8217;s visitors. While publishing your blog to Twitter will get initial visitors into the blog, an RSS feed will complete the job when they suscribe to it.</p>

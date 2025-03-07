@@ -9,7 +9,7 @@ tags:
 - LaTeX
 title: Setting up your computer for bioinformatics/biostatistics and a compedium of
   resources
-url: /2012/08/23/setting-up-your-computer-for
+
 ---
 
 <p>Jumping on the train set by <a href="http://www.biostat.jhsph.edu/~hiparker/">Hilary Parker</a> &#8220;<a href="http://hilaryparker.com/2012/08/16/the-setup-part-1/">The Setup (Part 1)</a>" and <a href="http://biostat.jhsph.edu/~afrazee/">Alyssa Frazee</a> &#8220;<a href="http://alyssafrazee.wordpress.com/">my software/hardware setup</a>&#8221;, I&#8217;m going to share my setup and hopefully add something new. They both did a great job already, so make sure you read their posts!</p>

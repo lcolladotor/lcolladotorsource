@@ -6,7 +6,7 @@ tags:
 - Google
 - Dropbox
 title: How to upload files to Dropbox and Google Docs from R
-url: /2014/02/05/DropboxAndGoogleDocsFromR
+
 ---
 
 

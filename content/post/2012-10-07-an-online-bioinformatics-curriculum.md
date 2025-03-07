@@ -7,7 +7,7 @@ tags:
 - Coursera
 - Computing
 title: An Online Bioinformatics Curriculum
-url: /2012/10/07/an-online-bioinformatics-curriculum
+
 ---
 
 <p>Last week I talked about online courses in my <a href="http://fellgernon.tumblr.com/post/32688589475/jhsph-biostat-through-coursera#.UHH1Q_l26lo">JHSPH-Biostat through Coursera</a> post. Now I&#8217;m back to comment on <strong><a href="http://www.ploscompbiol.org/article/info:doi/10.1371/journal.pcbi.1002632">An Online Bioinformatics Curriculum</a></strong> by David B. Searls. <a href="http://labs.bio.unc.edu/Dangl/people/individuals/Sur.html">Sur Herrera</a> pointed out this paper to me, and I have to say that if you are considering learning bioinformatics online it will be very useful to you. David Searls first goes through a history recap of online (free) courses. Notably, in the last year Coursera and other startups offered their first courses. MIT has also evolved and now offers <a href="http://mitx.mit.edu/">MITx</a> courses, where MIT does give certificates. For example, I&#8217;m a bit interested in the <a href="https://www.edx.org/courses/MITx/6.00x/2012_Fall/about">Introduction to Computer Science and Programming 6.00x</a> course. It aims to cover a wide variety of topics which can be nice for a review/learning and is Python-based. </p>

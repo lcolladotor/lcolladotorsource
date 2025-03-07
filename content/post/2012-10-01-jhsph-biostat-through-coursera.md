@@ -8,7 +8,7 @@ tags:
 - rstats
 - Biostatistics
 title: JHSPH-Biostat through Coursera
-url: /2012/10/01/JHSPH-Biostat-through-Coursera
+
 ---
 
 <p>Have you heard of online education? If you are in the US or Mexico I&#8217;m sure that you have seen some ads about online universities. Well, that&#8217;s not the type of education I&#8217;m talking about. I&#8217;m talking about free high-quality education. </p>

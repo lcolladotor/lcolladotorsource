@@ -6,7 +6,7 @@ tags:
 - Mercurial
 - Git
 title: 'Version control: need to learn Git'
-url: /2012/09/05/i-consider-myself-a-fan-of-using-version-control
+
 ---
 
 <iframe width="400" height="225" src="http://www.youtube.com/embed/4fsSyLkBdB4?rel0" frameborder="0" ></iframe><br/><p>I consider myself a fan of using version control for bioinformatics/biostatistics (or any text based, like code) project. Yet my knowledge of version control systems is quite limited. I&#8217;ve used Mercurial for some time, but I haven&#8217;t ventured much beyond the basic commands and some GUIs for merging.</p>

@@ -5,7 +5,7 @@ date: 2013-10-29T00:00:00Z
 tags:
 - PosterGenius
 title: Quickly making posters with PosterGenius
-url: /2013/10/29/Quickly-making-posters-with-PosterGenius
+
 ---
 
 <p>It is time to revive <a href="http://bit.ly/FellgernonBit">Fellgernon Bit</a> from it&#8217;s deep hibernation period. A couple of very motivated Ph.D. students from my department (John, Alyssa, Amanda, Jean-Philippe, Elizabeth, etc) are organizing a blogging group. The idea is to review ideas, give suggestions, learn blogging technicalities, write blog posts, review them, and post them. It&#8217;s a great idea! Plus it should us keep our blogs active.</p>

@@ -9,7 +9,7 @@ tags:
 - LCG
 title: Keeping in touch (ENAR2014?) and philosophical questions regarding México's
   future in genomics
-url: /2013/06/12/keeping-in-touch-enar2014-and-philosophical
+
 ---
 
 <p>The following text is an email I sent to several of my friends from the <a href="http://www.lcg.unam.mx/about">LCG undergraduate program </a>I studied. There I talk about keeping in touch, I invite them to <a href="http://www.enar.org/meetings.cfm">ENAR 2014</a>, and also talk about some philosophical questions regarding our future. </p>

@@ -6,7 +6,7 @@ tags:
 - Help
 - parallel
 title: Trying to reduce the memory overhead when using mclapply
-url: /2013/11/14/Reducing-memory-overhead-when-using-mclapply
+
 ---
 
 

@@ -5,7 +5,7 @@ date: 2012-10-24T00:00:00Z
 tags:
 - Illustrator
 title: 'Super basic Illustrator: event invitation'
-url: /2012/10/24/Super-basic-Illustrator-event-invitation
+
 ---
 
 <p><a href="http://www.biostat.jhsph.edu/people/student/mejia.shtml">Amanda</a> and I are organizing a cultural student mixer for students in our department. One of the things we needed to do was invite everyone to attend. I like using computers, but graphic design is not something that I&#8217;m too excited about, but I still wanted to try something out.</p>

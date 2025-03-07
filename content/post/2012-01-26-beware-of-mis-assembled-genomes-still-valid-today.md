@@ -7,7 +7,7 @@ tags:
 - Genomics
 - Paper comments
 title: 'Beware of mis-assembled genomes: still valid today!'
-url: /2012/01/26/Beware-of-mis-assembled-genomes-still-valid-today
+
 ---
 
 <p>I&#8217;ve been recently impressed by Steven Salzberg talk as <a href="http://fellgernon.tumblr.com/post/16468048496/extensive-comments-and-review-about-the-recent-bake-off#.TyAz0OPOzIw">you might have noticed</a>, and browing <a href="http://bioinformatics.igm.jhmi.edu/salzberg/">his home page</a> I stumbled upon his opinion piece (also by James Yorke): <a href="http://cbcb.umd.edu/papers/Mis-assembledGenomesReprint.pdf">Beware of mis-assembled genomes</a>.</p>

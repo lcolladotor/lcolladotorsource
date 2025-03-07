@@ -5,7 +5,7 @@ date: 2013-06-12T00:00:00Z
 tags:
 - Leader
 title: What does it take to be a good leader?
-url: /2013/06/12/What-does-it-take-to-be-a-good-leader
+
 ---
 
 <h2>Leader: scientific or project</h2>

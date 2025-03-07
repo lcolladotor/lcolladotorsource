@@ -8,7 +8,7 @@ tags:
 - Paper comments
 title: Extensive comments and review about the recent bake-off of de novo genome assemblers
   "GAGE"
-url: /2012/01/25/extensive-comments-and-review-about-the-recent-bake-off
+
 ---
 
 <p>During this week&#8217;s Genomics seminar at the Genome Cafe in the Biostats department, <a href="http://scholar.google.com/citations?user=sUVeH-4AAAAJ&amp;hl=en">Steven Salzberg</a> gave a talk on his team new published paper: <a href="http://www.ncbi.nlm.nih.gov/pubmed/22147368">GAGE: A critical evaluation of genome assemblies and assembly algorithms.</a> I worked on a few assembly projects during my time at <a href="http://www.wintergenomics.com/">Winter Genomics</a>, but that was not the main reason why I was immediately submerged into his talk. I think that it was due to his bold comments since comparing genome assemblers is a, hmm&#8230;, delicate issue. I really like the confidence he has on his work and the way he projects it when he talks. It might be too preachy for some, but I like it. Plus it helps that I completely agreed on two key points that differentiate GAGE from it&#8217;s competitors: <a href="http://cnag.bsc.es/">dnGASP</a> and <a href="http://assemblathon.org/">Assemblathon</a>.</p>

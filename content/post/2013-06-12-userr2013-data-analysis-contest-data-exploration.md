@@ -5,7 +5,7 @@ date: 2013-06-12T00:00:00Z
 tags:
 - Graphics
 title: 'userR2013 data analysis contest: data exploration'
-url: /2013/06/12/userR2013-data-analysis-contest-data-exploration
+
 ---
 
 <h1>Description</h1>

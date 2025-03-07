@@ -5,7 +5,7 @@ date: 2012-10-31T00:00:00Z
 tags:
 - Research
 title: Got acknowledged in a paper ^^
-url: /2012/10/31/got-acknowledged-in-a-paper-s4
+
 ---
 
 <p>During the weekend while I was talking with a friend and former colleague, I realized that my name was mentioned in the acknowledgments section of a paper :) I haven&#8217;t been much in touch with what&#8217;s been happening back home, so this was a nice surprise.</p>
