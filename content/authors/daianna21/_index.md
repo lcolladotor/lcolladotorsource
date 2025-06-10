@@ -9,7 +9,7 @@ authors = ["daianna21"]
 superuser = false
 
 # Role/position
-role = "LIBD Summer Intern 2022, Intern 2022-2024"
+role = "LIBD Summer Intern 2022, Intern 2022-ongoing"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -30,7 +30,7 @@ interests = [
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Alumni"]
+user_groups = ["Remote Members"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
