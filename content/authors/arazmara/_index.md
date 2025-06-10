@@ -75,7 +75,7 @@ link = "https://ashkaunrazmara.com/"
 [[social]]
   icon = "linkedin"
   icon_pack = "fab"
-  link = "https://www.linkedin.com/in/ashkaun-razmara-bba6768a/"
+  link = "https://www.linkedin.com/in/ashkaun-razmara-md-mph-bba6768a/"
   
 [[social]]
   icon = "google-scholar"
