@@ -84,7 +84,7 @@ user_groups = ["Personal Remoto"]
 
 ### Acerca de Gabriel  
 
-> I am an undergraduate student in Genomic Sciences at the National Autonomous University of Mexico (UNAM). My main interests include neuroimmunology, transcriptomics, and bioinformatics. I aim to integrate experimental biology with computational approaches to better understand how cellular processes are affected during neurodegeneration.  
+> Soy estudiante de la Licenciatura en Ciencias Genómicas en la Universidad Nacional Autónoma de México (UNAM). Mis intereses principales incluyen la neuroinmunología, la transcriptómica y la bioinformática. Busco integrar la biología experimental con aproximaciones computacionales para entender mejor los procesos celulares que se ven afectados durante la neurodegeneración.
 
 
 ### Actividad en GitHub  
