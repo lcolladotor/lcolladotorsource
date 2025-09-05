@@ -28,7 +28,7 @@ content:
   coordinates:
     latitude: '39.300068'
     longitude: '-76.590742'
-  directions: 'Entra al edificio Rangos, regístrate, sube el elevador al tercer piso, y vuele a registrarte en LIBD.'
+  directions: 'Entra al edificio Rangos, regístrate, contacta a [Mattie Cox](mailto:Mattie.Cox@libd.org) vía email o vía el número de teléfono en la [página web de LIBD](https://www.libd.org/contact-us/), sube el elevador al tercer piso, y vuele a registrarte en LIBD con Mattie.'
   appointment_url: 'https://calendly.com/lcolladotor'
   contact_links:
     - icon: twitter

@@ -28,7 +28,7 @@ content:
   coordinates:
     latitude: '39.300068'
     longitude: '-76.590742'
-  directions: 'Enter the Rangos building, register at the Security fron desk, take the elevator to the third floor, and register at the LIBD front desk.'
+  directions: 'Enter the Rangos building, register at the Security fron desk, contact [Mattie Cox](mailto:Mattie.Cox@libd.org) by email or via the phone listed on the [LIBD website](https://www.libd.org/contact-us/), take the elevator to the third floor, and register at the LIBD front desk with Mattie.'
   appointment_url: 'https://calendly.com/lcolladotor'
   contact_links:
     - icon: twitter
