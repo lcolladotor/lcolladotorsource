@@ -60,9 +60,9 @@ user_groups = ["Equipo"]
   link = "https://bsky.app/profile/libdrstats.bsky.social"
   
 [[social]]
-  icon = "twitter"
+  icon = "instagram"
   icon_pack = "fab"
-  link = "https://twitter.com/LIBDrstats"
+  link = "https://www.instagram.com/lcolladotor/"
   
 [[social]]
   icon = "youtube"
@@ -73,6 +73,11 @@ user_groups = ["Equipo"]
   icon = "github"
   icon_pack = "fab"
   link = "https://github.com/LieberInstitute"
+  
+[[social]]
+  icon = "twitter"
+  icon_pack = "fab"
+  link = "https://twitter.com/LIBDrstats"
 
 highlight_name = "true"
 +++

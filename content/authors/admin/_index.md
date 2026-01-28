@@ -64,12 +64,12 @@ user_groups = ["Admin", "Principal Investigator"]
   icon = "bluesky"
   icon_pack = "fab"
   link = "https://bsky.app/profile/lcolladotor.bsky.social"
-
-[[social]]
-  icon = "twitter"
-  icon_pack = "fab"
-  link = "https://twitter.com/lcolladotor"
   
+[[social]]
+  icon = "instagram"
+  icon_pack = "fab"
+  link = "https://www.instagram.com/lcolladotor/"
+
 [[social]]
   icon = "youtube"
   icon_pack = "fab"
@@ -116,6 +116,12 @@ user_groups = ["Admin", "Principal Investigator"]
   icon = "cv"
   icon_pack = "ai"
   link = "http://lcolladotor.github.io/cv/en_CV_lcollado.pdf"
+
+
+[[social]]
+  icon = "twitter"
+  icon_pack = "fab"
+  link = "https://twitter.com/lcolladotor"
 
 highlight_name = "true"
 +++
