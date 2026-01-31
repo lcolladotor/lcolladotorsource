@@ -19,6 +19,10 @@ weight = 70
 
 <img class="image alignleft" src="../images/LIBD.jpg" width="268" alt="" />
 
+## 2026
+
+1. Instructor del curso [Introducción a análisis de datos de RNA-seq con Bioconductor](https://lcolladotor.github.io/rnaseq_LCG-UNAM_2026/) para alumnos de la LCG-UNAM.
+
 ## 2025
 
 1. Instructor del curso [Introducción a análisis de datos de RNA-seq con Bioconductor](https://lcolladotor.github.io/rnaseq_LCG-UNAM_2025/) para alumnos de la LCG-UNAM.
